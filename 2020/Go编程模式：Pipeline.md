@@ -10,18 +10,18 @@
 
 ### 本文是全系列中第8 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
 
-* [Go编程模式：切片，接口，时间和性能](https://coolshell.cn/articles/21128.html)
-* [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html)
-* [Go 编程模式：Functional Options](https://coolshell.cn/articles/21146.html)
-* [Go编程模式：委托和反转控制](https://coolshell.cn/articles/21214.html)
-* [Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html)
-* [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html)
-* [Go编程模式：修饰器](https://coolshell.cn/articles/17929.html)
+* [Go编程模式：切片，接口，时间和性能](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%88%87%E7%89%87%EF%BC%8C%E6%8E%A5%E5%8F%A3%EF%BC%8C%E6%97%B6%E9%97%B4%E5%92%8C%E6%80%A7%E8%83%BD.md)
+* [Go 编程模式：错误处理](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+* [Go 编程模式：Functional Options](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md)
+* [Go编程模式：委托和反转控制](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A7%94%E6%89%98%E5%92%8C%E5%8F%8D%E8%BD%AC%E6%8E%A7%E5%88%B6.md)
+* [Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md)
+* [Go 编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)
+* [Go编程模式：修饰器](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
 * Go编程模式：Pipeline
-* [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html)
-* [Go编程模式 ： 泛型编程](https://coolshell.cn/articles/21615.html)
+* [Go 编程模式：k8s Visitor 模式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md)
+* [Go编程模式 ： 泛型编程](/2021/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%20%EF%BC%9A%20%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B.md)
 
-« [上一篇文章](https://coolshell.cn/articles/17929.html "Go编程模式：修饰器")[下一篇文章](https://coolshell.cn/articles/21263.html "Go 编程模式：k8s Visitor 模式") »
+« [上一篇文章](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md "Go编程模式：修饰器")[下一篇文章](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md "Go 编程模式：k8s Visitor 模式") »
 
 
 目录
@@ -40,7 +40,7 @@
 #### HTTP 处理
 
 
-这种Pipeline的模式，我们在《[Go编程模式：修饰器](https://coolshell.cn/articles/17929.html "Go编程模式：修饰器")》中有过一个示例，我们在这里再重温一下。在那篇文章中，我们有一堆如 `WithServerHead()` 、`WithBasicAuth()` 、`WithDebugLog()`这样的小功能代码，在我们需要实现某个HTTP API 的时候，我们就可以很容易的组织起来。
+这种Pipeline的模式，我们在《[Go编程模式：修饰器](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md "Go编程模式：修饰器")》中有过一个示例，我们在这里再重温一下。在那篇文章中，我们有一堆如 `WithServerHead()` 、`WithBasicAuth()` 、`WithDebugLog()`这样的小功能代码，在我们需要实现某个HTTP API 的时候，我们就可以很容易的组织起来。
 
 
 原来的代码是下面这个样子：
@@ -81,7 +81,7 @@ http.HandleFunc("/v4/hello", Handler(hello,
 #### Channel 管理
 
 
-当然，如果你要写出一个[泛型的pipeline框架](https://coolshell.cn/articles/17929.html#%E6%B3%9B%E5%9E%8B%E7%9A%84%E4%BF%AE%E9%A5%B0%E5%99%A8)并不容易，而使用[Go Generation](https://coolshell.cn/articles/21179.html "GO 编程模式：Go Generation")，但是，我们别忘了Go语言最具特色的 Go Routine 和 Channel 这两个神器完全也可以被我们用来构造这种编程。
+当然，如果你要写出一个[泛型的pipeline框架](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md#%E6%B3%9B%E5%9E%8B%E7%9A%84%E4%BF%AE%E9%A5%B0%E5%99%A8)并不容易，而使用[Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md "GO 编程模式：Go Generation")，但是，我们别忘了Go语言最具特色的 Go Routine 和 Channel 这两个神器完全也可以被我们用来构造这种编程。
 
 
 Rob Pike在 [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.org/pipelines) 这篇blog中介绍了如下的一种编程模式。
@@ -167,7 +167,7 @@ func sum(in <-chan int) <-chan int {
 }
 ```
 
-然后，我们的用户端的代码如下所示：（注：**你可能会觉得，`sum()`，`odd()` 和 `sq()`太过于相似。你其实可以通过我们之前的[Map/Reduce编程模式](https://coolshell.cn/articles/21164.html)或是[Go Generation的方式](https://coolshell.cn/articles/21179.html)来合并一下**）
+然后，我们的用户端的代码如下所示：（注：**你可能会觉得，`sum()`，`odd()` 和 `sq()`太过于相似。你其实可以通过我们之前的[Map/Reduce编程模式](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md)或是[Go Generation的方式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)来合并一下**）
 
 
 

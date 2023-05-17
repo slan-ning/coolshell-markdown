@@ -2,24 +2,24 @@
 >date: 2017-06-01T16:48:15+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2017/06/go-hardhat.png)之前写过一篇《[Python修饰器的函数式编程](https://coolshell.cn/articles/11265.html)》，这种模式很容易的可以把一些函数装配到另外一些函数上，可以让你的代码更为的简单，也可以让一些“小功能型”的代码复用性更高，让代码中的函数可以像乐高玩具那样自由地拼装。所以，一直以来，我对修饰器decoration这种编程模式情有独钟，这里写一篇Go语言相关的文章。
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/06/go-hardhat.png)之前写过一篇《[Python修饰器的函数式编程](/2014/Python%E4%BF%AE%E9%A5%B0%E5%99%A8%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)》，这种模式很容易的可以把一些函数装配到另外一些函数上，可以让你的代码更为的简单，也可以让一些“小功能型”的代码复用性更高，让代码中的函数可以像乐高玩具那样自由地拼装。所以，一直以来，我对修饰器decoration这种编程模式情有独钟，这里写一篇Go语言相关的文章。
 
 
 ### 本文是全系列中第7 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
 
-* [Go编程模式：切片，接口，时间和性能](https://coolshell.cn/articles/21128.html)
-* [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html)
-* [Go 编程模式：Functional Options](https://coolshell.cn/articles/21146.html)
-* [Go编程模式：委托和反转控制](https://coolshell.cn/articles/21214.html)
-* [Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html)
-* [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html)
+* [Go编程模式：切片，接口，时间和性能](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%88%87%E7%89%87%EF%BC%8C%E6%8E%A5%E5%8F%A3%EF%BC%8C%E6%97%B6%E9%97%B4%E5%92%8C%E6%80%A7%E8%83%BD.md)
+* [Go 编程模式：错误处理](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+* [Go 编程模式：Functional Options](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md)
+* [Go编程模式：委托和反转控制](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A7%94%E6%89%98%E5%92%8C%E5%8F%8D%E8%BD%AC%E6%8E%A7%E5%88%B6.md)
+* [Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md)
+* [Go 编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)
 * Go编程模式：修饰器
-* [Go编程模式：Pipeline](https://coolshell.cn/articles/21228.html)
-* [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html)
-* [Go编程模式 ： 泛型编程](https://coolshell.cn/articles/21615.html)
+* [Go编程模式：Pipeline](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9APipeline.md)
+* [Go 编程模式：k8s Visitor 模式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md)
+* [Go编程模式 ： 泛型编程](/2021/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%20%EF%BC%9A%20%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B.md)
 
-« [上一篇文章](https://coolshell.cn/articles/21179.html "Go 编程模式：Go Generation")[下一篇文章](https://coolshell.cn/articles/21228.html "Go编程模式：Pipeline") »
-看过[Python修饰器](https://coolshell.cn/articles/11265.html)那篇文章的同学，一定知道这是一种函数式编程的玩法——用一个高阶函数来包装一下。多唠叨一句，关于函数式编程，可以参看我之前写过一篇文章《[函数式编程](https://coolshell.cn/articles/10822.html)》，这篇文章主要是，想通过从过程式编程的思维方式过渡到函数式编程的思维方式，从而带动更多的人玩函数式编程，所以，如果你想了解一下函数式编程，那么可以移步先阅读一下。所以，Go语言的修饰器编程模式，其实也就是函数式编程的模式。
+« [上一篇文章](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md "Go 编程模式：Go Generation")[下一篇文章](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9APipeline.md "Go编程模式：Pipeline") »
+看过[Python修饰器](/2014/Python%E4%BF%AE%E9%A5%B0%E5%99%A8%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)那篇文章的同学，一定知道这是一种函数式编程的玩法——用一个高阶函数来包装一下。多唠叨一句，关于函数式编程，可以参看我之前写过一篇文章《[函数式编程](/2013/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)》，这篇文章主要是，想通过从过程式编程的思维方式过渡到函数式编程的思维方式，从而带动更多的人玩函数式编程，所以，如果你想了解一下函数式编程，那么可以移步先阅读一下。所以，Go语言的修饰器编程模式，其实也就是函数式编程的模式。
 
 
 不过，要提醒注意的是，Go 语言的“糖”不多，而且又是强类型的静态无虚拟机的语言，所以，无法做到像 Java 和 Python 那样的优雅的修饰器的代码。当然，也许是我才才疏学浅，如果你知道有更多的写法，请你一定告诉我。先谢过了。  

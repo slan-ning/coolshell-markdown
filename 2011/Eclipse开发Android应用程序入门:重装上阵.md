@@ -7,7 +7,7 @@
 原文：<http://www.smashingmagazine.com/2011/03/28/get-started-developing-for-android-with-eclipse-reloaded/>
 
 
-在我们教程系列的[第一部分](https://coolshell.cn/articles/4270.html)中，我们使用Android和Eclipse开发了一个简单的饮茶计时器的应用程序。在第二部分，我们将继续开发这个程序，并给它增加一些其他的额外的功能。在开发的过程中，我们将给你介绍更多重要而强大的Android SDK特性，包括持久化数据存储，Activity和Intent，和共享用户首选项（译者注：类似于windows 的注册表的一种机制）。
+在我们教程系列的[第一部分](/2011/Eclipse%E5%BC%80%E5%8F%91Android%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%85%A5%E9%97%A8.md)中，我们使用Android和Eclipse开发了一个简单的饮茶计时器的应用程序。在第二部分，我们将继续开发这个程序，并给它增加一些其他的额外的功能。在开发的过程中，我们将给你介绍更多重要而强大的Android SDK特性，包括持久化数据存储，Activity和Intent，和共享用户首选项（译者注：类似于windows 的注册表的一种机制）。
 
 
 跟着本教程，你需要上一篇教程中的代码，如果你想直接使用代码，你可以使用如下的指令从[GitHub](https://github.com/cblunt/BrewClock)上check out出tutorial\_par\_1标记的代码：

@@ -9,7 +9,7 @@
 * 一个是为什么Android的[开发站点](https://developer.android.com)要被墙。这只是一个技术网站啊。
 
 
-最近，在一个Android[开发人员的Blog](https://android-developers.blogspot.com/2011/01/gingerbread-ndk-awesomeness.html)上证实了在NDK r5使用C/C++进行开发。（以前，Android 对C/C++开发的支持仅限于用C/C++开发动态链接库，然后在Java中以JNI的形式来调用）现在，你可以用纯C/C++开发了（参看下面的程序代码）。还有一段[完整的代码示例在这里](https://developer.android.com/reference/android/app/NativeActivity.html)（墙，还有XML的manifest，[又见XML](https://coolshell.cn/articles/3498.html)）。看来，Google终于明白为什么使用Android的手机（如：Moto, 三星、索爱和HTC）的触摸体验远远不及object C搞出来的iPhone。
+最近，在一个Android[开发人员的Blog](https://android-developers.blogspot.com/2011/01/gingerbread-ndk-awesomeness.html)上证实了在NDK r5使用C/C++进行开发。（以前，Android 对C/C++开发的支持仅限于用C/C++开发动态链接库，然后在Java中以JNI的形式来调用）现在，你可以用纯C/C++开发了（参看下面的程序代码）。还有一段[完整的代码示例在这里](https://developer.android.com/reference/android/app/NativeActivity.html)（墙，还有XML的manifest，[又见XML](/2011/%E4%BF%A1XML%EF%BC%8C%E5%BE%97%E8%87%AA%E4%BF%A1.md)）。看来，Google终于明白为什么使用Android的手机（如：Moto, 三星、索爱和HTC）的触摸体验远远不及object C搞出来的iPhone。
 
 
 
@@ -65,7 +65,7 @@ Android本来就是用C/C++写的，要跨平台，首先是Android自己跨平�
 有人说，Java的开发成本比C/C++低，但这和语言没有关系，这其实和封装程度有关系。C/C++同样可以封装得很好。而且，C/C++的程序员比JAVA程序来说，天生就对内存和性能要敏感的多。这更有利于在手机这样资源不足的平台上做开发。
 
 
-尤其对于像手机这样的时尚终端来说，在用户体验上花的成本要比在开发人员上花成本要大得多的多。我以为，Google 的Android 更多的关注了程序员，而不是用户。而iPhone更多的关注了用户，也让程序员在开发过程上受到了一些牺牲（iPhone的做法是如果程序员的程序要上App Store，先交99美刀的代码审查费，就像申请美国签证一样），但是，iPhone的程序员虽然在开发的方便上有一些牺牲，但是从收入上却得到了保障。最新的消息是苹果已向开发者支付20亿美元 音乐供应商分成达120亿美元。在《[偷了世界的程序员](https://coolshell.cn/articles/3363.html)》中对此有充分的论述。
+尤其对于像手机这样的时尚终端来说，在用户体验上花的成本要比在开发人员上花成本要大得多的多。我以为，Google 的Android 更多的关注了程序员，而不是用户。而iPhone更多的关注了用户，也让程序员在开发过程上受到了一些牺牲（iPhone的做法是如果程序员的程序要上App Store，先交99美刀的代码审查费，就像申请美国签证一样），但是，iPhone的程序员虽然在开发的方便上有一些牺牲，但是从收入上却得到了保障。最新的消息是苹果已向开发者支付20亿美元 音乐供应商分成达120亿美元。在《[偷了世界的程序员](/2010/%E5%81%B7%E4%BA%86%E4%B8%96%E7%95%8C%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98.md)》中对此有充分的论述。
 
 
 最后，请大家思考 几个问题——

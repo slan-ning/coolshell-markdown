@@ -11,17 +11,17 @@
 ### 本文是全系列中第1 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
 
 * Go编程模式：切片，接口，时间和性能
-* [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html)
-* [Go 编程模式：Functional Options](https://coolshell.cn/articles/21146.html)
-* [Go编程模式：委托和反转控制](https://coolshell.cn/articles/21214.html)
-* [Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html)
-* [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html)
-* [Go编程模式：修饰器](https://coolshell.cn/articles/17929.html)
-* [Go编程模式：Pipeline](https://coolshell.cn/articles/21228.html)
-* [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html)
-* [Go编程模式 ： 泛型编程](https://coolshell.cn/articles/21615.html)
+* [Go 编程模式：错误处理](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+* [Go 编程模式：Functional Options](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md)
+* [Go编程模式：委托和反转控制](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A7%94%E6%89%98%E5%92%8C%E5%8F%8D%E8%BD%AC%E6%8E%A7%E5%88%B6.md)
+* [Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md)
+* [Go 编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)
+* [Go编程模式：修饰器](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
+* [Go编程模式：Pipeline](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9APipeline.md)
+* [Go 编程模式：k8s Visitor 模式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md)
+* [Go编程模式 ： 泛型编程](/2021/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%20%EF%BC%9A%20%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B.md)
 
-[下一篇文章](https://coolshell.cn/articles/21140.html "Go 编程模式：错误处理") »
+[下一篇文章](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md "Go 编程模式：错误处理") »
 
 
 目录
@@ -213,7 +213,7 @@ func main() {
 }
 ```
 
-你更喜欢哪种方式呢？在 Go 语言中，使用“成员函数”的方式叫“Receiver”，这种方式是一种封装，因为 `PrintPerson()`本来就是和 `Person`强耦合的，所以，理应放在一起。更重要的是，这种方式可以进行接口编程，对于接口编程来说，也就是一种抽象，主要是用在“多态”，这个技术，在《[Go语言简介（上）：接口与多态](https://coolshell.cn/articles/8460.html#%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%A4%9A%E6%80%81)》中已经讲过。在这里，我想讲另一个Go语言接口的编程模式。
+你更喜欢哪种方式呢？在 Go 语言中，使用“成员函数”的方式叫“Receiver”，这种方式是一种封装，因为 `PrintPerson()`本来就是和 `Person`强耦合的，所以，理应放在一起。更重要的是，这种方式可以进行接口编程，对于接口编程来说，也就是一种抽象，主要是用在“多态”，这个技术，在《[Go语言简介（上）：接口与多态](/2012/Go%20%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%8A%EF%BC%89%E2%80%94%20%E8%AF%AD%E6%B3%95.md#%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%A4%9A%E6%80%81)》中已经讲过。在这里，我想讲另一个Go语言接口的编程模式。
 
 
 首先，我们来看一下，有下面这段代码：
@@ -368,7 +368,7 @@ var _ Shape = (*Square)(nil)
 #### 时间
 
 
-对于时间来说，这应该是编程中比较复杂的问题了，相信我，时间是一种非常复杂的事（比如《[你确信你了解时间吗？](https://coolshell.cn/articles/5075.html "你确信你了解时间吗？")》、《[关于闰秒](https://coolshell.cn/articles/7804.html "关于闰秒")》等文章）。而且，时间有时区、格式、精度等等问题，其复杂度不是一般人能处理的。所以，一定要重用已有的时间处理，而不是自己干。
+对于时间来说，这应该是编程中比较复杂的问题了，相信我，时间是一种非常复杂的事（比如《[你确信你了解时间吗？](/2011/%E4%BD%A0%E7%A1%AE%E4%BF%A1%E4%BD%A0%E4%BA%86%E8%A7%A3%E6%97%B6%E9%97%B4%E5%90%97%EF%BC%9F.md "你确信你了解时间吗？")》、《[关于闰秒](/2012/%E5%85%B3%E4%BA%8E%E9%97%B0%E7%A7%92.md "关于闰秒")》等文章）。而且，时间有时区、格式、精度等等问题，其复杂度不是一般人能处理的。所以，一定要重用已有的时间处理，而不是自己干。
 
 
 在 Go 语言中，你一定要使用 `time.Time` 和 `time.Duration` 两个类型：
@@ -398,7 +398,7 @@ Go 语言是一个高性能的语言，但并不是说这样我们就不用关�
 * 使用`StringBuffer` 或是`StringBuild` 来拼接字符串，会比使用 `+` 或 `+=` 性能高三到四个数量级。
 * 尽可能的使用并发的 go routine，然后使用 `sync.WaitGroup` 来同步分片操作
 * 避免在热代码中进行内存分配，这样会导致gc很忙。尽可能的使用 `sync.Pool` 来重用对象。
-* 使用 lock-free的操作，避免使用 mutex，尽可能使用 `sync/Atomic`包。 （关于无锁编程的相关话题，可参看《[无锁队列实现](https://coolshell.cn/articles/8239.html "无锁队列的实现")》或《[无锁Hashmap实现](https://coolshell.cn/articles/9703.html "无锁HashMap的原理与实现")》）
+* 使用 lock-free的操作，避免使用 mutex，尽可能使用 `sync/Atomic`包。 （关于无锁编程的相关话题，可参看《[无锁队列实现](/2012/%E6%97%A0%E9%94%81%E9%98%9F%E5%88%97%E7%9A%84%E5%AE%9E%E7%8E%B0.md "无锁队列的实现")》或《[无锁Hashmap实现](/2013/%E6%97%A0%E9%94%81HashMap%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E7%8E%B0.md "无锁HashMap的原理与实现")》）
 * 使用 I/O缓冲，I/O是个非常非常慢的操作，使用 `bufio.NewWrite()` 和 `bufio.NewReader()` 可以带来更高的性能。
 * 对于在for-loop里的固定的正则表达式，一定要使用 `regexp.Compile()` 编译正则表达式。性能会得升两个数量级。
 * 如果你需要更高性能的协议，你要考虑使用 [protobuf](https://github.com/golang/protobuf) 或 [msgp](https://github.com/tinylib/msgp) 而不是JSON，因为JSON的序列化和反序列化里使用了反射。

@@ -146,7 +146,7 @@ Aaron说的一句话让我挺有感触的——
 ![aaron_swartz__freedom_fighter_by_caq_qoq-d5rzbi8](/assets/images/coolshell.cn/wp-content/uploads/2014/09/aaron_swartz__freedom_fighter_by_caq_qoq-d5rzbi8.jpg)
 
 
-**延伸阅读**：[偷了世界的程序员](https://coolshell.cn/articles/3363.html "偷了世界的程序员")
+**延伸阅读**：[偷了世界的程序员](/2010/%E5%81%B7%E4%BA%86%E4%B8%96%E7%95%8C%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98.md "偷了世界的程序员")
 
 
 （全文完）

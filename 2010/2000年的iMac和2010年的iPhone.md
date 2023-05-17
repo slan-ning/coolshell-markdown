@@ -2,7 +2,7 @@
 >date: 2010-06-22T08:22:01+08:00
 
 
-以前本站发过“[1980年和2009年的1GB电脑内存的比较](https://coolshell.cn/articles/410.html)”，下面是2000年的iMac和2010年的iPhone的比较。
+以前本站发过“[1980年和2009年的1GB电脑内存的比较](/2009/1980%E5%B9%B4%E5%92%8C2009%E5%B9%B4%E7%9A%841GB%E7%94%B5%E8%84%91%E5%86%85%E5%AD%98%E7%9A%84%E6%AF%94%E8%BE%83.md)”，下面是2000年的iMac和2010年的iPhone的比较。
 
 
 **![](/assets/images/ecx.images-amazon.com/images/I/5176XS40F9L._SL500_AA300_.jpg)2000 – iMac**

@@ -2,7 +2,7 @@
 >date: 2012-10-14T16:37:04+08:00
 
 
-大家是否还记得之前酷壳向大家介绍的苹果设计师[Bret Victor](http://worrydream.com/)一种可视编程的视频《[Bret Victor – Inventing on Principle](https://coolshell.cn/articles/6775.html)》，最近，他写了一篇文章—— [Learnable Programming](http://worrydream.com/LearnableProgramming/)，写这篇文章的原因是因为“可汗学院(Khan Academy)”近期上线的一个[在线编程环境](https://www.khanacademy.org/cs)，根据他的演讲提供了一堆基于Javascript的“实时编程”的环境，因为这个环境是[引用了他的想法](http://ejohn.org/blog/introducing-khan-cs)，所以，他有必要出来喷两句。
+大家是否还记得之前酷壳向大家介绍的苹果设计师[Bret Victor](http://worrydream.com/)一种可视编程的视频《[Bret Victor – Inventing on Principle](/2012/Bret%20Victor%20%E2%80%93%20Inventing%20on%20Principle.md)》，最近，他写了一篇文章—— [Learnable Programming](http://worrydream.com/LearnableProgramming/)，写这篇文章的原因是因为“可汗学院(Khan Academy)”近期上线的一个[在线编程环境](https://www.khanacademy.org/cs)，根据他的演讲提供了一堆基于Javascript的“实时编程”的环境，因为这个环境是[引用了他的想法](http://ejohn.org/blog/introducing-khan-cs)，所以，他有必要出来喷两句。
 
 
 这篇文章的开头就是一个问题——“*How do we get people to understand programming?*”，我们怎么让人们懂得编程？
@@ -14,7 +14,7 @@
 然后，他说了两条——
 
 
-* **编程是一种思考，而不是一种死记硬背的技能！**你学会了“for循环”并不是说你就学会了编程，这就好像你知道有铅笔这个东西，但是你对绘画还是什么不懂。（对于这一条，正好这两天我在微博上和人辩论“[基础算法面试题是否好](http://weibo.com/1401880315/yFQkJn8bC)”（还有[微博一](http://weibo.com/1401880315/yFOeyy00M)，[微博二](http://weibo.com/1401880315/z06Y0qMGf)），而且我以前也写过一篇《[为什么我反对纯算法面试](https://coolshell.cn/articles/8138.html "为什么我反对纯算法面试题")》，这里借用Bret的话再加强一下我的观点——“**我们一方面在骂中国的应试教育毁了学生，另一方面我们又在把我们的面试变成“考八股文”式的考试！  你会qsort有什么用？你只不过是会用一支高级铅笔而已罢了。**”）
+* **编程是一种思考，而不是一种死记硬背的技能！**你学会了“for循环”并不是说你就学会了编程，这就好像你知道有铅笔这个东西，但是你对绘画还是什么不懂。（对于这一条，正好这两天我在微博上和人辩论“[基础算法面试题是否好](http://weibo.com/1401880315/yFQkJn8bC)”（还有[微博一](http://weibo.com/1401880315/yFOeyy00M)，[微博二](http://weibo.com/1401880315/z06Y0qMGf)），而且我以前也写过一篇《[为什么我反对纯算法面试](/2012/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E5%8F%8D%E5%AF%B9%E7%BA%AF%E7%AE%97%E6%B3%95%E9%9D%A2%E8%AF%95%E9%A2%98.md "为什么我反对纯算法面试题")》，这里借用Bret的话再加强一下我的观点——“**我们一方面在骂中国的应试教育毁了学生，另一方面我们又在把我们的面试变成“考八股文”式的考试！  你会qsort有什么用？你只不过是会用一支高级铅笔而已罢了。**”）
 
 
 * **人只有看得见，才能理解。**如果一个程序员不能看到他的程序在干什么，那么她就不能理解程序。（对于这一条，让我想到了Donald Knuth的话——“An algorithm must be seen to be believe!”）
@@ -75,7 +75,7 @@ Bret认为，Alan Perlis的名言——“要学会编程，你必需得同时�
 * **可读性 readability** *—* 这一大堆程序单词是什么意思？*what do these words mean?*
 
 
-然后，他说“The Features are not the point”，**我们很多时候会关注编程环境和编程语言提供的功能，这就好像我们在看一本书有哪些单词一样，有哪些单词不重要，重要的是我这些单词组合起来传达了一个什么信息**？**一个设计的好的系统并不是一堆功能，一个设计得好的编程环境是激发特定的思考方式**。所有的功能都是非常小心翼翼地组合起来为之服务。（不好意思，我又要插一句。我觉得这和我在《[抄袭，腾讯和产品](https://coolshell.cn/articles/7617.html "抄袭，腾讯 和 产品")》一文中，我所理解的“什么是真正的产品”有点类似——真正的产品不是功能的组合，而是要表达的价值和对某一特定问题端到端的解决方案）
+然后，他说“The Features are not the point”，**我们很多时候会关注编程环境和编程语言提供的功能，这就好像我们在看一本书有哪些单词一样，有哪些单词不重要，重要的是我这些单词组合起来传达了一个什么信息**？**一个设计的好的系统并不是一堆功能，一个设计得好的编程环境是激发特定的思考方式**。所有的功能都是非常小心翼翼地组合起来为之服务。（不好意思，我又要插一句。我觉得这和我在《[抄袭，腾讯和产品](/2012/%E6%8A%84%E8%A2%AD%EF%BC%8C%E8%85%BE%E8%AE%AF%20%E5%92%8C%20%E4%BA%A7%E5%93%81.md "抄袭，腾讯 和 产品")》一文中，我所理解的“什么是真正的产品”有点类似——真正的产品不是功能的组合，而是要表达的价值和对某一特定问题端到端的解决方案）
 
 
 接下来，Bret用大量的示例告诉了大家上面所说的那几条是具体是什么。大家一定要去读一读！（我把这些东西总结果在上面的那些条目中了）

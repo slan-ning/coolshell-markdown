@@ -2,7 +2,7 @@
 >date: 2011-04-02T14:33:57+08:00
 
 
-在StackOverflow上有这样[一个贴子](http://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers)，楼主说，我有下面这样的一个C++程序，为什么编译不通过啊。其让我想起了以前的这两个帖子《[编程真难啊](/2009/%E7%BC%96%E7%A8%8B%E7%9C%9F%E9%9A%BE%E5%95%8A.md "编程真难啊")》和《[给我一个序列号](https://coolshell.cn/articles/1693.html "给我一个序列号")》。**仅以此篇文章祝大家假期快乐吧**。
+在StackOverflow上有这样[一个贴子](http://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers)，楼主说，我有下面这样的一个C++程序，为什么编译不通过啊。其让我想起了以前的这两个帖子《[编程真难啊](/2009/%E7%BC%96%E7%A8%8B%E7%9C%9F%E9%9A%BE%E5%95%8A.md "编程真难啊")》和《[给我一个序列号](/2009/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA%E5%BA%8F%E5%88%97%E5%8F%B7.md "给我一个序列号")》。**仅以此篇文章祝大家假期快乐吧**。
 
 
 ![hello world 程序](http://i.stack.imgur.com/JQXWL.png "hello world 程序")hello world 程序

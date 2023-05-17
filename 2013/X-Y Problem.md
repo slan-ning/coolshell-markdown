@@ -113,7 +113,7 @@ X-Y Problem最大的严重的问题就是：**在一个根本错误的方向上�
 > 
 
 
-其实这个问题在我之前的《[你会问问题吗](https://coolshell.cn/articles/3713.html "你会问问题吗？")》里提到的那篇How To Ask Questions the Smart Way中的提到过，你可以[移步去看一下](http://www.beiww.com/doc/oss/smart-questions.html#id265951)。
+其实这个问题在我之前的《[你会问问题吗](/2011/%E4%BD%A0%E4%BC%9A%E9%97%AE%E9%97%AE%E9%A2%98%E5%90%97%EF%BC%9F.md "你会问问题吗？")》里提到的那篇How To Ask Questions the Smart Way中的提到过，你可以[移步去看一下](http://www.beiww.com/doc/oss/smart-questions.html#id265951)。
 
 
 所以，我们在寻求别人帮助的时候，最好把我们想解决的问题和整个事情的来龙去脉说清楚。

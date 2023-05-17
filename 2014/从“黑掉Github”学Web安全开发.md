@@ -2,7 +2,7 @@
 >date: 2014-02-10T08:16:11+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2014/02/Github-Security.png)Egor Homakov（Twitter: [@homakov](https://twitter.com/homakov) 个人网站: [EgorHomakov.com](http://egorhomakov.com/)）是一个Web安全的布道士，他这两天把github给黑了，并给github报了5个安全方面的bug，他在他的这篇blog——《[How I hacked Github again](https://homakov.blogspot.com/2014/02/how-i-hacked-github-again.html)》（墙）说明了这5个安全bug以及他把github黑掉的思路。Egor的这篇文章讲得比较简单，很多地方一笔带过，所以，**我在这里用我的语言给大家阐述一下黑掉Github的思路以及原文中所提到的那5个bug。希望这篇文章能让从事Web开发的同学们警惕**。关于Web开发中的安全事项，大家可以看看这篇文章《[Web开发中的你需要了解的东西](https://coolshell.cn/articles/6043.html "Web开发中需要了解的东西")》
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/02/Github-Security.png)Egor Homakov（Twitter: [@homakov](https://twitter.com/homakov) 个人网站: [EgorHomakov.com](http://egorhomakov.com/)）是一个Web安全的布道士，他这两天把github给黑了，并给github报了5个安全方面的bug，他在他的这篇blog——《[How I hacked Github again](https://homakov.blogspot.com/2014/02/how-i-hacked-github-again.html)》（墙）说明了这5个安全bug以及他把github黑掉的思路。Egor的这篇文章讲得比较简单，很多地方一笔带过，所以，**我在这里用我的语言给大家阐述一下黑掉Github的思路以及原文中所提到的那5个bug。希望这篇文章能让从事Web开发的同学们警惕**。关于Web开发中的安全事项，大家可以看看这篇文章《[Web开发中的你需要了解的东西](/2011/Web%E5%BC%80%E5%8F%91%E4%B8%AD%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E4%B8%9C%E8%A5%BF.md "Web开发中需要了解的东西")》
 
 
 
@@ -180,7 +180,7 @@ https://gist.github.com/homakov/8820324?code=CODE
 ![](/assets/images/coolshell.cn/wp-content/uploads/2014/02/gist_cookie.png)
 
 
-但是这个token没什么用，因为授权的Scope只有gists。但是，这个token不应该放在用户端的cookie里，本身就是一个安全事故，这个东西只能放在服务端（关于Web开发中的安全事项，可以看看这篇文章《[Web开发中的你需要了解的东西](https://coolshell.cn/articles/6043.html "Web开发中需要了解的东西")》）。
+但是这个token没什么用，因为授权的Scope只有gists。但是，这个token不应该放在用户端的cookie里，本身就是一个安全事故，这个东西只能放在服务端（关于Web开发中的安全事项，可以看看这篇文章《[Web开发中的你需要了解的东西](/2011/Web%E5%BC%80%E5%8F%91%E4%B8%AD%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E4%B8%9C%E8%A5%BF.md "Web开发中需要了解的东西")》）。
 
 
 于是，Egor只能另谋出路。
@@ -210,7 +210,7 @@ https://github.com/login/oauth/authorize?client\_id=7e0a3cd836d3e544dbd9&redirec
 ![](/assets/images/coolshell.cn/wp-content/uploads/2014/02/github_bounty_leaderboard.jpg)
 
 
-让我们扪心自问一下，我们花了多少时间在玩那些“红包游戏”，而又搞到了多少红包？人家4个小时找了5个bug，挣了$4000美金。**老天给了你我一样的时间，我们用来抽几块钱的红包，人家用自己的技能来挣奖金。这就是人和人的差距。这就是所谓的效率**——你可以移步看看我写的《[加班与效率](https://coolshell.cn/articles/10217.html "加班与效率")》
+让我们扪心自问一下，我们花了多少时间在玩那些“红包游戏”，而又搞到了多少红包？人家4个小时找了5个bug，挣了$4000美金。**老天给了你我一样的时间，我们用来抽几块钱的红包，人家用自己的技能来挣奖金。这就是人和人的差距。这就是所谓的效率**——你可以移步看看我写的《[加班与效率](/2013/%E5%8A%A0%E7%8F%AD%E4%B8%8E%E6%95%88%E7%8E%87.md "加班与效率")》
 
 
 （全文完）

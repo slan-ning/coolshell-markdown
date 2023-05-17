@@ -5,23 +5,23 @@
 ![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/go.pair_-300x298.png)图片来源：[GopherSource](https://gophersource.com/)
 
 
-反转控制[IoC – Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control "IoC - Inversion of Control") 是一种软件设计的方法，其主要的思想是把控制逻辑与业务逻辑分享，不要在业务逻辑里写控制逻辑，这样会让控制逻辑依赖于业务逻辑，而是反过来，让业务逻辑依赖控制逻辑。在《[IoC/DIP其实是一种管理思想](https://coolshell.cn/articles/9949.html)》中的那个开关和电灯的示例一样，开关是控制逻辑，电器是业务逻辑，不要在电器中实现开关，而是把开关抽象成一种协议，让电器都依赖之。这样的编程方式可以有效的降低程序复杂度，并提升代码重用。
+反转控制[IoC – Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control "IoC - Inversion of Control") 是一种软件设计的方法，其主要的思想是把控制逻辑与业务逻辑分享，不要在业务逻辑里写控制逻辑，这样会让控制逻辑依赖于业务逻辑，而是反过来，让业务逻辑依赖控制逻辑。在《[IoC/DIP其实是一种管理思想](/2013/IoC/DIP%E5%85%B6%E5%AE%9E%E6%98%AF%E4%B8%80%E7%A7%8D%E7%AE%A1%E7%90%86%E6%80%9D%E6%83%B3.md)》中的那个开关和电灯的示例一样，开关是控制逻辑，电器是业务逻辑，不要在电器中实现开关，而是把开关抽象成一种协议，让电器都依赖之。这样的编程方式可以有效的降低程序复杂度，并提升代码重用。
 
 
 ### 本文是全系列中第4 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
 
-* [Go编程模式：切片，接口，时间和性能](https://coolshell.cn/articles/21128.html)
-* [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html)
-* [Go 编程模式：Functional Options](https://coolshell.cn/articles/21146.html)
+* [Go编程模式：切片，接口，时间和性能](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%88%87%E7%89%87%EF%BC%8C%E6%8E%A5%E5%8F%A3%EF%BC%8C%E6%97%B6%E9%97%B4%E5%92%8C%E6%80%A7%E8%83%BD.md)
+* [Go 编程模式：错误处理](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+* [Go 编程模式：Functional Options](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md)
 * Go编程模式：委托和反转控制
-* [Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html)
-* [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html)
-* [Go编程模式：修饰器](https://coolshell.cn/articles/17929.html)
-* [Go编程模式：Pipeline](https://coolshell.cn/articles/21228.html)
-* [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html)
-* [Go编程模式 ： 泛型编程](https://coolshell.cn/articles/21615.html)
+* [Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md)
+* [Go 编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)
+* [Go编程模式：修饰器](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
+* [Go编程模式：Pipeline](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9APipeline.md)
+* [Go 编程模式：k8s Visitor 模式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md)
+* [Go编程模式 ： 泛型编程](/2021/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%20%EF%BC%9A%20%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B.md)
 
-« [上一篇文章](https://coolshell.cn/articles/21146.html "Go 编程模式：Functional Options")[下一篇文章](https://coolshell.cn/articles/21164.html "Go编程模式：Map-Reduce") »
+« [上一篇文章](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md "Go 编程模式：Functional Options")[下一篇文章](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md "Go编程模式：Map-Reduce") »
 面向对象的设计模式这里不提了，我们来看看Go语言使用Embed结构的一个示例。
 
 

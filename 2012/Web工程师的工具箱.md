@@ -69,7 +69,7 @@
 * **[CSR/Cert decoder](http://certlogik.com/decoder/)** 对你的CSR和SSL认证decode检查。
 
 
-* **[Loadzen](http://loadzen.com/)** Web压力测试工具（注：以前酷壳介绍过《[十个Web压力测试工具](https://coolshell.cn/articles/2589.html)》）
+* **[Loadzen](http://loadzen.com/)** Web压力测试工具（注：以前酷壳介绍过《[十个Web压力测试工具](/2010/%E5%8D%81%E4%B8%AA%E5%85%8D%E8%B4%B9%E7%9A%84Web%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.md)》）
 
 
 * [**Pingdom Full page test**](http://tools.pingdom.com/fpt/)**：**允许用户测试网页记载时间、分析、监控，发现瓶颈并导出HAR格式的结果。类似工具：[Web page test](https://www.webpagetest.org/)。

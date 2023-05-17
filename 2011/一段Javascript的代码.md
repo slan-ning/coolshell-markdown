@@ -22,7 +22,7 @@
 [\_+~$]+$\_[\_]+$$](document.cookie)[/javascript]
 
 
-你看到了document.cookie，于是你可能会想到这是偷用户帐号免登录cookie的。是的，就是这样。答案是，这代码等价于alert(document.cookie)，而最上面的那个代码等价于alert(1)——当然，还不仅仅只是alert。看到这里，你可能会想起[变态的C语言Hello World程序](https://coolshell.cn/articles/914.html "6个变态的C语言Hello World程序 ")，以及[如何加密/混乱C源代码](/2009/%E5%A6%82%E4%BD%95%E5%8A%A0%E5%AF%86-%E6%B7%B7%E4%B9%B1C%E6%BA%90%E4%BB%A3%E7%A0%81.md "如何加密/混乱C源代码")，是的，这回的这个是Javascript版的，混乱Javascript的会比混乱C的更难懂，因为Javascript的变量类型是可以乱用的。
+你看到了document.cookie，于是你可能会想到这是偷用户帐号免登录cookie的。是的，就是这样。答案是，这代码等价于alert(document.cookie)，而最上面的那个代码等价于alert(1)——当然，还不仅仅只是alert。看到这里，你可能会想起[变态的C语言Hello World程序](/2009/6%E4%B8%AA%E5%8F%98%E6%80%81%E7%9A%84C%E8%AF%AD%E8%A8%80Hello%20World%E7%A8%8B%E5%BA%8F.md "6个变态的C语言Hello World程序 ")，以及[如何加密/混乱C源代码](/2009/%E5%A6%82%E4%BD%95%E5%8A%A0%E5%AF%86-%E6%B7%B7%E4%B9%B1C%E6%BA%90%E4%BB%A3%E7%A0%81.md "如何加密/混乱C源代码")，是的，这回的这个是Javascript版的，混乱Javascript的会比混乱C的更难懂，因为Javascript的变量类型是可以乱用的。
 
 
 好，下面让我们来对这个代码做个解析。

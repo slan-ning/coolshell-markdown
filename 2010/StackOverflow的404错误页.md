@@ -8,10 +8,10 @@
 ![](http://sstatic.net/stackoverflow/img/polyglot-404.png)
 
 
-这个是一个很有意思的图片，不知道你看懂了吗？看上去像Python，又像 Ruby，还像 Perl，当然也有 C的影子，还有[Brainfuck](https://coolshell.cn/articles/1142.html)。是的，这是一个杂交程序，杂交了Python，Ruby，Perl，C，还有Brainfuck（注意其中的#号），所有的语句都是输出“404”字符串。
+这个是一个很有意思的图片，不知道你看懂了吗？看上去像Python，又像 Ruby，还像 Perl，当然也有 C的影子，还有[Brainfuck](/2009/BT%E9%9B%B7%E4%BA%BA%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80.md)。是的，这是一个杂交程序，杂交了Python，Ruby，Perl，C，还有Brainfuck（注意其中的#号），所有的语句都是输出“404”字符串。
 
 
-关于这种杂交程序，本站以前也发布过《[C语言和sh脚本的杂交代码](https://coolshell.cn/articles/1824.html)》，大家可以前往一看。这样的有趣的玩法叫“[Polyglot](https://en.wikipedia.org/wiki/Polyglot_%28computing%29)”，也就是说，把N种语言写在一个文件中，然后，该文件在任何编译器下都可以运行，上述的那段代码在Python，Ruby，Perl，Brainfuck下都可以正常运行，也可以被C和的编译器编译通过，并被运行。
+关于这种杂交程序，本站以前也发布过《[C语言和sh脚本的杂交代码](/2009/C%E8%AF%AD%E8%A8%80%E5%92%8Csh%E8%84%9A%E6%9C%AC%E7%9A%84%E6%9D%82%E4%BA%A4%E4%BB%A3%E7%A0%81.md)》，大家可以前往一看。这样的有趣的玩法叫“[Polyglot](https://en.wikipedia.org/wiki/Polyglot_%28computing%29)”，也就是说，把N种语言写在一个文件中，然后，该文件在任何编译器下都可以运行，上述的那段代码在Python，Ruby，Perl，Brainfuck下都可以正常运行，也可以被C和的编译器编译通过，并被运行。
 
 
 下面是这个图片的字符码，以供各位试试。

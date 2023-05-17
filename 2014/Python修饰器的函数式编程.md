@@ -2,13 +2,13 @@
 >date: 2014-03-20T09:50:34+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2014/03/snake-hat-new-year-schedule-800x960.jpg)Python的修饰器的英文名叫Decorator，当你看到这个英文名的时候，你可能会把其跟Design Pattern里的Decorator搞混了，其实这是完全不同的两个东西。虽然好像，他们要干的事都很相似——都是想要对一个已有的模块做一些“修饰工作”，所谓修饰工作就是想给现有的模块加上一些小装饰（一些小功能，这些小功能可能好多模块都会用到），但又不让这个小装饰（小功能）侵入到原有的模块中的代码里去。但是OO的Decorator简直就是一场恶梦，不信你就去看看wikipedia上的词条（[Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern)）里的UML图和那些代码，这就是我在《 [从面向对象的设计模式看软件设计](https://coolshell.cn/articles/8961.html "链接：从面向对象的设计模式看软件设计")》“餐后甜点”一节中说的，OO鼓励了——“厚重地胶合和复杂层次”，也是《 [如此理解面向对象编程](https://coolshell.cn/articles/8745.html "链接：如此理解面向对象编程")》中所说的“OO的狂热者们非常害怕处理数据”，Decorator Pattern搞出来的代码简直就是OO的反面教程。
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/03/snake-hat-new-year-schedule-800x960.jpg)Python的修饰器的英文名叫Decorator，当你看到这个英文名的时候，你可能会把其跟Design Pattern里的Decorator搞混了，其实这是完全不同的两个东西。虽然好像，他们要干的事都很相似——都是想要对一个已有的模块做一些“修饰工作”，所谓修饰工作就是想给现有的模块加上一些小装饰（一些小功能，这些小功能可能好多模块都会用到），但又不让这个小装饰（小功能）侵入到原有的模块中的代码里去。但是OO的Decorator简直就是一场恶梦，不信你就去看看wikipedia上的词条（[Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern)）里的UML图和那些代码，这就是我在《 [从面向对象的设计模式看软件设计](/2013/%E4%BB%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9C%8B%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1.md "链接：从面向对象的设计模式看软件设计")》“餐后甜点”一节中说的，OO鼓励了——“厚重地胶合和复杂层次”，也是《 [如此理解面向对象编程](/2012/%E5%A6%82%E6%AD%A4%E7%90%86%E8%A7%A3%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md "链接：如此理解面向对象编程")》中所说的“OO的狂热者们非常害怕处理数据”，Decorator Pattern搞出来的代码简直就是OO的反面教程。
 
 
 Python 的 Decorator在使用上和Java/C#的Annotation很相似，就是在方法名前面加一个@XXX注解来为这个方法装饰一些东西。但是，Java/C#的Annotation也很让人望而却步，太TMD的复杂了，你要玩它，你需要了解一堆Annotation的类库文档，让人感觉就是在学另外一门语言。
 
 
-而Python使用了一种相对于Decorator Pattern和Annotation来说非常优雅的方法，这种方法不需要你去掌握什么复杂的OO模型或是Annotation的各种类库规定，完全就是语言层面的玩法：一种函数式编程的技巧。如果你看过本站的《[函数式编程](https://coolshell.cn/articles/10822.html)》，你一定会为函数式编程的那种“描述你想干什么，而不是描述你要怎么去实现”的编程方式感到畅快。（如果你不了解函数式编程，那在读本文之前，还请你移步去看看《[函数式编程](https://coolshell.cn/articles/10822.html)》） 好了，我们先来点感性认识，看一个Python修饰器的Hello World的代码。
+而Python使用了一种相对于Decorator Pattern和Annotation来说非常优雅的方法，这种方法不需要你去掌握什么复杂的OO模型或是Annotation的各种类库规定，完全就是语言层面的玩法：一种函数式编程的技巧。如果你看过本站的《[函数式编程](/2013/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)》，你一定会为函数式编程的那种“描述你想干什么，而不是描述你要怎么去实现”的编程方式感到畅快。（如果你不了解函数式编程，那在读本文之前，还请你移步去看看《[函数式编程](/2013/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)》） 好了，我们先来点感性认识，看一个Python修饰器的Hello World的代码。
 
 
 
@@ -101,7 +101,7 @@ def func():
 func = decorator(func)
 ```
 
-尼玛，这不就是把一个函数当参数传到另一个函数中，然后再回调吗？是的，但是，我们需要注意，那里还有一个赋值语句，把decorator这个函数的返回值赋值回了原来的func。 根据《[函数式编程](https://coolshell.cn/articles/10822.html)》中的**first class functions**中的定义的，你可以把函数当成变量来使用，所以，decorator必需得返回了一个函数出来给func，这就是所谓的**higher order function** 高阶函数，不然，后面当func()调用的时候就会出错。 就我们上面那个hello.py里的例子来说，
+尼玛，这不就是把一个函数当参数传到另一个函数中，然后再回调吗？是的，但是，我们需要注意，那里还有一个赋值语句，把decorator这个函数的返回值赋值回了原来的func。 根据《[函数式编程](/2013/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)》中的**first class functions**中的定义的，你可以把函数当成变量来使用，所以，decorator必需得返回了一个函数出来给func，这就是所谓的**higher order function** 高阶函数，不然，后面当func()调用的时候就会出错。 就我们上面那个hello.py里的例子来说，
 
 
 

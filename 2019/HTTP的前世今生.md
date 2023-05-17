@@ -126,7 +126,7 @@ HTTP/1.1中的pipeline中如果有一个请求block了，那么队列后请求�
 是的TCP是无解了，但是UDP是有解的 ！**于是HTTP/3破天荒地把HTTP底层的TCP协议改成了UDP！**
 
 
-然后又是Google 家的协议进入了标准 – QUIC （Quick UDP Internet Connections）。接下来是QUIC协议的几个重要的特性，为了讲清楚这些特性，我需要带着问题来讲（注：下面的网络知识，如果你看不懂的话，你需要学习一下《[TCP/IP详解](https://book.douban.com/subject/1088054/)》一书（在我写blog的这15年里，这本书推荐了无数次了），或是看一下本站的《[TCP的那些事](https://coolshell.cn/articles/11564.html)》。）：
+然后又是Google 家的协议进入了标准 – QUIC （Quick UDP Internet Connections）。接下来是QUIC协议的几个重要的特性，为了讲清楚这些特性，我需要带着问题来讲（注：下面的网络知识，如果你看不懂的话，你需要学习一下《[TCP/IP详解](https://book.douban.com/subject/1088054/)》一书（在我写blog的这15年里，这本书推荐了无数次了），或是看一下本站的《[TCP的那些事](/2014/TCP%20%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF%EF%BC%88%E4%B8%8A%EF%BC%89.md)》。）：
 
 
 * 首先是上面的Head-of-Line blocking问题，在UDP的世界中，这个就没了。这个应该比较好理解，因为UDP不管顺序，不管丢包（当然，QUIC的一个任务是要像TCP的一个稳定，所以QUIC有自己的丢包重传的机制）

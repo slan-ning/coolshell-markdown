@@ -2,7 +2,7 @@
 >date: 2011-07-04T08:35:37+08:00
 
 
-以前向大家介绍过[Stack Exchange的系统架构](https://coolshell.cn/articles/3721.html "Stack Exchange 的架构")和[Facebook的系统架构](https://coolshell.cn/articles/4549.html "Facebook 的系统架构")，今天和大家说说Quora的。本文主要参考了[Phil Whelan](http://www.philwhln.com/author/admin/ "Phil Whelan")的这篇文章《[Quora’s Technology Examined](http://www.philwhln.com/quoras-technology-examined)》。关于Quora是个什么网站我就不多说了，国内对他的C2C网站叫“知乎”。呵呵。我们还是来看看Quora的技术吧。
+以前向大家介绍过[Stack Exchange的系统架构](/2011/Stack%20Exchange%20%E7%9A%84%E6%9E%B6%E6%9E%84.md "Stack Exchange 的架构")和[Facebook的系统架构](/2011/Facebook%20%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md "Facebook 的系统架构")，今天和大家说说Quora的。本文主要参考了[Phil Whelan](http://www.philwhln.com/author/admin/ "Phil Whelan")的这篇文章《[Quora’s Technology Examined](http://www.philwhln.com/quoras-technology-examined)》。关于Quora是个什么网站我就不多说了，国内对他的C2C网站叫“知乎”。呵呵。我们还是来看看Quora的技术吧。
 
 
 
@@ -111,7 +111,7 @@ Quora全部host在AWS的EC2和S3上，这对于这些刚刚起步的快速发展
 #### Thrift
 
 
-[Thrift](http://incubator.apache.org/thrift/) 用于后端服务器间的通讯。Thrift  服务由 C++开发。[Facebook同样使用了这个技术](https://coolshell.cn/articles/4549.html)。
+[Thrift](http://incubator.apache.org/thrift/) 用于后端服务器间的通讯。Thrift  服务由 C++开发。[Facebook同样使用了这个技术](/2011/Facebook%20%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md)。
 
 
 **参考**：[![](/assets/images/www.quora.com/favicon.ico)Why would you write a Thrift service in C++?](https://www.quora.com/Why-would-you-write-a-Thrift-service-in-C)

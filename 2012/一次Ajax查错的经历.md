@@ -18,7 +18,7 @@ tab.load(url);[/javascript]
 简单到不能再简单了。在Chrome，Firefox，Safari下运行一点问题也没有，只有IE不行，不管是IE7，IE8，还是IE9。问题的症壮是，使用IE访问那个Ajax的链接，没有问题，但是在jQuery的Ajax方法返回了“undefined”的respons对象。没有任何报错！
 
 
-怎么搞也搞不定，只好Google了一下——“[jQuery load IE](https://www.google.com/#hl=zh-CN&newwindow=1&site=&source=hp&q=jQuery+load+IE&btnK=Google+%E6%90%9C%E7%B4%A2&oq=jQuery+load+IE)”，一看，很多人都在问这个问题。于是开始了[散弹枪编程方式](https://coolshell.cn/articles/2058.html "各种流行的编程风格")。
+怎么搞也搞不定，只好Google了一下——“[jQuery load IE](https://www.google.com/#hl=zh-CN&newwindow=1&site=&source=hp&q=jQuery+load+IE&btnK=Google+%E6%90%9C%E7%B4%A2&oq=jQuery+load+IE)”，一看，很多人都在问这个问题。于是开始了[散弹枪编程方式](/2010/%E5%90%84%E7%A7%8D%E6%B5%81%E8%A1%8C%E7%9A%84%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC.md "各种流行的编程风格")。
 
 
 排在第一的就是StackOverflow被浏览了33K次的这个问题：[jQuery’s .load() not working in IE – but fine in Firefox, Chrome and Safari](http://stackoverflow.com/questions/1061525/jquerys-load-not-working-in-ie-but-fine-in-firefox-chrome-and-safari)，答案没有被打勾（不靠谱），StackOverflow还有很多人问相似的问题，不过都没有答案。不管三七二十一，先试了一下，散弹枪嘛。试了半天都没有用。

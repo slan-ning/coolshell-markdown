@@ -2,7 +2,7 @@
 >date: 2011-10-17T08:38:15+08:00
 
 
-这篇文章来源于Peter Sergeant在[Write More Test](http://www.writemoretests.com/) 博客上的《[Test-Driven Development? Give me a break…](http://www.writemoretests.com/2011/09/test-driven-development-give-me-break.html)》，在原文和[Reddit](http://www.reddit.com/r/programming/comments/kq001/testdriven_development_youve_gotta_be_kidding_me/) 上有很大反响。这篇文章里的很多观点在《[TDD并不是看上去的那么美](https://coolshell.cn/articles/3649.html "TDD并不是看上去的那么美")》和《[再谈敏捷和TW咨询师](https://coolshell.cn/articles/3745.html "再谈敏捷和ThoughtWorks中国咨询师")》里都出现过（我个人觉得我的观点比其更全面一些）。就像我转的《[Scrum为什么不行](https://coolshell.cn/articles/5044.html "为什么Scrum不行？")》 和《[Bob大叔和Jim Coplien对TDD的论战](https://coolshell.cn/articles/4891.html "Bob大叔和Jim Coplien对TDD的论战")》一样，从这些贴子我们可以看到——**这是一个全世界的问题，并不是只有在中国才有的问题**。
+这篇文章来源于Peter Sergeant在[Write More Test](http://www.writemoretests.com/) 博客上的《[Test-Driven Development? Give me a break…](http://www.writemoretests.com/2011/09/test-driven-development-give-me-break.html)》，在原文和[Reddit](http://www.reddit.com/r/programming/comments/kq001/testdriven_development_youve_gotta_be_kidding_me/) 上有很大反响。这篇文章里的很多观点在《[TDD并不是看上去的那么美](/2011/TDD%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%9C%8B%E4%B8%8A%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B9%88%E7%BE%8E.md "TDD并不是看上去的那么美")》和《[再谈敏捷和TW咨询师](/2011/%E5%86%8D%E8%B0%88%E6%95%8F%E6%8D%B7%E5%92%8CThoughtWorks%E4%B8%AD%E5%9B%BD%E5%92%A8%E8%AF%A2%E5%B8%88.md "再谈敏捷和ThoughtWorks中国咨询师")》里都出现过（我个人觉得我的观点比其更全面一些）。就像我转的《[Scrum为什么不行](/2011/%E4%B8%BA%E4%BB%80%E4%B9%88Scrum%E4%B8%8D%E8%A1%8C%EF%BC%9F.md "为什么Scrum不行？")》 和《[Bob大叔和Jim Coplien对TDD的论战](/2011/Bob%E5%A4%A7%E5%8F%94%E5%92%8CJim%20Coplien%E5%AF%B9TDD%E7%9A%84%E8%AE%BA%E6%88%98.md "Bob大叔和Jim Coplien对TDD的论战")》一样，从这些贴子我们可以看到——**这是一个全世界的问题，并不是只有在中国才有的问题**。
 
 
 **很多敏粉都在说我在是喷敏捷，黑敏捷，向敏捷泼脏水，我只想对这些人说——**你们这样的见解很肤浅也很敏感，你们根本就没有认识到——争论，反思和不同观点的意义，你也就无法了解你们所信仰的敏捷！你们只是在肤浅和盲目地信仰和教条敏捷中的许多名词、方法和标准答案罢了。
@@ -27,7 +27,7 @@
 但， 是不是你就应该需要**总是**要去先写测试？省省吧，别逗了。
 
 
-这是极度白痴的行为，尤其是在设计，调查和开发的初期。让你的测试来接管你的代码（而不是影响那个模块的代码）和接管你的设计 这是一个巨大的失败，就是因为你写的那些测试范围太大太不靠谱。（陈皓注：我在《[TDD并不是看上去的那么美](https://coolshell.cn/articles/3649.html "TDD并不是看上去的那么美")》一文中说过测试案例的测试范围的问题，敏捷社区除了对我进行人身攻击外从未对此做过正面回答。）
+这是极度白痴的行为，尤其是在设计，调查和开发的初期。让你的测试来接管你的代码（而不是影响那个模块的代码）和接管你的设计 这是一个巨大的失败，就是因为你写的那些测试范围太大太不靠谱。（陈皓注：我在《[TDD并不是看上去的那么美](/2011/TDD%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%9C%8B%E4%B8%8A%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B9%88%E7%BE%8E.md "TDD并不是看上去的那么美")》一文中说过测试案例的测试范围的问题，敏捷社区除了对我进行人身攻击外从未对此做过正面回答。）
 
 
 在写代码前写测试案例在一些场景下的确很不错。然后，Test Driven Development，被敏捷专家或是其它各种五花八门的江湖骗子像神给凡人宣扬一样，这就是欺骗大众。
@@ -42,7 +42,7 @@
 把测试变成整个活动的中心因为其对程序员有用？真牛逼。老实说，控制程序员的工作流程只可能得出一条无比正确的答案——荒谬可笑。
 
 
-测试帮助程序员，是因为其可以帮程序员组织自动化测试，所以才帮了程序员，而不是cargo-cult（[货物崇拜](https://zh.wikipedia.org/zh/%E8%88%B9%E8%B2%A8%E5%B4%87%E6%8B%9C)，参看《[各种流行的编程方法](https://coolshell.cn/articles/2058.html "各种流行的编程风格")》中的cargo-cult编程）——信仰一种工作流程并让所有的人或事来适应于他。
+测试帮助程序员，是因为其可以帮程序员组织自动化测试，所以才帮了程序员，而不是cargo-cult（[货物崇拜](https://zh.wikipedia.org/zh/%E8%88%B9%E8%B2%A8%E5%B4%87%E6%8B%9C)，参看《[各种流行的编程方法](/2010/%E5%90%84%E7%A7%8D%E6%B5%81%E8%A1%8C%E7%9A%84%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC.md "各种流行的编程风格")》中的cargo-cult编程）——信仰一种工作流程并让所有的人或事来适应于他。
 
 
 先写测试这种方法只会在“Developer Driven Testing”（程序员自己驱动的测试）下可行——关注于选取一个正确的方法让程序员更有生产力。生成一堆测试的规则并说这是唯一的真理是不正确的。

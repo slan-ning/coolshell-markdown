@@ -72,7 +72,7 @@
 ![](http://www.b2bweb.fr/wp-content/uploads/drupal.png "drupal")
 
 
-* ★ [**WordPress**](http://wordpress.org/download/) 是一个基于博客系统的开源软件。参看《[WordPress是怎么赢的？](https://coolshell.cn/articles/3716.html "WordPress是怎么赢的？")》
+* ★ [**WordPress**](http://wordpress.org/download/) 是一个基于博客系统的开源软件。参看《[WordPress是怎么赢的？](/2011/WordPress%E6%98%AF%E6%80%8E%E4%B9%88%E8%B5%A2%E7%9A%84%EF%BC%9F.md "WordPress是怎么赢的？")》
 * **[Drupal](https://drupal.org/)** 是一个内容管理系统 (CMS).
 * [**Centurion**](http://www.centurion-project.org/) 是一个新出现的开源 CMS ，一个灵然的 PHP5 Content Management Framework. 使用 Zend Framework, 其组件坚持通用，简单，清楚和可重用的设计原则。
 * **[phpBB](http://www.phpbb.com/)** 一个开源的论坛（国内的Discuz！更多）
@@ -80,7 +80,7 @@
 * **★ [PHPthumb](http://phpthumb.gxdlabs.com/)**, PHP 图片处理库
 * **★ [PHPMailer](http://phpmailer.worxware.com/)** 强大的全功能的PHP邮件库
 * **[PubSubHubbub](https://code.google.com/p/pubsubhubbub/)**协议，一个简单，开放， server-to-server 的 pubsub (publish/subscribe) 协议——Atom and RSS的扩展。
-* 更多的请参看 – [20个你应该知道PHP库](https://coolshell.cn/articles/200.html "20 你应该知道的PHP库") 和 [9个强大免费的PHP库](https://coolshell.cn/articles/455.html "9个强大免费的PHP库")
+* 更多的请参看 – [20个你应该知道PHP库](/2009/20%20%E4%BD%A0%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84PHP%E5%BA%93.md "20 你应该知道的PHP库") 和 [9个强大免费的PHP库](/2009/9%E4%B8%AA%E5%BC%BA%E5%A4%A7%E5%85%8D%E8%B4%B9%E7%9A%84PHP%E5%BA%93.md "9个强大免费的PHP库")
 
 
 #### 数据库
@@ -115,7 +115,7 @@
 ![](http://www.b2bweb.fr/wp-content/uploads/jsfiddle.png "jsfiddle")
 
 
-* ★ [**CodeRun Studio**](http://www.coderun.com/)一个基于JavaScript语言开发的跨平台的集成开发环境，它立足于云计算的设计思路，方便开发者在浏览器端便可以轻松开发、调试和部署网络应用程序。（参看《[Coderun.com 在线开发IDE](https://coolshell.cn/articles/1883.html)》）
+* ★ [**CodeRun Studio**](http://www.coderun.com/)一个基于JavaScript语言开发的跨平台的集成开发环境，它立足于云计算的设计思路，方便开发者在浏览器端便可以轻松开发、调试和部署网络应用程序。（参看《[Coderun.com 在线开发IDE](/2009/Coderun.com%20%E5%9C%A8%E7%BA%BF%E5%BC%80%E5%8F%91IDE.md)》）
 * [**Cloud9 IDE**](https://github.com/ajaxorg/cloud9) – 一个基于Node.JS构建的JavaScript程序开发Web IDE。它拥有一个非常快的文本编辑器支持为JS, HTML, CSS和这几种的混合代码进行着色显示。
 * ★ [**jsFiddle**](http://jsfiddle.net/) – Javascript的在线运行展示框架，这个工具可以有效的帮助web前端开发人员来有效分享和演示前端效果，其简单而强大 (JavaScript, MooTools, jQuery, Prototype, YUI, Glow and Dojo, HTML, CSS)
 * **[Akshell](http://www.akshell.com/)，**一种云服务，它使用服务端的JavaScript和在线的IDE帮助开发者进行快速应用程序开发。 它还提供云托管，所以部署是即时的。
@@ -125,7 +125,7 @@
 * ★  **[LucidChart](http://www.lucidchart.com/)**，一款基于最新的html5技术的在线图表绘制软件，功能强大，速度快捷，运行此软件需要支持html5的浏览器。
 * [**Balsamiq Mockups**](http://balsamiq.com/products/mockups), 产品设计师绘制线框图或产品原型界面的利器。
 * [**Color Scheme Designer**](http://colorschemedesigner.com/) 3 – 一个免费的线上调色工具
-* ★ [**Pixlr**](http://pixlr.com/editor/), 是一个来自瑞典基于Flash的免费在线图片处理网站。除了操作介面和功能接近Photoshop，还是多语言版本，支持简体中文。（以前[酷壳介绍过](https://coolshell.cn/articles/3244.html "在线作图编辑服务")）
+* ★ [**Pixlr**](http://pixlr.com/editor/), 是一个来自瑞典基于Flash的免费在线图片处理网站。除了操作介面和功能接近Photoshop，还是多语言版本，支持简体中文。（以前[酷壳介绍过](/2010/%E5%9C%A8%E7%BA%BF%E4%BD%9C%E5%9B%BE%E7%BC%96%E8%BE%91%E6%9C%8D%E5%8A%A1.md "在线作图编辑服务")）
 * [**Aviary**](http://www.aviary.com/), 是一个基于HTML5 的在线图片处理工具，可以很容易的对图片进行后期处理。 [Aviary API](http://developers.aviary.com/)
 * **[Favicon Generator](http://www.degraeve.com/favicon/),** 线上favicon(16×16)制作工具。
 
@@ -253,10 +253,10 @@
 * [**WebGL Inspector**](https://benvanik.github.com/WebGL-Inspector/) 你就Firebug等Web调试工具一样，这个是 WebGL的调试工具。
 * [**WebGL frameworks**](http://www.khronos.org/webgl/wiki_1_15/) 由 Khronos Group 收集的一个WebGL框架列表。
 * [**EaselJS**](http://easeljs.com/), 一个使用html5的canvas的 JavaScript 库. [Sources](https://github.com/gskinner/EaselJS).
-* [**JavaScript Game Frameworks**](http://www.webresourcesdepot.com/free-javascript-game-frameworks-to-create-a-web-based-fun/) 免费的JS游戏框架列表。另，可参看 [JS游戏框架列表](https://coolshell.cn/articles/3516.html "JS游戏引擎列表")。
-* [**Raphaël**](http://raphaeljs.com/)是一个小型的JavaScript 库，用来简化在页面上显示向量图的工作。你可以用它在页面上绘制各种图表、并进行图片的剪切、旋转等操作。参看[Javascript向量图Lib–Raphaël](https://coolshell.cn/articles/3107.html "Javascript向量图Lib–Raphaël")
+* [**JavaScript Game Frameworks**](http://www.webresourcesdepot.com/free-javascript-game-frameworks-to-create-a-web-based-fun/) 免费的JS游戏框架列表。另，可参看 [JS游戏框架列表](/2011/JS%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%88%97%E8%A1%A8.md "JS游戏引擎列表")。
+* [**Raphaël**](http://raphaeljs.com/)是一个小型的JavaScript 库，用来简化在页面上显示向量图的工作。你可以用它在页面上绘制各种图表、并进行图片的剪切、旋转等操作。参看[Javascript向量图Lib–Raphaël](/2010/Javascript%E5%90%91%E9%87%8F%E5%9B%BELib%E2%80%93Rapha%C3%ABl.md "Javascript向量图Lib–Raphaël")
 * [**jQuery SVG**](http://keith-wood.name/svgRef.html) 插件让你可以了 SVG canvas 进行交互。
-* [**Google chart tools**](https://code.google.com/intl/fr/apis/chart/) –  参看本站的[使用Google API做统计图](https://coolshell.cn/articles/582.html)
+* [**Google chart tools**](https://code.google.com/intl/fr/apis/chart/) –  参看本站的[使用Google API做统计图](/2009/%E4%BD%BF%E7%94%A8Google%20API%E5%81%9A%E7%BB%9F%E8%AE%A1%E5%9B%BE.md)
 * [**Arbor.js**](http://arborjs.org/), 是一个利用webworkers和jQuery创建的数据图形可视化JavaScript框架。它为图形组织和屏幕刷新处理提供了一个高效、力导向布局算法。
 
 

@@ -32,7 +32,7 @@ Bret说起他的动机的时候，他说，他把这个事当成了一种责任�
 后面他，举到了很多人的例子，
 
 
-[Larry Tesler](https://en.wikipedia.org/wiki/Larry_Tesler) – 著名的计算机科学家，前苹果的首席科学家，图形界面的创造者（在“[SteveY对Amazon和Google平台的长篇大论](https://coolshell.cn/articles/5701.html "SteveY对Amazon和Google平台的长篇大论")”中提到过他）。他在70年代看到人们在使用电脑文本编辑器时，需要按某个键进入某种模式（Mode），然后才能输入（VI）。他觉得这样操作起来很复杂，也很不舒服，所以，他为自己设定了一个原则——“Don’t Mode Me In”，他做了很多尝试，做了一个叫Gypsy的文档编辑器，可以通过拖拽移动字符，而且他还发明了复制粘贴，对于一个没有使用过电脑的人来说，只需半个小时的训练就可以输入文字了。Larry把消除模式设置成了自己的原则或责任。他的个人主页是：http://www.nomodes.com，他的Twitter是 @nomodes，甚至他的车牌也是nomodes.
+[Larry Tesler](https://en.wikipedia.org/wiki/Larry_Tesler) – 著名的计算机科学家，前苹果的首席科学家，图形界面的创造者（在“[SteveY对Amazon和Google平台的长篇大论](/2011/SteveY%E5%AF%B9Amazon%E5%92%8CGoogle%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%90%90%E6%A7%BD.md "SteveY对Amazon和Google平台的长篇大论")”中提到过他）。他在70年代看到人们在使用电脑文本编辑器时，需要按某个键进入某种模式（Mode），然后才能输入（VI）。他觉得这样操作起来很复杂，也很不舒服，所以，他为自己设定了一个原则——“Don’t Mode Me In”，他做了很多尝试，做了一个叫Gypsy的文档编辑器，可以通过拖拽移动字符，而且他还发明了复制粘贴，对于一个没有使用过电脑的人来说，只需半个小时的训练就可以输入文字了。Larry把消除模式设置成了自己的原则或责任。他的个人主页是：http://www.nomodes.com，他的Twitter是 @nomodes，甚至他的车牌也是nomodes.
 
 
 [Elizabeth Cady Stanton](https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton)，100年前的一个美国的女权主义者，当时，她主张妇女的各项权益，比如参与投票，所有人都以为他疯了，今天看来，她是对的，她消除了性别歧视。这和Larry 很相似，他们都看到了一种文化上的错误，并要预见到了未来的样子，他们都为自己设定了一个原则或是信仰，而去为之奋斗。

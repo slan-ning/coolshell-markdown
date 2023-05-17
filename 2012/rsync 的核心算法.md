@@ -2,7 +2,7 @@
 >date: 2012-05-17T08:25:38+08:00
 
 
-[rsync](https://en.wikipedia.org/wiki/Rsync)是unix/linux下同步文件的一个高效算法，它能同步更新两处计算机的文件与目录，并适当利用查找文件中的不同块以减少数据传输。rsync中一项与其他大部分类似程序或协定中所未见的重要特性是镜像是只对有变更的部分进行传送。rsync可拷贝／显示目录属性，以及拷贝文件，并可选择性的压缩以及递归拷贝。rsync利用由[Andrew Tridgell](https://en.wikipedia.org/wiki/Andrew_Tridgell)发明的算法。这里不介绍其使用方法，只介绍其核心算法。我们可以看到，Unix下的东西，一个命令，一个工具都有很多很精妙的东西，怎么学也学不完，这就是[Unix的文化](https://coolshell.cn/articles/2322.html "Unix传奇(上篇)")啊。
+[rsync](https://en.wikipedia.org/wiki/Rsync)是unix/linux下同步文件的一个高效算法，它能同步更新两处计算机的文件与目录，并适当利用查找文件中的不同块以减少数据传输。rsync中一项与其他大部分类似程序或协定中所未见的重要特性是镜像是只对有变更的部分进行传送。rsync可拷贝／显示目录属性，以及拷贝文件，并可选择性的压缩以及递归拷贝。rsync利用由[Andrew Tridgell](https://en.wikipedia.org/wiki/Andrew_Tridgell)发明的算法。这里不介绍其使用方法，只介绍其核心算法。我们可以看到，Unix下的东西，一个命令，一个工具都有很多很精妙的东西，怎么学也学不完，这就是[Unix的文化](/2010/Unix%E4%BC%A0%E5%A5%87%28%E4%B8%8A%E7%AF%87%29.md "Unix传奇(上篇)")啊。
 
 
 本来不想写这篇文章的，因为原先发现有很多中文blog都说了这个算法，但是看了一下，发现这些中文blog要么翻译国外文章翻译地非常烂，要么就是介绍这个算法介绍得很乱让人看不懂，还有错误，误人不浅，所以让我觉得有必要写篇rsync算法介绍的文章。（当然，我成文比较仓促，可能会有一些错误，请指正）

@@ -2,7 +2,7 @@
 >date: 2010-08-09T13:51:37+08:00
 
 
-以前本站发布过很多和Javascript相关的东西，如：《[又一个Javascript试验田](https://coolshell.cn/articles/2276.html)》、《[一个Windows 3.1的Web网站](https://coolshell.cn/articles/2065.html)》、《[哥是玩程序的](https://coolshell.cn/articles/1932.html)》。今天要介绍另外一组，先看下面的这个Javascript特效（在IE下无法正常工作），你可以用Chrome查看，很炫。不过最炫的是其源码，非常的简单，不超过1K。如果你要知道这个效果的原理，这里有一个[教程](http://acko.net/blog/js1k-demo-the-making-of)。这里有个网站：[JS1K Demo](http://js1k.com/)， 这个站上主要收集一些Javascript不大于1K的程序。
+以前本站发布过很多和Javascript相关的东西，如：《[又一个Javascript试验田](/2010/%E5%8F%88%E4%B8%80%E4%B8%AAJavascript%E8%AF%95%E9%AA%8C%E7%94%B0.md)》、《[一个Windows 3.1的Web网站](/2010/%E4%B8%80%E4%B8%AAWindows%203.1%E7%9A%84Web%E7%BD%91%E7%AB%99.md)》、《[哥是玩程序的](/2009/%E5%93%A5%E6%98%AF%E7%8E%A9%E7%A8%8B%E5%BA%8F%E7%9A%84.md)》。今天要介绍另外一组，先看下面的这个Javascript特效（在IE下无法正常工作），你可以用Chrome查看，很炫。不过最炫的是其源码，非常的简单，不超过1K。如果你要知道这个效果的原理，这里有一个[教程](http://acko.net/blog/js1k-demo-the-making-of)。这里有个网站：[JS1K Demo](http://js1k.com/)， 这个站上主要收集一些Javascript不大于1K的程序。
 
 
   

@@ -583,9 +583,9 @@ awk  env  groups  head  id  mesg  sort  strace  tail  top  uniq  vi  wc  xargs
 在下一篇，我将向你介绍User Namespace、Network Namespace以及Namespace的其它东西。
 
 
- **[<<<< Docker基础技术：Linux Namespace（下）>>>>](https://coolshell.cn/articles/17029.html "Docker基础技术：Linux Namespace（下）")** 
+ **[<<<< Docker基础技术：Linux Namespace（下）>>>>](/2015/Docker%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%EF%BC%9ALinux%20Namespace%EF%BC%88%E4%B8%8B%EF%BC%89.md "Docker基础技术：Linux Namespace（下）")** 
 
 
-（上篇完，[请参看下篇](https://coolshell.cn/articles/17029.html "Docker基础技术：Linux Namespace（下）")）
+（上篇完，[请参看下篇](/2015/Docker%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%EF%BC%9ALinux%20Namespace%EF%BC%88%E4%B8%8B%EF%BC%89.md "Docker基础技术：Linux Namespace（下）")）
 
 

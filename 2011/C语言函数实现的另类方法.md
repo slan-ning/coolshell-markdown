@@ -2,7 +2,7 @@
 >date: 2011-01-26T13:38:20+08:00
 
 
-在前面看过那个[BT的Javascript程序](https://coolshell.cn/articles/3540.html)后，我们来看一个C语言的，相信大家还记得[输出从1到1000的数](https://coolshell.cn/articles/3445.html "输出从1到1000的数")最后的那个示例，本站还有很多这样的示例，如：[变态的hello word](https://coolshell.cn/articles/914.html)，[如何教新手编程](https://coolshell.cn/articles/2420.html)，[还有恐怖的C++](https://coolshell.cn/articles/1724.html)，在下面这个示例面前，神马都是浮云。
+在前面看过那个[BT的Javascript程序](/2011/%E4%B8%80%E6%AE%B5Javascript%E7%9A%84%E4%BB%A3%E7%A0%81.md)后，我们来看一个C语言的，相信大家还记得[输出从1到1000的数](/2011/%E8%BE%93%E5%87%BA%E4%BB%8E1%E5%88%B01000%E7%9A%84%E6%95%B0.md "输出从1到1000的数")最后的那个示例，本站还有很多这样的示例，如：[变态的hello word](/2009/6%E4%B8%AA%E5%8F%98%E6%80%81%E7%9A%84C%E8%AF%AD%E8%A8%80Hello%20World%E7%A8%8B%E5%BA%8F.md)，[如何教新手编程](/2010/%E8%80%81%E6%89%8B%E6%98%AF%E8%BF%99%E6%A0%B7%E6%95%99%E6%96%B0%E6%89%8B%E7%BC%96%E7%A8%8B%E7%9A%84.md)，[还有恐怖的C++](/2009/%E6%81%90%E6%80%96%E7%9A%84C%2B%2B%E8%AF%AD%E8%A8%80.md)，在下面这个示例面前，神马都是浮云。
 
 
 下面这个示例向你展示了如何写一个swap()函数（把两个值交换），这段代码在我的Linux下的 gcc v4.1.1下可以正确编译通过，连一个Warning都没有，而且可以正确工作。我能说什么？！C语言并不疯狂，疯狂的是程序员。

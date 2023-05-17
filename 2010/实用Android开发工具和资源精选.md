@@ -111,7 +111,7 @@ DroidEx 可以让你附加的Android设备的显示屏内容复制一份到你�
 
 ![](/assets/images/coolshell.cn/wp-content/uploads/2010/08/android_dev_13.jpg "android_dev_01")  
 
-Android 的App Inventor是来自Google为非开发人员准备的新工具，通过这个工具，非开发人员可以非常容易地在里面创建应用程序。可以通过网站的视屏来预览这个工具的功能特性。(你可以参看酷壳的[这篇文章](https://coolshell.cn/articles/2608.html))
+Android 的App Inventor是来自Google为非开发人员准备的新工具，通过这个工具，非开发人员可以非常容易地在里面创建应用程序。可以通过网站的视屏来预览这个工具的功能特性。(你可以参看酷壳的[这篇文章](/2010/Google%20App%20Inventor.md))
 
 
 (**译者注：**这里还有一个youtube视屏，可惜也墙掉了）  

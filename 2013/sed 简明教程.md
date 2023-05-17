@@ -2,7 +2,7 @@
 >date: 2013-02-20T08:36:48+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/sed-superman.png)awk于1977年出生，今年36岁本命年，sed比awk大2-3岁，awk就像林妹妹，sed就是宝玉哥哥了。所以 [林妹妹跳了个Topless](https://coolshell.cn/articles/9070.html "AWK 简明教程")，他的哥哥sed坐不住了，也一定要出来抖一抖。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/sed-superman.png)awk于1977年出生，今年36岁本命年，sed比awk大2-3岁，awk就像林妹妹，sed就是宝玉哥哥了。所以 [林妹妹跳了个Topless](/2013/AWK%20%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B.md "AWK 简明教程")，他的哥哥sed坐不住了，也一定要出来抖一抖。
 
 
 sed全名叫stream editor，流编辑器，用程序的方式来编辑文本，相当的hacker啊。sed基本上就是玩正则模式匹配，所以，玩sed的人，正则表达式一般都比较强。

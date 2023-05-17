@@ -2,7 +2,7 @@
 >date: 2011-04-13T08:34:50+08:00
 
 
-还记得以前本站的[BT雷人的程序语言](https://coolshell.cn/articles/1142.html "BT雷人的程序语言")吗？除了那几个[Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)，[LOLCODE](http://lolcode.com/)和[WhiteSpace](http://compsoc.dur.ac.uk/whitespace/index.php)，我以为这些是比较BT的语言，但是自从这两天我在网上看到一些（见文章最后的参考一节），我发现我错了，这个世界上，只有更变态，没有最变态。不相，你看看下面这些，简直变态到了极致啊。（下面的语言变态不分排名）
+还记得以前本站的[BT雷人的程序语言](/2009/BT%E9%9B%B7%E4%BA%BA%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80.md "BT雷人的程序语言")吗？除了那几个[Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)，[LOLCODE](http://lolcode.com/)和[WhiteSpace](http://compsoc.dur.ac.uk/whitespace/index.php)，我以为这些是比较BT的语言，但是自从这两天我在网上看到一些（见文章最后的参考一节），我发现我错了，这个世界上，只有更变态，没有最变态。不相，你看看下面这些，简直变态到了极致啊。（下面的语言变态不分排名）
 
 
 
@@ -68,7 +68,7 @@ vp*b90-1    < $      g
 >'0, >' ,299^</pre>
 通常认为Befunge是第一个基于“二维控制流”的语言，后来衍生出的一大批类似的语言都是受的Befunge影响。例如PingPong语言就是把Befunge的四种箭头符号换成正反斜杠，控制指针移动方向90度旋转，起一个反弹的作用。
 <h4>Chef</h4>
-<a href="http://www.dangermouse.net/esoteric/chef.html" target="_blank">Chef</a>如其名一样“主厨”(<a href="http://en.wikipedia.org/wiki/Chef_(programming_language)" target="_blank">Wiki link</a>)，这门语言主要是为了让程序代码看起来像菜谱。这可以使得我们的<a title="食客还是大厨" href="https://coolshell.cn/articles/3589.html" target="_blank">程序员更像是大厨</a>了，呵呵。该语言于2002年由David Morgan-Mar推出，核心是栈操作，特征就是——一套完整的Chef代码就是一个菜谱，程序名就是菜名，变量声明就是罗列原材料，后面一系列栈操作，就是菜肴的制作方法。把程序编写比作调和鼎鼐，有点意思，家庭主妇（或者“准家庭主妇”）试试看，权且当作人生预习。
+<a href="http://www.dangermouse.net/esoteric/chef.html" target="_blank">Chef</a>如其名一样“主厨”(<a href="http://en.wikipedia.org/wiki/Chef_(programming_language)" target="_blank">Wiki link</a>)，这门语言主要是为了让程序代码看起来像菜谱。这可以使得我们的<a title="食客还是大厨" href="/2011/%E9%A3%9F%E5%AE%A2%E8%BF%98%E6%98%AF%E5%A4%A7%E5%8E%A8.md" target="_blank">程序员更像是大厨</a>了，呵呵。该语言于2002年由David Morgan-Mar推出，核心是栈操作，特征就是——一套完整的Chef代码就是一个菜谱，程序名就是菜名，变量声明就是罗列原材料，后面一系列栈操作，就是菜肴的制作方法。把程序编写比作调和鼎鼐，有点意思，家庭主妇（或者“准家庭主妇”）试试看，权且当作人生预习。
 
 用Chef编写Hello World代码如下：（在其网站上还有一个<a href="http://www.dangermouse.net/esoteric/chef_fib.html" target="_blank">斐波拉契数的例子</a>）
 <pre style="padding-left: 30px;">Hello World Souffle.
@@ -216,7 +216,7 @@ EPRINTONE</pre>
 </tbody>
 </table>
 <h4>Piet</h4>
-David Morgan-Mar 发明的用位图编程的<a href="http://www.dangermouse.net/esoteric/piet.html" target="_blank">Piet语言</a>也是BT到了极致，你还记得前两的那个“<a title="我有一个Hello World的C++程序编译不过" href="https://coolshell.cn/articles/4170.html" target="_blank">我的hello world编不过去</a>”文章中的那个强人用windows的画图程序编程的例子吗？呵呵Piet完全是用位图编程的语言。
+David Morgan-Mar 发明的用位图编程的<a href="http://www.dangermouse.net/esoteric/piet.html" target="_blank">Piet语言</a>也是BT到了极致，你还记得前两的那个“<a title="我有一个Hello World的C++程序编译不过" href="/2011/%E6%88%91%E6%9C%89%E4%B8%80%E4%B8%AAHello%20World%E7%9A%84C%2B%2B%E7%A8%8B%E5%BA%8F%E7%BC%96%E8%AF%91%E4%B8%8D%E8%BF%87.md" target="_blank">我的hello world编不过去</a>”文章中的那个强人用windows的画图程序编程的例子吗？呵呵Piet完全是用位图编程的语言。
 
 下面这个图片就是其Hello World的示例：
 <p style="text-align: center;"><a href="http://www.topdesignmag.com/wp-content/uploads/2011/04/Piet_hello_big.png"><img class="aligncenter" title="Piet_hello_big" src="http://www.dangermouse.net/esoteric/piet/Piet_hello_big.png" alt="" width="150" height="145" /></a></p>

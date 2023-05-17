@@ -2,7 +2,7 @@
 >date: 2011-03-24T08:34:43+08:00
 
 
-下面的文章和《[各种流行的编程方式](https://coolshell.cn/articles/2058.html "各种流行的编程风格")》有异曲同工，请你不要理解错了。**[本文来源](http://crankypm.com/2011/03/guest-post-stages-debugging/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+TheCrankyProductManager+(The+Cranky+Product+Manager) "THE FIVE STAGES OF DEBUGGING")**，翻译如下：
+下面的文章和《[各种流行的编程方式](/2010/%E5%90%84%E7%A7%8D%E6%B5%81%E8%A1%8C%E7%9A%84%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC.md "各种流行的编程风格")》有异曲同工，请你不要理解错了。**[本文来源](http://crankypm.com/2011/03/guest-post-stages-debugging/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+TheCrankyProductManager+(The+Cranky+Product+Manager) "THE FIVE STAGES OF DEBUGGING")**，翻译如下：
 
 
 ——————————————————

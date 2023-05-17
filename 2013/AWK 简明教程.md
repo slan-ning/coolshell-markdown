@@ -2,13 +2,13 @@
 >date: 2013-02-17T08:38:29+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/awk.jpg)有一些网友看了前两天的《[Linux下应该知道的技巧](https://coolshell.cn/articles/8883.html "应该知道的Linux技巧")》希望我能教教他们用awk和sed，所以，出现了这篇文章。我估计这些80后的年轻朋友可能对awk/sed这类上古神器有点陌生了，所以需要我这个老家伙来炒炒冷饭。**况且，AWK是贝尔实验室1977年搞出来的文本出现神器，今年是蛇年，是AWK的本命年，而且年纪和我相仿，所以非常有必要为他写篇文章**。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/awk.jpg)有一些网友看了前两天的《[Linux下应该知道的技巧](/2013/%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84Linux%E6%8A%80%E5%B7%A7.md "应该知道的Linux技巧")》希望我能教教他们用awk和sed，所以，出现了这篇文章。我估计这些80后的年轻朋友可能对awk/sed这类上古神器有点陌生了，所以需要我这个老家伙来炒炒冷饭。**况且，AWK是贝尔实验室1977年搞出来的文本出现神器，今年是蛇年，是AWK的本命年，而且年纪和我相仿，所以非常有必要为他写篇文章**。
 
 
 之所以叫AWK是因为其取了三位创始人 [Alfred Aho](https://en.wikipedia.org/wiki/Alfred_Aho "Alfred Aho")，[Peter Weinberger](https://en.wikipedia.org/wiki/Peter_J._Weinberger "Peter J. Weinberger"), 和 [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan "Brian Kernighan") 的Family Name的首字符。要学AWK，就得提一提AWK的一本相当经典的书《[The AWK Programming Language](http://plan9.bell-labs.com/cm/cs/awkbook/)》，它在[豆瓣上的评分](http://book.douban.com/subject/1876898/)是9.4分！在[亚马逊上居然卖1022.30元](https://www.amazon.cn/mn/detailApp/?asin=020107981X)。
 
 
-我在这里的教程并不想面面俱到，本文和我之前的[Go语言简介](https://coolshell.cn/articles/8460.html "Go 语言简介（上）— 语法")一样，全是示例，基本无废话。
+我在这里的教程并不想面面俱到，本文和我之前的[Go语言简介](/2012/Go%20%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%8A%EF%BC%89%E2%80%94%20%E8%AF%AD%E6%B3%95.md "Go 语言简介（上）— 语法")一样，全是示例，基本无废话。
 
 
 **我只想达到两个目的：**

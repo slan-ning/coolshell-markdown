@@ -5,7 +5,7 @@
 *[文章来源](http://html5.tomasdev.com.ar/)*
 
 
-二者之间的竞争会演变成为一场“战争”吗？（现在甚至出现了可以[把Flash转成Javascript/HTML5](https://coolshell.cn/articles/2497.html)的工具）
+二者之间的竞争会演变成为一场“战争”吗？（现在甚至出现了可以[把Flash转成Javascript/HTML5](/2010/%E6%8A%8AFlash%E8%BD%AC%E6%88%90Javascript/HTML5.md)的工具）
 
 
 首先需要弄清楚二者之间最主要的区别，HTML 是一种语言（超文本标记语言 – HyperText Markup Language），而 Flash 是 Adobe（其收购了Macromedia）公司的一个浏览器插件（Plugin）。HTML5 目前还是 W3.org 规范中一个草案，这意味着其还没有最终定案，希望到 2012 年这项工作能够完成。

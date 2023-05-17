@@ -45,7 +45,7 @@
 #### dstat & sar
 
 
-iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《[性能调优攻略](https://coolshell.cn/articles/7490.html "性能调优攻略")》中提到过那三个xxstat工具）。
+iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《[性能调优攻略](/2012/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%E6%94%BB%E7%95%A5.md "性能调优攻略")》中提到过那三个xxstat工具）。
 
 
 官方网站：<http://dag.wieers.com/rpm/packages/dstat/>
@@ -183,7 +183,7 @@ xargs 是一个比较古老的命令，有简单的并行功能，这个不说�
 [Duplicity](http://duplicity.nongnu.org/)是使用rsync算法加密的高效率备份软件，Duplicity支持目录加密生产和格式上传到远程或本地文件服务器。
 
 
-[rsyncrypto](http://rsyncrypto.lingnu.com/index.php/Home_Page) 就是 rsync + encryption。对于rsync的算法可参看酷壳的[rsync核心算法](https://coolshell.cn/articles/7425.html "rsync 的核心算法")。
+[rsyncrypto](http://rsyncrypto.lingnu.com/index.php/Home_Page) 就是 rsync + encryption。对于rsync的算法可参看酷壳的[rsync核心算法](/2012/rsync%20%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95.md "rsync 的核心算法")。
 
 
 Encrypting backup tools.
@@ -248,7 +248,7 @@ Encrypting backup tools.
 #### calcurse & remind + wyrd
 
 
-[calcurse](http://calcurse.org/)是一个命令行下的日历和日程软件。[remind](http://www.roaringpenguin.com/products/remind) + [wyrd](http://pessimization.com/software/wyrd/)也很类似。关于日历，我不得不提一个[Linux的Cycle日历](https://coolshell.cn/articles/3489.html "Linux的cycle日历（你懂的）")，也是一个神器，呵呵。
+[calcurse](http://calcurse.org/)是一个命令行下的日历和日程软件。[remind](http://www.roaringpenguin.com/products/remind) + [wyrd](http://pessimization.com/software/wyrd/)也很类似。关于日历，我不得不提一个[Linux的Cycle日历](/2011/Linux%E7%9A%84cycle%E6%97%A5%E5%8E%86%EF%BC%88%E4%BD%A0%E6%87%82%E7%9A%84%EF%BC%89.md "Linux的cycle日历（你懂的）")，也是一个神器，呵呵。
 
 
 
@@ -276,7 +276,7 @@ Encrypting backup tools.
 #### powertop
 
 
-[做个环保的程序员](https://coolshell.cn/articles/7186.html "做个环保主义的程序员")，看看自己的电脑里哪些程序费电。[PowerTOP](https://01.org/powertop/) 是一个让 Intel 平台的笔记本电脑节省电源的 Linux 工具。此工具由 Intel 公司发布。它可以帮助用户找出那些耗电量大的程序，通过修复或者关闭那些应用程序或进程，从而为用户节省电源。
+[做个环保的程序员](/2012/%E5%81%9A%E4%B8%AA%E7%8E%AF%E4%BF%9D%E4%B8%BB%E4%B9%89%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98.md "做个环保主义的程序员")，看看自己的电脑里哪些程序费电。[PowerTOP](https://01.org/powertop/) 是一个让 Intel 平台的笔记本电脑节省电源的 Linux 工具。此工具由 Intel 公司发布。它可以帮助用户找出那些耗电量大的程序，通过修复或者关闭那些应用程序或进程，从而为用户节省电源。
 
 
 
@@ -323,7 +323,7 @@ Encrypting backup tools.
 #### rsync
 
 
-通过SSH进行文件同步的经典工具（[核心算法](https://coolshell.cn/articles/7425.html "rsync 的核心算法")）
+通过SSH进行文件同步的经典工具（[核心算法](/2012/rsync%20%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95.md "rsync 的核心算法")）
 
 
 
@@ -391,7 +391,7 @@ Encrypting backup tools.
 [Tsung](http://tsung.erlang-projects.org/) 是一个压力测试工具，可以测试包括HTTP, WebDAV, PostgreSQL, MySQL, LDAP, and XMPP/Jabber等服务器。针对 HTTP 测试，Tsung 支持 HTTP 1.0/1.1 ，包含一个代理模式的会话记录、支持 GET、POST 和 PUT 以及 DELETE 方法，支持 Cookie 和基本的 WWW 认证，同时还支持 SSL。
 
 
-参看：[十个免费的Web压力测试工具](https://coolshell.cn/articles/2589.html "十个免费的Web压力测试工具")
+参看：[十个免费的Web压力测试工具](/2010/%E5%8D%81%E4%B8%AA%E5%85%8D%E8%B4%B9%E7%9A%84Web%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.md "十个免费的Web压力测试工具")
 
 
 

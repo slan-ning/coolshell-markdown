@@ -2,7 +2,7 @@
 >date: 2010-06-09T08:27:42+08:00
 
 
-在计算机的世界里，什么最牛？[Javascript](https://coolshell.cn/?tag=javascript)？[C语言](https://coolshell.cn/articles/914.html)？[C++](https://coolshell.cn/articles/1724.html)？[iPad](https://coolshell.cn/articles/2086.html)？还是[brainfuck](https://coolshell.cn/articles/1142.html)？我个人觉得都不是，这个世界里，XML最NB，这世界到处都充斥着XML，正如在“[十条不错的编程观点](https://coolshell.cn/articles/2424.html)”文中所说，我们不用XML我们都不知道怎么编程了。下面，让我们来看一看XML的几个真实的示例，相信你会同意我的观点的。
+在计算机的世界里，什么最牛？[Javascript](https://coolshell.cn/?tag=javascript)？[C语言](/2009/6%E4%B8%AA%E5%8F%98%E6%80%81%E7%9A%84C%E8%AF%AD%E8%A8%80Hello%20World%E7%A8%8B%E5%BA%8F.md)？[C++](/2009/%E6%81%90%E6%80%96%E7%9A%84C%2B%2B%E8%AF%AD%E8%A8%80.md)？[iPad](/2010/iPad%E8%BF%9B%E5%8C%96%E5%9B%BE.md)？还是[brainfuck](/2009/BT%E9%9B%B7%E4%BA%BA%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80.md)？我个人觉得都不是，这个世界里，XML最NB，这世界到处都充斥着XML，正如在“[十条不错的编程观点](/2010/%E5%8D%81%E6%9D%A1%E4%B8%8D%E9%94%99%E7%9A%84%E7%BC%96%E7%A8%8B%E8%A7%82%E7%82%B9.md)”文中所说，我们不用XML我们都不知道怎么编程了。下面，让我们来看一看XML的几个真实的示例，相信你会同意我的观点的。
 
 
 

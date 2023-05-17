@@ -2,7 +2,7 @@
 >date: 2011-01-20T10:43:08+08:00
 
 
-这里有一个[网址](https://gist.github.com/768272)收集了关于JS游戏引擎开发库的一个列表，转过来。关于使用JS和HTML5做的一些小游戏，可参见《[HTML5 小游戏展示](https://coolshell.cn/articles/2998.html)》
+这里有一个[网址](https://gist.github.com/768272)收集了关于JS游戏引擎开发库的一个列表，转过来。关于使用JS和HTML5做的一些小游戏，可参见《[HTML5 小游戏展示](/2010/HTML5%20%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%B1%95%E7%A4%BA.md)》
 
 
 
@@ -146,7 +146,7 @@
 
 * [Stackblur](http://www.quasimondo.com/StackBlurForCanvas/StackBlurDemo.html) – 在 Canvas 上实现模糊的效果
 * [Pixastic](http://www.pixastic.com/) – 简单的图片操作
-* [Raphaël](http://raphaeljs.com/) – 进行一些矢量图以及一些变化操作，能看[这篇文章](https://coolshell.cn/articles/3107.html)
+* [Raphaël](http://raphaeljs.com/) – 进行一些矢量图以及一些变化操作，能看[这篇文章](/2010/Javascript%E5%90%91%E9%87%8F%E5%9B%BELib%E2%80%93Rapha%C3%ABl.md)
 * [CamanJS](https://github.com/meltingice/CamanJS) – Canvas上的一些滤镜
 * [CanvasContext2DWrapper](https://github.com/millermedeiros/CanvasContext2DWrapper) – Method chaining for Canvas
 

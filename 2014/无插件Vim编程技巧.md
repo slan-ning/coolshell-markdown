@@ -2,7 +2,7 @@
 >date: 2014-03-24T08:25:29+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2014/03/success_vim.jpg)相信大家看过《[简明Vim教程](/2011/%E7%AE%80%E6%98%8E%20Vim%20%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md "简明 Vim 练级攻略")》也玩了《[Vim大冒险](https://coolshell.cn/articles/7166.html "游戏：VIM大冒险")》的游戏了，相信大家对Vim都有一个好的入门了。我在这里把我日常用Vim编程的一些技巧列出来给大家看看，希望对大家有用，另外，也是一个抛砖引玉的过程，也希望大家把你们的技巧跟贴一下，我会更新到这篇文章中。另外，这篇文章里的这些技巧全都是vim原生态的，不需要你安装什么插件。**我的Vim的版本是7.2**。
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/03/success_vim.jpg)相信大家看过《[简明Vim教程](/2011/%E7%AE%80%E6%98%8E%20Vim%20%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md "简明 Vim 练级攻略")》也玩了《[Vim大冒险](/2012/%E6%B8%B8%E6%88%8F%EF%BC%9AVIM%E5%A4%A7%E5%86%92%E9%99%A9.md "游戏：VIM大冒险")》的游戏了，相信大家对Vim都有一个好的入门了。我在这里把我日常用Vim编程的一些技巧列出来给大家看看，希望对大家有用，另外，也是一个抛砖引玉的过程，也希望大家把你们的技巧跟贴一下，我会更新到这篇文章中。另外，这篇文章里的这些技巧全都是vim原生态的，不需要你安装什么插件。**我的Vim的版本是7.2**。
 
 
 
@@ -153,7 +153,7 @@ h （隐藏的缓冲区）
 #### 窗口分屏浏览
 
 
-相信你在《[Vim的窗口分屏](https://coolshell.cn/articles/1679.html "Vim的分屏功能")》一文中，你已经知道了怎么拆分窗口了。其实，我更多的不是用拆分窗口的命令，而是用浏览文件的命令来分隔窗口。如：
+相信你在《[Vim的窗口分屏](/2009/Vim%E7%9A%84%E5%88%86%E5%B1%8F%E5%8A%9F%E8%83%BD.md "Vim的分屏功能")》一文中，你已经知道了怎么拆分窗口了。其实，我更多的不是用拆分窗口的命令，而是用浏览文件的命令来分隔窗口。如：
 
 
 把当前窗口上下分屏，并在下面进行目录浏览：
@@ -189,7 +189,7 @@ h （隐藏的缓冲区）
 ![](/assets/images/coolshell.cn/wp-content/uploads/2014/03/WindowsExplorer.png)
 
 
-在分屏间的跳转和切换在《[Vim的窗口分屏](https://coolshell.cn/articles/1679.html "Vim的分屏功能")》一文中提过了：**先按Ctrl + W，然后按方向键：h j k l**
+在分屏间的跳转和切换在《[Vim的窗口分屏](/2009/Vim%E7%9A%84%E5%88%86%E5%B1%8F%E5%8A%9F%E8%83%BD.md "Vim的分屏功能")》一文中提过了：**先按Ctrl + W，然后按方向键：h j k l**
 
 
 #### 分屏同步移动
@@ -541,7 +541,7 @@ CentOS下：yum erase emacs
 Ubuntu下：apt-get remove emacs
 
 
-对了，以前本站也有一篇小短文《[如何在vim中得到你最喜爱的IDE特性](https://coolshell.cn/articles/894.html)》你也可以看看。
+对了，以前本站也有一篇小短文《[如何在vim中得到你最喜爱的IDE特性](/2009/%E5%B0%86vim%E5%8F%98%E5%BE%97%E7%AE%80%E5%8D%95%3A%E5%A6%82%E4%BD%95%E5%9C%A8vim%E4%B8%AD%E5%BE%97%E5%88%B0%E4%BD%A0%E6%9C%80%E5%96%9C%E7%88%B1%E7%9A%84IDE%E7%89%B9%E6%80%A7.md)》你也可以看看。
 
 
 （:wq）

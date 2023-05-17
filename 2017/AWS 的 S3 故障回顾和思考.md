@@ -2,7 +2,7 @@
 >date: 2017-03-03T14:20:03+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2017/03/Amazon-Web-Services-Down.png)继[Gitlab的误删除数据事件](https://coolshell.cn/articles/17680.html)没几天，“不沉航母” AWS S3 （Simple Storage Service）几天前也“沉”了4个小时，墙外的半个互联网也跟着挂了。如约，按 AWS 惯例，AWS今天给出了一个简单的故障报告《[Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region](https://aws.amazon.com/cn/message/41926/)》。这个故障和简单来说和Gitlab一样，也是人员误操作。先简单的说一下这份报中说了什么。
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/03/Amazon-Web-Services-Down.png)继[Gitlab的误删除数据事件](/2017/%E4%BB%8EGitlab%E8%AF%AF%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%83%B3%E5%88%B0%E7%9A%84.md)没几天，“不沉航母” AWS S3 （Simple Storage Service）几天前也“沉”了4个小时，墙外的半个互联网也跟着挂了。如约，按 AWS 惯例，AWS今天给出了一个简单的故障报告《[Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region](https://aws.amazon.com/cn/message/41926/)》。这个故障和简单来说和Gitlab一样，也是人员误操作。先简单的说一下这份报中说了什么。
 
 
 #### 故障原因
@@ -81,7 +81,7 @@
 2）另外，面对在 US-EASE-1 这个老牌 Region 上的海量的对象，而且能在几个小时内恢复，很不容易了。
 
 
-3）这个事件，再次映证了我在《[关于高可用的系统](https://coolshell.cn/articles/17459.html)》中提到的观点：**一个系统的高可用的因素很多，不仅仅只是系统架构，更重要的是——高可用运维**。
+3）这个事件，再次映证了我在《[关于高可用的系统](/2016/%E5%85%B3%E4%BA%8E%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E7%B3%BB%E7%BB%9F.md)》中提到的观点：**一个系统的高可用的因素很多，不仅仅只是系统架构，更重要的是——高可用运维**。
 
 
 4）**对于高可用的运维，平时的故障演习是很重要的。**AWS 平时应该没有相应的故障演习，所以导致要么长期不出故障，一出就出个大的让你措手不及。这点，Facebook就好一些，他们每个季度扔个骰子，随机关掉一个IDC一天。Netflix 也有相关的 Chaos Monkey，我以前在的路透每年也会做一次大规模的故障演练——灾难演习。

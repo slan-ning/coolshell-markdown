@@ -2,7 +2,7 @@
 >date: 2015-04-16T10:19:23+08:00
 
 
-![jail_cell](/assets/images/coolshell.cn/wp-content/uploads/2015/04/jail_cell.jpg)在 **[Docker基础技术：Linux Namespace（上篇）](https://coolshell.cn/articles/17010.html "Docker基础技术：Linux Namespace（上）")**中我们了解了，UTD、IPC、PID、Mount 四个namespace，我们模仿Docker做了一个相当相当山寨的镜像。在这一篇中，主要想向大家介绍Linux的User和Network的Namespace。
+![jail_cell](/assets/images/coolshell.cn/wp-content/uploads/2015/04/jail_cell.jpg)在 **[Docker基础技术：Linux Namespace（上篇）](/2015/Docker%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%EF%BC%9ALinux%20Namespace%EF%BC%88%E4%B8%8A%EF%BC%89.md "Docker基础技术：Linux Namespace（上）")**中我们了解了，UTD、IPC、PID、Mount 四个namespace，我们模仿Docker做了一个相当相当山寨的镜像。在这一篇中，主要想向大家介绍Linux的User和Network的Namespace。
 
 
 好，下面我们就介绍一下还剩下的这两个Namespace。
@@ -287,7 +287,7 @@ echo "nameserver 8.8.8.8" > /etc/netns/ns1/resolv.conf
 上面基本上就是docker网络的原理了，只不过，
 
 
-* Docker的resolv.conf没有用这样的方式，而是用了[上篇中的Mount Namesapce的那种方式](https://coolshell.cn/articles/17010.html "Docker基础技术：Linux Namespace（上）")
+* Docker的resolv.conf没有用这样的方式，而是用了[上篇中的Mount Namesapce的那种方式](/2015/Docker%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%EF%BC%9ALinux%20Namespace%EF%BC%88%E4%B8%8A%EF%BC%89.md "Docker基础技术：Linux Namespace（上）")
 * 另外，docker是用进程的PID来做Network Namespace的名称的。
 
 

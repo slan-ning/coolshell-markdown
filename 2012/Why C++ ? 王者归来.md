@@ -49,7 +49,7 @@ Herb认为，2009-2019是第四个时期，因为我们又喜欢Native Code了�
 Herb把这个时期比做 The Return of the King。（指环王的第三部：王者归来） **性能为王！**
 
 
-这就好像我在“[软件开发的三重门](https://coolshell.cn/articles/6526.html "软件开发的“三重门”")”里说的，开垦时代需要的是快和生产力，而开垦完后就得保证其稳定性。
+这就好像我在“[软件开发的三重门](/2012/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%9A%84%E2%80%9C%E4%B8%89%E9%87%8D%E9%97%A8%E2%80%9D.md "软件开发的“三重门”")”里说的，开垦时代需要的是快和生产力，而开垦完后就得保证其稳定性。
 
 
 ![](/assets/images/coolshell.cn/wp-content/uploads/2012/02/WhyCPP.03.jpg)
@@ -88,7 +88,7 @@ a）比Web APP，人们更喜欢Native的APP，这个在用移动设备上可以
 b）iOS也好，Android也好，WinPhone也好，他们不是在搞操作系统，而是在搞应用，为的是让智能手机更好。手机就是一个App。
 
 
-c）这三个手机在第一版出来时都不支持C++，而第二版出来时都支持C++了。因为他们要兼顾性能和一定程度上的开发效率。WinPhone还没有到第二版，让我们拭目以待。（我以前写过一篇[调侃Android支持C++开发](https://coolshell.cn/articles/3549.html "Android将允许纯C/C++开发应用")的文章，这也只是一年前的事，说明C++全面回归了）
+c）这三个手机在第一版出来时都不支持C++，而第二版出来时都支持C++了。因为他们要兼顾性能和一定程度上的开发效率。WinPhone还没有到第二版，让我们拭目以待。（我以前写过一篇[调侃Android支持C++开发](/2011/Android%E5%B0%86%E5%85%81%E8%AE%B8%E7%BA%AFC/C%2B%2B%E5%BC%80%E5%8F%91%E5%BA%94%E7%94%A8.md "Android将允许纯C/C++开发应用")的文章，这也只是一年前的事，说明C++全面回归了）
 
 
 ![](/assets/images/coolshell.cn/wp-content/uploads/2012/02/WhyCPP.06.jpg)

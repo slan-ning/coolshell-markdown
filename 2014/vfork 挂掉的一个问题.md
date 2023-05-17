@@ -43,7 +43,7 @@ int main(void) {
 * vfork是 创建一个子进程，并和父进程的内存数据share一起用。
 
 
-这两个的差别是，一个是copy，一个是share。（关于fork，可以参看酷壳之前的《[一道fork的面试题](https://coolshell.cn/articles/7965.html "一个fork的面试题")》）
+这两个的差别是，一个是copy，一个是share。（关于fork，可以参看酷壳之前的《[一道fork的面试题](/2012/%E4%B8%80%E4%B8%AAfork%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md "一个fork的面试题")》）
 
 
 你 man vfork 一下，你可以看到，vfork是这样的工作的，
@@ -93,7 +93,7 @@ int main(void) {
 可见，**子进程调用exit() 没有修改函数栈，所以，父进程得以顺利执行**。
 
 
-**但是！注意！如果你调用 exit() 函数，还是会有问题的，正确的方法应该是调用 \_exit() 函数，因为 exit() 函数 会 flush 并 close 所有的 标准 I/O ，这样会导致父进程受到影响。（这个情况在fork下也会受到影响，会导致一些被buffer的数据被flush两次，这里可以参看《[一个fork的面试题](https://coolshell.cn/articles/7965.html)》）**
+**但是！注意！如果你调用 exit() 函数，还是会有问题的，正确的方法应该是调用 \_exit() 函数，因为 exit() 函数 会 flush 并 close 所有的 标准 I/O ，这样会导致父进程受到影响。（这个情况在fork下也会受到影响，会导致一些被buffer的数据被flush两次，这里可以参看《[一个fork的面试题](/2012/%E4%B8%80%E4%B8%AAfork%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md)》）**
 
 
 #### 关于fork的优化

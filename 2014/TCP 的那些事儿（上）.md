@@ -293,10 +293,10 @@ D-SACK使用了SACK的第一个段来做标志，
 Linux下的tcp\_dsack参数用于开启这个功能（Linux 2.4后默认打开）
 
 
-好了，上篇就到这里结束了。如果你觉得我写得还比较浅显易懂，那么，欢迎移步看下篇《[TCP的那些事（下）](https://coolshell.cn/articles/11609.html)》
+好了，上篇就到这里结束了。如果你觉得我写得还比较浅显易懂，那么，欢迎移步看下篇《[TCP的那些事（下）](/2014/TCP%20%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF%EF%BC%88%E4%B8%8B%EF%BC%89.md)》
 
 
-**[TCP的那些事儿（下）>>>](https://coolshell.cn/articles/11609.html)**
+**[TCP的那些事儿（下）>>>](/2014/TCP%20%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF%EF%BC%88%E4%B8%8B%EF%BC%89.md)**
 
 
 （上篇完）

@@ -2,7 +2,7 @@
 >date: 2015-08-26T08:21:09+08:00
 
 
-![how_to_set_up_an_iSCSI_LUN_with_thin](/assets/images/coolshell.cn/wp-content/uploads/2015/08/how_to_set_up_an_iSCSI_LUN_with_thin-300x150.jpg)在上一篇[介绍AUFS的文章](https://coolshell.cn/articles/17061.html)中，大家可以看到，Docker的分层镜像是怎么通过UnionFS这种文件系统做到的，但是，因为Docker首选的AUFS并不在Linux的内核主干里，所以，对于非Ubuntu的Linux分发包，比如CentOS，就无法使用AUFS作为Docker的文件系统了。于是作为第二优先级的DeviceMapper就被拿出来做分层镜像的一个实现。
+![how_to_set_up_an_iSCSI_LUN_with_thin](/assets/images/coolshell.cn/wp-content/uploads/2015/08/how_to_set_up_an_iSCSI_LUN_with_thin-300x150.jpg)在上一篇[介绍AUFS的文章](/2015/Docker%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%EF%BC%9AAUFS.md)中，大家可以看到，Docker的分层镜像是怎么通过UnionFS这种文件系统做到的，但是，因为Docker首选的AUFS并不在Linux的内核主干里，所以，对于非Ubuntu的Linux分发包，比如CentOS，就无法使用AUFS作为Docker的文件系统了。于是作为第二优先级的DeviceMapper就被拿出来做分层镜像的一个实现。
 
 
 

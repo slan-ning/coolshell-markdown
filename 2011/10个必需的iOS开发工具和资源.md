@@ -2,7 +2,7 @@
 >date: 2011-08-02T08:40:11+08:00
 
 
-界面总不是一件很容易事，尤其是iPhone/iPad的界面，做过iOS开发的程序员，一定会感到开发iPhone/iPad的界面是一件多么不容易的事。下面的文章来自[10 Essential iOS Developer Tools & Resources](http://alexefish.com/post/15967480885/10-essential-ios-developer-tools-resources)，这个文章介绍了十个iOS开发的基础性工具和资源，其一定会很有效地帮你做iOS的开发。（在这里，我再闲扯一句，虽然Android的开发好像整整XML文件界面就出来了，其明显比iOS的开发要容易很多，但是我还是觉得iOS的生命力要强过Android，看看Android今天的应用就知道，有时候入门门槛低不是一些好事，大多数的程序员搞出来的Android代码和软件简直令人作呕，就像不是每个人都能烧得手好菜一样。（“[食客与大厨](https://coolshell.cn/articles/3589.html "食客还是大厨")”，也许偏激，但值得你我思考），又把蛋扯远了）
+界面总不是一件很容易事，尤其是iPhone/iPad的界面，做过iOS开发的程序员，一定会感到开发iPhone/iPad的界面是一件多么不容易的事。下面的文章来自[10 Essential iOS Developer Tools & Resources](http://alexefish.com/post/15967480885/10-essential-ios-developer-tools-resources)，这个文章介绍了十个iOS开发的基础性工具和资源，其一定会很有效地帮你做iOS的开发。（在这里，我再闲扯一句，虽然Android的开发好像整整XML文件界面就出来了，其明显比iOS的开发要容易很多，但是我还是觉得iOS的生命力要强过Android，看看Android今天的应用就知道，有时候入门门槛低不是一些好事，大多数的程序员搞出来的Android代码和软件简直令人作呕，就像不是每个人都能烧得手好菜一样。（“[食客与大厨](/2011/%E9%A3%9F%E5%AE%A2%E8%BF%98%E6%98%AF%E5%A4%A7%E5%8E%A8.md "食客还是大厨")”，也许偏激，但值得你我思考），又把蛋扯远了）
 
 
 

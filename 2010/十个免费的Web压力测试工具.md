@@ -2,7 +2,7 @@
 >date: 2010-07-13T08:50:40+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2010/07/get_more_web_traffic.jpg)两天，jnj在本站发布了《[如何在低速率网络中测试 Web 应用](https://coolshell.cn/articles/2574.html)》，那是测试网络不好的情况。而下面是十个免费的可以用来进行Web的负载/压力测试的工具，这样，你就可以知道你的服务器以及你的WEB应用能够顶得住多少的并发量，以及你的网站的性能。我相信，北京奥组委的订票网站的开发团队并不知道有这样的测试工具。
+![](/assets/images/coolshell.cn/wp-content/uploads/2010/07/get_more_web_traffic.jpg)两天，jnj在本站发布了《[如何在低速率网络中测试 Web 应用](/2010/%E5%A6%82%E4%BD%95%E5%9C%A8%E4%BD%8E%E9%80%9F%E7%8E%87%E7%BD%91%E7%BB%9C%E4%B8%AD%E6%B5%8B%E8%AF%95%20Web%20%E5%BA%94%E7%94%A8.md)》，那是测试网络不好的情况。而下面是十个免费的可以用来进行Web的负载/压力测试的工具，这样，你就可以知道你的服务器以及你的WEB应用能够顶得住多少的并发量，以及你的网站的性能。我相信，北京奥组委的订票网站的开发团队并不知道有这样的测试工具。
 
 
 **[Grinder](http://grinder.sourceforge.net/)** –  Grinder是一个开源的JVM负载测试框架，它通过很多负载注射器来为分布式测试提供了便利。 支持用于执行测试脚本的Jython脚本引擎HTTP测试可通过HTTP代理进行管理。根据项目网站的说法，Grinder的 主要目标用户是“理解他们所测代码的人——Grinder不仅仅是带有一组相关响应时间的‘黑盒’测试。由于测试过程可以进行编码——而不是简单地脚本 化，所以程序员能测试应用中内部的各个层次，而不仅仅是通过用户界面测试响应时间。

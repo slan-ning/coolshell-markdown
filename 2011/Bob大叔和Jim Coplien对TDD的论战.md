@@ -2,7 +2,7 @@
 >date: 2011-06-27T08:41:23+08:00
 
 
-今年春节时，我写了一篇《[TDD并不是看上去的那么美](https://coolshell.cn/articles/3649.html "TDD并不是看上去的那么美")》，在这篇文章中我列举了一些关于使用TDD的一些难点和对TDD的质疑，后来出现了一些争论（可参见那篇文章的评论），以及Todd同学的《[TDD到底美不美](https://coolshell.cn/articles/3766.html "[转]TDD到底美还是不美？")》，还有infoQ中文上的那个[几乎没有营养离线讨论](http://www.infoq.com/cn/articles/virtual-panel-tdd "虚拟座谈会：TDD有多美？")。今天，有网友给我推来一个英文版infoQ的视频——“[Coplien and Martin Debate TDD, CDD and Professionalism](http://www.infoq.com/interviews/coplien-martin-tdd "Coplien and Martin Debate TDD, CDD and Professionalism")”，这是2008年2月18日的视频，视频的主角两个人争论TDD好还是不好，一个是敏捷社区的教主级的人物——Robert Martin（大家称之为“Bob大叔”），另一个是C++，OO，多范式编程的大师[Jim Coplien](https://en.wikipedia.org/wiki/Jim_Coplien)（大家都叫他Cope）。这两个人对TDD的见解有分歧。Coplien的很多观点和我之前的不谋而合，而他自己称他是坚决强烈地站在TDD的对立面上。下面是Jim的原话：
+今年春节时，我写了一篇《[TDD并不是看上去的那么美](/2011/TDD%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%9C%8B%E4%B8%8A%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B9%88%E7%BE%8E.md "TDD并不是看上去的那么美")》，在这篇文章中我列举了一些关于使用TDD的一些难点和对TDD的质疑，后来出现了一些争论（可参见那篇文章的评论），以及Todd同学的《[TDD到底美不美](/2011/%5B%E8%BD%AC%5DTDD%E5%88%B0%E5%BA%95%E7%BE%8E%E8%BF%98%E6%98%AF%E4%B8%8D%E7%BE%8E%EF%BC%9F.md "[转]TDD到底美还是不美？")》，还有infoQ中文上的那个[几乎没有营养离线讨论](http://www.infoq.com/cn/articles/virtual-panel-tdd "虚拟座谈会：TDD有多美？")。今天，有网友给我推来一个英文版infoQ的视频——“[Coplien and Martin Debate TDD, CDD and Professionalism](http://www.infoq.com/interviews/coplien-martin-tdd "Coplien and Martin Debate TDD, CDD and Professionalism")”，这是2008年2月18日的视频，视频的主角两个人争论TDD好还是不好，一个是敏捷社区的教主级的人物——Robert Martin（大家称之为“Bob大叔”），另一个是C++，OO，多范式编程的大师[Jim Coplien](https://en.wikipedia.org/wiki/Jim_Coplien)（大家都叫他Cope）。这两个人对TDD的见解有分歧。Coplien的很多观点和我之前的不谋而合，而他自己称他是坚决强烈地站在TDD的对立面上。下面是Jim的原话：
 
 
 
@@ -78,16 +78,16 @@ Bob追问到，“那么你是怎么测试这些对象的连接性的？”，Co
 Coplien完全不同意这个说法。他觉得底层的东西是更重要的。他用了一个示例来攻击Bob大叔的这个观点，他先是说代码走查和结对编程都有好的有价值的地方，当然和这个话题不相关。然后他又说了Unit Test，想想我们的单元测试，可能我们的测试案例并不可能测试我们程序中参数的各种状态，这些状态有可能只是半打，有可能是一百个，有可能是2的32次方个，所以，我们可以命中一些状态，也会没有测试到一些状态，我们的测试真的只是试验性的，所以，如果你在测试中发现bug，你真的很幸运。
 
 
-随后，Coplien推崇了一个叫“[Design By Contrac](https://en.wikipedia.org/wiki/Design_by_contract)t” – 契约式设计的方法（我在[软件设计中那些方法](https://coolshell.cn/articles/4535.html "一些软件设计的原则")中提到过，），这个方法认为软件有前验条件，后验条件，还有不变的。这个方法是Eiffel项目使用的一个方法，使用这个方法你可以静态的去做一些检查，相当于你做了一个基础架构来干这些事。Coplien相信这个方法有TDD所有的优点——我需要努力思考我的代码，我需要思考软件的外部接口，而且，Coplien发现这么做会比做测试更有效。这会让你对那些参数的范围考虑地更为宽广，而不是只在测试案例写几个随机分散的值来测试。
+随后，Coplien推崇了一个叫“[Design By Contrac](https://en.wikipedia.org/wiki/Design_by_contract)t” – 契约式设计的方法（我在[软件设计中那些方法](/2011/%E4%B8%80%E4%BA%9B%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E7%9A%84%E5%8E%9F%E5%88%99.md "一些软件设计的原则")中提到过，），这个方法认为软件有前验条件，后验条件，还有不变的。这个方法是Eiffel项目使用的一个方法，使用这个方法你可以静态的去做一些检查，相当于你做了一个基础架构来干这些事。Coplien相信这个方法有TDD所有的优点——我需要努力思考我的代码，我需要思考软件的外部接口，而且，Coplien发现这么做会比做测试更有效。这会让你对那些参数的范围考虑地更为宽广，而不是只在测试案例写几个随机分散的值来测试。
 
 
-今天，Bertrand Meyer(Eiffel语言的创造者，他也不赞同TDD)把这个方法推进了一步，叫CDD – Contract Driven Development，这个是一种关注于对象间关系，其在程序运行前提条件和运行后的后验条中达成一种契约，可以通过对契约条件的动态或静态的检查，来对程序的功能进行验证。这样可以让你更有效地测试程序。这种方法需要对业务的重点部位非常好的了解。这是TDD很难做到的（这就是我在《[TDD并不是看上去的那么美](https://coolshell.cn/articles/3649.html "TDD并不是看上去的那么美")》一文中说的TDD的测试范围是个很大的问题）。
+今天，Bertrand Meyer(Eiffel语言的创造者，他也不赞同TDD)把这个方法推进了一步，叫CDD – Contract Driven Development，这个是一种关注于对象间关系，其在程序运行前提条件和运行后的后验条中达成一种契约，可以通过对契约条件的动态或静态的检查，来对程序的功能进行验证。这样可以让你更有效地测试程序。这种方法需要对业务的重点部位非常好的了解。这是TDD很难做到的（这就是我在《[TDD并不是看上去的那么美](/2011/TDD%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%9C%8B%E4%B8%8A%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B9%88%E7%BE%8E.md "TDD并不是看上去的那么美")》一文中说的TDD的测试范围是个很大的问题）。
 
 
 Bob大叔似乎在努力回忆CDD和Eiffel，然后他说，TDD不就是干这个的吗？TDD就是把契约变成单元测试，不但测试输入，也测试返回值，这不就是先验条件和后验条件，而且他说，Unit Test和代码结合得更紧，而契约没有和代码结合得紧密，这是他觉得很不舒服的地方。
 
 
-Coplien说Bob大叔创建了不应该创建的二元论。他说代码在哪里，UT就跟到哪里，代码有多臃肿，UT就有多臃肿，而UT也是代码，也会有BUG，所以，其实这真是事半功倍。还有一个最有名的示例是ADA编译器，其使用了TDD，反而增加了代码中的BUG，因为你的代码多，测试就多，代码就更多，整个代码就太过臃肿。如果你测试中使用了断言，这意味着你就耦合上了代码，你的测试案例和你的代码耦合地越多，你的代码就越难维护。这就是我在《[TDD并不是看上去的那么美](https://coolshell.cn/articles/3649.html "TDD并不是看上去的那么美")》一文中说的TDD的代码臃肿和维护问题）
+Coplien说Bob大叔创建了不应该创建的二元论。他说代码在哪里，UT就跟到哪里，代码有多臃肿，UT就有多臃肿，而UT也是代码，也会有BUG，所以，其实这真是事半功倍。还有一个最有名的示例是ADA编译器，其使用了TDD，反而增加了代码中的BUG，因为你的代码多，测试就多，代码就更多，整个代码就太过臃肿。如果你测试中使用了断言，这意味着你就耦合上了代码，你的测试案例和你的代码耦合地越多，你的代码就越难维护。这就是我在《[TDD并不是看上去的那么美](/2011/TDD%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%9C%8B%E4%B8%8A%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B9%88%E7%BE%8E.md "TDD并不是看上去的那么美")》一文中说的TDD的代码臃肿和维护问题）
 
 
 Bob大叔为Coplien对代码臃肿的说法感到惊讶。Coplien说，这就是他的经历，他看到的。Bob大叔承认有很多混乱的测试和混乱的代码，他觉得像XUnit这样的工具被滥用了。Coplien打断道，这不是要和你争论的，我争论的是这就是我看到大家在实践的东西。
@@ -108,7 +108,7 @@ Coplien对这个问题可能很无语，他只能说——“DD，这是Unix的�
 看完后，我的感觉如下：
 
 
-* 这是2008年就在讨论的事，而在2011年我发布了《[TDD并不是看上去的那么美](https://coolshell.cn/articles/3649.html "TDD并不是看上去的那么美")》后中国这边才开始讨论。（InfoQ和 Thoughtworks怎么不去找Coplien？）
+* 这是2008年就在讨论的事，而在2011年我发布了《[TDD并不是看上去的那么美](/2011/TDD%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%9C%8B%E4%B8%8A%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B9%88%E7%BE%8E.md "TDD并不是看上去的那么美")》后中国这边才开始讨论。（InfoQ和 Thoughtworks怎么不去找Coplien？）
 * 英语很重要，不懂英语，只看国内的东西，你就容易被洗脑，你就需要更多的时间和精力去思考那些早被人思考过的问题。
 * 开发和测试，都是需要充分地了解业务，充分的思考，充分权衡后才能做得好的事。并不是你用了哪个方法后就专业了，就NB了。
 * 相当BS——上不谈业务，下不谈技术，只谈方法论的人和公司，这是绝对的扭曲。

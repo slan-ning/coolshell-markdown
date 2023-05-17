@@ -18,7 +18,7 @@
 
 * 最后一个段落应该是最精彩的，Jeff讲了很多很有意思的东西，绝对让你受用一生：
 	+ 一个大型的系统需要分解成N多的小services.（这和Amazon的很相似，一个页面的调用可能要经过几百个后台的services）
-	+ 代码的性能将会是想当的重要。Jeff给了一张叫“Numbers Everyone Should Know” 的slide，如下所示，我觉得太经典了，其中的东西，如果你看过我的那篇“[**给老婆普及计算机知识**](https://coolshell.cn/articles/3236.html)”，我想我不需要多解释了。（注：1 ns = 十亿分之一秒）
+	+ 代码的性能将会是想当的重要。Jeff给了一张叫“Numbers Everyone Should Know” 的slide，如下所示，我觉得太经典了，其中的东西，如果你看过我的那篇“[**给老婆普及计算机知识**](/2010/%E7%BB%99%E8%80%81%E5%A9%86%E6%99%AE%E5%8F%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86.md)”，我想我不需要多解释了。（注：1 ns = 十亿分之一秒）
 	+ ![](/assets/images/coolshell.cn/wp-content/uploads/2010/11/numberseveryoneshouldknow.png "每一个程序员都应该知道的数字")
 	+ 把相同的东西抽出来去建立一个系统，而不是把所有的事情交给所有的人。他说： “最后的那个功能可能会导致你怎么个系统超出了原有的复杂度”。
 	+ 不要无限制地设计可扩展性。5倍到50倍的扩展性设计足够了。如果你要达到100倍的，那应该是re-arch了。

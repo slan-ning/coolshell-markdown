@@ -2,7 +2,7 @@
 >date: 2019-11-03T14:12:54+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2019/11/ken.dennis-300x186.jpeg)50年前，除了Apollo上天之外，还有一个大事的发生，就是Unix操作系统的诞生，若干年前我写过《Unix的传奇，[上篇](https://coolshell.cn/articles/2322.html)，[下篇](https://coolshell.cn/articles/2324.html)》，Unix是我入行前十年伴我成长的操作系统，虽然现在Linux早已接过了Unix的时代交接棒，但是，Unix文化对我个人的技术观影响是非常大的（注：《[Unix编程艺术](https://book.douban.com/subject/1467587/)》是一本对影响我很深的书），而对于 [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) 和 [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) 这两位 Unix 的缔造者，也是计算机圈中的神一般的人物。今天，Dennis已经去逝，Ken在Google里跟 Rob Pike和 Robert Griesemer 这两位大神在开发Go语言。
+![](/assets/images/coolshell.cn/wp-content/uploads/2019/11/ken.dennis-300x186.jpeg)50年前，除了Apollo上天之外，还有一个大事的发生，就是Unix操作系统的诞生，若干年前我写过《Unix的传奇，[上篇](/2010/Unix%E4%BC%A0%E5%A5%87%28%E4%B8%8A%E7%AF%87%29.md)，[下篇](/2010/Unix%E4%BC%A0%E5%A5%87%28%E4%B8%8B%E7%AF%87%29.md)》，Unix是我入行前十年伴我成长的操作系统，虽然现在Linux早已接过了Unix的时代交接棒，但是，Unix文化对我个人的技术观影响是非常大的（注：《[Unix编程艺术](https://book.douban.com/subject/1467587/)》是一本对影响我很深的书），而对于 [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) 和 [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) 这两位 Unix 的缔造者，也是计算机圈中的神一般的人物。今天，Dennis已经去逝，Ken在Google里跟 Rob Pike和 Robert Griesemer 这两位大神在开发Go语言。
 
 
 P.S. 今年，我一直想写篇Unix 50周年纪念的文章，但一直无从下手，因为不想写过大的命题，如果能写个轶事最好不过。正好过完国庆节，技术圈里有个“热搜”——Ken Thompson的密码。但一直没有时间，所以拖到今天才写下来。

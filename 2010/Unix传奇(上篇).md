@@ -13,7 +13,7 @@
 了解过去，我们才能知其然，更知所以然。总结过去，我们才会知道我们明天该如何去规划，该如何去走。在时间的滚轮中，许许多的东西就像流星一样一闪而逝，而有些东西却能经受着时间的考验散发着经久的魅力，让人津津乐道，流传至今。要知道明天怎么去选择，怎么去做，不是盲目地跟从今天各种各样琳琅满目前沿技术，而应该是去 —— 认认真真地了解和回顾历史。 
 
 
-Unix是目前还在存活的操作系统的元老了，走过了40年的历程（参看《[Unix 40年：Unix年鉴](https://coolshell.cn/articles/1032.html)》、《[Unix 40年：昨天，今天和明天](https://coolshell.cn/articles/1023.html)》）。在技术更新如此迅速的计算机世界的今天，Unix始终保持它那神圣的光环，它那曲折和令人叹息的历史，以及由它引发的思想变革，对当今计算机文化造成的深远影响，这40年所产生的人和事，让它成为了一个传奇，不能不让人为之惊叹。
+Unix是目前还在存活的操作系统的元老了，走过了40年的历程（参看《[Unix 40年：Unix年鉴](/2009/Unix%2040%E5%B9%B4%EF%BC%9AUnix%E5%B9%B4%E9%89%B4.md)》、《[Unix 40年：昨天，今天和明天](/2009/Unix%2040%E5%B9%B4%EF%BC%9A%E6%98%A8%E5%A4%A9%EF%BC%8C%E4%BB%8A%E5%A4%A9%E5%92%8C%E6%98%8E%E5%A4%A9.md)》）。在技术更新如此迅速的计算机世界的今天，Unix始终保持它那神圣的光环，它那曲折和令人叹息的历史，以及由它引发的思想变革，对当今计算机文化造成的深远影响，这40年所产生的人和事，让它成为了一个传奇，不能不让人为之惊叹。
 
 
 这是一段所有从事计算机行业人员尤其是软件开发人员需要了解的历史。Unix的传奇历史是整个计算机世界文化最具代表性的，它对整个计算机世界文化的影响也是最巨大，最深远的。他给人带来的不单单的对过去的回味，更为我们带来了计算机世界的新思潮。
@@ -22,7 +22,7 @@ Unix是目前还在存活的操作系统的元老了，走过了40年的历程�
 了解这段的历史的人，才能体会计算机世界变迁过程中的是是非非，才能了解计算机世界中的文化，从而才能参与到整个计算机革命的大潮中。希望这段历史，这篇文章能让你感受到计算机世界那强力的脉搏，从而让你踏上这条令人充满激情的道路。
 
 
-**[上篇](https://coolshell.cn/articles/2322.html)**
+**[上篇](/2010/Unix%E4%BC%A0%E5%A5%87%28%E4%B8%8A%E7%AF%87%29.md)**
 
 
 * Unix起源
@@ -34,7 +34,7 @@ Unix是目前还在存活的操作系统的元老了，走过了40年的历程�
 
 
 
-**[下篇](https://coolshell.cn/articles/2324.html)**
+**[下篇](/2010/Unix%E4%BC%A0%E5%A5%87%28%E4%B8%8B%E7%AF%87%29.md)**
 
 
 * Unix与黑客文化
@@ -103,7 +103,7 @@ Bill Joy
 这是一个AT&T妄图私有化的Unix的时代。为了私有化Unix，1986年IEEE指定了一个委员会制定了一个一个开放作业系统的标准,称为 POSIX (Portable Operating Systems Interface)。最后加上个X，不知道是为了好听，还是因为这本质上是UNIX的标准。当然，AT&T的Unix取得了这个标准制订战争的胜利，还取得了Unix这个注册商标。此时BSD的拥护者自喻为冷酷无情的公司帝国的反抗军。就销售量来说，AT&T UNIX始终赶不上BSD/Sun。到1990年，AT&T与BSD版本已难明显区分，因为彼此都有采用对方的新发明。
 
 
- 这段时期，从实验室出来的被全世界所分享的Unix，正处于被私有化的关键时期。（这里有一个笑话——《[Alice梦游UNIX仙境](https://coolshell.cn/articles/1439.html)》）
+ 这段时期，从实验室出来的被全世界所分享的Unix，正处于被私有化的关键时期。（这里有一个笑话——《[Alice梦游UNIX仙境](/2009/Alice%E6%A2%A6%E6%B8%B8UNIX%E4%BB%99%E5%A2%83.md)》）
 
 
 ### Unix的法律纠纷
@@ -182,13 +182,13 @@ Linux和GNU关系是比较微妙的。那时，自由软件基金会编写的用
 Linus Torvalds巧妙地跨越了GPL和反GPL的派别之争。他利用GNU工具包搭起了自创的Linux内核，用GPL的传染性质保护它，但拒绝认同Richard Stallman的许可协议反映的思想体系计划。Linus Torvalds明确表示他认为自由软件一般情况下更好，但他偶尔也用专有软件。即使在他自己的事业中，他也拒绝成为狂热分子。这一点极大地吸引了大多数黑客，他们虽然早就反感Richard Stallman的言辞，但他们的怀疑论一直缺个有影响力或者令人信服的代言人。而Linus Torvalds正好充当了这一角色。
 
 
- ![](http://p.blog.csdn.net/images/p_blog_csdn_net/haoel/15190/o_Linus_Torvalds.jpg)Linus Torvalds令人愉快的实用主义及灵活而低调的行事风格，促使黑客文化在1993至1997年间取得了一连串令人惊奇的胜利，不仅仅在技术上的成功，还让围绕Linux操作系统的发行、服务和支持产业有了坚实的开端。结果，他的名望和影响也一飞冲天。Torvalds成为了互联网时代的英雄；到1995年为止，他只用了四年时间就在整个黑客文化界声名显赫，而Richard Stallman为此花了十五年，而且他还远远超过了Stallman向外界贩卖“自由软件”的记录。与Torvalds相比，Richard Stallman的言辞渐渐显得既刺耳又无力。（参看《[Linus Torvalds 语录 Top 10](https://coolshell.cn/articles/1278.html)》）
+ ![](http://p.blog.csdn.net/images/p_blog_csdn_net/haoel/15190/o_Linus_Torvalds.jpg)Linus Torvalds令人愉快的实用主义及灵活而低调的行事风格，促使黑客文化在1993至1997年间取得了一连串令人惊奇的胜利，不仅仅在技术上的成功，还让围绕Linux操作系统的发行、服务和支持产业有了坚实的开端。结果，他的名望和影响也一飞冲天。Torvalds成为了互联网时代的英雄；到1995年为止，他只用了四年时间就在整个黑客文化界声名显赫，而Richard Stallman为此花了十五年，而且他还远远超过了Stallman向外界贩卖“自由软件”的记录。与Torvalds相比，Richard Stallman的言辞渐渐显得既刺耳又无力。（参看《[Linus Torvalds 语录 Top 10](/2009/Linus%20Torvalds%20%E8%AF%AD%E5%BD%95%20Top%2010.md)》）
 
 
-今天，我们也说不清楚是GNU Linux还是Linux GNU。Linux既不排斥开源，也不排斥商业化，Linus认为好的软件是需要免费和商业化共同推进的。正是这种革命性的想法，造就了今天的Linux火红的局面（参看《[谁写了Linux](https://coolshell.cn/articles/1360.html)》、《[Linux基金会的广告](https://coolshell.cn/articles/1283.html)》、《[Linux Distribution Timeline](https://coolshell.cn/articles/85.html)》）。Linux就像一股清泉流入了所有人的心中，引发了很多的启迪和思考。
+今天，我们也说不清楚是GNU Linux还是Linux GNU。Linux既不排斥开源，也不排斥商业化，Linus认为好的软件是需要免费和商业化共同推进的。正是这种革命性的想法，造就了今天的Linux火红的局面（参看《[谁写了Linux](/2009/%E8%B0%81%E5%86%99%E4%BA%86Linux.md)》、《[Linux基金会的广告](/2009/Linux%E5%9F%BA%E9%87%91%E4%BC%9A%E7%9A%84%E5%B9%BF%E5%91%8A.md)》、《[Linux Distribution Timeline](/2009/Linux%20Distribution%20Timeline.md)》）。Linux就像一股清泉流入了所有人的心中，引发了很多的启迪和思考。
 
 
-[**Unix传奇（下篇） >>>>**](https://coolshell.cn/articles/2324.html)
+[**Unix传奇（下篇） >>>>**](/2010/Unix%E4%BC%A0%E5%A5%87%28%E4%B8%8B%E7%AF%87%29.md)
 
 
 ## **(****转载时请注明作者和出处。未经许可，请勿用于商业用途****)**

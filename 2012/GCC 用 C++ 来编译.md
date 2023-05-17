@@ -45,7 +45,7 @@ GNU还给出了下面这些理由：
 * C++ 不是万灵药，他是C的一个改进。
 
 
-然后，给了一个PDF <http://airs.com/ian/cxx-slides.pdf>，这是Google 的[Ian Lance Taylor](http://airs.com/ian/)的的一个PPT，这个文档可以让大家更好地理解我在《[C++的坑多吗？](https://coolshell.cn/articles/7992.html "C++的坑真的多吗？")》一文中那些观点。**我都不知道我要说多少遍C++的封装，继承和多态比C语言在代码组织上要好得多得多**。大家还是自己看一下代码吧：
+然后，给了一个PDF <http://airs.com/ian/cxx-slides.pdf>，这是Google 的[Ian Lance Taylor](http://airs.com/ian/)的的一个PPT，这个文档可以让大家更好地理解我在《[C++的坑多吗？](/2012/C%2B%2B%E7%9A%84%E5%9D%91%E7%9C%9F%E7%9A%84%E5%A4%9A%E5%90%97%EF%BC%9F.md "C++的坑真的多吗？")》一文中那些观点。**我都不知道我要说多少遍C++的封装，继承和多态比C语言在代码组织上要好得多得多**。大家还是自己看一下代码吧：
 
 
 **数据结构的操作 ——** 你写的一定不会有STL好

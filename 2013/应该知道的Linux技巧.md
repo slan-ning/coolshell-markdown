@@ -2,7 +2,7 @@
 >date: 2013-01-09T08:24:29+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2013/01/linux-bash-300x225.jpg)这篇文章来源于Quroa的一个问答《[What are some time-saving tips that every Linux user should know?](https://www.quora.com/Linux/What-are-some-time-saving-tips-that-every-Linux-user-should-know#)》—— Linux用户有哪些应该知道的提高效率的技巧。我觉得挺好的，总结得比较好，把其转过来，并加了一些自己的理解。 首先，我想告诉大家，**在Unix/Linux下，最有效率技巧的不是操作图形界面，而是命令行操作，因为命令行意味着自动化**。如果你看过《[你可能不知道的Shell](https://coolshell.cn/articles/8619.html "你可能不知道的Shell")》以及《[28个Unix/Linux的命令行神器](https://coolshell.cn/articles/7829.html "28个Unix/Linux的命令行神器")》你就会知道Linux有多强大，这个强大完全来自于命令行，于是，就算你不知道怎么去[做一个环保主义的程序员](https://coolshell.cn/articles/7186.html "做个环保主义的程序员")，至少他们可以让你少熬点夜，从而有利于你的身体健康和性生活。下面是一个有点长的列表，正如作者所说，你并不需要知道所有的这些东西，但是如果你还在很沉重地在使用Linux的话，这些东西都值得你看一看。 （注：如果你想知道下面涉及到的命令的更多的用法，你一定要man一点。对于一些命令，你可以需要先yum或apt-get来安装一下，如果有什么问题，别忘了Google。如果你要Baidu的话，我仅代表这个地球上所有的生物包括微生物甚至细菌病毒和小强BS你到宇宙毁灭）
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/01/linux-bash-300x225.jpg)这篇文章来源于Quroa的一个问答《[What are some time-saving tips that every Linux user should know?](https://www.quora.com/Linux/What-are-some-time-saving-tips-that-every-Linux-user-should-know#)》—— Linux用户有哪些应该知道的提高效率的技巧。我觉得挺好的，总结得比较好，把其转过来，并加了一些自己的理解。 首先，我想告诉大家，**在Unix/Linux下，最有效率技巧的不是操作图形界面，而是命令行操作，因为命令行意味着自动化**。如果你看过《[你可能不知道的Shell](/2012/%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84Shell.md "你可能不知道的Shell")》以及《[28个Unix/Linux的命令行神器](/2012/28%E4%B8%AAUnix/Linux%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%A5%9E%E5%99%A8.md "28个Unix/Linux的命令行神器")》你就会知道Linux有多强大，这个强大完全来自于命令行，于是，就算你不知道怎么去[做一个环保主义的程序员](/2012/%E5%81%9A%E4%B8%AA%E7%8E%AF%E4%BF%9D%E4%B8%BB%E4%B9%89%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98.md "做个环保主义的程序员")，至少他们可以让你少熬点夜，从而有利于你的身体健康和性生活。下面是一个有点长的列表，正如作者所说，你并不需要知道所有的这些东西，但是如果你还在很沉重地在使用Linux的话，这些东西都值得你看一看。 （注：如果你想知道下面涉及到的命令的更多的用法，你一定要man一点。对于一些命令，你可以需要先yum或apt-get来安装一下，如果有什么问题，别忘了Google。如果你要Baidu的话，我仅代表这个地球上所有的生物包括微生物甚至细菌病毒和小强BS你到宇宙毁灭）
 
 
 #### 基础
@@ -11,7 +11,7 @@
 * **学习 [Bash](https://www.quora.com/Bash-shell)**。你可以man bash来看看bash的东西，并不复杂也并不长。你用别的shell也行，但是bash是很强大的并且也是系统默认的。（学习zsh或tsch只会让你在很多情况下受到限制）
 
 
-* **学习 vim** 。在Linux下，基本没有什么可与之竞争的编~~译~~辑器（就算你是一个Emacs或Eclipse的重度用户）。你可以看看《[简明vim攻略](/2011/%E7%AE%80%E6%98%8E%20Vim%20%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md "简明 Vim 练级攻略")》和 《[Vim的冒险游戏](https://coolshell.cn/articles/7166.html "游戏：VIM大冒险")》以及《[给程序员的Vim速查卡](https://coolshell.cn/articles/5479.html "给程序员的VIM速查卡")》还有《[把Vim变成一个编程的IDE](https://coolshell.cn/articles/894.html "将vim变得简单:如何在vim中得到你最喜爱的IDE特性")》等等。
+* **学习 vim** 。在Linux下，基本没有什么可与之竞争的编~~译~~辑器（就算你是一个Emacs或Eclipse的重度用户）。你可以看看《[简明vim攻略](/2011/%E7%AE%80%E6%98%8E%20Vim%20%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md "简明 Vim 练级攻略")》和 《[Vim的冒险游戏](/2012/%E6%B8%B8%E6%88%8F%EF%BC%9AVIM%E5%A4%A7%E5%86%92%E9%99%A9.md "游戏：VIM大冒险")》以及《[给程序员的Vim速查卡](/2011/%E7%BB%99%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84VIM%E9%80%9F%E6%9F%A5%E5%8D%A1.md "给程序员的VIM速查卡")》还有《[把Vim变成一个编程的IDE](/2009/%E5%B0%86vim%E5%8F%98%E5%BE%97%E7%AE%80%E5%8D%95%3A%E5%A6%82%E4%BD%95%E5%9C%A8vim%E4%B8%AD%E5%BE%97%E5%88%B0%E4%BD%A0%E6%9C%80%E5%96%9C%E7%88%B1%E7%9A%84IDE%E7%89%B9%E6%80%A7.md "将vim变得简单:如何在vim中得到你最喜爱的IDE特性")》等等。
 
 
 * **了解 ssh**。明白不需要口令的用户认证（通过ssh-agent, ssh-add），学会用ssh翻墙，用scp而不是ftp传文件，等等。你知道吗？scp 远端的时候，你可以按tab键来查看远端的目录和文件（当然，需要无口令的用户认证），这都是bash的功劳。
@@ -60,7 +60,7 @@
 > 
 
 
-* pstree -p 可以帮你显示进程树。（读过我的那篇《[一个fork的面试题](https://coolshell.cn/articles/7965.html "一个fork的面试题")》的人应该都不陌生）
+* pstree -p 可以帮你显示进程树。（读过我的那篇《[一个fork的面试题](/2012/%E4%B8%80%E4%B8%AAfork%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md "一个fork的面试题")》的人应该都不陌生）
 
 
 * 使用 pgrep 和 pkill 来找到或是kill 某个名字的进程。 (-f 选项很有用).
@@ -108,7 +108,7 @@
 * 使用 man ascii 来查看 ASCII 表。
 
 
-* 在远端的 ssh 会话里，使用 screen 或 dtach 来保存你的会话。（参看《[28个Unix/Linux的命令行神器](https://coolshell.cn/articles/7829.html "28个Unix/Linux的命令行神器")》）
+* 在远端的 ssh 会话里，使用 screen 或 dtach 来保存你的会话。（参看《[28个Unix/Linux的命令行神器](/2012/28%E4%B8%AAUnix/Linux%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%A5%9E%E5%99%A8.md "28个Unix/Linux的命令行神器")》）
 
 
 * 要来debug Web，试试curl 和 curl -I 或是 wget 。我觉得debug Web的利器是firebug，curl和wget是用来抓网页的，呵呵。
@@ -206,7 +206,7 @@
 **系统调试**
 
 
-* 如果你想知道磁盘、CPU、或网络状态，你可以使用 iostat, netstat, top (或更好的 htop), 还有 dstat 命令。你可以很快地知道你的系统发生了什么事。关于这方面的命令，还有iftop, iotop等（参看《[28个Unix/Linux的命令行神器](https://coolshell.cn/articles/7829.html "28个Unix/Linux的命令行神器")》）
+* 如果你想知道磁盘、CPU、或网络状态，你可以使用 iostat, netstat, top (或更好的 htop), 还有 dstat 命令。你可以很快地知道你的系统发生了什么事。关于这方面的命令，还有iftop, iotop等（参看《[28个Unix/Linux的命令行神器](/2012/28%E4%B8%AAUnix/Linux%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%A5%9E%E5%99%A8.md "28个Unix/Linux的命令行神器")》）
 
 
 * 要了解内存的状态，你可以使用free和vmstat命令。具体来说，你需要注意 “cached” 的值，这个值是Linux内核占用的内存。还有free的值。
@@ -230,10 +230,10 @@
 * 了解 strace 和 ltrace。这两个命令可以让你查看进程的系统调用，这有助于你分析进程的hang在哪了，怎么crash和failed的。你还可以用其来做性能profile，使用 -c 选项，你可以使用-p选项来attach上任意一个进程。
 
 
-* 了解用ldd命令来检查相关的动态链接库。注意：[ldd的安全问题](https://coolshell.cn/articles/1626.html "ldd 的一个安全问题")
+* 了解用ldd命令来检查相关的动态链接库。注意：[ldd的安全问题](/2009/ldd%20%E7%9A%84%E4%B8%80%E4%B8%AA%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98.md "ldd 的一个安全问题")
 
 
-* 使用gdb来调试一个正在运行的进程或分析core dump文件。参看我写的《[GDB中应该知道的几个调试方法](https://coolshell.cn/articles/3643.html "GDB中应该知道的几个调试方法")》
+* 使用gdb来调试一个正在运行的进程或分析core dump文件。参看我写的《[GDB中应该知道的几个调试方法](/2011/GDB%E4%B8%AD%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84%E5%87%A0%E4%B8%AA%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.md "GDB中应该知道的几个调试方法")》
 
 
 * 学会到 /proc 目录中查看信息。这是一个Linux内核运行时记录的整个操作系统的运行统计和信息，比如： /proc/cpuinfo, /proc/xxx/cwd, /proc/xxx/exe, /proc/xxx/fd/, /proc/xxx/smaps.

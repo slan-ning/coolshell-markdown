@@ -2,7 +2,7 @@
 >date: 2010-09-09T14:27:06+08:00
 
 
-现在做Web上的效果，主要是有三种方法，Flash，Javascript 和 HTML5。Flash就不用多说了，Javascript的效果也[越来越猛](https://coolshell.cn/articles/2785.html)了，如果配上HTML5，那就如虎添翼了。先看看下面的这个HTML5的演示。其使用了HTML5的Canvas元件，把鼠标移上去看看吧（最好在Chrome下浏览）。源链接在[这里](http://rawkes.com/experiments/google-bouncing-balls-canvas/)（在这里展示有点小，还是在那边全屏的看好一点）
+现在做Web上的效果，主要是有三种方法，Flash，Javascript 和 HTML5。Flash就不用多说了，Javascript的效果也[越来越猛](/2010/JS1K%20%E6%BC%94%E7%A4%BA.md)了，如果配上HTML5，那就如虎添翼了。先看看下面的这个HTML5的演示。其使用了HTML5的Canvas元件，把鼠标移上去看看吧（最好在Chrome下浏览）。源链接在[这里](http://rawkes.com/experiments/google-bouncing-balls-canvas/)（在这里展示有点小，还是在那边全屏的看好一点）
 
 
 
@@ -10,9 +10,9 @@
 
 
 
-* 第一块是关于HTML5的功能，你可以查看本站的[这篇文章](https://coolshell.cn/articles/2829.html)以查看相关的HTML5的细节。
+* 第一块是关于HTML5的功能，你可以查看本站的[这篇文章](/2010/%E4%B8%A4%E4%B8%AA%E6%95%99%E7%A8%8B%EF%BC%9ASocket%E5%92%8CHTML5.md)以查看相关的HTML5的细节。
 * 第二块说明了各种浏览器对HTML5的支持，从图中我们可以看到Chrome是支持的最好的。
-* 第三块从价格，功能，应用和效率上比较了HTML5和Flash，可参看本站的《[HTML5 和 Flash 之争](https://coolshell.cn/articles/2735.html "HTML5 和 Flash 之争")》。
+* 第三块从价格，功能，应用和效率上比较了HTML5和Flash，可参看本站的《[HTML5 和 Flash 之争](/2010/HTML5%20%E5%92%8C%20Flash%20%E4%B9%8B%E4%BA%89.md "HTML5 和 Flash 之争")》。
 
 
 [![](/assets/images/coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51-274x300.jpg "为什么HTML什么都要干？")](https://coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51.jpg)为什么HTML什么都要干？（点击看大图）

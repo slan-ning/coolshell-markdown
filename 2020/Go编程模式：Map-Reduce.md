@@ -7,18 +7,18 @@
 
 ### 本文是全系列中第5 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
 
-* [Go编程模式：切片，接口，时间和性能](https://coolshell.cn/articles/21128.html)
-* [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html)
-* [Go 编程模式：Functional Options](https://coolshell.cn/articles/21146.html)
-* [Go编程模式：委托和反转控制](https://coolshell.cn/articles/21214.html)
+* [Go编程模式：切片，接口，时间和性能](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%88%87%E7%89%87%EF%BC%8C%E6%8E%A5%E5%8F%A3%EF%BC%8C%E6%97%B6%E9%97%B4%E5%92%8C%E6%80%A7%E8%83%BD.md)
+* [Go 编程模式：错误处理](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+* [Go 编程模式：Functional Options](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md)
+* [Go编程模式：委托和反转控制](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A7%94%E6%89%98%E5%92%8C%E5%8F%8D%E8%BD%AC%E6%8E%A7%E5%88%B6.md)
 * Go编程模式：Map-Reduce
-* [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html)
-* [Go编程模式：修饰器](https://coolshell.cn/articles/17929.html)
-* [Go编程模式：Pipeline](https://coolshell.cn/articles/21228.html)
-* [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html)
-* [Go编程模式 ： 泛型编程](https://coolshell.cn/articles/21615.html)
+* [Go 编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)
+* [Go编程模式：修饰器](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
+* [Go编程模式：Pipeline](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9APipeline.md)
+* [Go 编程模式：k8s Visitor 模式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md)
+* [Go编程模式 ： 泛型编程](/2021/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%20%EF%BC%9A%20%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B.md)
 
-« [上一篇文章](https://coolshell.cn/articles/21214.html "Go编程模式：委托和反转控制")[下一篇文章](https://coolshell.cn/articles/21179.html "Go 编程模式：Go Generation") »
+« [上一篇文章](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A7%94%E6%89%98%E5%92%8C%E5%8F%8D%E8%BD%AC%E6%8E%A7%E5%88%B6.md "Go编程模式：委托和反转控制")[下一篇文章](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md "Go 编程模式：Go Generation") »
 
 
 目录

@@ -2,7 +2,7 @@
 >date: 2010-10-12T15:34:02+08:00
 
 
-还记得Google发布Go语言没几天就要 [**更名Issue 9**](https://coolshell.cn/articles/1781.html) 的那个事吗？那是2009年11月的事了，差不多一年了，今天Google的Go语言团队终于正式回复这个bug了。
+还记得Google发布Go语言没几天就要 [**更名Issue 9**](/2009/Go%E8%AF%AD%E8%A8%80%E6%9B%B4%E5%90%8DIssue%209%EF%BC%9F.md) 的那个事吗？那是2009年11月的事了，差不多一年了，今天Google的Go语言团队终于正式回复这个bug了。
 
 
 

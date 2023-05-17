@@ -130,7 +130,7 @@ I am a vegetable
 我们可以再发挥一下想像力，你也可以把一个目录，比如你的源代码，作为一个只读的template，和另一个你的working directory给union在一起，然后你就可以做各种修改而不用害怕会把源代码改坏了。有点像一个ad hoc snapshot。
 
 
-Docker把UnionFS的想像力发挥到了容器的镜像。你是否还记得我在[介绍Linux Namespace上篇](https://coolshell.cn/articles/17010.html "Docker基础技术：Linux Namespace（上）")中用mount namespace和chroot山寨了一镜像。现在当你看过了这个UnionFS的技术后，你是不是就明白了，你完全可以用UnionFS这样的技术做出分层的镜像来。
+Docker把UnionFS的想像力发挥到了容器的镜像。你是否还记得我在[介绍Linux Namespace上篇](/2015/Docker%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%EF%BC%9ALinux%20Namespace%EF%BC%88%E4%B8%8A%EF%BC%89.md "Docker基础技术：Linux Namespace（上）")中用mount namespace和chroot山寨了一镜像。现在当你看过了这个UnionFS的技术后，你是不是就明白了，你完全可以用UnionFS这样的技术做出分层的镜像来。
 
 
 下图来自Docker的官方文档[Layer](http://docs.docker.com/terms/layer/)，其很好的展示了Docker用UnionFS搭建的分层镜像。

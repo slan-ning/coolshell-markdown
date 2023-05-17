@@ -8,6 +8,6 @@
 下面是我截的一个图，每个圆代表一个结点，其会通过其它结点下载需要的文件段。结点中间的那个Bar有点类似于eDonkey中的下载进度条。至于为什么要用像彩虹一样的颜色，主要是为了让你看到不同的段是从不同的结点下载的。
 你可以按热键S来加入一个下载完了的结点，用P来加入一下空结点，按R来删除一个结点（有点慢，要等10秒左右吧）。
 [![](/assets/images/coolshell.cn/wp-content/uploads/2010/03/bt_js_demo.jpg "BT工作原理演示动画")](/assets/images/coolshell.cn/wp-content/uploads/2010/03/bt_js_demo.jpg)BT工作原理演示动画
-关于其它Javascript的一些小玩意，你可以看看[这篇文章](https://coolshell.cn/articles/1932.html "哥是玩程序的")。
+关于其它Javascript的一些小玩意，你可以看看[这篇文章](/2009/%E5%93%A5%E6%98%AF%E7%8E%A9%E7%A8%8B%E5%BA%8F%E7%9A%84.md "哥是玩程序的")。
 
 

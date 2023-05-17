@@ -1012,7 +1012,7 @@ str.replace("%USER%", user, Qt::CaseInsensitive); // Qt 4
 
 
 
-> 【译注】：关于这个条目可以看看 CoolShell 这篇文章一些展开的讨论： [千万不要把 BOOL 设计成函数参数](https://coolshell.cn/articles/5444.html)。
+> 【译注】：关于这个条目可以看看 CoolShell 这篇文章一些展开的讨论： [千万不要把 BOOL 设计成函数参数](/2011/%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E6%8A%8A%20bool%20%E8%AE%BE%E8%AE%A1%E6%88%90%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0.md)。
 > 
 > 
 

@@ -5,7 +5,7 @@
 **(本文由[onetwogoo](https://github.com/onetwogoo)投稿)**
 
 
-在《[疫苗：Java HashMap的死循环](https://coolshell.cn/articles/9606.html "疫苗：Java HashMap的死循环")》中，我们看到，java.util.HashMap并不能直接应用于多线程环境。对于多线程环境中应用HashMap，主要有以下几种选择：
+在《[疫苗：Java HashMap的死循环](/2013/%E7%96%AB%E8%8B%97%EF%BC%9AJava%20HashMap%E7%9A%84%E6%AD%BB%E5%BE%AA%E7%8E%AF.md "疫苗：Java HashMap的死循环")》中，我们看到，java.util.HashMap并不能直接应用于多线程环境。对于多线程环境中应用HashMap，主要有以下几种选择：
 
 
 1. 使用线程安全的java.util.Hashtable作为替代。
@@ -16,7 +16,7 @@
 而以上几种方法在实现的具体细节上，都或多或少地用到了互斥锁。互斥锁会造成线程阻塞，降低运行效率，并有可能产生死锁、优先级翻转等一系列问题。
 
 
-CAS(Compare And Swap)是一种底层硬件提供的功能，它可以将判断并更改一个值的操作原子化。关于CAS的一些应用，《[无锁队列的实现](https://coolshell.cn/articles/8239.html "无锁队列的实现")》一文中有很详细的介绍。
+CAS(Compare And Swap)是一种底层硬件提供的功能，它可以将判断并更改一个值的操作原子化。关于CAS的一些应用，《[无锁队列的实现](/2012/%E6%97%A0%E9%94%81%E9%98%9F%E5%88%97%E7%9A%84%E5%AE%9E%E7%8E%B0.md "无锁队列的实现")》一文中有很详细的介绍。
 
 
 

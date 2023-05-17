@@ -2,23 +2,23 @@
 >date: 2021-09-04T13:44:02+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2021/09/go-generics-1024x512.png)Go语言的1.17版本发布了，其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于有了真正的泛型编程了，再也不需要使用反射或是go generation这些难用的技术了。周末的时候，我把Go 1.17下载下来，然后，体验了一下泛型编程，还是很不错的。下面，就让我们来看一下Go的泛型编程。（注：不过，如果你对泛型编程的重要性还不是很了解的话，你可以先看一下之前的这篇文章《[Go编程模式：Go Generation](https://coolshell.cn/articles/21179.html "Go 编程模式：Go Generation")》，然后再读一下《[Go编程模式：MapReduce](https://coolshell.cn/articles/21164.html "Go编程模式：Map-Reduce")》）
+![](/assets/images/coolshell.cn/wp-content/uploads/2021/09/go-generics-1024x512.png)Go语言的1.17版本发布了，其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于有了真正的泛型编程了，再也不需要使用反射或是go generation这些难用的技术了。周末的时候，我把Go 1.17下载下来，然后，体验了一下泛型编程，还是很不错的。下面，就让我们来看一下Go的泛型编程。（注：不过，如果你对泛型编程的重要性还不是很了解的话，你可以先看一下之前的这篇文章《[Go编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md "Go 编程模式：Go Generation")》，然后再读一下《[Go编程模式：MapReduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md "Go编程模式：Map-Reduce")》）
 
 
 ### 本文是全系列中第10 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
 
-* [Go编程模式：切片，接口，时间和性能](https://coolshell.cn/articles/21128.html)
-* [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html)
-* [Go 编程模式：Functional Options](https://coolshell.cn/articles/21146.html)
-* [Go编程模式：委托和反转控制](https://coolshell.cn/articles/21214.html)
-* [Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html)
-* [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html)
-* [Go编程模式：修饰器](https://coolshell.cn/articles/17929.html)
-* [Go编程模式：Pipeline](https://coolshell.cn/articles/21228.html)
-* [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html)
+* [Go编程模式：切片，接口，时间和性能](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%88%87%E7%89%87%EF%BC%8C%E6%8E%A5%E5%8F%A3%EF%BC%8C%E6%97%B6%E9%97%B4%E5%92%8C%E6%80%A7%E8%83%BD.md)
+* [Go 编程模式：错误处理](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+* [Go 编程模式：Functional Options](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AFunctional%20Options.md)
+* [Go编程模式：委托和反转控制](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%A7%94%E6%89%98%E5%92%8C%E5%8F%8D%E8%BD%AC%E6%8E%A7%E5%88%B6.md)
+* [Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md)
+* [Go 编程模式：Go Generation](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AGo%20Generation.md)
+* [Go编程模式：修饰器](/2017/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9A%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
+* [Go编程模式：Pipeline](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9APipeline.md)
+* [Go 编程模式：k8s Visitor 模式](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md)
 * Go编程模式 ： 泛型编程
 
-« [上一篇文章](https://coolshell.cn/articles/21263.html "Go 编程模式：k8s Visitor 模式")
+« [上一篇文章](/2020/Go%20%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9Ak8s%20Visitor%20%E6%A8%A1%E5%BC%8F.md "Go 编程模式：k8s Visitor 模式")
 
 
 目录
@@ -310,7 +310,7 @@ func main(){
 #### 函数式范型
 
 
-接下来，我们就要来看一下我们函数式编程的三大件 `map()` 、 `reduce()` 和 `filter()` 在之前的《[Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html "Go编程模式：Map-Reduce")》文章中，我们可以看到要实现这样的泛型，需要用到反射，代码复杂到完全读不懂。下面来看一下真正的泛型版本。
+接下来，我们就要来看一下我们函数式编程的三大件 `map()` 、 `reduce()` 和 `filter()` 在之前的《[Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md "Go编程模式：Map-Reduce")》文章中，我们可以看到要实现这样的泛型，需要用到反射，代码复杂到完全读不懂。下面来看一下真正的泛型版本。
 
 
 ##### 泛型Map
@@ -451,7 +451,7 @@ print(odds)
 #### 业务示例
 
 
-正如《[Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html "Go编程模式：Map-Reduce")》中的那个业务示例，我们在这里再做一遍。
+正如《[Go编程模式：Map-Reduce](/2020/Go%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%EF%BC%9AMap-Reduce.md "Go编程模式：Map-Reduce")》中的那个业务示例，我们在这里再做一遍。
 
 
 首先，我们先声明一个员工对象和相关的数据

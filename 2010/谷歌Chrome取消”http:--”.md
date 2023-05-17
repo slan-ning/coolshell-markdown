@@ -8,7 +8,7 @@
 [![](/assets/images/coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png "Google Chrome 取消 http://")](/assets/images/coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png)
 
 
-在Google Chrome的开发站点上，又有了一个很热的BUG——[Issue  41467](https://code.google.com/p/chromium/issues/detail?id=41467)（上一次的一热议的BUG是的《[Go语言更名Issue 9](https://coolshell.cn/articles/1781.html)》），这个BUG目前已被关闭。不过在其它地方还在热议中，如：[Reddit.com](http://www.reddit.com/r/programming/comments/bt0oh/issue_41467_url_bar_no_longer_shows_http/)。基本上来说，90%以上的程序员反对的，他们希望Google的Chrome可以给一个设置关闭或打开这一功能。
+在Google Chrome的开发站点上，又有了一个很热的BUG——[Issue  41467](https://code.google.com/p/chromium/issues/detail?id=41467)（上一次的一热议的BUG是的《[Go语言更名Issue 9](/2009/Go%E8%AF%AD%E8%A8%80%E6%9B%B4%E5%90%8DIssue%209%EF%BC%9F.md)》），这个BUG目前已被关闭。不过在其它地方还在热议中，如：[Reddit.com](http://www.reddit.com/r/programming/comments/bt0oh/issue_41467_url_bar_no_longer_shows_http/)。基本上来说，90%以上的程序员反对的，他们希望Google的Chrome可以给一个设置关闭或打开这一功能。
 
 
 一些程序员觉得这是违反了RFC，并且觉得这是在向End User传播一种很不好的东西，那就是网址可以不用http://，这样一来会给程序员增加很多麻烦，比如：他们的程序无法使用http://这一关键字来检查用户的输出，等等。

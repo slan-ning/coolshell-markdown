@@ -43,7 +43,7 @@
 首先，我们需要知道，Lua是类C的，所以，他是大小写字符敏感的。
 
 
-下面是Lua的Hello World。注意：Lua脚本的语句的分号是可选的，这个和[GO语言很类似](https://coolshell.cn/articles/8460.html "Go 语言简介（上）— 语法")。
+下面是Lua的Hello World。注意：Lua脚本的语句的分号是可选的，这个和[GO语言很类似](/2012/Go%20%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%8A%EF%BC%89%E2%80%94%20%E8%AF%AD%E6%B3%95.md "Go 语言简介（上）— 语法")。
 
 
 `print("Hello World")`
@@ -306,7 +306,7 @@ print(power3(5)) --5的3次方
 ##### 函数的返回值
 
 
-和[Go语言一样](https://coolshell.cn/articles/8460.html "Go 语言简介（上）— 语法")，可以一条语句上赋多个值，如：
+和[Go语言一样](/2012/Go%20%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%8A%EF%BC%89%E2%80%94%20%E8%AF%AD%E6%B3%95.md "Go 语言简介（上）— 语法")，可以一条语句上赋多个值，如：
 
 
 `name, age, bGay = "haoel", 37, false, "[[email protected]](/cdn-cgi/l/email-protection)"`
@@ -505,7 +505,7 @@ __call(a, ...)                  对应表达式 a(...)
 #### “面向对象”
 
 
-上面我们看到有\_\_index这个重载，这个东西主要是重载了find key的操作。这操作可以让Lua变得有点面向对象的感觉，让其有点像Javascript的prototype。（关于Javascrip的面向对象，你可以参看我之前写的[Javascript的面向对象](https://coolshell.cn/articles/6441.html "Javascript 面向对象编程")）
+上面我们看到有\_\_index这个重载，这个东西主要是重载了find key的操作。这操作可以让Lua变得有点面向对象的感觉，让其有点像Javascript的prototype。（关于Javascrip的面向对象，你可以参看我之前写的[Javascript的面向对象](/2012/Javascript%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md "Javascript 面向对象编程")）
 
 
 所谓\_\_index，说得明确一点，如果我们有两个对象a和b，我们想让b作为a的prototype只需要：
@@ -622,7 +622,7 @@ local hello = loadfile("hello")
 hello()
 ```
 
-loadfile(“hello”)后，文件并不执行，我们把文件赋给一个变量hello，当hello()时，才真的执行。（我们多希望JavaScript也有这样的功能（参看《[Javascript 装载和执行](https://coolshell.cn/articles/9749.html "Javascript 装载和执行")》））
+loadfile(“hello”)后，文件并不执行，我们把文件赋给一个变量hello，当hello()时，才真的执行。（我们多希望JavaScript也有这样的功能（参看《[Javascript 装载和执行](/2013/Javascript%20%E8%A3%85%E8%BD%BD%E5%92%8C%E6%89%A7%E8%A1%8C.md "Javascript 装载和执行")》））
 
 
 当然，更为标准的玩法如下所示。

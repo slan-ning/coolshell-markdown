@@ -2,7 +2,7 @@
 >date: 2010-12-01T14:08:53+08:00
 
 
-[Groovy](http://groovy.codehaus.org/)是一个基于 Java虚拟机的敏捷 动态语言。构建在强大的Java语言之上 并 添加了从Python，Ruby和Smalltalk等语言中学到的 诸多特征。为Java开发者提供了 现代最流行的编程语言特性，而且学习成本很低（几乎为零）。在以前的酷壳的[五大基于JVM的脚本语言](https://coolshell.cn/articles/2631.html)中也介绍过它。
+[Groovy](http://groovy.codehaus.org/)是一个基于 Java虚拟机的敏捷 动态语言。构建在强大的Java语言之上 并 添加了从Python，Ruby和Smalltalk等语言中学到的 诸多特征。为Java开发者提供了 现代最流行的编程语言特性，而且学习成本很低（几乎为零）。在以前的酷壳的[五大基于JVM的脚本语言](/2010/%E4%BA%94%E5%A4%A7%E5%9F%BA%E4%BA%8EJVM%E7%9A%84%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80.md)中也介绍过它。
 
 
 下面，让我们看看他的一个createArray的实现，请大家前去围观下面的Groovy的trunk上的源码吧。真是很好很强大。

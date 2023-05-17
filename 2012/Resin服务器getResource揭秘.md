@@ -21,7 +21,7 @@
 #### 前言
 
 
-接上文“[由一个问题到Resin ClassLoader的学习](https://coolshell.cn/articles/6112.html "由一个问题到 Resin ClassLoader 的学习")”，本文将以this.getClass().getResource(“/”).getPath()和this.getClass().getResourceAsStream(“/a.txt”)为例，一步步解析加载的过程。
+接上文“[由一个问题到Resin ClassLoader的学习](/2011/%E7%94%B1%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%E5%88%B0%20Resin%20ClassLoader%20%E7%9A%84%E5%AD%A6%E4%B9%A0.md "由一个问题到 Resin ClassLoader 的学习")”，本文将以this.getClass().getResource(“/”).getPath()和this.getClass().getResourceAsStream(“/a.txt”)为例，一步步解析加载的过程。
 
 
 #### 调试环境

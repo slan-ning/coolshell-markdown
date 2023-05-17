@@ -68,6 +68,6 @@ height也设置为0，只有底边了。
 ![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/f.png)
 
 
-这个属于奇技淫巧，但是也说明CSS的强大，没有做不到只有想不到。另外[http://css-tricks.com/examples/ShapesOfCSS/](https://css-tricks.com/examples/ShapesOfCSS/)还能找到很多其他的形状，感兴趣的同学可以自己去看。还有酷壳以前的这篇文章《[CSS实现的各种形状](https://coolshell.cn/articles/5164.html "CSS图形")》
+这个属于奇技淫巧，但是也说明CSS的强大，没有做不到只有想不到。另外[http://css-tricks.com/examples/ShapesOfCSS/](https://css-tricks.com/examples/ShapesOfCSS/)还能找到很多其他的形状，感兴趣的同学可以自己去看。还有酷壳以前的这篇文章《[CSS实现的各种形状](/2011/CSS%E5%9B%BE%E5%BD%A2.md "CSS图形")》
 
 

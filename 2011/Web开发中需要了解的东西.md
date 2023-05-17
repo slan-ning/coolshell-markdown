@@ -2,7 +2,7 @@
 >date: 2011-12-07T08:29:49+08:00
 
 
-在StackExchange上有人问了这样一个问题：[What should every programmer know about web development?](http://programmers.stackexchange.com/questions/46716/what-should-every-programmer-know-about-web-development)（关于Web开发，什么是所有程序员需要知道的？）里面给出的答案非常不错，所以，我翻译转载过来。 顺便说一下，StackExchange真是非常好，大家可以对同一个答案做贡献和修订，看看这个问题的[修订过程](http://programmers.stackexchange.com/posts/46760/revisions)你就知道了——专业的问答网站应该怎么去做。这就是我在这篇文章中也说过[真正的用户体验是什么样的](https://coolshell.cn/articles/5901.html "腾讯，竞争力 和 用户体验")。
+在StackExchange上有人问了这样一个问题：[What should every programmer know about web development?](http://programmers.stackexchange.com/questions/46716/what-should-every-programmer-know-about-web-development)（关于Web开发，什么是所有程序员需要知道的？）里面给出的答案非常不错，所以，我翻译转载过来。 顺便说一下，StackExchange真是非常好，大家可以对同一个答案做贡献和修订，看看这个问题的[修订过程](http://programmers.stackexchange.com/posts/46760/revisions)你就知道了——专业的问答网站应该怎么去做。这就是我在这篇文章中也说过[真正的用户体验是什么样的](/2011/%E8%85%BE%E8%AE%AF%EF%BC%8C%E7%AB%9E%E4%BA%89%E5%8A%9B%20%E5%92%8C%20%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C.md "腾讯，竞争力 和 用户体验")。
 
 
 好了，下面是正文（我对原文做了一些批注，也许不对或有误导，请大家指正）
@@ -34,7 +34,7 @@
 + [Opera](http://www.opera.com/) 浏览器。
 
 
-最后，你可以使用一下[这个工具](http://www.browsershots.org/) 来看看你的网页在不同的浏览器下是怎么被显示出来的（陈皓注：这个工具就是以前本站介绍过的[在不同浏览器和平台上检查你的网站的兼容性](https://coolshell.cn/articles/757.html "如何检查网页浏览器的兼容性")）
+最后，你可以使用一下[这个工具](http://www.browsershots.org/) 来看看你的网页在不同的浏览器下是怎么被显示出来的（陈皓注：这个工具就是以前本站介绍过的[在不同浏览器和平台上检查你的网站的兼容性](/2009/%E5%A6%82%E4%BD%95%E6%A3%80%E6%9F%A5%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.md "如何检查网页浏览器的兼容性")）
 
 
 * 多考虑一下人们是怎么来访问你的网站而不是那些主流的浏览器：手机，读屏软件和搜索引擎，例如：一些Accessibility的东西： [WAI](http://www.w3.org/WAI/) 和  [Section508](https://www.section508.gov/), 移动设备开发：[MobiForge](http://mobiforge.com/).
@@ -77,10 +77,10 @@
 * 永远不要相信用户的输入（包括Cookies，因为那也是用户的输入）
 
 
-* 对用户的口令进行Hash，并使用salt，以防止Rainbow 攻击（陈皓注：Hash算法可用MD5或SHA1等，对口令使用salt的意思是，user 在设定密码时，system 产生另外一个random string(salt)。在datbase 存的​​是与salt + passwd 产的md5sum 及salt。 当要验证密码时就把user 输入的string 加上使用者的salt，产生md5s​​um 来比对。 理论上用salt 可以大幅度让密码更难破解，相同的密码除非刚好salt 相同，最后​​存在database 上的内容是不一样的。google一下md5+salt你可以看到很多文章。关于[Rainbow 攻击](https://en.wikipedia.org/wiki/Rainbow_table)，其意思是很像密码字典表，但不同的是，Rainbow Table存的是已经被Hash过的密码了，而且其查找密码的速度更快，这样可以让攻击非常快）。使用慢一点的Hash算法来保存口令，如 bcrypt (被时间检证过了) 或是 scrypt (更强，但是也更新一些) ([1](http://www.tarsnap.com/scrypt.html), [2](http://it.slashdot.org/comments.pl?sid=1987632&cid=35149842))。你可以阅读一下 [How To Safely Store A Password](http://codahale.com/how-to-safely-store-a-password/)（陈皓注：酷壳以前曾介绍过[bcrypt这个算法](https://coolshell.cn/articles/2078.html "如何防范密码被破解")，这里，我更建议我们应该让用户输入比较强的口令，比如Apple ID注册的过程需要用户输入超过8位，需要有大小写和数字的口令，或是做出类似于[这样的用户体验的东西](https://coolshell.cn/articles/3877.html "另类UX让你输入强口令")）。
+* 对用户的口令进行Hash，并使用salt，以防止Rainbow 攻击（陈皓注：Hash算法可用MD5或SHA1等，对口令使用salt的意思是，user 在设定密码时，system 产生另外一个random string(salt)。在datbase 存的​​是与salt + passwd 产的md5sum 及salt。 当要验证密码时就把user 输入的string 加上使用者的salt，产生md5s​​um 来比对。 理论上用salt 可以大幅度让密码更难破解，相同的密码除非刚好salt 相同，最后​​存在database 上的内容是不一样的。google一下md5+salt你可以看到很多文章。关于[Rainbow 攻击](https://en.wikipedia.org/wiki/Rainbow_table)，其意思是很像密码字典表，但不同的是，Rainbow Table存的是已经被Hash过的密码了，而且其查找密码的速度更快，这样可以让攻击非常快）。使用慢一点的Hash算法来保存口令，如 bcrypt (被时间检证过了) 或是 scrypt (更强，但是也更新一些) ([1](http://www.tarsnap.com/scrypt.html), [2](http://it.slashdot.org/comments.pl?sid=1987632&cid=35149842))。你可以阅读一下 [How To Safely Store A Password](http://codahale.com/how-to-safely-store-a-password/)（陈皓注：酷壳以前曾介绍过[bcrypt这个算法](/2010/%E5%A6%82%E4%BD%95%E9%98%B2%E8%8C%83%E5%AF%86%E7%A0%81%E8%A2%AB%E7%A0%B4%E8%A7%A3.md "如何防范密码被破解")，这里，我更建议我们应该让用户输入比较强的口令，比如Apple ID注册的过程需要用户输入超过8位，需要有大小写和数字的口令，或是做出类似于[这样的用户体验的东西](/2011/%E5%8F%A6%E7%B1%BBUX%E8%AE%A9%E4%BD%A0%E8%BE%93%E5%85%A5%E5%BC%BA%E5%8F%A3%E4%BB%A4.md "另类UX让你输入强口令")）。
 
 
-* [不要试图自己去发明或创造一个自己的fancy的认证系统](http://stackoverflow.com/questions/1581610/how-can-i-store-my-users-passwords-safely/1581919#1581919)，你可能会忽略到一些不容易让你查觉的东西而导致你的站点被hack了。（陈皓注：我在[腾讯那坑爹的申诉系统](https://coolshell.cn/articles/5987.html "如何设计“找回用户帐号”功能")中说过这个事了，我说过这句话——“真正的安全系统是协同整个社会的安全系统做出来的一道安全长城，而不是什么都要自己搞”，当然，很遗憾不是所有的人都能看懂这个事，包括一些资深的人）
+* [不要试图自己去发明或创造一个自己的fancy的认证系统](http://stackoverflow.com/questions/1581610/how-can-i-store-my-users-passwords-safely/1581919#1581919)，你可能会忽略到一些不容易让你查觉的东西而导致你的站点被hack了。（陈皓注：我在[腾讯那坑爹的申诉系统](/2011/%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E2%80%9C%E6%89%BE%E5%9B%9E%E7%94%A8%E6%88%B7%E5%B8%90%E5%8F%B7%E2%80%9D%E5%8A%9F%E8%83%BD.md "如何设计“找回用户帐号”功能")中说过这个事了，我说过这句话——“真正的安全系统是协同整个社会的安全系统做出来的一道安全长城，而不是什么都要自己搞”，当然，很遗憾不是所有的人都能看懂这个事，包括一些资深的人）
 
 
 * 了解 [处理信用卡的一些规则](https://www.pcisecuritystandards.org/) . ([这里也有一个问题你可以查看一下](http://stackoverflow.com/questions/51094/payment-processors-what-do-i-need-to-know-if-i-want-to-accept-credit-cards-on-m)) （陈皓注：有两上vendor可以帮助你，一个是 [Authorize.Net](http://www.authorize.net/) 另一个是 [PayFlow Pro](https://www.paypal.com/cgi-bin/webscr?cmd=_payflow-pro-overview-outside)）
@@ -92,7 +92,7 @@
 * 知道如何对付session 劫持。（陈皓注：请参看wikipedia的这[Session Hijacking](https://en.wikipedia.org/wiki/Session_hijacking)，）
 
 
-* 避免 [跨站脚本攻击](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS)。（陈皓注：参看酷壳站前几天发的《[新浪微博的XSS攻击事件](https://coolshell.cn/articles/4914.html "新浪微博的XSS攻击")》）
+* 避免 [跨站脚本攻击](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS)。（陈皓注：参看酷壳站前几天发的《[新浪微博的XSS攻击事件](/2011/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E7%9A%84XSS%E6%94%BB%E5%87%BB.md "新浪微博的XSS攻击")》）
 
 
 * 避免 [跨站](https://en.wikipedia.org/wiki/Cross-site_request_forgery)[伪造](https://en.wikipedia.org/wiki/Cross-site_request_forgery)[请求攻击 cross site request forgeries](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (XSRF).
@@ -113,7 +113,7 @@
 * 请读一下 [The Web Application Hacker’s Handbook](http://rads.stackoverflow.com/amzn/click/0470170778).
 
 
-* （陈皓注：之前本站的“[一些资源](https://coolshell.cn/articles/5537.html "一些文章资源和趣闻")”提到过[Mozilla的安全编程规范](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines)，还有Ruby on Rails的[Web安全的开发教程](http://guides.rubyonrails.org/security.html)）
+* （陈皓注：之前本站的“[一些资源](/2011/%E4%B8%80%E4%BA%9B%E6%96%87%E7%AB%A0%E8%B5%84%E6%BA%90%E5%92%8C%E8%B6%A3%E9%97%BB.md "一些文章资源和趣闻")”提到过[Mozilla的安全编程规范](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines)，还有Ruby on Rails的[Web安全的开发教程](http://guides.rubyonrails.org/security.html)）
 
 
 #### **性能**
@@ -159,7 +159,7 @@
 * 如果你的动态页面要使用 `#` ，那么请把其改成 `#!` ，而在服务端，你需要处理`$_REQUEST["_escaped_fragment_"]` 这是Google搜索引擎需要的。换句话说，`./#!page=1` 会被Google搜索引擎转成 `./?_escaped_fragments_=page=1。` （陈皓注：通常来说URL中的#后的东西都不会被传到服务器上，所以，为了要让Google可以抓取AJAX的东西，你需要使用#!，而Google会把“#!”转成“\_escaped\_fragment\_”来向服务器发请求，Twitter的大量的链接者是#!的，比如：<https://twitter.com/#!/your_activity>）。另外，用户也许会使用Firefox 或 Chromium， `history.pushState({"foo":"bar"}, "About", "./?page=1");` 是一个很不错的命令。所以，就算是我们的地址栏上的地址改变了，页面也不会重新装载。这可以让你使用 `?` 而不是 `#!` 也能无刷地保住当前的动态的页面，这可以让AJAX的请求被浏览器记住。
 
 
-* 别使用 “click here” 这样的链接。这样一来，无法SEO，而且对于一些需要使用读屏人来说很不友好（陈皓注：关于读屏软件，可参看本站的“[如果看不见你还能编程吗](https://coolshell.cn/articles/5514.html "如果你看不见你还能编程吗？")”）
+* 别使用 “click here” 这样的链接。这样一来，无法SEO，而且对于一些需要使用读屏人来说很不友好（陈皓注：关于读屏软件，可参看本站的“[如果看不见你还能编程吗](/2011/%E5%A6%82%E6%9E%9C%E4%BD%A0%E7%9C%8B%E4%B8%8D%E8%A7%81%E4%BD%A0%E8%BF%98%E8%83%BD%E7%BC%96%E7%A8%8B%E5%90%97%EF%BC%9F.md "如果你看不见你还能编程吗？")”）
 
 
 * 做一个 [XML sitemap](http://www.sitemaps.org/)，并放在网端的根下 `/sitemap.xml`. （陈皓注：这个文件可以让搜索引擎了解你的网站图）
@@ -214,7 +214,7 @@
 * 考虑使用一个 [Reset Style Sheet](http://stackoverflow.com/questions/167531/is-it-ok-to-use-a-css-reset-stylesheet).
 
 
-* 考虑使用 JavaScript 框架(如： [jQuery](http://jquery.com/), [MooTools](http://mootools.net/), [Prototype](http://www.prototypejs.org/), [Dojo](http://dojotoolkit.org/) 或 [YUI 3](http://developer.yahoo.com/yui/3/))，它们会很好的兼容于不同的浏览器。（陈皓注：强烈推荐你看一下本站的[开源中最好的WEB开发资源](https://coolshell.cn/articles/4795.html "开源中最好的Web开发的资源")一文）
+* 考虑使用 JavaScript 框架(如： [jQuery](http://jquery.com/), [MooTools](http://mootools.net/), [Prototype](http://www.prototypejs.org/), [Dojo](http://dojotoolkit.org/) 或 [YUI 3](http://developer.yahoo.com/yui/3/))，它们会很好的兼容于不同的浏览器。（陈皓注：强烈推荐你看一下本站的[开源中最好的WEB开发资源](/2011/%E5%BC%80%E6%BA%90%E4%B8%AD%E6%9C%80%E5%A5%BD%E7%9A%84Web%E5%BC%80%E5%8F%91%E7%9A%84%E8%B5%84%E6%BA%90.md "开源中最好的Web开发的资源")一文）
 
 
 * 把视觉效果和JS框架合在一起讨论，考虑使用一个Service，如：[Google Libraries API](https://code.google.com/apis/libraries/devguide.html) 来装载框架，这样可以让浏览器可能早就把这个JS框架已经cache了而不需要再从你的网站上下载了。
@@ -223,7 +223,7 @@
 #### **Bug fixing**
 
 
-* 明白你会花20%的时间写代码，而80%的时候在维护，所以你要小心编码。（陈皓注：参看本站的“[多些时间可以少些代码](https://coolshell.cn/articles/5686.html "多些时间能少写些代码")”一文）
+* 明白你会花20%的时间写代码，而80%的时候在维护，所以你要小心编码。（陈皓注：参看本站的“[多些时间可以少些代码](/2011/%E5%A4%9A%E4%BA%9B%E6%97%B6%E9%97%B4%E8%83%BD%E5%B0%91%E5%86%99%E4%BA%9B%E4%BB%A3%E7%A0%81.md "多些时间能少写些代码")”一文）
 
 
 * 设计一个好的错误报告机制。

@@ -2,7 +2,7 @@
 >date: 2011-09-07T08:27:26+08:00
 
 
-vim的学习曲线相当的大（参看[各种文本编辑器的学习曲线](https://coolshell.cn/articles/3125.html "主流文本编辑器学习曲线")），所以，如果你一开始看到的是一大堆VIM的命令分类，你一定会对这个编辑器失去兴趣的。下面的文章翻译自《[Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)》，我觉得这是给新手最好的VIM的升级教程了，没有列举所有的命令，只是列举了那些最有用的命令。非常不错。
+vim的学习曲线相当的大（参看[各种文本编辑器的学习曲线](/2010/%E4%B8%BB%E6%B5%81%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9B%B2%E7%BA%BF.md "主流文本编辑器学习曲线")），所以，如果你一开始看到的是一大堆VIM的命令分类，你一定会对这个编辑器失去兴趣的。下面的文章翻译自《[Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)》，我觉得这是给新手最好的VIM的升级教程了，没有列举所有的命令，只是列举了那些最有用的命令。非常不错。
 
 
 ——————————正文开始——————————
@@ -435,7 +435,7 @@ vim的学习曲线相当的大（参看[各种文本编辑器的学习曲线](ht
 ##### 分屏: `:split` 和 `vsplit`.
 
 
-下面是主要的命令，你可以使用VIM的帮助 `:help split`. 你可以参考本站以前的一篇文章[VIM分屏](https://coolshell.cn/articles/1679.html "Vim的分屏功能")。
+下面是主要的命令，你可以使用VIM的帮助 `:help split`. 你可以参考本站以前的一篇文章[VIM分屏](/2009/Vim%E7%9A%84%E5%88%86%E5%B1%8F%E5%8A%9F%E8%83%BD.md "Vim的分屏功能")。
 
 
 
@@ -473,7 +473,7 @@ vim的学习曲线相当的大（参看[各种文本编辑器的学习曲线](ht
 ——————————正文结束——————————
 
 
-对于vi/vim只是点评一点：这是一个你不需要使用鼠标，不需使用小键盘，只需要使用大键盘就可以完成很多复杂功能文本编辑的编辑器。不然，[Visual Studio也不就会有vim的插件了](https://coolshell.cn/articles/1901.html "Visual Studio的Vim插件")。
+对于vi/vim只是点评一点：这是一个你不需要使用鼠标，不需使用小键盘，只需要使用大键盘就可以完成很多复杂功能文本编辑的编辑器。不然，[Visual Studio也不就会有vim的插件了](/2009/Visual%20Studio%E7%9A%84Vim%E6%8F%92%E4%BB%B6.md "Visual Studio的Vim插件")。
 
 
 (全文完)

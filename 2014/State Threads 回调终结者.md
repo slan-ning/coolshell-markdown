@@ -5,7 +5,7 @@
 **（感谢网友**[**@我的上铺叫路遥**](http://weibo.com/fullofbull)**投稿）**
 
 
-上回写了篇[《一个“蝇量级”C语言协程库》](https://coolshell.cn/articles/10975.html "一个“蝇量级” C 语言协程库")，推荐了一下[Protothreads](http://dunkels.com/adam/pt/ "Protothreads")，通过coroutine模拟了用户级别的multi-threading模型，虽然本身足够“轻”，杜绝了系统开销，但这个库本身应用场合主要是内存限制的嵌入式领域，提供原生态组件太少，使用限制太多，比如依赖其它调用产生阻塞等。
+上回写了篇[《一个“蝇量级”C语言协程库》](/2014/%E4%B8%80%E4%B8%AA%E2%80%9C%E8%9D%87%E9%87%8F%E7%BA%A7%E2%80%9D%20C%20%E8%AF%AD%E8%A8%80%E5%8D%8F%E7%A8%8B%E5%BA%93.md "一个“蝇量级” C 语言协程库")，推荐了一下[Protothreads](http://dunkels.com/adam/pt/ "Protothreads")，通过coroutine模拟了用户级别的multi-threading模型，虽然本身足够“轻”，杜绝了系统开销，但这个库本身应用场合主要是内存限制的嵌入式领域，提供原生态组件太少，使用限制太多，比如依赖其它调用产生阻塞等。
 
 
 这回又替大家在开源界淘了个宝，推荐一个轻量级网络应用框架**State Threads**（以下简称ST），总共也就3000行C代码，跟Protothreads不同在于ST针对的就是**高性能可扩展服务器**领域（值得一提的是Protothreads官网[参考链接](http://dunkels.com/adam/pt/links.html "参考链接")上第一条就是ST的官网）。在其[FAQ](http://state-threads.sourceforge.net/docs/faq.html "FAQ")页面上一句引用”Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”可以视为开发人员对ST源码质量的自信。

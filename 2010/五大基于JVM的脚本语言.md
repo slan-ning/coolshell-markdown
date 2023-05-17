@@ -2,7 +2,7 @@
 >date: 2010-07-19T19:40:42+08:00
 
 
-还记得以前本站的一篇文章《[如何在Google App Engine上运行PHP](https://coolshell.cn/articles/531.html)》吗，其实那是借用 [Quercus](http://www.caucho.com/resin-3.0/quercus/)， 一个 100% 的用Java 实现的一个 PHP 引擎。今天，这样的东西太多了，能运行在Java的虚拟机JVM上的程序意味着有天然的跨平台性，现在JVM并不单单只能运行Java程序，在JVM上出现了若干使用Java虚拟机运行的脚本程序，比如什么PHP, Python, Ruby等等，这里有一篇[文章](http://infoworld.com/d/developer-world/top-five-scripting-languages-the-jvm-855)评论了在JVM上的可以运行的排名前五脚本语言。他们分别是：
+还记得以前本站的一篇文章《[如何在Google App Engine上运行PHP](/2009/%E5%A6%82%E4%BD%95%E5%9C%A8Google%20App%20Engine%E4%B8%8A%E8%BF%90%E8%A1%8CPHP.md)》吗，其实那是借用 [Quercus](http://www.caucho.com/resin-3.0/quercus/)， 一个 100% 的用Java 实现的一个 PHP 引擎。今天，这样的东西太多了，能运行在Java的虚拟机JVM上的程序意味着有天然的跨平台性，现在JVM并不单单只能运行Java程序，在JVM上出现了若干使用Java虚拟机运行的脚本程序，比如什么PHP, Python, Ruby等等，这里有一篇[文章](http://infoworld.com/d/developer-world/top-five-scripting-languages-the-jvm-855)评论了在JVM上的可以运行的排名前五脚本语言。他们分别是：
 
 
 1. [**Groovy**](http://groovy.codehaus.org/)。构建在强大的Java语言之上 并添加了从Python，Ruby和Smalltalk等语言中学到的诸多特征，为Java开发者提供了现代最流行的编程语言特性，而且学习成本很低（几乎为零），在开发Web，GUI，数据库或控制台程序时， 通过减少框架性代码 大大提高了开发者的效率。支持单元测试和模拟（对象），可以简化测试。无缝集成 所有已经存在的 Java对象和类库。直接编译成Java字节码，这样可以在任何使用Java的地方 使用Groovy。

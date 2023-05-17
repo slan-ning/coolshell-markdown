@@ -2,7 +2,7 @@
 >date: 2012-05-22T13:32:05+08:00
 
 
-前两天发布那个[rsync算法](https://coolshell.cn/articles/7425.html "rsync 的核心算法")后，想看看数据压缩的算法，知道一个经典的压缩算法Huffman算法。相信大家应该听说过 [David Huffman](https://en.wikipedia.org/wiki/David_A._Huffman "David Huffman") 和他的压缩算法—— [Huffman Code](https://en.wikipedia.org/wiki/Huffman_coding)，一种通过字符出现频率，[Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)，和二叉树来进行的一种压缩算法，这种二叉树又叫Huffman二叉树 —— 一种带权重的树。从学校毕业很长时间的我忘了这个算法，但是网上查了一下，中文社区内好像没有把这个算法说得很清楚的文章，尤其是树的构造，而正好看到一篇国外的文章《[A Simple Example of Huffman Code on a String](http://en.nerdaholyc.com/huffman-coding-on-a-string/)》，其中的例子浅显易懂，相当不错，我就转了过来。注意，我没有对此文完全翻译。
+前两天发布那个[rsync算法](/2012/rsync%20%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95.md "rsync 的核心算法")后，想看看数据压缩的算法，知道一个经典的压缩算法Huffman算法。相信大家应该听说过 [David Huffman](https://en.wikipedia.org/wiki/David_A._Huffman "David Huffman") 和他的压缩算法—— [Huffman Code](https://en.wikipedia.org/wiki/Huffman_coding)，一种通过字符出现频率，[Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)，和二叉树来进行的一种压缩算法，这种二叉树又叫Huffman二叉树 —— 一种带权重的树。从学校毕业很长时间的我忘了这个算法，但是网上查了一下，中文社区内好像没有把这个算法说得很清楚的文章，尤其是树的构造，而正好看到一篇国外的文章《[A Simple Example of Huffman Code on a String](http://en.nerdaholyc.com/huffman-coding-on-a-string/)》，其中的例子浅显易懂，相当不错，我就转了过来。注意，我没有对此文完全翻译。
 
 
 我们直接来看示例，如果我们需要来压缩下面的字符串：

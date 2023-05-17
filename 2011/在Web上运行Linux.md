@@ -18,7 +18,7 @@
 * Javascript的终端本来可以使用[termlib](http://www.masswerk.at/termlib/)，但他还是自己写了一个，因为OS的按键和Web浏览器不一样（[here](http://unixpapa.com/js/key.html)）
 * Linux  使用了2.6.20内核，编译配置在[这里](http://bellard.org/jslinux/config_linux-2.6.20)，并做了一些[小改动](http://bellard.org/jslinux/patch_linux-2.6.20)。
 * 磁盘用的是Ram Disk，在启动的时候装载。其文件系统由[Buildroot](http://buildroot.uclibc.org/) 和[BusyBox](http://www.busybox.net/)产生。
-* 在Home目录下有一个hello.c的程序，你可以使用[TinyCC](http://bellard.org/tcc)编译（tcc，参看酷壳的[这篇文章](https://coolshell.cn/articles/786.html "用TCC可以干些什么？")）
+* 在Home目录下有一个hello.c的程序，你可以使用[TinyCC](http://bellard.org/tcc)编译（tcc，参看酷壳的[这篇文章](/2009/%E7%94%A8TCC%E5%8F%AF%E4%BB%A5%E5%B9%B2%E4%BA%9B%E4%BB%80%E4%B9%88%EF%BC%9F.md "用TCC可以干些什么？")）
 
 
 从这个事我有这些感触，

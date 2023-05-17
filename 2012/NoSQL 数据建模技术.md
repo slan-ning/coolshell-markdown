@@ -30,7 +30,7 @@ NoSQL 数据库经常被用作很多非功能性的地方，如，扩展性，�
 * **Key-Value 键值对存储**是非常简单而强大的。下面的很多技术基本上都是基于这个技术开始发展的。但是，Key-Value有一个非常致命的问题，那就是如果我们需要查找一段范围内的key。（陈皓注：学过hash-table数据结构的人都应该知道，hash-table是非序列容器，其并不像数组，链接，队列这些有序容器，我们可以控制数据存储的顺序）。于是，有序键值 （Ordered Key-Value） 数据模型被设计出来解决这一限制，来从根本上提高数据集的问题。
 
 
-* **Ordered Key-Value 有序键值**模型也非常强大，但是，其也没有对Value提供某种数据模型。通常来说，Value的模型可以由应用负责解析和存取。这种很不方便，于是出现了 BigTable类型的数据库，这个数据模型其实就是map里有map，map里再套map，一层一层套下去，也就是层层嵌套的key-value（value里又是一个key-value），这种数据库的Value主要通过“列族”（column families），列，和时间戳来控制版本。（陈皓注：关于时间戳来对数据的版本控制主要是解决数据存储并发问题，也就是所谓的乐观锁，详见《[多版本并发控制(MVCC)在分布式系统中的应用](https://coolshell.cn/articles/6790.html "多版本并发控制(MVCC)在分布式系统中的应用")》）
+* **Ordered Key-Value 有序键值**模型也非常强大，但是，其也没有对Value提供某种数据模型。通常来说，Value的模型可以由应用负责解析和存取。这种很不方便，于是出现了 BigTable类型的数据库，这个数据模型其实就是map里有map，map里再套map，一层一层套下去，也就是层层嵌套的key-value（value里又是一个key-value），这种数据库的Value主要通过“列族”（column families），列，和时间戳来控制版本。（陈皓注：关于时间戳来对数据的版本控制主要是解决数据存储并发问题，也就是所谓的乐观锁，详见《[多版本并发控制(MVCC)在分布式系统中的应用](/2012/%E5%A4%9A%E7%89%88%E6%9C%AC%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%28MVCC%29%E5%9C%A8%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.md "多版本并发控制(MVCC)在分布式系统中的应用")》）
 
 
 * **Document databases 文档数据库** 改进了 BigTable 模型，并提供了两个有意义的改善。第一个是允许Value中有主观的模式（scheme），而不是map套map。第二个是索引。 **Full Text Search Engines 全文搜索引擎**可以被看作是文档数据库的一个变种，他们可以提供灵活的可变的数据模式（scheme）以及自动索引。他们之间的不同点主要是，文档数据库用字段名做索引，而全文搜索引擎用字段值做索引。
@@ -146,7 +146,7 @@ NoSQL 数据库经常被用作很多非功能性的地方，如，扩展性，�
 * 可以让内部技术上的数据存储更接近于业务实体，特别是那种混合式的业务实体。可能存于一个文档集或是一张表中。
 
 
-下图示意了这两种好处。图中描给了电子商务中的商品模型（陈皓注：我记得我在“[挑战无处不在](https://coolshell.cn/articles/7048.html "挑战无处不在")”一文中说到过电商中产品分类数据库设计的挑战）
+下图示意了这两种好处。图中描给了电子商务中的商品模型（陈皓注：我记得我在“[挑战无处不在](/2012/%E6%8C%91%E6%88%98%E6%97%A0%E5%A4%84%E4%B8%8D%E5%9C%A8.md "挑战无处不在")”一文中说到过电商中产品分类数据库设计的挑战）
 
 * 首先，所有的商品Product都会有一个ID，Price 和 Description。
 
@@ -182,7 +182,7 @@ Entity Aggregation
 ##### (3) 应用层联结 Application Side Joins
 
 
-表联结基本上不被NoSQL支持。正如我们前面所说的，NoSQL是“面向问题”而不是“面向答案”的，不支持表联结就是“面向问题”的后果。表的联结是在设计时被构造出来的，而不是在执行时建造出来的。所以，表联结在运行时是有很大开销的（陈皓注：搞过SQL表联结的都知道笛卡尔积是什么东西，大可以在参看以前酷壳的“[图解数据库表Joins](https://coolshell.cn/articles/3463.html "图解SQL的Join")”），但是在使用了 Denormalization 和 Aggregates 技术后，我们基本不用进行表联结，如：你们使用嵌套式的数据实体。当然，如果你需要联结数据，你需要在应用层完成这个事。下面是几个主要的Use Case：
+表联结基本上不被NoSQL支持。正如我们前面所说的，NoSQL是“面向问题”而不是“面向答案”的，不支持表联结就是“面向问题”的后果。表的联结是在设计时被构造出来的，而不是在执行时建造出来的。所以，表联结在运行时是有很大开销的（陈皓注：搞过SQL表联结的都知道笛卡尔积是什么东西，大可以在参看以前酷壳的“[图解数据库表Joins](/2011/%E5%9B%BE%E8%A7%A3SQL%E7%9A%84Join.md "图解SQL的Join")”），但是在使用了 Denormalization 和 Aggregates 技术后，我们基本不用进行表联结，如：你们使用嵌套式的数据实体。当然，如果你需要联结数据，你需要在应用层完成这个事。下面是几个主要的Use Case：
 
 
 * 多对多的数据实体关系——经常需要被连接或联结。
@@ -206,7 +206,7 @@ Entity Aggregation
 ##### (4) 原子聚合 Atomic Aggregates
 
 
-很多NoSQL的数据库（并不是所有）在事务处理上都是短板。在某些情况下，他们可以通过分布式锁技术或是[应用层管理的MVCC技术](http://highlyscalable.wordpress.com/2012/01/07/mvcc-transactions-key-value/ "Implementation of MVCC Transactions for Key-Value Stores")来实现其事务性（陈皓注：可参看本站的“[多版本并发控制(MVCC)在分布式系统中的应用](https://coolshell.cn/articles/6790.html "多版本并发控制(MVCC)在分布式系统中的应用")”）但是，通常来说只能使用聚合Aggregates技术来保证一些ACID原则。
+很多NoSQL的数据库（并不是所有）在事务处理上都是短板。在某些情况下，他们可以通过分布式锁技术或是[应用层管理的MVCC技术](http://highlyscalable.wordpress.com/2012/01/07/mvcc-transactions-key-value/ "Implementation of MVCC Transactions for Key-Value Stores")来实现其事务性（陈皓注：可参看本站的“[多版本并发控制(MVCC)在分布式系统中的应用](/2012/%E5%A4%9A%E7%89%88%E6%9C%AC%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%28MVCC%29%E5%9C%A8%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.md "多版本并发控制(MVCC)在分布式系统中的应用")”）但是，通常来说只能使用聚合Aggregates技术来保证一些ACID原则。
 
 
 这就是为什么我们的关系型数据库需要有强大的事务处理机制——因为关系型数据库的数据是被规格化存放在了不同的地方。所以，Aggregates聚合允许我们把一个业务实体存成一个文档、存成一行，存成一个key-value，这样就可以原子式的更新了：

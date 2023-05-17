@@ -2,7 +2,7 @@
 >date: 2023-02-12T00:31:16+08:00
 
 
-![](/assets/images/coolshell.cn/wp-content/uploads/2023/02/chatgpt-300x200.jpg)两个月前，我试着想用 ChatGPT 帮我写篇文章《[eBPF 介绍](https://coolshell.cn/articles/22320.html "eBPF 介绍")》，结果错误百出，导致我又要从头改一遍，从那天我觉得 ChatGPT 生成的内容完全不靠谱，所以，从那天开始我说我不会再用 ChatGPT 来写文章（这篇文章不是由 ChatGPT 生成），因为，在试过一段时间后，我对 ChatGTP 有基于如下的认识：
+![](/assets/images/coolshell.cn/wp-content/uploads/2023/02/chatgpt-300x200.jpg)两个月前，我试着想用 ChatGPT 帮我写篇文章《[eBPF 介绍](/2022/eBPF%20%E4%BB%8B%E7%BB%8D.md "eBPF 介绍")》，结果错误百出，导致我又要从头改一遍，从那天我觉得 ChatGPT 生成的内容完全不靠谱，所以，从那天开始我说我不会再用 ChatGPT 来写文章（这篇文章不是由 ChatGPT 生成），因为，在试过一段时间后，我对 ChatGTP 有基于如下的认识：
 
 
 1. **ChatGPT 不是基于事实，是基于语言模型的**，事实对他来说不重要，对他重要的是他能读懂你的问题，并按照一定的套路回答你的问题。

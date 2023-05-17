@@ -2,7 +2,7 @@
 >date: 2012-01-09T08:16:27+08:00
 
 
-Javascript是一个类C的语言，他的面向对象的东西相对于C++/Java比较奇怪，但是其的确相当的强大，在 [Todd 同学](http://www.cnblogs.com/weidagang2046/)的“[对象的消息模型](https://coolshell.cn/articles/5202.html "对象的消息模型")”一文中我们已经可以看到一些端倪了。这两天有个前同事总在问我Javascript面向对象的东西，所以，索性写篇文章让他看去吧，这里这篇文章主要想从一个整体的角度来说明一下Javascript的面向对象的编程。（**成文比较仓促，应该有不准确或是有误的地方，请大家批评指正**）
+Javascript是一个类C的语言，他的面向对象的东西相对于C++/Java比较奇怪，但是其的确相当的强大，在 [Todd 同学](http://www.cnblogs.com/weidagang2046/)的“[对象的消息模型](/2011/%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%B6%88%E6%81%AF%E6%A8%A1%E5%9E%8B.md "对象的消息模型")”一文中我们已经可以看到一些端倪了。这两天有个前同事总在问我Javascript面向对象的东西，所以，索性写篇文章让他看去吧，这里这篇文章主要想从一个整体的角度来说明一下Javascript的面向对象的编程。（**成文比较仓促，应该有不准确或是有误的地方，请大家批评指正**）
 
 
 另，这篇文章主要基于 [ECMAScript 5](http://www.ecma-international.org/publications/standards/Ecma-262.htm)， 旨在介绍新技术。关于兼容性的东西，请看最后一节。

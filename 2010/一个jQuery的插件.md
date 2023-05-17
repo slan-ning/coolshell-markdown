@@ -2,7 +2,7 @@
 >date: 2010-04-14T13:42:36+08:00
 
 
-jQuery这个强大的玩意我就不多说了，不知道可以上网搜搜看。IE6我也不多说了，这可能是史上骂名最多的一个浏览器，网上有N多的声讨IE6的文章，你也可以参看本站的《[9个最常见IE的Bug及其fix](https://coolshell.cn/articles/1817.html)》和《[IE的CSS相关的BUG](https://coolshell.cn/articles/1245.html)》，如果你今天还在用IE6，或是IE类浏览器，那请让我小小的BS你一下。
+jQuery这个强大的玩意我就不多说了，不知道可以上网搜搜看。IE6我也不多说了，这可能是史上骂名最多的一个浏览器，网上有N多的声讨IE6的文章，你也可以参看本站的《[9个最常见IE的Bug及其fix](/2009/9%E4%B8%AA%E6%9C%80%E5%B8%B8%E8%A7%81IE%E7%9A%84Bug%E5%8F%8A%E5%85%B6fix.md)》和《[IE的CSS相关的BUG](/2009/IE%E7%9A%84CSS%E7%9B%B8%E5%85%B3%E7%9A%84BUG.md)》，如果你今天还在用IE6，或是IE类浏览器，那请让我小小的BS你一下。
 
 
 这个jQuery的Plugin可能是有史以来所有plugin中最有个性的一个，因为这个plugin什么也不干，其会用户的IE6版的浏览器直接Crash掉。这个plugin叫jQuery Crash，其网页链接在下面，是一个四星级的插件，仅仅435个字节。

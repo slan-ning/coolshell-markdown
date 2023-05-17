@@ -134,7 +134,7 @@
 * 因为中间的 6bits 决定了一个同一个set，所以，对于一段连续的内存来说，每隔4096的内存会被放在同一个组内，导致缓存冲突。
 
 
-此外，当有数据没有命中缓存的时候，CPU就会以最小为Cache Line的单元向内存更新数据。当然，CPU并不一定只是更新64Bytes，因为访问主存实在是太慢了，所以，一般都会多更新一些。好的CPU会有一些预测的技术，如果找到一种pattern的话，就会预先加载更多的内存，包括指令也可以预加载。这叫 Prefetching 技术 （参看，Wikipedia 的 [Cache Prefetching](https://en.wikipedia.org/wiki/Cache_prefetching) 和 [纽约州立大学的 Memory Prefetching](http://compas.cs.stonybrook.edu/~nhonarmand/courses/sp16/cse502/slides/13-prefetch.pdf)）。比如，你在for-loop访问一个连续的数组，你的步长是一个固定的数，内存就可以做到prefetching。（注：指令也是以预加载的方式执行，参看本站的《[代码执行的效率](https://coolshell.cn/articles/7886.html)》中的第三个示例）
+此外，当有数据没有命中缓存的时候，CPU就会以最小为Cache Line的单元向内存更新数据。当然，CPU并不一定只是更新64Bytes，因为访问主存实在是太慢了，所以，一般都会多更新一些。好的CPU会有一些预测的技术，如果找到一种pattern的话，就会预先加载更多的内存，包括指令也可以预加载。这叫 Prefetching 技术 （参看，Wikipedia 的 [Cache Prefetching](https://en.wikipedia.org/wiki/Cache_prefetching) 和 [纽约州立大学的 Memory Prefetching](http://compas.cs.stonybrook.edu/~nhonarmand/courses/sp16/cse502/slides/13-prefetch.pdf)）。比如，你在for-loop访问一个连续的数组，你的步长是一个固定的数，内存就可以做到prefetching。（注：指令也是以预加载的方式执行，参看本站的《[代码执行的效率](/2012/%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%95%88%E7%8E%87.md)》中的第三个示例）
 
 
 了解这些细节，会有利于我们知道在什么情况下有可以导致缓存的失效。
@@ -143,7 +143,7 @@
 #### 缓存的一致性
 
 
-对于主流的CPU来说，缓存的写操作基本上是两种策略（参看本站《[缓存更新的套路](https://coolshell.cn/articles/17416.html)》），
+对于主流的CPU来说，缓存的写操作基本上是两种策略（参看本站《[缓存更新的套路](/2016/%E7%BC%93%E5%AD%98%E6%9B%B4%E6%96%B0%E7%9A%84%E5%A5%97%E8%B7%AF.md)》），
 
 
 * 一种是Write Back，写操作只要在cache上，然后再flush到内存上。

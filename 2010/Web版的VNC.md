@@ -6,6 +6,6 @@
 
 
 [![](/assets/images/sourceforge.net/dbimage.php "Guacamole")](http://guacamole.sourceforge.net/)Guacamole 一个 HTML5 + JavaScript (AJAX) 的 VNC 客户端
-是啊，HTML5强大了，什么都能干了，[连Flash也要取代了](https://coolshell.cn/articles/2497.html)。现如今，什么事都在往Web上移植了，Chrome也OS了。可以预见在HTML5出来后，未来这样的事情会越来越多，以后的一些移动和掌上设备真的只需要一个Web Browsers.
+是啊，HTML5强大了，什么都能干了，[连Flash也要取代了](/2010/%E6%8A%8AFlash%E8%BD%AC%E6%88%90Javascript/HTML5.md)。现如今，什么事都在往Web上移植了，Chrome也OS了。可以预见在HTML5出来后，未来这样的事情会越来越多，以后的一些移动和掌上设备真的只需要一个Web Browsers.
 
 

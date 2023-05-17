@@ -83,7 +83,7 @@ event.initKeyEvent("keypress", true, true, null, null,
 
 
 1. 你100%确认不会带来阅读上的问题，比如Java的 setVisible (bool).
-2. 你100%确认你想去[写出无法维护很难阅读的代码](https://coolshell.cn/articles/4758.html "如何写出无法维护的代码")。
+2. 你100%确认你想去[写出无法维护很难阅读的代码](/2011/%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E6%97%A0%E6%B3%95%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81.md "如何写出无法维护的代码")。
 
 
 【更新2011/9/8】当然，别的参数也会有一样的问题，比如：`new Textbox(300, 100, false, true);`中的300 和 100，不知道是坐标还是长宽，只不过，一般长度或坐标这样的参数都不会被hard code，都会有变量名，而bool这种参数经常性地被传成true 和 false。 bool参数表现得更为明显一些罢了。

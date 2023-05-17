@@ -2,7 +2,7 @@
 >date: 2012-02-27T08:25:13+08:00
 
 
-**前言:**虽有陈皓[《Javascript 面向对象编程》](https://coolshell.cn/articles/6441.html)珠玉在前，但是我还是忍不住再画蛇添足的补上一篇文章，主要是因为javascript这门语言魅力。另外这篇文章是一篇入门文章，我也是才开始学习Javascript，有一点心得，才想写一篇这样文章，文章中难免有错误的地方，还请各位不吝吐槽指正
+**前言:**虽有陈皓[《Javascript 面向对象编程》](/2012/Javascript%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)珠玉在前，但是我还是忍不住再画蛇添足的补上一篇文章，主要是因为javascript这门语言魅力。另外这篇文章是一篇入门文章，我也是才开始学习Javascript，有一点心得，才想写一篇这样文章，文章中难免有错误的地方，还请各位不吝吐槽指正
 
 
 
@@ -66,7 +66,7 @@ var array1= [ 1,2,3];
 
 数组也是一个对象。  
 
-其他关于对象的基本的概念的描述，还是请各位亲们参见陈皓[《Javascript 面向对象编程》](https://coolshell.cn/articles/6441.html)文章。  
+其他关于对象的基本的概念的描述，还是请各位亲们参见陈皓[《Javascript 面向对象编程》](/2012/Javascript%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)文章。  
 
 对象都有了，唯一没有的就是class，因为在Javascript里面是没有class关键字的，算好还有function，function的存在让我们可以变通的定义类，在扩展这个主题前，我们还需要了解一个Javascript对象最重要的属性，**\_\_proto\_\_**成员。
 
@@ -172,7 +172,7 @@ Base.call(obj);
 
 第二行，我们将这个空对象的\_\_proto\_\_成员指向了Base函数对象prototype成员对象  
 
-第三行，我们将Base函数对象的this指针替换成obj，然后再调用Base函数，于是我们就给obj对象赋值了一个id成员变量，这个成员变量的值是”base”，关于call函数的用法，请参看陈皓[《Javascript 面向对象编程》](https://coolshell.cn/articles/6441.html)文章  
+第三行，我们将Base函数对象的this指针替换成obj，然后再调用Base函数，于是我们就给obj对象赋值了一个id成员变量，这个成员变量的值是”base”，关于call函数的用法，请参看陈皓[《Javascript 面向对象编程》](/2012/Javascript%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)文章  
 
 如果我们给Base.prototype的对象添加一些函数会有什么效果呢？  
 

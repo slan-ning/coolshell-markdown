@@ -91,7 +91,7 @@ for (int i = 0; i < arr.Length; i += 16) arr[i] *= 3;
 #### 示例3：L1和L2缓存大小
 
 
-今天的计算机具有两级或三级缓存，通常叫做L1、L2以及可能的L3（译者注：如果你不明白什么叫二级缓存，可以参考[这篇精悍的博文](https://coolshell.cn/articles/3236.html)lol）。如果你想知道不同缓存的大小，你可以使用系统内部工具[CoreInfo](http://technet.microsoft.com/en-us/sysinternals/cc835722.aspx)，或者Windows API调用[GetLogicalProcessorInfo](http://msdn.microsoft.com/en-us/library/ms683194(VS.85).aspx)。两者都将告诉你缓存行以及缓存本身的大小。
+今天的计算机具有两级或三级缓存，通常叫做L1、L2以及可能的L3（译者注：如果你不明白什么叫二级缓存，可以参考[这篇精悍的博文](/2010/%E7%BB%99%E8%80%81%E5%A9%86%E6%99%AE%E5%8F%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86.md)lol）。如果你想知道不同缓存的大小，你可以使用系统内部工具[CoreInfo](http://technet.microsoft.com/en-us/sysinternals/cc835722.aspx)，或者Windows API调用[GetLogicalProcessorInfo](http://msdn.microsoft.com/en-us/library/ms683194(VS.85).aspx)。两者都将告诉你缓存行以及缓存本身的大小。
 
 
 在我的机器上，CoreInfo现实我有一个32KB的L1数据缓存，一个32KB的L1指令缓存，还有一个4MB大小L2数据缓存。L1缓存是处理器独享的，L2缓存是成对处理器共享的。

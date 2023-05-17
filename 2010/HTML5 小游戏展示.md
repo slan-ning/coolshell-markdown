@@ -134,7 +134,7 @@ TWITCH是一个解题性质的游戏。试试看你有多快。
 ### [Thrust](http://joncom.be/experiments/thrust/)
 
 
-经典的八位图游戏。让我想起了《[史上最烂的超级玛丽](https://coolshell.cn/articles/2834.html "史上最烂的超级玛丽")》
+经典的八位图游戏。让我想起了《[史上最烂的超级玛丽](/2010/%E5%8F%B2%E4%B8%8A%E6%9C%80%E7%83%82%E7%9A%84%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD.md "史上最烂的超级玛丽")》
 
 
 ![](http://blog.insicdesigns.com/wp-content/uploads/2010/09/canvas-13.jpg)

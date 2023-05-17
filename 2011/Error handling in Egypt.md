@@ -2,7 +2,7 @@
 >date: 2011-02-09T08:45:03+08:00
 
 
-以前发布过《[C语言的错误处理](https://coolshell.cn/articles/551.html)》一文，不过今天想说的是Egypt的“错误处理”。埃及的事闹得挺大的，国外和中文twitter上更是炸了锅。不要以为程序员就只会写程序——看看程序员举出来的标语吧。呵呵。
+以前发布过《[C语言的错误处理](/2009/C%E8%AF%AD%E8%A8%80%E4%B8%8B%E7%9A%84%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%E7%9A%84%E9%97%AE%E9%A2%98.md)》一文，不过今天想说的是Egypt的“错误处理”。埃及的事闹得挺大的，国外和中文twitter上更是炸了锅。不要以为程序员就只会写程序——看看程序员举出来的标语吧。呵呵。
 
 
 [![](/assets/images/coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg "Error handling in Egypt")](/assets/images/coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg)Error handling in Egypt

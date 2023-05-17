@@ -5,7 +5,7 @@
 Google 本周一发布了一个新的工作可以让任何人创建Android手机应用。这个工具叫[**Google App Inventor**](http://appinventor.googlelabs.com/)。（目前， App Inventor好像只对教育者开放）Google说：“你不必是一个专业开发人员就能轻松使用App Inventor。使用App Inventor无须掌握编程知识。因为你根本就不需要编写代码，你只需在可视化界面上设计应用的界面，并使用“blocks”指定应用的行为（behavior）。”
 
 
-[![](/assets/images/androidappinventor.jpg "Android App Inventor")](http://appinventor.googlelabs.com/)Google Android App Inventor
+[![](https://coolshell.cn/wp-content/uploads/2010/07/androidappinventor.jpg "Android App Inventor")](http://appinventor.googlelabs.com/)Google Android App Inventor
 注意，Google说的是任何人，也就是包括那些不会编程的人。这个工具可以将枯燥的代码变成了一块一块的拼图，你需要做的只是把这些零散的拼图按照你自己的意思组合在一起，点击生成，你的第一个 Android 程序就诞生了。这里有一篇来自 [纽约时代的报道](http://www.nytimes.com/2010/07/12/technology/12google.html)，《纽约时代》报道称，App Inventor已经在六年级的孩子们中完成测试，他们能够使用App Inventor制作简单的应用。如果你可以访问Youtube的话，你可以看看这个[视频](https://www.youtube.com/watch?v=8ADwPLSFeY8)。
 
 

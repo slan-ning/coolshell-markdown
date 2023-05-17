@@ -129,7 +129,7 @@ body {
 11-[从PSD到HTML，手把手完成WEB设计](http://nettuts.com/site-builds/from-psd-to-html-building-a-set-of-website-designs-step-by-step/)-从Photoshop到完整HTML，全过程手把手教会你。
 
 
-![](/assets/images/css-layouts34.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts34.jpg)
 
 
 例子[查看这里](http://nettuts.s3.amazonaws.com/017_Creatif/Site/index.html) | [下载](http://nettuts.s3.amazonaws.com/017_Creatif/Site_Download.zip)
@@ -141,7 +141,7 @@ body {
 13-[设计一个基于CSS的模板](http://veerle.duoh.com/index.php/blog/comments/designing_a_css_based_template_part_i/) – 这是一个教你创建基于CSS的模板页的基础教程。这个教程由下面几个部分构成：第一部分覆盖了在Photoshop CS\*中的创建导航条按钮，第二部分：创建背景接下来的清单是标题和页面布局，最后的部分在XHTML和CSS中实现。
 
 
-![](/assets/images/css-layouts35.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts35.jpg)
 
 
 [下载](http://homepage.mac.com/vpieters/css_step2/step2_whooshes.mov.zip)
@@ -174,7 +174,7 @@ body {
 19-[Site in an Hour](http://leftjustified.net/site-in-an-hour/)– 使用复杂CCS布局完成简单的工作。
 
 
-![](/assets/images/css-layouts40.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts40.jpg)
 
 
 #### **关于布局的最佳资源**
@@ -186,7 +186,7 @@ body {
 20-[简单CSS页面布局](http://www.maxdesign.com.au/presentation/page_layouts/)– 这里有一套2栏和3栏的CSS布局。
 
 
-![](/assets/images/css-layouts10.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts10.jpg)
 
 
 你可以通过这里查看这些样例 [Liquid three column layout](http://www.maxdesign.com.au/presentation/process/example23.htm), [Left aligned, set width](http://www.maxdesign.com.au/presentation/page_layouts/single04.htm) and [Liquid insanity](http://www.maxdesign.com.au/presentation/liquid/example13.htm).
@@ -288,55 +288,55 @@ body {
 32-[Helldesign](http://helldesign.net/)
 
 
-![](/assets/images/css-layouts5.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts5.jpg)
 
 
 33-[Silverbackapp](http://silverbackapp.com/)
 
 
-![](/assets/images/css-layouts12.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts12.jpg)
 
 
 34-[OS communications informatiques](http://www.os.ca/accueil.php)
 
 
-![](/assets/images/css-layouts13.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts13.jpg)
 
 
 35-[Rockatee](http://rockatee.com/)
 
 
-![](/assets/images/css-layouts14.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts14.jpg)
 
 
 36-[Darrenhoyt](http://www.darrenhoyt.com/)
 
 
-![](/assets/images/css-layouts15.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts15.jpg)
 
 
 37-[Makebetterwebsites](http://www.makebetterwebsites.com/)
 
 
-![](/assets/images/css-layouts16.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts16.jpg)
 
 
 38-[Elitetheme](http://elitetheme.com/)
 
 
-![](/assets/images/css-layouts17.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts17.jpg)
 
 
 39-[Studio7designs](http://www.studio7designs.com/)
 
 
-![](/assets/images/css-layouts18.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts18.jpg)
 
 
 40-[Brightcreative](http://brightcreative.com/)
 
 
-![](/assets/images/css-layouts19.jpg)
+![](https://coolshell.cn/wp-content/uploads/2012/03/css-layouts19.jpg)
 
 
 *(全文完)*

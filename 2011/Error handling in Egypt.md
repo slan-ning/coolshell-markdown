@@ -5,7 +5,7 @@
 以前发布过《[C语言的错误处理](https://coolshell.cn/articles/551.html)》一文，不过今天想说的是Egypt的“错误处理”。埃及的事闹得挺大的，国外和中文twitter上更是炸了锅。不要以为程序员就只会写程序——看看程序员举出来的标语吧。呵呵。
 
 
-[![](/assets/images/Error-handling-in-Egypt.jpg "Error handling in Egypt")](https://coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg)Error handling in Egypt
+[![](https://coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg "Error handling in Egypt")](https://coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg)Error handling in Egypt
 当然，作为程序员来说，这段代码显然还需要重构：  
 
 

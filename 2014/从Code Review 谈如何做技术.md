@@ -2,7 +2,7 @@
 >date: 2014-04-12T16:28:01+08:00
 
 
-![](/assets/images/code_review-225x300.jpg)（这篇文章缘由我的微博，我想多说一些，有些杂乱，想到哪写到哪）
+![](https://coolshell.cn/wp-content/uploads/2014/04/code_review-225x300.jpg)（这篇文章缘由我的微博，我想多说一些，有些杂乱，想到哪写到哪）
 
 
 这两天，在微博上表达了一下Code Review的重要性。因为翻看了阿里内部的Review Board上的记录，从上面发现Code Review做得好的是一些比较偏技术的团队，而偏业务的技术团队基本上没有看到Code Review的记录。当然，这并不能说没有记录他们就没有做Code Review，于是，我就问了一下以前在业务团队做过的同事有没有Code Review，他告诉我不但没有Code Review，而且他认为Code Review没用，因为：

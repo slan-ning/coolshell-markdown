@@ -3,7 +3,7 @@
 
 
 
-[![](/assets/images/ipad.jpg "iPad 进化图")](https://coolshell.cn/wp-content/uploads/2010/02/ipad.jpg)
+[![](https://coolshell.cn/wp-content/uploads/2010/02/ipad.jpg "iPad 进化图")](https://coolshell.cn/wp-content/uploads/2010/02/ipad.jpg)
 
 
 

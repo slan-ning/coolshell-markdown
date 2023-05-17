@@ -207,7 +207,7 @@ https://github.com/login/oauth/authorize?client\_id=7e0a3cd836d3e544dbd9&redirec
 下图是Github上的赏金猎手的排行榜（<https://bounty.github.com/index.html#leaderboard>）你可以上去挨个看看他们找到的问题，你会发现好些安全问题都很小，有些只能说是不是很规范的问题，Github都赏了几百刀。我查看了一下github的赏金政策，github赏金至少100刀，到5000刀不等。
 
 
-![](/assets/images/github_bounty_leaderboard.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/02/github_bounty_leaderboard.jpg)
 
 
 让我们扪心自问一下，我们花了多少时间在玩那些“红包游戏”，而又搞到了多少红包？人家4个小时找了5个bug，挣了$4000美金。**老天给了你我一样的时间，我们用来抽几块钱的红包，人家用自己的技能来挣奖金。这就是人和人的差距。这就是所谓的效率**——你可以移步看看我写的《[加班与效率](https://coolshell.cn/articles/10217.html "加班与效率")》

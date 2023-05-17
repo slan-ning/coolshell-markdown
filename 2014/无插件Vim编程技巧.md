@@ -2,7 +2,7 @@
 >date: 2014-03-24T08:25:29+08:00
 
 
-![](/assets/images/success_vim.jpg)相信大家看过《[简明Vim教程](https://coolshell.cn/articles/5426.html "简明 Vim 练级攻略")》也玩了《[Vim大冒险](https://coolshell.cn/articles/7166.html "游戏：VIM大冒险")》的游戏了，相信大家对Vim都有一个好的入门了。我在这里把我日常用Vim编程的一些技巧列出来给大家看看，希望对大家有用，另外，也是一个抛砖引玉的过程，也希望大家把你们的技巧跟贴一下，我会更新到这篇文章中。另外，这篇文章里的这些技巧全都是vim原生态的，不需要你安装什么插件。**我的Vim的版本是7.2**。
+![](https://coolshell.cn/wp-content/uploads/2014/03/success_vim.jpg)相信大家看过《[简明Vim教程](https://coolshell.cn/articles/5426.html "简明 Vim 练级攻略")》也玩了《[Vim大冒险](https://coolshell.cn/articles/7166.html "游戏：VIM大冒险")》的游戏了，相信大家对Vim都有一个好的入门了。我在这里把我日常用Vim编程的一些技巧列出来给大家看看，希望对大家有用，另外，也是一个抛砖引玉的过程，也希望大家把你们的技巧跟贴一下，我会更新到这篇文章中。另外，这篇文章里的这些技巧全都是vim原生态的，不需要你安装什么插件。**我的Vim的版本是7.2**。
 
 
 

@@ -39,7 +39,7 @@
 好了，我的故事到这里要结束了，先让我们来看一看80后王平的样子吧。
 
 
-![](/assets/images/wpingsuper.jpg "80后——王平")在享受工作的王平，个人博客 http://www.soboom.com
+![](https://coolshell.cn/wp-content/uploads/2011/10/wpingsuper.jpg "80后——王平")在享受工作的王平，个人博客 http://www.soboom.com
 我不知道你看完这个故事后是什么样的感受。我有两个感觉——
 
 

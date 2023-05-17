@@ -2,7 +2,7 @@
 >date: 2013-01-09T08:24:29+08:00
 
 
-![](/assets/images/linux-bash-300x225.jpg)这篇文章来源于Quroa的一个问答《[What are some time-saving tips that every Linux user should know?](https://www.quora.com/Linux/What-are-some-time-saving-tips-that-every-Linux-user-should-know#)》—— Linux用户有哪些应该知道的提高效率的技巧。我觉得挺好的，总结得比较好，把其转过来，并加了一些自己的理解。 首先，我想告诉大家，**在Unix/Linux下，最有效率技巧的不是操作图形界面，而是命令行操作，因为命令行意味着自动化**。如果你看过《[你可能不知道的Shell](https://coolshell.cn/articles/8619.html "你可能不知道的Shell")》以及《[28个Unix/Linux的命令行神器](https://coolshell.cn/articles/7829.html "28个Unix/Linux的命令行神器")》你就会知道Linux有多强大，这个强大完全来自于命令行，于是，就算你不知道怎么去[做一个环保主义的程序员](https://coolshell.cn/articles/7186.html "做个环保主义的程序员")，至少他们可以让你少熬点夜，从而有利于你的身体健康和性生活。下面是一个有点长的列表，正如作者所说，你并不需要知道所有的这些东西，但是如果你还在很沉重地在使用Linux的话，这些东西都值得你看一看。 （注：如果你想知道下面涉及到的命令的更多的用法，你一定要man一点。对于一些命令，你可以需要先yum或apt-get来安装一下，如果有什么问题，别忘了Google。如果你要Baidu的话，我仅代表这个地球上所有的生物包括微生物甚至细菌病毒和小强BS你到宇宙毁灭）
+![](https://coolshell.cn/wp-content/uploads/2013/01/linux-bash-300x225.jpg)这篇文章来源于Quroa的一个问答《[What are some time-saving tips that every Linux user should know?](https://www.quora.com/Linux/What-are-some-time-saving-tips-that-every-Linux-user-should-know#)》—— Linux用户有哪些应该知道的提高效率的技巧。我觉得挺好的，总结得比较好，把其转过来，并加了一些自己的理解。 首先，我想告诉大家，**在Unix/Linux下，最有效率技巧的不是操作图形界面，而是命令行操作，因为命令行意味着自动化**。如果你看过《[你可能不知道的Shell](https://coolshell.cn/articles/8619.html "你可能不知道的Shell")》以及《[28个Unix/Linux的命令行神器](https://coolshell.cn/articles/7829.html "28个Unix/Linux的命令行神器")》你就会知道Linux有多强大，这个强大完全来自于命令行，于是，就算你不知道怎么去[做一个环保主义的程序员](https://coolshell.cn/articles/7186.html "做个环保主义的程序员")，至少他们可以让你少熬点夜，从而有利于你的身体健康和性生活。下面是一个有点长的列表，正如作者所说，你并不需要知道所有的这些东西，但是如果你还在很沉重地在使用Linux的话，这些东西都值得你看一看。 （注：如果你想知道下面涉及到的命令的更多的用法，你一定要man一点。对于一些命令，你可以需要先yum或apt-get来安装一下，如果有什么问题，别忘了Google。如果你要Baidu的话，我仅代表这个地球上所有的生物包括微生物甚至细菌病毒和小强BS你到宇宙毁灭）
 
 
 #### 基础

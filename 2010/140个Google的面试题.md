@@ -4,7 +4,7 @@
 
 来源：<http://blog.seattleinterviewcoach.com/2009/02/140-google-interview-questions.html>（墙）  
 
-![](/assets/images/googlequestion-300x225.jpg "Google 面试题 ")
+![](https://coolshell.cn/wp-content/uploads/2010/12/googlequestion-300x225.jpg "Google 面试题 ")
 
 
 某猎头收集了140多个Google的面试题，都张到他的Blog中了，主要是下面这些职位的，因为被墙，且无任何敏感信息，所以，我原文搬过来了。

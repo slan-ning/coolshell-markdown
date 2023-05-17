@@ -342,7 +342,7 @@ IBM的研究中心对Docker的性能给了一份非常不错的性能报告（PD
 我截了两张图出来，第一张是顺序读写，第二张是随机读写。基本没有什么性能损失的问题。而KVM在随机读写的情况也就有点慢了（但是，如果硬盘是SSD的呢？）
 
 
-[![](/assets/images/docker.seq_.jpg)](https://coolshell.cn/wp-content/uploads/2015/08/docker.seq_.jpg)
+[![](https://coolshell.cn/wp-content/uploads/2015/08/docker.seq_.jpg)](https://coolshell.cn/wp-content/uploads/2015/08/docker.seq_.jpg)
 
 
  
@@ -351,7 +351,7 @@ IBM的研究中心对Docker的性能给了一份非常不错的性能报告（PD
 **顺序读写**
 
 
-[![](/assets/images/docker.rand_.jpg)](https://coolshell.cn/wp-content/uploads/2015/08/docker.rand_.jpg)
+[![](https://coolshell.cn/wp-content/uploads/2015/08/docker.rand_.jpg)](https://coolshell.cn/wp-content/uploads/2015/08/docker.rand_.jpg)
 
 
  

@@ -2,14 +2,14 @@
 >date: 2010-11-22T09:07:36+08:00
 
 
-![](/assets/images/jeff.jpg "Jeff Dean")Google 公司的 [**Jeff Dean**](https://research.google.com/people/jeff/) 在Stanford大学做了一个非常 [**精彩的演讲**](http://stanford-online.stanford.edu/courses/ee380/101110-ee380-300.asx)（视频未墙）。我觉得我们每一个人都应该去看一看这个视频，当然，没有字幕，需要不错的听力，当然，我不可能全部翻译出来，因为我也不是完全能听懂，下面是一些相关的Notes，供你参夸，并欢迎牛人指证。
+![](https://coolshell.cn/wp-content/uploads/2010/11/jeff.jpg "Jeff Dean")Google 公司的 [**Jeff Dean**](https://research.google.com/people/jeff/) 在Stanford大学做了一个非常 [**精彩的演讲**](http://stanford-online.stanford.edu/courses/ee380/101110-ee380-300.asx)（视频未墙）。我觉得我们每一个人都应该去看一看这个视频，当然，没有字幕，需要不错的听力，当然，我不可能全部翻译出来，因为我也不是完全能听懂，下面是一些相关的Notes，供你参夸，并欢迎牛人指证。
 
 
 * 比较了从1999年到2010年十年来的搜索量的变化。搜索量增加了 1000 倍，而搜索速度快了5 倍。1999年，一个网页的更新最多需要一个月到两个月，而今天，只需要几秒钟，足足加快了5w倍。
 * 一开始，这些大量的查询产生了大约30GB的I/O量。2004年，他们考虑过全部重写infrastructure。
 * 讨论了一些关于变量长度字节对齐的东西。
 * 今天的MapReduce 有400万个作业，处理将近1000PB的数据，130PB的中间数据，还有45PB的输出数据。（1PB =1024TB）关于 MapReduce （Google云计算的精髓） 的一些统计，见下图：
-* ![](/assets/images/mapreducestats.jpg "Mapreduce Stats")
+* ![](https://coolshell.cn/wp-content/uploads/2010/11/mapreducestats.jpg "Mapreduce Stats")
 
 
 

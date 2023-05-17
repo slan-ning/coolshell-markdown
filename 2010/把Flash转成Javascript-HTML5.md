@@ -2,7 +2,7 @@
 >date: 2010-06-03T08:29:18+08:00
 
 
-![](/assets/images/splash-html5-flash.jpg)[SmokeScreen](http://smokescreen.us/)是这样一个开源软件，它可以把Flash的swf文件转成Javascript/HTML5，它的口号是：Flash without plugin。为什么要这样做呢？它说主要是因主Apple的iPhone/iPod/iPad不支持flash，而且看似Steve Jobs也不愿意在以后支持flash。所以，他们搞了这样一个玩意。目前，这个开源软件还在开发阶段，在其主页上，你可以看到一些[Demo](http://smokescreen.us/demo/)，在Chrome上看上去很不错，虽然还有一些小问题，不过已经很不错了。
+![](https://coolshell.cn/wp-content/uploads/2010/06/splash-html5-flash.jpg)[SmokeScreen](http://smokescreen.us/)是这样一个开源软件，它可以把Flash的swf文件转成Javascript/HTML5，它的口号是：Flash without plugin。为什么要这样做呢？它说主要是因主Apple的iPhone/iPod/iPad不支持flash，而且看似Steve Jobs也不愿意在以后支持flash。所以，他们搞了这样一个玩意。目前，这个开源软件还在开发阶段，在其主页上，你可以看到一些[Demo](http://smokescreen.us/demo/)，在Chrome上看上去很不错，虽然还有一些小问题，不过已经很不错了。
 
 
 HTML5几乎颠覆了原来的HTML，其可以让你用HTML不单单只是做网页布局，而且还让你可以开发更强的东西，比如：[WebSockets](http://dev.w3.org/html5/websockets/)，使用这项技术，已经有人在搞Web版的Quake 2了（[http://code.google.com/p/quake2-gwt-port/](https://code.google.com/p/quake2-gwt-port/)），还有[Google的3D Javascript API](https://coolshell.cn/articles/599.html)，所以，把swf完美地转成Javscript/HTML5可能也只是一个时间问题。

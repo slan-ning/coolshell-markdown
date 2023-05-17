@@ -8,7 +8,7 @@
 在刚刚结束的 [DEMO Spring 2010](http://demo.com/) 中，执行制作人 Matt Marshall 宣布了获得 DEMO 大奖的各类 IT 产品，以及由大众评选出的最佳产品，作为奖品， DEMO 将为该产品提供价值100万美元的 [IDG](www.idg.com) 广告宣传。以下是各类奖项的归属：
 
 
-[![](/assets/images/Zosh-300x185.jpg)](https://coolshell.cn/wp-content/uploads/2010/03/Zosh.jpg) **移动产品 [Zosh](http://zosh.com/)**
+[![](https://coolshell.cn/wp-content/uploads/2010/03/Zosh-300x185.jpg)](https://coolshell.cn/wp-content/uploads/2010/03/Zosh.jpg) **移动产品 [Zosh](http://zosh.com/)**
 
 
 Zosh 是一个 iPhone 应用。有了Zosh，你无需使用扫描仪或者传真机即可实现对文档签名，Zosh支持的文档格式有：PDF，Office，以及图像文档。点此处查看 *[产品详情](http://mashable.com/2010/03/22/zosh/)*。
@@ -42,7 +42,7 @@ Gwabbit 已经两次获得 DEMO God 奖项。它的新产品 Gwabbit Cloud Sync 
 **消费电子产品 [Phone Halo](http://phonehalo.com/)**
 
 
-[![](/assets/images/Phone_Halo-300x124.jpg)](https://coolshell.cn/wp-content/uploads/2010/03/Phone_Halo.jpg)Phone Halo 通过电子标签来管理你的手机、钥匙和钱包等贵重物品，在你有可能遗失它们的时候发出警报，从而大大降低遗失的概率。 点此处查看 *[产品介绍](http://mashable.com/2010/03/23/phone-halo/)*。
+[![](https://coolshell.cn/wp-content/uploads/2010/03/Phone_Halo-300x124.jpg)](https://coolshell.cn/wp-content/uploads/2010/03/Phone_Halo.jpg)Phone Halo 通过电子标签来管理你的手机、钥匙和钱包等贵重物品，在你有可能遗失它们的时候发出警报，从而大大降低遗失的概率。 点此处查看 *[产品介绍](http://mashable.com/2010/03/23/phone-halo/)*。
 
 
 Phone Halo 的工作方式大致如下：

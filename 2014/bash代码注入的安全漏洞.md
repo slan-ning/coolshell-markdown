@@ -54,7 +54,7 @@ Bash Test
 但随后，马上有人在Twitter上发贴——[说这是一个不完整的fix](https://twitter.com/taviso/statuses/514887394294652929)，并给出了相关的攻击方法。
 
 
-[![](/assets/images/bash-300x153.jpg)](https://twitter.com/taviso/statuses/514887394294652929)
+[![](https://coolshell.cn/wp-content/uploads/2014/09/bash-300x153.jpg)](https://twitter.com/taviso/statuses/514887394294652929)
 
 
 也就是下面这段测试代码（注意，其中的sh在linux下等价于bash）：

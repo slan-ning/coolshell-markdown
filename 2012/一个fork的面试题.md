@@ -109,19 +109,19 @@ $ pstree -p | grep fork
 面对这样的图你可能还是看不懂，没事，我好事做到底，画个图给你看看：
 
 
-![](/assets/images/fork0.jpg.jpg "fork 程序调用图")
+![](https://coolshell.cn/wp-content/uploads/2012/07/fork01jpg.jpg "fork 程序调用图")
 
 
 注意：上图中的我用了几个色彩，相同颜色的是同一个进程。于是，我们的pstree的图示就可以成为下面这个样子：（下图中的颜色与上图对应）
 
 
-![](/assets/images/fork02.jpg "fork进程树")
+![](https://coolshell.cn/wp-content/uploads/2012/07/fork02.jpg "fork进程树")
 
 
 这样，对于printf(“-“);这个语句，我们就可以很清楚的知道，哪个子进程复制了父进程标准输出缓中区里的的内容，而导致了多次输出了。（如下图所示，就是我阴影并双边框了那两个子进程）
 
 
-![](/assets/images/fork03.jpg "fork程序执行图")
+![](https://coolshell.cn/wp-content/uploads/2012/07/fork03.jpg "fork程序执行图")
 
 
 现在你明白了吧。（另，对于图中的我本人拙劣的配色，请见谅!）

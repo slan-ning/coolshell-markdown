@@ -11,7 +11,7 @@
 可是每个入手该键盘的geek都会觉得，这个弱智的设计师把zoom键放在中间干嘛，应该用来当上下滚轮嘛。
 
 
-[![](/assets/images/keyboard.jpg "keyboard")](https://coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg)
+[![](https://coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg "keyboard")](https://coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg)
 
 
 无独有偶，该问题已经被先辈们解决，笔者只搜到了[英文文章](http://paininthetech.com/2006/04/29/hack-the-microsoft-natural-4000-keyboard)

@@ -17,13 +17,14 @@
 
 
 
-* [简介](#_%E7%AE%80%E4%BB%8B " 简介")
-* [clone()系统调用](#clone%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8 "clone()系统调用")
-* [UTS Namespace](#UTS_Namespace "UTS Namespace")
-* [IPC Namespace](#IPC_Namespace "IPC Namespace")
-* [PID Namespace](#PID_Namespace "PID Namespace")
-* [Mount Namespace](#Mount_Namespace "Mount Namespace")
-* [Docker的 Mount Namespace](#Docker%E7%9A%84_Mount_Namespace "Docker的 Mount Namespace")
+- [Docker基础技术：Linux Namespace（上）](#docker基础技术linux-namespace上)
+      - [ 简介](#简介)
+      - [clone()系统调用](#clone系统调用)
+      - [UTS Namespace](#uts-namespace)
+      - [IPC Namespace](#ipc-namespace)
+      - [PID Namespace](#pid-namespace)
+      - [Mount Namespace](#mount-namespace)
+      - [Docker的 Mount Namespace](#docker的-mount-namespace)
 
 ####  简介
 
@@ -345,7 +346,7 @@ diskstats  keys         mtrr        sysrq-trigger
 下图，我们也可以看到在子进程中的top命令只看得到两个进程了。
 
 
-![](/assets/images/mount.namespace.jpg)
+![](https://coolshell.cn/wp-content/uploads/2015/04/mount.namespace.jpg)
 
 
 这里，多说一下。在通过CLONE\_NEWNS创建mount namespace后，父进程会把自己的文件结构复制给子进程中。而子进程中新的namespace中的所有mount操作都只影响自身的文件系统，而不对外界产生任何影响。这样可以做到比较严格地隔离。

@@ -15,7 +15,7 @@
 * 第三块从价格，功能，应用和效率上比较了HTML5和Flash，可参看本站的《[HTML5 和 Flash 之争](https://coolshell.cn/articles/2735.html "HTML5 和 Flash 之争")》。
 
 
-[![](/assets/images/WTF_HTML51-274x300.jpg "为什么HTML什么都要干？")](https://coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51.jpg)为什么HTML什么都要干？（点击看大图）
+[![](https://coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51-274x300.jpg "为什么HTML什么都要干？")](https://coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51.jpg)为什么HTML什么都要干？（点击看大图）
 比较方面，关于价格，虽然Flash Player是免费的，但是开发工具是收费的，最重要的是，HTML5不是公司的产品，不存在垄断。在功能方面，目前当然是Flash很强，因为其图形处理能力很强，这点HTML5不如。在通用性方面，Flash是以插件的方式，而HTML5是浏览器支持的。当然，在性能方面，Javascript的方式对于CPU消耗地太猛了，这点Flash优势就很大了。
 
 

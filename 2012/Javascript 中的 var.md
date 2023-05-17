@@ -48,7 +48,7 @@ function test()
 **JSLint( <http://www.jslint.com/> )**，一个JS代码质量的分析工具，我们把上述stackoverflow的代码copy到JSLint这个在线工具中，我们可以看到下面的报告：
 
 
-![](/assets/images/jslint.jpg "jslint")
+![](https://coolshell.cn/wp-content/uploads/2012/05/jslint.jpg "jslint")
 
 
 这个报告说明了源码中的那些变量的情况。

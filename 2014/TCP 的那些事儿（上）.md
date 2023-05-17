@@ -2,7 +2,7 @@
 >date: 2014-05-28T08:15:36+08:00
 
 
-![](/assets/images/tin-can-phone.jpg)TCP是一个巨复杂的协议，因为他要解决很多问题，而这些问题又带出了很多子问题和阴暗面。所以学习TCP本身是个比较痛苦的过程，但对于学习的过程却能让人有很多收获。关于TCP这个协议的细节，我还是推荐你去看[W.Richard Stevens](http://www.kohala.com/start/)的《[TCP/IP 详解 卷1：协议](http://book.douban.com/subject/1088054/)》（当然，你也可以去读一下[RFC793](http://tools.ietf.org/html/rfc793)以及后面N多的RFC）。另外，本文我会使用英文术语，这样方便你通过这些英文关键词来查找相关的技术文档。
+![](https://coolshell.cn/wp-content/uploads/2014/05/tin-can-phone.jpg)TCP是一个巨复杂的协议，因为他要解决很多问题，而这些问题又带出了很多子问题和阴暗面。所以学习TCP本身是个比较痛苦的过程，但对于学习的过程却能让人有很多收获。关于TCP这个协议的细节，我还是推荐你去看[W.Richard Stevens](http://www.kohala.com/start/)的《[TCP/IP 详解 卷1：协议](http://book.douban.com/subject/1088054/)》（当然，你也可以去读一下[RFC793](http://tools.ietf.org/html/rfc793)以及后面N多的RFC）。另外，本文我会使用英文术语，这样方便你通过这些英文关键词来查找相关的技术文档。
 
 
 之所以想写这篇文章，目的有三个，
@@ -51,7 +51,7 @@
 接下来，我们来看一下TCP头的格式
 
 
-![](/assets/images/TCP-Header-01.jpg)TCP头格式（[图片来源](http://nmap.org/book/tcpip-ref.html)）
+![](https://coolshell.cn/wp-content/uploads/2014/05/TCP-Header-01.jpg)TCP头格式（[图片来源](http://nmap.org/book/tcpip-ref.html)）
 
 
 你需要注意这么几点：
@@ -69,7 +69,7 @@
 关于其它的东西，可以参看下面的图示
 
 
-![](/assets/images/TCP-Header-02.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/05/TCP-Header-02.jpg)
 
 
 （[图片来源](http://nmap.org/book/tcpip-ref.html)）
@@ -84,7 +84,7 @@
 下面是：“**TCP协议的状态机**”（[图片来源](http://www.tcpipguide.com/free/t_TCPOperationalOverviewandtheTCPFiniteStateMachineF-2.htm)） 和 “**TCP建链接**”、“**TCP断链接**”、“**传数据**” 的对照图，我把两个图并排放在一起，这样方便在你对照着看。另外，下面这两个图非常非常的重要，你一定要记牢。（吐个槽：看到这样复杂的状态机，就知道这个协议有多复杂，复杂的东西总是有很多坑爹的事情，所以TCP协议其实也挺坑爹的）
 
 
-![](/assets/images/tcpfsm.png) ![](https://coolshell.cn/wp-content/uploads/2014/05/tcp_open_close.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/05/tcpfsm.png) ![](https://coolshell.cn/wp-content/uploads/2014/05/tcp_open_close.jpg)
 
 
 很多人会问，为什么建链接要3次握手，断链接需要4次挥手？
@@ -143,7 +143,7 @@
 下图是我从Wireshark中截了个我在访问coolshell.cn时的有数据传输的图给你看一下，SeqNum是怎么变的。（使用Wireshark菜单中的Statistics ->Flow Graph… ）
 
 
-![](/assets/images/tcp_data_seq_num.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/05/tcp_data_seq_num.jpg)
 
 
 你可以看到，**SeqNum的增加是和传输的字节数相关的**。上图中，三次握手后，来了两个Len:1440的包，而第二个包的SeqNum就成了1441。然后第一个ACK回的是1441，表示第一个1440收到了。
@@ -201,7 +201,7 @@ Fast Retransmit只解决了一个问题，就是timeout的问题，它依然面
 另外一种更好的方式叫：**Selective Acknowledgment (SACK)**（参看[RFC 2018](http://tools.ietf.org/html/rfc2018)），这种方式需要在TCP头里加一个SACK的东西，ACK还是Fast Retransmit的ACK，SACK则是汇报收到的数据碎版。参看下图：
 
 
-![](/assets/images/tcp_sack_example-1024x577.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/05/tcp_sack_example-1024x577.jpg)
 
 
 这样，在发送端就可以根据回传的SACK来知道哪些数据到了，哪些没有到。于是就优化了Fast Retransmit的算法。当然，这个协议需要两边都支持。在 Linux下，可以通过**tcp\_sack**参数打开这个功能（Linux 2.4后默认打开）。

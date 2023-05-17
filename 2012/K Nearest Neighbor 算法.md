@@ -85,7 +85,7 @@ Wikipedia上的[KNN词条](https://en.wikipedia.org/wiki/K-nearest_neighbor_algo
 假设我们有下面一组数据，假设X是流逝的秒数，Y值是随时间变换的一个数值（你可以想像是股票值）
 
 
-![](/assets/images/KNN_TimeSeries_clip_image004.jpg "KNN_TimeSeries_clip_image004")
+![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image004.jpg "KNN_TimeSeries_clip_image004")
 
 
 那么，当时间是6.5秒的时候，Y值会是多少呢？我们可以用KNN算法来预测之。
@@ -94,7 +94,7 @@ Wikipedia上的[KNN词条](https://en.wikipedia.org/wiki/K-nearest_neighbor_algo
 这里，让我们假设K=2，于是我们可以计算所有X点到6.5的距离，如：X=5.1，距离是 | 6.5 – 5.1 | = 1.4， X = 1.2 那么距离是 | 6.5 – 1.2 | = 5.3 。于是我们得到下面的表：
 
 
-![](/assets/images/KNN_TimeSeries_clip_image006.jpg "KNN_TimeSeries_clip_image006")
+![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image006.jpg "KNN_TimeSeries_clip_image006")
 
 
 注意，上图中因为K=2，所以得到X=4 和 X =5.1的点最近，得到的Y的值分别为27和8，在这种情况下，我们可以简单的使用平均值来计算：![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image008.gif "KNN_TimeSeries_clip_image008")
@@ -103,7 +103,7 @@ Wikipedia上的[KNN词条](https://en.wikipedia.org/wiki/K-nearest_neighbor_algo
 于是，最终预测的数值为：17.5
 
 
-![](/assets/images/KNN_TimeSeries_clip_image010.jpg "KNN_TimeSeries_clip_image010")
+![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image010.jpg "KNN_TimeSeries_clip_image010")
 
 
 **注：[示例来自这里](http://people.revoledu.com/kardi/tutorial/KNN/KNN_TimeSeries.htm)，[KNN\_TimeSeries Excel表格下载](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries.xls)**
@@ -115,19 +115,19 @@ Wikipedia上的[KNN词条](https://en.wikipedia.org/wiki/K-nearest_neighbor_algo
 KNN算法还可以用来做平滑曲线用，这个用法比较另类。假如我们的样本数据如下（和上面的一样）：
 
 
-![](/assets/images/KNN_TimeSeries_clip_image012.jpg "KNN_TimeSeries_clip_image012")
+![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image012.jpg "KNN_TimeSeries_clip_image012")
 
 
 要平滑这些点，我们需要在其中插入一些值，比如我们用步长为0.1开始插值，从0到6开始，计算到所有X点的距离（绝对值），下图给出了从0到0.5 的数据：
 
 
-![](/assets/images/KNN_TimeSeries_clip_image014.jpg "KNN_TimeSeries_clip_image014")
+![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image014.jpg "KNN_TimeSeries_clip_image014")
 
 
 下图给出了从2.5到3.5插入的11个值，然后计算他们到各个X的距离，假值K=4，那么我们就用最近4个X的Y值，然后求平均值，得到下面的表：
 
 
-![](/assets/images/KNN_TimeSeries_clip_image016.jpg "KNN_TimeSeries_clip_image016")
+![](https://coolshell.cn/wp-content/uploads/2012/08/KNN_TimeSeries_clip_image016.jpg "KNN_TimeSeries_clip_image016")
 
 
 于是可以从0.0, 0.1, 0.2, 0.3 …. 1.1, 1.2, 1.3…..3.1, 3.2…..5.8, 5.9, 6.0 一个大表，跟据K的取值不同，得到下面的图：

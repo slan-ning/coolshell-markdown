@@ -110,7 +110,7 @@ ajax.send(null);
 一运行，还是不行，没见IE报什么错，不过，可以确定这不是jQuery的问题了，估计还是我们自己程序的问题。不过此时的程序太好调试了，调试中，在IE9下调式发现原生的IE的Ajax对象在onreadystatechange函数里，其responseText是下面这个样子：
 
 
-![](/assets/images/ajax_error.jpg "ajax error in ie")
+![](https://coolshell.cn/wp-content/uploads/2012/08/ajax_error.jpg "ajax error in ie")
 
 
 什么是“**系统错误: -1072896658**”？上[google一查](https://www.google.com/#hl=zh-CN&newwindow=1&q=ajax+%22%E7%B3%BB%E7%BB%9F%E9%94%99%E8%AF%AF:+-1072896658%22&oq=ajax+%22%E7%B3%BB%E7%BB%9F%E9%94%99%E8%AF%AF:+-1072896658%22)，一堆页面，基本上是说乱码了，也就是ajax的后端程序返回的网页编码不认识吧。需要在返回的http header里加上 charset=utf-8。

@@ -5,7 +5,7 @@
 先是在微博上看到了个[微博](http://weibo.com/1876004965/zueproucp)和云风的评论，然后我回了“楼主对C的内存管理不了解”。
 
 
-[![](/assets/images/weibo.jpg)](https://coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)
+[![](https://coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)](https://coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)
 
 
 后来引发了很多人的讨论，大量的人又借机来黑C++，比如：

@@ -8,7 +8,7 @@
 点击“Generate config file”，你可以看到生成的Emacs配色配置。
 
 
-![](/assets/images/emacs_color_theme.jpg "Emacs Color Theme Creator")
+![](https://coolshell.cn/wp-content/uploads/2010/03/emacs_color_theme.jpg "Emacs Color Theme Creator")
 
 
 

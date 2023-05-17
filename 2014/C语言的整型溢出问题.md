@@ -250,7 +250,7 @@ if ((uintptr_t)data + len < (uintptr_t)data){
 关于这个事，你可以看一下C99的规范说明《 [ISO/IEC 9899:1999 C specification](http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1124.pdf) 》第 §6.5.6 页，第8点，我截个图如下：（这段话的意思是定义了指针+/-一个整型的行为，如果越界了，则行为是undefined）
 
 
-![](/assets/images/c99.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/04/c99.jpg)
 
 
 注意上面标红线的地方，说如果指针指在数组范围内没事，如果越界了就是undefined，也就是说这事交给编译器实现了，编译器想咋干咋干，那怕你想把其优化掉也可以。在这里要重点说一下，**C语言中的一个大恶魔—— Undefined! 这里都是“野兽出没”的地方，你一定要小心小心再小心**。
@@ -344,7 +344,7 @@ fatal("You are in a maze of twisty compiler features, all different");
 在《[苹果安全编码规范](https://developer.apple.com/library/ios/documentation/Security/Conceptual/SecureCodingGuide/SecureCodingGuide.pdf)》（PDF）中，第28页的代码中：
 
 
-![](/assets/images/apple_security_code.jpg)
+![](https://coolshell.cn/wp-content/uploads/2014/04/apple_security_code.jpg)
 
 
 如果n和m都是signed int，那么这段代码是错的。正确的应该像上面的那个例子一样，至少要在n*m时要把 n 和 m 给 cast 成 size\_t。因为，n*m可能已经溢出了，已经undefined了，undefined的代码转成size\_t已经没什么意义了。（如果m和n是unsigned int，也会溢出），上面的代码仅在m和n是size\_t的时候才有效。

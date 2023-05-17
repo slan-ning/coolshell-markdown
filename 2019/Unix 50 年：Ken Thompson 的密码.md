@@ -71,7 +71,7 @@ tty::504:50::/:/bin/tty我
 马上，就有人问到，这个密码是不是国际象棋的走棋？嗯，很像中国象棋中的“车五进一”，“马三退一”，这个密码中的 `p` 代表 `pawn` 小兵，从 `q2` 的位置走到 `q4`，这个看来是国际象棋中的开局进兵——用来做登录密码，非常合适。而且，Ken Thompson 在 Unix中写下的一个国际象棋的程序 [Belle](https://en.wikipedia.org/wiki/Belle_(chess_machine))，在1978年首次参加[计算机协会的北美计算机国际象棋锦标赛](https://en.wikipedia.org/wiki/North_American_Computer_Chess_Championship)时，它获得了第一个冠军头衔，其搜索深度为八层。之后又赢得了四次冠军。1983年，它也成为第一台获得国际象棋“大师”称号的计算机。所以，Ken用这个做密码相当make sense!
 
 
-![](/assets/images/ken.chess_.jpg)Ken在贝尔实验室调程序（图片来源：[IEEE SPECTRUM](https://spectrum.ieee.org/tech-history/silicon-revolution/in-1983-this-bell-labs-computer-was-the-first-machine-to-become-a-chess-master)）
+![](https://coolshell.cn/wp-content/uploads/2019/11/ken.chess_.jpg)Ken在贝尔实验室调程序（图片来源：[IEEE SPECTRUM](https://spectrum.ieee.org/tech-history/silicon-revolution/in-1983-this-bell-labs-computer-was-the-first-machine-to-become-a-chess-master)）
 
 
 当然，还有一个人的密码是所有人里最难破解的，这个人就是[Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy)，他最初作为加州大学伯克利分校的研究生，在校期间着手改进Unix 内核，并管理BSD发行版。他最著名的贡献是ex和vi编辑器以及C shell。在Sun公司成立6个月后，他正式成为公司的联合创始人，他在Sun公司的推动了NFS，SPARC处理器，以及Java语言。他还是一个风险投资人员。

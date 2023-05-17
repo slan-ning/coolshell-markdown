@@ -12,34 +12,35 @@
 
 
 
-* [dstat & sar](#dstat_sar "dstat & sar")
-* [slurm](#slurm "slurm")
-* [vim & emacs](#vim_emacs "vim & emacs")
-* [screen, dtach, tmux, byobu](#screen_dtach_tmux_byobu "screen, dtach, tmux, byobu")
-* [multitail](#multitail "multitail")
-* [tpp](#tpp "tpp")
-* [xargs & parallel](#xargs_parallel "xargs & parallel")
-* [duplicity & rsyncrypto](#duplicity_rsyncrypto "duplicity & rsyncrypto")
-* [nethack & slash’em](#nethack_slash%E2%80%99em "nethack & slash’em")
-* [lftp](#lftp "lftp")
-* [ack](#ack "ack")
-* [calcurse & remind + wyrd](#calcurse_remind_wyrd "calcurse & remind + wyrd")
-* [newsbeuter & rsstail](#newsbeuter_rsstail "newsbeuter & rsstail")
-* [powertop](#powertop "powertop")
-* [htop & iotop](#htop_iotop "htop & iotop")
-* [ttyrec & ipbt](#ttyrec_ipbt "ttyrec & ipbt")
-* [rsync](#rsync "rsync")
-* [mtr](#mtr "mtr")
-* [socat & netpipes](#socat_netpipes "socat & netpipes")
-* [iftop & iptraf](#iftop_iptraf "iftop & iptraf")
-* [siege & tsung](#siege_tsung "siege & tsung")
-* [ledger](#ledger "ledger")
-* [taskwarrior](#taskwarrior "taskwarrior")
-* [curl](#curl "curl")
-* [rtorrent & aria2](#rtorrent_aria2 "rtorrent & aria2")
-* [ttytter & earthquake](#ttytter_earthquake "ttytter & earthquake")
-* [vifm & ranger](#vifm_ranger "vifm & ranger")
-* [cowsay & sl](#cowsay_sl "cowsay & sl")
+- [28个Unix-Linux的命令行神器](#28个unix-linux的命令行神器)
+      - [dstat \& sar](#dstat--sar)
+      - [slurm](#slurm)
+      - [vim \& emacs](#vim--emacs)
+      - [screen, dtach, tmux, byobu](#screen-dtach-tmux-byobu)
+      - [multitail](#multitail)
+      - [tpp](#tpp)
+      - [xargs \& parallel](#xargs--parallel)
+      - [duplicity \& rsyncrypto](#duplicity--rsyncrypto)
+      - [nethack \& slash’em](#nethack--slashem)
+      - [lftp](#lftp)
+      - [ack](#ack)
+      - [calcurse \& remind + wyrd](#calcurse--remind--wyrd)
+      - [newsbeuter \& rsstail](#newsbeuter--rsstail)
+      - [powertop](#powertop)
+      - [htop \& iotop](#htop--iotop)
+      - [ttyrec \& ipbt](#ttyrec--ipbt)
+      - [rsync](#rsync)
+      - [mtr](#mtr)
+      - [socat \& netpipes](#socat--netpipes)
+      - [iftop \& iptraf](#iftop--iptraf)
+      - [siege \& tsung](#siege--tsung)
+      - [ledger](#ledger)
+      - [taskwarrior](#taskwarrior)
+      - [curl](#curl)
+      - [rtorrent \& aria2](#rtorrent--aria2)
+      - [ttytter \& earthquake](#ttytter--earthquake)
+      - [vifm \& ranger](#vifm--ranger)
+      - [cowsay \& sl](#cowsay--sl)
 
 #### dstat & sar
 
@@ -118,7 +119,7 @@ iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《
 
 
 
-[**byobu**](https://launchpad.net/byobu/)是Ubuntu开发的，在Screen的基础上进行包装，使其更加易用的一个工具。最新的Byobu，已经是基于Tmux作为后端了。可通过“byobu-tmux”这个命令行前端来接受各种与tmux一模一样的参数来控制它。Byobu的细节做的非常好，效果图如下：![](/assets/images/byobu-tmux.jpg "byobu-tmux")
+[**byobu**](https://launchpad.net/byobu/)是Ubuntu开发的，在Screen的基础上进行包装，使其更加易用的一个工具。最新的Byobu，已经是基于Tmux作为后端了。可通过“byobu-tmux”这个命令行前端来接受各种与tmux一模一样的参数来控制它。Byobu的细节做的非常好，效果图如下：![](https://coolshell.cn/wp-content/uploads/2012/07/byobu-tmux.jpg "byobu-tmux")
 
 
 
@@ -476,7 +477,7 @@ Encrypting backup tools.
 ![ttytter screenshot](https://coolshell.cn/wp-content/uploads/2012/07/ttytter_screenshot.png)
 
 
-![](/assets/images/earthquake.jpg "earthquake")
+![](https://coolshell.cn/wp-content/uploads/2012/07/earthquake.jpg "earthquake")
 
 
 
@@ -513,7 +514,7 @@ Encrypting backup tools.
  sl是什么？ls？，呵呵，你会经常把ls 打成sl吗？如果是的话，这个东西可以让你娱乐一下，你会看到一辆火车呼啸而过~~，相当拉风。你可以使用sudo apt-get install sl 安装。
 
 
-![](/assets/images/sl.jpg "sl")
+![](https://coolshell.cn/wp-content/uploads/2012/07/sl.jpg "sl")
 
 
 最后，再介绍一个命令中linuxlogo，你可以使用 sudo apt-get install linuxlogo来安装，然后，就可以使用linuxlogo -L  
@@ -521,7 +522,7 @@ Encrypting backup tools.
 来看一下各种Linux的logo了
 
 
-![](/assets/images/linuxlogo.jpg "linuxlogo")
+![](https://coolshell.cn/wp-content/uploads/2012/07/linuxlogo.jpg "linuxlogo")
 
 
 （全文完）

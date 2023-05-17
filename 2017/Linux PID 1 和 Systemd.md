@@ -184,7 +184,7 @@ Lennart 认为，实现上来说，`upstart` 其实是在管理一个逻辑上�
 这个争议大到什么样子呢？2014 年，Debian Linux 因为想准备使用 `systemd` 来作为标准的 init 守护进程来替换 `sysvinit` 。而围绕这个事的争论达到了空前的热度，争论中充满着仇恨，`systemd` 的支持者和反对者都在互相辱骂，导致当时 Debian 阵营开始分裂。还有人给 Lennart 发了死亡威胁的邮件，用比特币雇凶买杀手，扬言要取他的性命，在Youbute上传了侮辱他的歌曲，在IRC和各种社交渠道上给他发下流和侮辱性的消息。这已经不是争议了，而是一种不折不扣的仇恨！
 
 
-![](/assets/images/systemd_shewantsit.jpg)
+![](https://coolshell.cn/wp-content/uploads/2017/07/systemd_shewantsit.jpg)
 
 
 于是，Lennart 在 [Google Plus 上发了贴子](https://plus.google.com/+LennartPoetteringTheOneAndOnly/posts/J2TZrTvu7vd)，批评整个 Linux 开源社区和 Linus 本人。他大意说，

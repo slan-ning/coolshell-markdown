@@ -78,7 +78,7 @@ K-Means算法主要解决的问题如下图所示。我们可以看到，在图�
 这三个公式的求中心点有一些不一样的地方，我们看下图（对于第一个 λ 在 0-1之间）。
 
 
-![](/assets/images/Minkowski-Mean.jpg "Minkowski Mean")   ![](/assets/images/Euclidean-distance.jpg "Euclidean distance")  ![](/assets/images/Manhattan-distance.jpg "Manhattan distance")
+![](https://coolshell.cn/wp-content/uploads/2012/06/Minkowski-Mean.jpg "Minkowski Mean")   ![](https://coolshell.cn/wp-content/uploads/2012/06/Euclidean-distance.jpg "Euclidean distance")  ![](https://coolshell.cn/wp-content/uploads/2012/06/Manhattan-distance.jpg "Manhattan distance")
 
 
 **（1）Minkowski Distance     （2）**Euclidean Distance    （3） **CityBlock Distance******

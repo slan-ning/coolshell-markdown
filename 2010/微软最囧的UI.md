@@ -8,13 +8,13 @@
 我打开了一个比较大的图片，有点太大了，我想缩小一下看看，很好，微软在菜单项里供了Zoom选项，其中有一个Custom（自定义），挺不错的。
 
 
-![](/assets/images/ms-paint-custom-menu.jpg)
+![](https://coolshell.cn/wp-content/uploads/2010/08/ms-paint-custom-menu.jpg)
 
 
 但是，当我看到这个自定义的对话框后，我彻底无语了，大哥你是怎么想的啊……
 
 
 
-![](/assets/images/ms-paint-custom-diag.jpg)
+![](https://coolshell.cn/wp-content/uploads/2010/08/ms-paint-custom-diag.jpg)
 
 

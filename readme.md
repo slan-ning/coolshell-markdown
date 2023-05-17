@@ -2,7 +2,9 @@
 
 这里是[酷壳https://coolshell.cn](https://coolshell.cn/)的markdown 版本备份。抓取了酷壳（左耳朵耗子 陈皓的知名技术博客）的全量文章，转成了markdown格式用git仓库的方式永久保存。并对图片，链接进行了本地化。
 
-建议clone仓库到本地，配合vscode+ Markdown插件进行阅读. 文章按年份为目录进行了归类。
+建议clone仓库到本地，配合vscode+ Markdown插件进行阅读. 
+
+文章按年份为目录进行了归类。
 
 ![](assets/20230517231205.png)
 

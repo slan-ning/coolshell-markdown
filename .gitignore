@@ -2,3 +2,4 @@
 *.py
 *.pickle
 *.html
+.DS_Store

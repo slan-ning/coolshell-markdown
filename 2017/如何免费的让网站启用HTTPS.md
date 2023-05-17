@@ -2,7 +2,7 @@
 >date: 2017-08-26T14:06:17+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/08/enable-https-banner.png)今天，我把CoolShell变成https的安全访问了。我承认这件事有点晚了，因为之前的HTTP的问题也有网友告诉我，被国内的电信运营商在访问我的网站时加入了一些弹窗广告。另外，HTTP的网站在搜索引擎中的rank会更低。所以，这事早就应该干了。现在用HTTP访问CoolShell会被得到一个 301 的HTTPS的跳转。下面我分享一下启用HTTPS的过程。
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/08/enable-https-banner.png)今天，我把CoolShell变成https的安全访问了。我承认这件事有点晚了，因为之前的HTTP的问题也有网友告诉我，被国内的电信运营商在访问我的网站时加入了一些弹窗广告。另外，HTTP的网站在搜索引擎中的rank会更低。所以，这事早就应该干了。现在用HTTP访问CoolShell会被得到一个 301 的HTTPS的跳转。下面我分享一下启用HTTPS的过程。
 
 
 我用的是 [Let’s Encrypt](https://letsencrypt.org)这个免费的解决方案。Let’s Encrypt 是一个于2015年推出的数字证书认证机构，将通过旨在消除当前手动创建和安装证书的复杂过程的自动化流程，为安全网站提供免费的SSL/TLS证书。这是由[互联网安全研究小组](https://letsencrypt.org/isrg/)（ISRG – Internet Security Research Group，一个公益组织）提供的服务。主要赞助商包括[电子前哨基金会](https://www.eff.org "电子前哨基金会")，[Mozilla基金会](https://www.mozilla.org/foundation/ "Mozilla基金会")，[Akamai](https://www.akamai.com/ "Akamai")以及Cisco等公司（[赞助商列表](https://letsencrypt.org/sponsors/)）。

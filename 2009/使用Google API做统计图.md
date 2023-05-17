@@ -16,7 +16,7 @@ Google提供了一个的统计图的API。你可以通过构造一个URL链接�
 
 我们就可能通过如下的HTML代码显示一个60:40的饼图：  
 
-![](https://chart.apis.google.com/chart?cht=p3&chd=t:60,40&chs=250x100&chl=酷壳|Cocre)
+![](/assets/images/chart.apis.google.com/chart)
 
 
 Google的这个API支持的统计图风格相当的多。

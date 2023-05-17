@@ -2,7 +2,7 @@
 >date: 2022-02-13T12:28:47+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2022/02/http_method-300x169.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2022/02/http_method-300x169.png)
 
 
 写这篇文章的原因主要还是因为V2EX上的这个[贴子](https://www.v2ex.com/t/830030?p=1)，这个贴子中说——
@@ -232,7 +232,7 @@ HTTP的动词（或是Method）是在协议头中，所以，其主要用于控�
 **希望大家都能尊重自己从事的这个职业，成为真正的职业化的程序员，而不是一个码农！**
 
 
-![](https://coolshell.cn/wp-content/uploads/2022/02/quote-your-job-gives-you-authority-your-behavior-gives-you-respect-irwin-federman-73-55-75.jpeg)你的工作给你权力，而只有你的行为才会给你尊重
+![](/assets/images/coolshell.cn/wp-content/uploads/2022/02/quote-your-job-gives-you-authority-your-behavior-gives-you-respect-irwin-federman-73-55-75.jpeg)你的工作给你权力，而只有你的行为才会给你尊重
 （全文完）
 
 

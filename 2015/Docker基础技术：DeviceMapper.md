@@ -2,7 +2,7 @@
 >date: 2015-08-26T08:21:09+08:00
 
 
-![how_to_set_up_an_iSCSI_LUN_with_thin](https://coolshell.cn/wp-content/uploads/2015/08/how_to_set_up_an_iSCSI_LUN_with_thin-300x150.jpg)在上一篇[介绍AUFS的文章](https://coolshell.cn/articles/17061.html)中，大家可以看到，Docker的分层镜像是怎么通过UnionFS这种文件系统做到的，但是，因为Docker首选的AUFS并不在Linux的内核主干里，所以，对于非Ubuntu的Linux分发包，比如CentOS，就无法使用AUFS作为Docker的文件系统了。于是作为第二优先级的DeviceMapper就被拿出来做分层镜像的一个实现。
+![how_to_set_up_an_iSCSI_LUN_with_thin](/assets/images/coolshell.cn/wp-content/uploads/2015/08/how_to_set_up_an_iSCSI_LUN_with_thin-300x150.jpg)在上一篇[介绍AUFS的文章](https://coolshell.cn/articles/17061.html)中，大家可以看到，Docker的分层镜像是怎么通过UnionFS这种文件系统做到的，但是，因为Docker首选的AUFS并不在Linux的内核主干里，所以，对于非Ubuntu的Linux分发包，比如CentOS，就无法使用AUFS作为Docker的文件系统了。于是作为第二优先级的DeviceMapper就被拿出来做分层镜像的一个实现。
 
 
 
@@ -36,7 +36,7 @@ DeviceMapper 中的逻辑设备Mapped Device不但可以映射一个或多个物
 DeviceMapper在内核中通过一个一个模块化的 Target Driver 插件实现对 IO 请求的过滤或者重新定向等工作，当前已经实现的插件包括软 Raid、加密、多路径、镜像、快照等，这体现了在 Linux 内核设计中策略和机制分离的原则。如下图所示。从图中，我们可以**看到DeviceMapper只是一个框架，在这个框架上，我们可以插入各种各样的策略**（让我不自然地想到了面向对象中的策略模式），在这诸多“插件”中，**有一个东西叫Thin Provisioning Snapshot，这是Docker使用DeviceMapper中最重要的模块**。
 
 
-![图片来源：http://people.redhat.com/agk/talks/FOSDEM_2005/](https://coolshell.cn/wp-content/uploads/2015/08/device.mapper.2.gif)图片来源：<http://people.redhat.com/agk/talks/FOSDEM_2005/>
+![图片来源：http://people.redhat.com/agk/talks/FOSDEM_2005/](/assets/images/coolshell.cn/wp-content/uploads/2015/08/device.mapper.2.gif)图片来源：<http://people.redhat.com/agk/talks/FOSDEM_2005/>
 #### **Thin Provisioning 简介**
 
 
@@ -49,7 +49,7 @@ Thin Provisioning要怎么翻译成中文，真是一件令人头痛的事，我
 好了，话题拉回来，我们这里说的是存储。看下面两个图（[图片来源](http://www.architecting.it/2009/06/04/enterprise-computing-why-thin-provisioning-is-not-the-holy-grail-for-utilisation/)），第一个是Fat Provisioning，第二个是Thin Provisioning，其很好的说明了是个怎么一回事（和虚拟内存是一个概念）
 
 
-![thin-provisioning-1](https://coolshell.cn/wp-content/uploads/2015/08/thin-provisioning-1.jpg) ![thin-provisioning-2](https://coolshell.cn/wp-content/uploads/2015/08/thin-provisioning-2.jpg)
+![thin-provisioning-1](/assets/images/coolshell.cn/wp-content/uploads/2015/08/thin-provisioning-1.jpg) ![thin-provisioning-2](/assets/images/coolshell.cn/wp-content/uploads/2015/08/thin-provisioning-2.jpg)
 
 
 那么，Docker是怎么使用Thin Provisioning这个技术做到像UnionFS那样的分层镜像的呢？答案是，Docker使用了Thin Provisioning的Snapshot的技术。下面我们来介绍一下Thin Provisioning的Snapshot。
@@ -382,13 +382,13 @@ Thin Provisioning的文档中说，这还处理实验阶段，不要上Productio
 另外，Jeff Atwood在Twitter上发过这样的一推
 
 
-[![Jeff.Atwood.DeviceMapper](https://coolshell.cn/wp-content/uploads/2015/08/Jeff.Atwood.DeviceMapper.png)](https://twitter.com/codinghorror/status/604096348682485760)
+[![Jeff.Atwood.DeviceMapper](/assets/images/coolshell.cn/wp-content/uploads/2015/08/Jeff.Atwood.DeviceMapper.png)](https://twitter.com/codinghorror/status/604096348682485760)
 
 
 这个推指向的[这个讨论](https://forums.docker.com/t/rmi-not-freeing-disk-space-in-devicemapper-sparse-file-centos-6-6/1640/3)中，其中指向了这个[code diff](https://github.com/discourse/discourse_docker/commit/48f22d14f39496c8df446cbc65ee04b258c5a1a0)，基本上就是说，DeviceMapper这种东西问题太多了，我们应该把其加入黑名单。Doker的Founder也这样回复到：
 
 
-[![](https://coolshell.cn/wp-content/uploads/2015/08/Solomon.Hykeys.DeviceMapper.png)](https://twitter.com/solomonstre/status/604055267303636992)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2015/08/Solomon.Hykeys.DeviceMapper.png)](https://twitter.com/solomonstre/status/604055267303636992)
 
 
 所以，如果你在使用loopback的devicemapper的话，当你的存储出现了问题后，正确的解决方案是：

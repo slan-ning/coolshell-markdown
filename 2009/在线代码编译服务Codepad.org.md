@@ -15,10 +15,10 @@ Codepad.org是一个很有意思的网站，它的主页很简单，左边是可
 目前这个网站支持下面这样语言——C，C++，D，Haskell，Lua，OCaml，PHP，Perl，Plain Text，Python，Ruby，Scheme，Tcl。（没有Java）
 
 
-当我打开这个网页的时候，我立马想到了《[6个变态的C语言Hello World程序](https://coolshell.cn/articles/914.html "作者：耗子  --  521 次点击")》，然后就取了其中一个上去试了一下，果然方便啊。的确是相当的省事啊，不需要打开编译器或IDE，不需要建工程，不需要存成文件，太方便了。
+当我打开这个网页的时候，我立马想到了《[6个变态的C语言Hello World程序](/2009/6%E4%B8%AA%E5%8F%98%E6%80%81%E7%9A%84C%E8%AF%AD%E8%A8%80Hello%20World%E7%A8%8B%E5%BA%8F.md "作者：耗子  --  521 次点击")》，然后就取了其中一个上去试了一下，果然方便啊。的确是相当的省事啊，不需要打开编译器或IDE，不需要建工程，不需要存成文件，太方便了。
 
 
-[![codepad.org执行BT的hello world](https://coolshell.cn/wp-content/uploads/2009/08/codepad2.jpg "codepad.org执行BT的hello world")](https://coolshell.cn/wp-content/uploads/2009/08/codepad2.jpg)
+[![codepad.org执行BT的hello world](/assets/images/coolshell.cn/wp-content/uploads/2009/08/codepad2.jpg "codepad.org执行BT的hello world")](/assets/images/coolshell.cn/wp-content/uploads/2009/08/codepad2.jpg)
 
 
 。

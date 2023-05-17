@@ -5,7 +5,7 @@
 单看这文章的标题，你可能会觉得好像没什么意思。你先别下这个结论，相信这篇文章会对你理解C语言有帮助。这篇文章产生的背景是在微博上，看到[@Laruence](http://weibo.com/laruence "Laruence")同学出了一个关于C语言的题，[微博链接](http://weibo.com/1170999921/ADojDbuSe)。微博截图如下。我觉得好多人对这段代码的理解还不够深入，所以写下了这篇文章。
 
 
-[![zero_array](https://coolshell.cn/wp-content/uploads/2014/03/zero_array.png)](http://weibo.com/1170999921/ADojDbuSe)
+[![zero_array](/assets/images/coolshell.cn/wp-content/uploads/2014/03/zero_array.png)](http://weibo.com/1170999921/ADojDbuSe)
 
 
 为了方便你把代码copy过去编译和调试，我把代码列在下面：
@@ -152,7 +152,7 @@ Cannot access memory at address 0x4
 Cannot access memory at address 0x8
 ```
 
-注意：上面的pt->p的偏移之所以是0x8而不是0x6，是因为内存对齐了（我在64位系统上）。关于内存对齐，可参看《[深入理解C语言](https://coolshell.cn/articles/5761.html "深入理解C语言")》一文。
+注意：上面的pt->p的偏移之所以是0x8而不是0x6，是因为内存对齐了（我在64位系统上）。关于内存对齐，可参看《[深入理解C语言](/2011/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3C%E8%AF%AD%E8%A8%80.md "深入理解C语言")》一文。
 
 
 好了，现在你知道为什么原题中会访问到了0x4的地址了吧，因为是相对地址。
@@ -345,7 +345,7 @@ int main(){
 **3）当你们在说有坑的时候，你得问一下自己，是真有坑还是自己的学习能力上出了问题。**
 
 
-如果你觉得你的C语言还不错，欢迎你看看《[C语言的谜题](https://coolshell.cn/articles/945.html "C语言的谜题")》还有《[谁说C语言很简单？](https://coolshell.cn/articles/873.html "谁说C语言很简单？")》还有《[语言的歧义](https://coolshell.cn/articles/830.html)》以及《[深入理解C语言](https://coolshell.cn/articles/5761.html "深入理解C语言")》一文。
+如果你觉得你的C语言还不错，欢迎你看看《[C语言的谜题](https://coolshell.cn/articles/945.html "C语言的谜题")》还有《[谁说C语言很简单？](/2009/%E8%B0%81%E8%AF%B4C%E8%AF%AD%E8%A8%80%E5%BE%88%E7%AE%80%E5%8D%95%EF%BC%9F.md "谁说C语言很简单？")》还有《[语言的歧义](/2009/%E8%AF%AD%E8%A8%80%E7%9A%84%E6%AD%A7%E4%B9%89.md)》以及《[深入理解C语言](/2011/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3C%E8%AF%AD%E8%A8%80.md "深入理解C语言")》一文。
 
 
 （全文完）

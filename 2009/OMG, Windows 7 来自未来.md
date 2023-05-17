@@ -8,7 +8,7 @@
 点击图片可以大图
 
 
-[![windows_7_created_in_future2](https://coolshell.cn/wp-content/uploads/2009/03/windows_7_created_in_future2-300x179.jpg "windows_7_created_in_future2")](https://coolshell.cn/wp-content/uploads/2009/03/windows_7_created_in_future2.jpg)
+[![windows_7_created_in_future2](/assets/images/coolshell.cn/wp-content/uploads/2009/03/windows_7_created_in_future2-300x179.jpg "windows_7_created_in_future2")](https://coolshell.cn/wp-content/uploads/2009/03/windows_7_created_in_future2.jpg)
 
 
 

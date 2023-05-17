@@ -13,7 +13,7 @@ by Valerie Henson
 本文的出处：[这里](http://www.linuxdevcenter.com/pub/a/linux/2007/07/05/devhelloworld-a-simple-introduction-to-device-drivers-under-linux.html?page=1)
 
 
-自古以来，学习一门新编程语言的第一步就是写一个打印“hello world”的程序（可以看[《hello world 集中营》](https://coolshell.cn/articles/169.html)这个帖子供罗列了300个“hello world”程序例子）在本文中，我们将用同样的方式学习如何编写一个简单的linux内核模块和设备驱动程序。我将学习到如何在内核模式下以三种不同的方式来打印hello world，这三种方式分别是： printk()，/proc文件，/dev下的设备文件。
+自古以来，学习一门新编程语言的第一步就是写一个打印“hello world”的程序（可以看[《hello world 集中营》](/2009/Hello%20World%20%E9%9B%86%E4%B8%AD%E8%90%A5.md)这个帖子供罗列了300个“hello world”程序例子）在本文中，我们将用同样的方式学习如何编写一个简单的linux内核模块和设备驱动程序。我将学习到如何在内核模式下以三种不同的方式来打印hello world，这三种方式分别是： printk()，/proc文件，/dev下的设备文件。
 
 
 

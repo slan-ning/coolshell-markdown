@@ -2,7 +2,7 @@
 >date: 2013-06-05T08:31:06+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/06/javascript.jpg)一两个月前在淘宝内网里看到一个优化Javascript代码的竞赛，发现有不少的人对Javascript的执行和装载的基础并不懂，所以，从那天起我就想写一篇文章，但一直耽搁了。自上篇《[浏览器渲染原理简介](https://coolshell.cn/articles/9666.html "浏览器的渲染原理简介")》，正好也可以承前启后。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/06/javascript.jpg)一两个月前在淘宝内网里看到一个优化Javascript代码的竞赛，发现有不少的人对Javascript的执行和装载的基础并不懂，所以，从那天起我就想写一篇文章，但一直耽搁了。自上篇《[浏览器渲染原理简介](https://coolshell.cn/articles/9666.html "浏览器的渲染原理简介")》，正好也可以承前启后。
 
 
 首先，我想说一下Javascript的装载和执行。通常来说，浏览器对于Javascript的运行有两大特性：**1）载入后马上执行，2）执行时会阻塞页面后续的内容（包括页面的渲染、其它资源的下载）**。于是，如果有多个js文件被引入，那么对于浏览器来说，这些js文件被被串行地载入，并依次执行。

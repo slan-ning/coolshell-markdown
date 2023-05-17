@@ -5,11 +5,11 @@
 这几天，本站推出了几篇关于C语言的很多文章如下所示：
 
 
-* **语言的歧义** [[酷壳链接](https://coolshell.cn/articles/830.html)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/18/4197010.aspx)]
-* **谁说C语言很简单？** [[酷壳链接](https://coolshell.cn/articles/873.html)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/26/4217950.aspx)]
-* **6个变态的C语言Hello World程序** [[酷壳链接](https://coolshell.cn/articles/914.html)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/26/4217565.aspx)]
-* **如何加密/弄乱C源代码** [[酷壳链接](https://coolshell.cn/articles/933.html)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/30/4225974.aspx)]
-* **C语言的谜题** [[酷壳链接](https://coolshell.cn/articles/945.html)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/06/01/4231029.aspx)]
+* **语言的歧义** [[酷壳链接](/2009/%E8%AF%AD%E8%A8%80%E7%9A%84%E6%AD%A7%E4%B9%89.md)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/18/4197010.aspx)]
+* **谁说C语言很简单？** [[酷壳链接](/2009/%E8%B0%81%E8%AF%B4C%E8%AF%AD%E8%A8%80%E5%BE%88%E7%AE%80%E5%8D%95%EF%BC%9F.md)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/26/4217950.aspx)]
+* **6个变态的C语言Hello World程序** [[酷壳链接](/2009/6%E4%B8%AA%E5%8F%98%E6%80%81%E7%9A%84C%E8%AF%AD%E8%A8%80Hello%20World%E7%A8%8B%E5%BA%8F.md)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/26/4217565.aspx)]
+* **如何加密/弄乱C源代码** [[酷壳链接](/2009/%E5%A6%82%E4%BD%95%E5%8A%A0%E5%AF%86-%E6%B7%B7%E4%B9%B1C%E6%BA%90%E4%BB%A3%E7%A0%81.md)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/05/30/4225974.aspx)]
+* **C语言的谜题** [[酷壳链接](/2009/C%20%E8%AF%AD%E8%A8%80%E6%95%B4%E5%9E%8B%E8%B0%9C%E9%A2%98.md)] [[CSDN链接](http://blog.csdn.net/haoel/archive/2009/06/01/4231029.aspx)]
 
 
 我们可以看到很多C语言相关的一些东西。比如《语言的歧义》主要告诉了大家C语言中你意想不到的错误以及一些歧义上的东西。而《谁说C语言很简单》则通过一些看似你从来不可能写出的代码来告诉大家C语言并不是一件容易事情。《6个变态的hello world》和《如何弄乱C的源代码》则以一种极端的方式告诉大家，不要以为咱们自己写不出混乱的代码，每个程序员其实都有把代码搞得一团乱的潜质。通过这些文章，相信你对编程或是你觉得很简单的C语言有了一些了解。是的，很不容易吧，以前是不是低估了编程和C语言？今天是否我们又在低估C++和Java呢？
@@ -254,7 +254,7 @@ int main()
 
 ```
 
-**参考答案**：好吧，如果你对于PrintInt这个宏有问题的话，你可以去看一看《[语言的歧义](https://coolshell.cn/articles/830.html)》中的第四个示例。不过，本例的问题不在这里，本例的输出会是：1，8，64，1000，其实很简单了，以C/C++中，以0开头的数字都是八进制的。
+**参考答案**：好吧，如果你对于PrintInt这个宏有问题的话，你可以去看一看《[语言的歧义](/2009/%E8%AF%AD%E8%A8%80%E7%9A%84%E6%AD%A7%E4%B9%89.md)》中的第四个示例。不过，本例的问题不在这里，本例的输出会是：1，8，64，1000，其实很简单了，以C/C++中，以0开头的数字都是八进制的。
 
 
 **10、请问下面的程序输出是什么？（绝对不是10）**

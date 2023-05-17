@@ -8,7 +8,7 @@
 如果你还不了解Go语言的语法，还请你移步先看一下上篇——《**[Go语言简介（上）：语法](https://coolshell.cn/articles/8460.html "Go语言简介（上）：语法")**》
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/11/google-go-language.jpg "google-go-language")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/11/google-go-language.jpg "google-go-language")
 
 
 

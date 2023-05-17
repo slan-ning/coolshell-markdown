@@ -14,7 +14,7 @@
 这个工具软件叫ditaa，其网址是：<http://ditaa.sourceforge.net/>。
 
 
-![](http://ditaa.sourceforge.net/images/logo.png)![](http://ditaa.sourceforge.net/images/arrow_hor.png)
+![](/assets/images/ditaa.sourceforge.net/images/logo.png)![](/assets/images/ditaa.sourceforge.net/images/arrow_hor.png)
 
 
 这个小工具支持一些语法定义，可以帮你更好地产生图片，如下所示：

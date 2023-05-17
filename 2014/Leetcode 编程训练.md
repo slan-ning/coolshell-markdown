@@ -2,7 +2,7 @@
 >date: 2014-10-23T10:51:54+08:00
 
 
-![LeetCodeLogo (1)](https://coolshell.cn/wp-content/uploads/2014/10/LeetCodeLogo-1.png)Leetcode这个网站上的题都是一些经典的公司用来面试应聘者的面试题，很多人通过刷这些题来应聘一些喜欢面试算法的公司，比如：Google、微软、Facebook、Amazon之类的这些公司，基本上是应试教育的功利主义。
+![LeetCodeLogo (1)](/assets/images/coolshell.cn/wp-content/uploads/2014/10/LeetCodeLogo-1.png)Leetcode这个网站上的题都是一些经典的公司用来面试应聘者的面试题，很多人通过刷这些题来应聘一些喜欢面试算法的公司，比如：Google、微软、Facebook、Amazon之类的这些公司，基本上是应试教育的功利主义。
 
 
 我做这些题目的不是为了要去应聘这些公司，而是为了锻炼一下自己的算法和编程能力。因为我开始工作的时候基本没有这样的训练算法和编程的网站，除了大学里的“算法和数据结构”里的好些最基础最基础的知识，基本上没有什么训练。所以，当我看到有人在做这些题的时候，我也蠢蠢欲动地想去刷一下。
@@ -27,7 +27,7 @@ LeetCode的题大致分成两类：
 **1）想清楚了再干**。这个观点我以前就在《[多些时间可以少些代码](https://coolshell.cn/articles/5686.html "多些时间能少写些代码")》说过。如果你拿到题就上去直接写代码的话，你一定会被各种case打回来了。然后呢，你一着急，你就会进入那种我在《[开发团队的效率](https://coolshell.cn/articles/11656.html "开发团队的效率")》中说的那种毫无效率case by case的开发模式，而你也进入了“平庸模式”。于是你就会出现下图那样的情况。
 
 
-![Case-by-Case Developement](https://coolshell.cn/wp-content/uploads/2014/10/bug_fixing.gif)Case-by-Case Development
+![Case-by-Case Developement](/assets/images/coolshell.cn/wp-content/uploads/2014/10/bug_fixing.gif)Case-by-Case Development
 **2) 编程是脑力劳动，急不得**。这个事情在这做这些题的时候你就会发现，要么是脑子转不过来了，要么就是明明就差一点了，但程序怎么都调不对。如果你越着急的话，你就会发现你会离目标越远，而花的时间也会更多。另外，你会发现这些题基本上都是50行代码内就可以搞定的，但是为了这50行以内的代码，你要花好多时间和精力。coding  50行代码在我们的日常工作中分分钟就完成，而Leetcode里的50行代码却没那么简单，也许，用这个你就可以区别什么是码农，什么是程序员了。
 
 

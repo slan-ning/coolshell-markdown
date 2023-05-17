@@ -2,7 +2,7 @@
 >date: 2009-08-25T00:17:11+08:00
 
 
-![Douglas McIlroy](https://coolshell.cn/wp-content/uploads/2009/08/Douglas-McIlroy.jpg "Douglas McIlroy")
+![Douglas McIlroy](/assets/images/coolshell.cn/wp-content/uploads/2009/08/Douglas-McIlroy.jpg "Douglas McIlroy")
 
 
 40年前，Unix操作系统横空出世，Unix不仅仅带来了一个操作系统，还创造C语言，Socket，开源，黑客等等文化，这些文化影响着整个计算机世界的文明，直到今天。
@@ -25,7 +25,7 @@
 
 
 
-![Unix Pipes](https://coolshell.cn/wp-content/uploads/2009/08/pipe.png "Unix Pipes")
+![Unix Pipes](/assets/images/coolshell.cn/wp-content/uploads/2009/08/pipe.png "Unix Pipes")
 
 
 全文如下：

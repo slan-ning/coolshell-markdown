@@ -43,7 +43,7 @@ Linux的开发采用的是一种宽松的，基于时间的开发模式。每一
 下面的统计数据是从版本2.6.11开始的，我把源文件中的表格合并成一个大表，如下所示。
 
 
-![Linux Kernel开发统计数据](https://coolshell.cn/wp-content/uploads/2009/08/Linux-Stat.png "Linux Kernel开发统计数据")
+![Linux Kernel开发统计数据](/assets/images/coolshell.cn/wp-content/uploads/2009/08/Linux-Stat.png "Linux Kernel开发统计数据")
 
 
 从上图我们可以看到下面这些东西：
@@ -56,17 +56,17 @@ Linux的开发采用的是一种宽松的，基于时间的开发模式。每一
 下面是几个统计图表：
 
 
-![linuxp1](https://coolshell.cn/wp-content/uploads/2009/08/linuxp1.png "平均每天的修改")  
+![linuxp1](/assets/images/coolshell.cn/wp-content/uploads/2009/08/linuxp1.png "平均每天的修改")  
 
 平均每天的修改
 
 
-![linuxp2](https://coolshell.cn/wp-content/uploads/2009/08/linuxp2.png "代码修改统计")  
+![linuxp2](/assets/images/coolshell.cn/wp-content/uploads/2009/08/linuxp2.png "代码修改统计")  
 
 代码修改统计
 
 
-![linuxp3](https://coolshell.cn/wp-content/uploads/2009/08/linuxp3.png "开发人员")  
+![linuxp3](/assets/images/coolshell.cn/wp-content/uploads/2009/08/linuxp3.png "开发人员")  
 
 开发人员
 
@@ -77,7 +77,7 @@ Linux的开发采用的是一种宽松的，基于时间的开发模式。每一
 最后我们进入主题——谁写了Linux，首先，我们先来看一下进入代码修改的Top 30的开发人员列表：
 
 
-![Top 30 Linux developer](https://coolshell.cn/wp-content/uploads/2009/08/Linux-developer.png "Top 30 Linux developer")
+![Top 30 Linux developer](/assets/images/coolshell.cn/wp-content/uploads/2009/08/Linux-developer.png "Top 30 Linux developer")
 
 
 我们可以看到，Linus Torvalds （729 总修改，自2.6.24版来254 修改）无法进入前30名。当然，对Linux的贡献绝对不能通过代码行来表示，Linus对Linux就算是在今天也是至关紧要的。
@@ -94,7 +94,7 @@ Linux的开发采用的是一种宽松的，基于时间的开发模式。每一
 所以，这些数据只能算得上的近似，不过也能看到一个总体的样子了。下图中“None”代表没有职业无业游民，“Unknown”代表无名氏或是英雄不知出处。
 
 
-![Linux Company Top 30](https://coolshell.cn/wp-content/uploads/2009/08/linux-company.png "Linux Company Top 30")
+![Linux Company Top 30](/assets/images/coolshell.cn/wp-content/uploads/2009/08/linux-company.png "Linux Company Top 30")
 
 
 我们可以看到，Top 10公司，为Linux贡献了近70%的代码。包括了None和Unknown，而且，那些是拿着公司报酬给Linux作开发的程序员。

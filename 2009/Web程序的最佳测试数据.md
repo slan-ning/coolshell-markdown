@@ -23,7 +23,7 @@
 
   
 
-把这些转义字符放在一起，然后再整些 utf-8 的一些特殊字符。这些utf-8的字符你可以参看本站的[Unicode字符预览表](https://coolshell.cn/articles/1331.html)一文，并从中获取。另外，你还可以使用下面的这些工具来对你的程序进行调试或检查：
+把这些转义字符放在一起，然后再整些 utf-8 的一些特殊字符。这些utf-8的字符你可以参看本站的[Unicode字符预览表](/2009/Unicode%E5%AD%97%E7%AC%A6%E9%A2%84%E8%A7%88%E8%A1%A8.md)一文，并从中获取。另外，你还可以使用下面的这些工具来对你的程序进行调试或检查：
 
 
 * 一个高级Web调试插件： [firebug](https://addons.mozilla.org/de/firefox/addon/1843 "firebug plugin")

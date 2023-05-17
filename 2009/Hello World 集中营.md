@@ -4,7 +4,7 @@
 
 编程的人应该都知道什么是Hello World。这是一个最简单的程序，其只在屏幕上输出“Hello World”字样，这通常是初学者的在学习编程时的第一个示例。把打印出 “Hello World” 作为第一个范例程序，现在已经成为编程语言学习的传统。  
 
-![hello_world](https://coolshell.cn/wp-content/uploads/2009/03/hello_world-150x150.png "hello_world")  
+![hello_world](/assets/images/coolshell.cn/wp-content/uploads/2009/03/hello_world-150x150.png "hello_world")  
 
 “Hello World”起源于Brian Kernighan 和Dennis MacAlistair Ritchie写的计算机程序设计教程《C语言程序设计》（[*The C Programming Language*](https://en.wikipedia.org/wiki/The_C_Programming_Language "en:The C Programming Language")）而广泛流传；但这本书并不是 “hello, world” 的滥觞，虽然这是一个普遍存在的错误认知。
 

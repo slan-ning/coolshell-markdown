@@ -12,7 +12,7 @@
 <http://www.joelonsoftware.com/items/2009/03/09.html>
 
 
-[![09meeting-thumbnail](https://coolshell.cn/wp-content/uploads/2009/03/09meeting-thumbnail-300x198.jpg "09meeting-thumbnail")](https://coolshell.cn/wp-content/uploads/2009/03/09meeting-thumbnail.jpg)这篇文章的作者叫Joel Spolsky，在Microsoft做过Program Manager，这篇文章非常值得一读。下面是我给大家做的一个导读：
+[![09meeting-thumbnail](/assets/images/coolshell.cn/wp-content/uploads/2009/03/09meeting-thumbnail-300x198.jpg "09meeting-thumbnail")](https://coolshell.cn/wp-content/uploads/2009/03/09meeting-thumbnail.jpg)这篇文章的作者叫Joel Spolsky，在Microsoft做过Program Manager，这篇文章非常值得一读。下面是我给大家做的一个导读：
 
 
 首先，他讲了两个人，一个是负责WYSIWYG 字处理的天才级的Program Manager——Charles Simonyi，第二个是上世纪80年代的负责Mac OS上的Excel项目的程序员Jabe Blumenthal，他发现了程序员和市场人员的代沟，Marketing的人很难通过把MBA-Speaking翻译成实际的Feature，并且，有太多的和编码不相关的工作，比如说，和用户交谈，运行usability测试，Reivew竞争者的产品，并且得冥思苦想怎么能让事情变得更简单，而我们的程序员通常来说即不具备这样的时间，也不具备这样的能力。于是，Jabe开始了他的Program Manager的生涯。

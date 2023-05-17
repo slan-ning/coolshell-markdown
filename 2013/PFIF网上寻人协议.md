@@ -8,7 +8,7 @@
 PFIF全称People Finder Interchange Format，是一个应用广泛的数据开源的标准协议，这个协议主要是设计用来在不同的政府、救援组织、或是其它的一些灾难中生存者和其亲人联系的网站间进行数据交换的一种协议。
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/04/Google-Person-Finder.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/04/Google-Person-Finder.png)
 
 
 这个协议基于XML，信息中包括人的身份标识，还有人目前的位置和状态等一些信息。PFIF可以通过Atom和RSS feed出去。PFIF可以允许不同的寻人站点进行数据交换和合并。每一条记录都有一个唯一的标识，这个标识说明了这是由哪个域名创建的。这样，当A站点获得B点的某个人的数据时，在A站点可以对这个人的增加的信息可以转到其它站点上再被增加相关的信息，因为有一个唯一的ID，所以信息可以在不同的站点上被附加。

@@ -2,7 +2,7 @@
 >date: 2014-09-28T07:56:46+08:00
 
 
-![bashbug](https://coolshell.cn/wp-content/uploads/2014/09/bashbug-300x152.jpg)很多人或许对上半年发生的安全问题“心脏流血”（Heartbleed Bug）事件记忆颇深，这两天，又出现了另外一个“毁灭级”的漏洞——Bash软件安全漏洞。这个漏洞由法国GNU/Linux爱好者Stéphane Chazelas所发现。随后，美国电脑紧急应变中心（US-CERT）、红帽以及多家从事安全的公司于周三（北京时间9月24日）发出警告。 关于这个安全漏洞的细节可参看美国政府计算安全的这两个漏洞披露：[CVE-2014-6271](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271) 和 [CVE-2014-7169](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169)。
+![bashbug](/assets/images/coolshell.cn/wp-content/uploads/2014/09/bashbug-300x152.jpg)很多人或许对上半年发生的安全问题“心脏流血”（Heartbleed Bug）事件记忆颇深，这两天，又出现了另外一个“毁灭级”的漏洞——Bash软件安全漏洞。这个漏洞由法国GNU/Linux爱好者Stéphane Chazelas所发现。随后，美国电脑紧急应变中心（US-CERT）、红帽以及多家从事安全的公司于周三（北京时间9月24日）发出警告。 关于这个安全漏洞的细节可参看美国政府计算安全的这两个漏洞披露：[CVE-2014-6271](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271) 和 [CVE-2014-7169](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169)。
 
 
 这个漏洞其实是非常经典的“注入式攻击”，也就是可以向 bash注入一段命令，从bash1.14 到4.3都存在这样的漏洞。我们先来看一下这个安全问题的症状。
@@ -54,7 +54,7 @@ Bash Test
 但随后，马上有人在Twitter上发贴——[说这是一个不完整的fix](https://twitter.com/taviso/statuses/514887394294652929)，并给出了相关的攻击方法。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2014/09/bash-300x153.jpg)](https://twitter.com/taviso/statuses/514887394294652929)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2014/09/bash-300x153.jpg)](https://twitter.com/taviso/statuses/514887394294652929)
 
 
 也就是下面这段测试代码（注意，其中的sh在linux下等价于bash）：

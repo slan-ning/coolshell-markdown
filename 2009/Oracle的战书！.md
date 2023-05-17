@@ -3,7 +3,7 @@
 
 
 
-<http://www.oracle.com/features/suncustomers.html>![sun customers](https://coolshell.cn/wp-content/uploads/2009/09/sun_customers_lg.gif "sun customers")
+<http://www.oracle.com/features/suncustomers.html>![sun customers](/assets/images/coolshell.cn/wp-content/uploads/2009/09/sun_customers_lg.gif "sun customers")
 
 
 

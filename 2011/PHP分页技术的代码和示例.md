@@ -37,7 +37,7 @@
 下面这个示例使用了jQuery + PHP。 [Demo link](http://demos.9lessons.info/pagination/pagination.php)
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/Pagination-e1312791884744.jpg "Pagination")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/Pagination-e1312791884744.jpg "Pagination")
 
 
 
@@ -50,19 +50,19 @@
 数据库的分页处理。
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/PHP-Pagination1-e1312794857680.jpg "PHP-Pagination")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/PHP-Pagination1-e1312794857680.jpg "PHP-Pagination")
 
 
 #### 3) [Facebook/Twitter 风格的分页](http://youhack.me/2010/05/14/an-alternative-to-pagination-facebook-and-twitter-style/)
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/twitter-pagination-e1312792153888.png "twitter-pagination")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/twitter-pagination-e1312792153888.png "twitter-pagination")
 
 
 #### 4) [Php & MySql 分页](http://www.phpeasystep.com/phptu/29.html)
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/PHP-Pagination-e1312792516937.jpg "PHP Pagination")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/PHP-Pagination-e1312792516937.jpg "PHP Pagination")
 
 
 #### 5)[分页风格](http://www.bitrepository.com/css-stylish-pagination-links.html)
@@ -74,7 +74,7 @@
 一个简单的教程教你如何用CSS定义不同风格的分页。
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/CSS-Pagination-e1312792632740.jpg "CSS Pagination")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/CSS-Pagination-e1312792632740.jpg "CSS Pagination")
 
 
 #### 6) [PHP 分页类](http://phpsense.com/php/php-pagination-script.html)
@@ -86,7 +86,7 @@
 一个PHP的分页类
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/PHP-Pagination%C2%A0Script-e1312795287434.jpg "PHP Pagination Script")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/PHP-Pagination%C2%A0Script-e1312795287434.jpg "PHP Pagination Script")
 
 
 #### 7) [Easy Pagination](http://www.phpeasycode.com/pagination/)
@@ -94,7 +94,7 @@
 
 这是一个PHP库，可以让你更容易的做分页。  
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/php-easy-code.jpg "php easy code")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/php-easy-code.jpg "php easy code")
 
 
 #### 8 ) [基本分页](http://www.phpfreaks.com/tutorial/basic-pagination)
@@ -106,7 +106,7 @@
 一个很不错简单易懂的分页教程。
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/Pagination-Script-and-Tutorial-e1312793432650.jpg "Pagination Script and Tutorial")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/Pagination-Script-and-Tutorial-e1312793432650.jpg "Pagination Script and Tutorial")
 
 
 #### 9) [Php Page](http://www.developphp.com/view_lesson.php?v=289)
@@ -118,7 +118,7 @@
 一个简单的PHP的教程
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/PHP-Freaks-e1312793481308.jpg "PHP Freaks")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/PHP-Freaks-e1312793481308.jpg "PHP Freaks")
 
 
 #### 10) [perfect-php-pagination](http://www.sitepoint.com/perfect-php-pagination/)
@@ -130,7 +130,7 @@
 也是一个分页教程。
 
 
-![](http://zoomzum.com/wp-content/uploads/2011/08/Perfect-PHP-Pagination.jpg "Perfect PHP Pagination")
+![](/assets/images/zoomzum.com/wp-content/uploads/2011/08/Perfect-PHP-Pagination.jpg "Perfect PHP Pagination")
 
 
 （全文完）

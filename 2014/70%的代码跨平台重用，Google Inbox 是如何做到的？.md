@@ -5,7 +5,7 @@
 原文链接《[How Google Inbox shares 70% of its code across Android, iOS, and the Web](http://arstechnica.com/information-technology/2014/11/how-google-inbox-shares-70-of-its-code-across-android-ios-and-the-web)》
 
 
-[![inbox2-640x264](https://coolshell.cn/wp-content/uploads/2014/11/inbox2-640x264-300x123.jpg)](https://coolshell.cn/wp-content/uploads/2014/11/inbox2-640x264.jpg)
+[![inbox2-640x264](/assets/images/coolshell.cn/wp-content/uploads/2014/11/inbox2-640x264-300x123.jpg)](https://coolshell.cn/wp-content/uploads/2014/11/inbox2-640x264.jpg)
 
 
 开发一个移动应用在当下并不是一件容易的事情。如果想要获得最多的用户，你的应用通常需要覆盖 iOS, Android, 和 Web 三大平台。这就意味着同一个应用需要开发三个版本，使用 Objective-C 或者 Swift 开发 iOS 版本，使用 Java 开发 Android 版本，使用 JavaScript/CSS/HTML5 开发 Web 版本。工作量增大的同时也意味着有更多的 bug 需要修复。

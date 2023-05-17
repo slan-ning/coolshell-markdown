@@ -101,7 +101,7 @@ Base::f
 这个时候你应该懂了吧。什么？还是有点晕。也是，这样的代码看着太乱了。没问题，让我画个图解释一下。如下所示：
 
 
-![01](https://coolshell.cn/wp-content/uploads/2014/12/01.jpg)
+![01](/assets/images/coolshell.cn/wp-content/uploads/2014/12/01.jpg)
 
 
 注意：在上面这个图中，我在虚函数表的最后多加了一个结点，这是虚函数表的结束结点，就像字符串的结束符“/0”一样，其标志了虚函数表的结束。这个结束标志的值在不同的编译器下是不同的。在WinXP+VS2003下，这个值是NULL。而在Ubuntu 7.10 + Linux 2.6.22 + GCC 4.1.3下，这个值是如果1，表示还有下一个虚函数表，如果值是0，表示是最后一个虚函数表。
@@ -116,7 +116,7 @@ Base::f
 下面，再让我们来看看继承时的虚函数表是什么样的。假设有如下所示的一个继承关系：
 
 
-![02](https://coolshell.cn/wp-content/uploads/2014/12/02.jpg)
+![02](/assets/images/coolshell.cn/wp-content/uploads/2014/12/02.jpg)
 
 
 请注意，在这个继承关系中，子类没有重载任何父类的函数。那么，在派生类的实例中，其虚函数表如下所示：
@@ -125,7 +125,7 @@ Base::f
 对于实例：Derive d; 的虚函数表如下：
 
 
-![03](https://coolshell.cn/wp-content/uploads/2014/12/03.jpg)
+![03](/assets/images/coolshell.cn/wp-content/uploads/2014/12/03.jpg)
 
 
 我们可以看到下面几点：  
@@ -144,13 +144,13 @@ Base::f
 覆盖父类的虚函数是很显然的事情，不然，虚函数就变得毫无意义。下面，我们来看一下，如果子类中有虚函数重载了父类的虚函数，会是一个什么样子？假设，我们有下面这样的一个继承关系。
 
 
-![04](https://coolshell.cn/wp-content/uploads/2014/12/04.jpg)
+![04](/assets/images/coolshell.cn/wp-content/uploads/2014/12/04.jpg)
 
 
 为了让大家看到被继承过后的效果，在这个类的设计中，我只覆盖了父类的一个函数：f()。那么，对于派生类的实例，其虚函数表会是下面的一个样子：
 
 
-![05](https://coolshell.cn/wp-content/uploads/2014/12/05.jpg)
+![05](/assets/images/coolshell.cn/wp-content/uploads/2014/12/05.jpg)
 
 
 我们从表中可以看到下面几点，  
@@ -179,13 +179,13 @@ b->f();
 下面，再让我们来看看多重继承中的情况，假设有下面这样一个类的继承关系。注意：子类并没有覆盖父类的函数。
 
 
-![06](https://coolshell.cn/wp-content/uploads/2014/12/06.jpg)
+![06](/assets/images/coolshell.cn/wp-content/uploads/2014/12/06.jpg)
 
 
 对于子类实例中的虚函数表，是下面这个样子：
 
 
-![07](https://coolshell.cn/wp-content/uploads/2014/12/07.jpg)
+![07](/assets/images/coolshell.cn/wp-content/uploads/2014/12/07.jpg)
 
 
 我们可以看到：  
@@ -204,13 +204,13 @@ b->f();
 下面我们再来看看，如果发生虚函数覆盖的情况。
 
 
-![08](https://coolshell.cn/wp-content/uploads/2014/12/08.jpg)
+![08](/assets/images/coolshell.cn/wp-content/uploads/2014/12/08.jpg)
 
 
 下图中，我们在子类中覆盖了父类的f()函数。
 
 
-![09](https://coolshell.cn/wp-content/uploads/2014/12/09.jpg)
+![09](/assets/images/coolshell.cn/wp-content/uploads/2014/12/09.jpg)
 
 
 下面是对于子类实例中的虚函数表的图：

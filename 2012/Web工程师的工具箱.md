@@ -2,7 +2,7 @@
 >date: 2012-12-19T00:04:43+08:00
 
 
-![Web Toolbox](https://coolshell.cn/wp-content/uploads/2012/12/webtoolbox.jpg)本文出自[Ivan Zuzak](http://ivanzuzak.info/) 的《[The Web engineer’s online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html)》，作者给了一个各种可以用来进行开发、测试、调试以及文档编排的在线工具集。（注：我发现CSDN上已经有了这篇文章《[Web工程师必备的18款工具](http://www.csdn.net/article/2012-11-19/2811992)》，但可惜的是这篇文章并不全（原文后来被更新到了33个工具），而且其中并没有包括原文评论中出现的所有工具，所以，我一并补全了更出来，一共40多个工具）
+![Web Toolbox](/assets/images/coolshell.cn/wp-content/uploads/2012/12/webtoolbox.jpg)本文出自[Ivan Zuzak](http://ivanzuzak.info/) 的《[The Web engineer’s online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html)》，作者给了一个各种可以用来进行开发、测试、调试以及文档编排的在线工具集。（注：我发现CSDN上已经有了这篇文章《[Web工程师必备的18款工具](http://www.csdn.net/article/2012-11-19/2811992)》，但可惜的是这篇文章并不全（原文后来被更新到了33个工具），而且其中并没有包括原文评论中出现的所有工具，所以，我一并补全了更出来，一共40多个工具）
 
 
 #### **Web工程师在线工具箱**

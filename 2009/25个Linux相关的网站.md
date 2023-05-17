@@ -2,7 +2,7 @@
 >date: 2009-04-28T13:33:12+08:00
 
 
-下面是25个最具有影响力，也是最重要的Linux网站，这些网站提供了Linux的分发包，软件，文件，新闻，以及其它所有的关于Linux的东西。关于Linux的分发包历史，可以看看本站的这篇文章《[Linux Distribution Timeline](https://coolshell.cn/articles/85.html)》
+下面是25个最具有影响力，也是最重要的Linux网站，这些网站提供了Linux的分发包，软件，文件，新闻，以及其它所有的关于Linux的东西。关于Linux的分发包历史，可以看看本站的这篇文章《[Linux Distribution Timeline](/2009/Linux%20Distribution%20Timeline.md)》
 
 
 1. [Linux.org](http://www.linux.org/)

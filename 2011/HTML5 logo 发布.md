@@ -3,7 +3,7 @@
 
 
 
-2011年1月19日，W3C发布了HTML5的log，打开[W3C的页面](http://www.w3.org/html/logo/)，下在的图片印入眼前。我的第一感觉，就像是看到了小时候看的八一电影制片产的电影。这分明是号召全世界的无产Web程序员们团结起来，不畏艰难，不怕牺牲，一定要把HTML5的革命事业进行到底！![](https://coolshell.cn/wp-content/uploads/2011/01/html5-logo-1-300x178.jpg "HTML 5 Logo")
+2011年1月19日，W3C发布了HTML5的log，打开[W3C的页面](http://www.w3.org/html/logo/)，下在的图片印入眼前。我的第一感觉，就像是看到了小时候看的八一电影制片产的电影。这分明是号召全世界的无产Web程序员们团结起来，不畏艰难，不怕牺牲，一定要把HTML5的革命事业进行到底！![](/assets/images/coolshell.cn/wp-content/uploads/2011/01/html5-logo-1-300x178.jpg "HTML 5 Logo")
 
 
 所以，请各位Web程序员不但在你们的HTML5的网页上加上下面的徽章（关于各个徽章的含义，请参看[这里](http://www.elviscai.com/view/html5-logo-released/)）

@@ -8,7 +8,7 @@
 这篇文章的开头就是一个问题——“*How do we get people to understand programming?*”，我们怎么让人们懂得编程？
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/10/Learnable_Programming.jpg "Learnable_Programming")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/10/Learnable_Programming.jpg "Learnable_Programming")
 
 
 然后，他说了两条——

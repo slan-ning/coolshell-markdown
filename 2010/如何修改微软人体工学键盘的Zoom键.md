@@ -11,7 +11,7 @@
 可是每个入手该键盘的geek都会觉得，这个弱智的设计师把zoom键放在中间干嘛，应该用来当上下滚轮嘛。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg "keyboard")](https://coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg "keyboard")](/assets/images/coolshell.cn/wp-content/uploads/2010/02/keyboard.jpg)
 
 
 无独有偶，该问题已经被先辈们解决，笔者只搜到了[英文文章](http://paininthetech.com/2006/04/29/hack-the-microsoft-natural-4000-keyboard)
@@ -29,13 +29,13 @@
 图例：修改前
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/02/before.png "before")](https://coolshell.cn/wp-content/uploads/2010/02/before.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/02/before.png "before")](/assets/images/coolshell.cn/wp-content/uploads/2010/02/before.png)
 
 
 图例：修改后
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/02/after.png "after")](https://coolshell.cn/wp-content/uploads/2010/02/after.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/02/after.png "after")](/assets/images/coolshell.cn/wp-content/uploads/2010/02/after.png)
 
 
 这样你就可以用Zoom来替代鼠标滚轮了。

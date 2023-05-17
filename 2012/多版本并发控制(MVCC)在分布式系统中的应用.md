@@ -49,7 +49,7 @@
 为了让L的处理具有可串行化特性(Serializability)，一种最直接的解决方案就是考虑为D加上基于锁的简单事务。让L在进行业务处理前先锁定D，完成以后释放锁。另外，为了防止持有锁的L由于某种原因长时间未提交事务，D还需要具有超时机制，当L尝试提交一个已超时的事务时会得到一个错误响应。
 
 
-![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_conditional_update_1.PNG)![0915536496-0](https://coolshell.cn/wp-content/uploads/2012/03/0915536496-0.png)
+![](/assets/images/images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_conditional_update_1.PNG)![0915536496-0](/assets/images/coolshell.cn/wp-content/uploads/2012/03/0915536496-0.png)
 
 
 本方案的优点是实现简单，缺点是锁定了整个数据集，粒度太大；时间上包含了L的整个处理时间，跨度太长。虽然我们可以考虑把锁定粒度降低到数据项级别，按key进行锁定，但这又会带来其他的问题。由于更新的keySet’可能是事先不确定的，所以可能无法在开始事务时锁定所有的key；如果分阶段来锁定需要的key，又可能出现死锁(Deadlock)问题。另外，按key锁定在有锁争用的情况下并不能解决锁定时间太长的问题。所以，按key锁定仍然存在重要的不足之处。
@@ -64,7 +64,7 @@
 MVCC的一种简单实现是基于CAS（Compare-and-swap）思想的有条件更新（Conditional Update）。普通的update参数只包含了一个keyValueSet’，Conditional Update在此基础上加上了一组更新条件conditionSet { … data[keyx]=valuex, … }，即只有在D满足更新条件的情况下才将数据更新为keyValueSet’；否则，返回错误信息。这样，L就形成了如下图所示的Try/Conditional Update/(Try again)的处理模式：
 
 
-![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_mvcc_2.png)![0915535U3-1](https://coolshell.cn/wp-content/uploads/2012/03/0915535U3-1.png)
+![](/assets/images/images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_mvcc_2.png)![0915535U3-1](/assets/images/coolshell.cn/wp-content/uploads/2012/03/0915535U3-1.png)
 
 
 虽然对单个L来讲不能保证每次都成功更新，但从整个系统来看，总是有任务能够顺利进行。这种方案利用Conditional Update避免了大粒度和长时间的锁定，当各个业务之间资源争用不大的情况下，并发性能很好。不过，由于Conditional Update需要更多的参数，如果condition中value的长度很长，那么每次网络传送的数据量就会比较大，从而导致性能下降。特别是当需要更新的keyValueSet’很小，而condition很大时，就显得非常不经济。
@@ -73,7 +73,7 @@ MVCC的一种简单实现是基于CAS（Compare-and-swap）思想的有条件更
 为了避免condition太大所带来的性能问题，可以为每条数据项增加一个int型的版本号字段，由D维护该版本号，每次数据有更新就增加版本号；L在进行Conditional Update时，通过版本号取代具体的值。
 
 
-![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_mvcc_3.png)![0915533324-2](https://coolshell.cn/wp-content/uploads/2012/03/0915533324-2.png)
+![](/assets/images/images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_mvcc_3.png)![0915533324-2](/assets/images/coolshell.cn/wp-content/uploads/2012/03/0915533324-2.png)
 
 
 另一个问题是上面的解决方案假设了D是可以支持Conditional Update的；那么，如果D是一个不支持Conditional Update的第三方的key-value存储怎么办呢？这时，我们可以在L和D之间增加一个P作为代理，所有的CRUD操作都必须经过P，让P来进行条件检查，而实际的数据操作放在D。这种方式实现了条件检查和数据操作的分离，但同时降低了性能，需要在P中增加cache，提升性能。由于P是D的唯一客户端；所以，P的cache管理是非常简单的，不必像多客户端情形担心缓存的失效。不过，实际上，据我所知redis和Amazon SimpleDB都已经有了Conditional Update的支持。

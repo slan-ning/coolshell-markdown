@@ -17,7 +17,7 @@
  
 
 
-![新浪微博XSS事件](https://coolshell.cn/wp-content/uploads/2011/06/sina_xss01.png "新浪微博XSS事件")新浪微博XSS事件
+![新浪微博XSS事件](/assets/images/coolshell.cn/wp-content/uploads/2011/06/sina_xss01.png "新浪微博XSS事件")新浪微博XSS事件
  
 
 

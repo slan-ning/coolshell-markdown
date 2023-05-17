@@ -2,7 +2,7 @@
 >date: 2011-02-16T18:59:06+08:00
 
 
-无论你是多牛的程序员，你都无法记住所有的东西。而很多时候，查找某些知识又比较费事。所以，网上有很多Cheat Sheets，翻译成小抄也好 ，速查卡也好，总之就是帮你节省 时间的。之前给大家介绍过[Web设计的速查卡](https://coolshell.cn/articles/870.html)、[25个jQuery的编程小抄](https://coolshell.cn/articles/2964.html)，还有[程序员小抄大全](https://coolshell.cn/articles/1566.html)，今天转一篇开发人员的速查卡，[源文在这里](http://www.topdesignmag.com/all-the-cheat-sheets-that-a-web-developer-needs/)。下面的文章我就不翻译了。
+无论你是多牛的程序员，你都无法记住所有的东西。而很多时候，查找某些知识又比较费事。所以，网上有很多Cheat Sheets，翻译成小抄也好 ，速查卡也好，总之就是帮你节省 时间的。之前给大家介绍过[Web设计的速查卡](/2009/Web%E8%AE%BE%E8%AE%A1%E7%9A%84%E9%80%9F%E6%9F%A5%E5%8D%A1.md)、[25个jQuery的编程小抄](/2010/25%E4%B8%AAjQuery%E7%9A%84%E7%BC%96%E7%A8%8B%E5%B0%8F%E6%8A%84.md)，还有[程序员小抄大全](/2009/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B0%8F%E6%8A%84%E5%A4%A7%E5%85%A8.md)，今天转一篇开发人员的速查卡，[源文在这里](http://www.topdesignmag.com/all-the-cheat-sheets-that-a-web-developer-needs/)。下面的文章我就不翻译了。
 
 
 ## HTML Cheat Sheet

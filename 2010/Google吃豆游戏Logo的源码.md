@@ -5,7 +5,7 @@
 这两天，Google的logo换成了那个经典的吃豆游戏，很强大，也引发了大众的热议。如果你想要其源代码的话，你可以到这里下载：[**http://github.com/macek/google\_pacman**](https://github.com/macek/google_pacman)。而在线演示在这里：[http://macek.github.com/google\_pacman/](https://macek.github.com/google_pacman/)。
 
 
-![Google 吃豆游戏 Logo](https://coolshell.cn/wp-content/uploads/2010/05/google_pacman.jpg "Google 吃豆游戏 Logo")Google 吃豆游戏 Logo
+![Google 吃豆游戏 Logo](/assets/images/coolshell.cn/wp-content/uploads/2010/05/google_pacman.jpg "Google 吃豆游戏 Logo")Google 吃豆游戏 Logo
 需要注意的是，那个源程序在你的本机是不会有声音的，因为这跟flash的设置有关系，如果你需要有游戏声音，你还需要有以下的设置：
 
 

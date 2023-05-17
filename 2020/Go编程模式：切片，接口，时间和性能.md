@@ -2,7 +2,7 @@
 >date: 2020-12-18T15:36:30+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/go.slices-300x169.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/go.slices-300x169.png)
 
 
 在本篇文章中，我会对Go语言编程模式的一些基本技术和要点，这样可以让你更容易掌握Go语言编程。其中，主要包括，数组切片的一些小坑，还有接口编程，以及时间和程序运行性能相关的话题。
@@ -54,7 +54,7 @@ type slice struct {
 用图示来看，一个空的slice的表现如下：
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/slice1-300x190.png) 熟悉C/C++的同学一定会知道，在结构体里用数组指针的问题——数据会发生共享！下面我们来看一下slice的一些操作
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/slice1-300x190.png) 熟悉C/C++的同学一定会知道，在结构体里用数组指针的问题——数据会发生共享！下面我们来看一下slice的一些操作
 
 
 
@@ -76,7 +76,7 @@ bar[1] = 99
 * 然后，对foo做切片后赋值给bar，再修改bar[1]
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/slice2.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/slice2.png)
 
 
 通过上图我们可以看到，因为foo和bar的内存是共享的，所以，foo和bar的对数组内容的修改都会影响到对方。
@@ -96,7 +96,7 @@ a[2] = 42
 上面这段代码中，把 `a[1:16]` 的切片赋给到了 `b` ，此时，`a` 和 `b` 的内存空间是共享的，然后，对 `a`做了一个 `append()`的操作，这个操作会让 `a` 重新分享内存，导致 `a` 和 `b` 不再共享，如下图所示：
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/go.slices.append-1024x513.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/go.slices.append-1024x513.png)
 
 
 从上图我们可以看以看到 `append()`操作让 `a` 的容量变成了64，而长度是33。这里，需要重点注意一下——**`append()`这个函数在 `cap` 不够用的时候就会重新分配内存以扩大容量，而如果够用的时候不不会重新分享内存！**
@@ -127,7 +127,7 @@ func main() {
 上面这个例子中，`dir1` 和 `dir2` 共享内存，虽然 `dir1` 有一个 `append()` 操作，但是因为 cap 足够，于是数据扩展到了`dir2` 的空间。下面是相关的图示（注意上图中 `dir1` 和 `dir2` 结构体中的 `cap` 和 `len` 的变化）
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/slice4-1024x740.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/slice4-1024x740.png)
 
 
 如果要解决这个问题，我们只需要修改一行代码。

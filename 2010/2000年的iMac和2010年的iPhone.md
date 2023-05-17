@@ -5,7 +5,7 @@
 以前本站发过“[1980年和2009年的1GB电脑内存的比较](https://coolshell.cn/articles/410.html)”，下面是2000年的iMac和2010年的iPhone的比较。
 
 
-**![](http://ecx.images-amazon.com/images/I/5176XS40F9L._SL500_AA300_.jpg)2000 – iMac**
+**![](/assets/images/ecx.images-amazon.com/images/I/5176XS40F9L._SL500_AA300_.jpg)2000 – iMac**
 
 
 操作系统 – Mac OS 9.0.4  
@@ -30,7 +30,7 @@
 
 **2010 – iPhone 4**  
 
-![](https://t1.gstatic.com/images?q=tbn:VkjdzNuO9IeljM::&t=1&h=230&w=219&usg=__J0lvg_8oUj7dWkO_vK95Fkys1ew=)操作系统 – iOS 4.0  
+![](/assets/images/t1.gstatic.com/images)操作系统 – iOS 4.0  
 
 处理器 – 1 Ghz ARM A4 CPU, 512MB Memory  
 

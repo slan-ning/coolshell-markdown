@@ -21,7 +21,7 @@
 5）[30+相当有用的Wordpress的巧门](http://www.hongkiat.com/blog/30-new-useful-wordpress-tricks-hacks/)。相当相当不错的一些和Wordpress相关的插件和小巧门，非常非常地实用。
 
 
-6）[htaccess技术的权威性指南](http://www.noupe.com/php/htaccess-techniques.html)。本文给出了12个非常有用的apache的设置，可以让你更容易设置你的站点，在这篇文章的最后，还列出了一些经验上的东西。另外，你可以参考本站的《[16个简单实用的.htaccess小贴示](https://coolshell.cn/articles/1035.html)》。
+6）[htaccess技术的权威性指南](http://www.noupe.com/php/htaccess-techniques.html)。本文给出了12个非常有用的apache的设置，可以让你更容易设置你的站点，在这篇文章的最后，还列出了一些经验上的东西。另外，你可以参考本站的《[16个简单实用的.htaccess小贴示](/2009/16%E4%B8%AA%E7%AE%80%E5%8D%95%E5%AE%9E%E7%94%A8%E7%9A%84.htaccess%E5%B0%8F%E8%B4%B4%E7%A4%BA.md)》。
 
 
 7）[PHP正则表达式入门](http://www.noupe.com/php/php-regular-expressions.html)。一个相当不错的入门教程，写得简单易懂。

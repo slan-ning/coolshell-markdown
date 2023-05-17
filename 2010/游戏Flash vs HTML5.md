@@ -9,7 +9,7 @@
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/11/flash_vs_html5.jpg "flash vs html5")](http://labs.codecomputerlove.com/FlashVsHtml5/)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/11/flash_vs_html5.jpg "flash vs html5")](http://labs.codecomputerlove.com/FlashVsHtml5/)
 
 
 

@@ -268,7 +268,7 @@ w2=w1;
 请看下图：
 
 
-![o_string](https://coolshell.cn/wp-content/uploads/2014/12/o_string.jpg)
+![o_string](/assets/images/coolshell.cn/wp-content/uploads/2014/12/o_string.jpg)
 
 
 于是，有了这样一个机制，每当我们为string分配内存时，我们总是要多分配一个空间用来存放这个引用计数的值，只要发生拷贝构造可是赋值时，这个内存的值就会加一。而在内容修改时，string类为查看这个引用计数是否为0，如果不为零，表示有人在共享这块内存，那么自己需要先做一份拷贝，然后把引用计数减去一，再把数据拷贝过来。下面的几个程序片段说明了这两个动作：

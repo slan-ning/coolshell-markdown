@@ -11,13 +11,13 @@
 2、变量视图中新增了一个列用于显示当前变量类型的实例数（Layout -> Select Column）。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-6.bmp "Eclipse 3.6 - 6")](https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-6.bmp)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-6.bmp "Eclipse 3.6 - 6")](/assets/images/coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-6.bmp)
 
 
 3、Java 视图中的包名称可以用自定义的规则来显示（Window –> Preferences –> Java –> Appearance）。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-3-300x157.png "Eclipse 3.6 - 3")](https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-3.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-3-300x157.png "Eclipse 3.6 - 3")](https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-3.png)
 
 
 

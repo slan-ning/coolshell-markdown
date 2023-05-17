@@ -13,7 +13,7 @@
 跟着本教程，你需要上一篇教程中的代码，如果你想直接使用代码，你可以使用如下的指令从[GitHub](https://github.com/cblunt/BrewClock)上check out出tutorial\_par\_1标记的代码：
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/04/1_starting_point_full.jpg "1_starting_point_full")  
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/04/1_starting_point_full.jpg "1_starting_point_full")  
 
 [code]  
 
@@ -119,7 +119,7 @@ SQLite 是一种流行的轻量级SQL数据库引擎，它将数据存在单个�
 
 通过菜单File → New → Class.在BrewClock项目中创建一个TeaData的新类。确保TeaData扩展于android.database.sqlite.SQLiteOpenHelper 类，并选中“Constructors from superclass”复选框。  
 
-![](https://coolshell.cn/wp-content/uploads/2011/04/2_create_teadata_class1.jpg "1_starting_point_full")
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/04/2_create_teadata_class1.jpg "1_starting_point_full")
 
 
 TeaData 类将为你自动地处理SQLite数据库的创建和版本。我们需要增加一些方法来作为其他代码到数据库的接口。
@@ -361,7 +361,7 @@ public void onCreate(Bundle savedInstanceState) {
 运行你的程序以确保新的界面正确地生效。你应该在泡茶计数器下看见一个空白的弹出式菜单（或者是Spinner)。如果点击spinner，Android将显示一个弹出式的菜单并为你提供选择列表。在这时，菜单的内容因该是空的，现在让我们来绑定Spinner和我们的茶叶数据库。
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/04/3_blank_spinner.jpg "3_blank_spinner")
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/04/3_blank_spinner.jpg "3_blank_spinner")
 
 
 #### 数据绑定
@@ -437,7 +437,7 @@ public void onCreate(Bundle savedInstanceState) {
 现在再次运行你的应用程序。你将会发现茶叶Spinner有了一条选择。点击Spinner让你可以从数据库选择你要的茶叶。
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/04/4_populated_spinner.jpg "4_populated_spinner")
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/04/4_populated_spinner.jpg "4_populated_spinner")
 
 
 恭喜你！你已经成功关联了你的界面和代码。这是任何软件开发过程中一个非常重要的方面。正如你所看见的，Android将这一步简化的非常容易，但是功能有是非常的NB。使用游标和适配器，你可以将数据源（丛简单的字符串数组到复杂的数据库查询）绑定到任何类型的视图：spinner或列表，设置是类似iTunes cover-flow gallery!

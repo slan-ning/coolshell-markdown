@@ -132,13 +132,13 @@ rsync的算法如下：（**假设我们同步源文件名为fileSrc，同步目
 怎么，你没看懂？ 好吧，我送佛送上西，画个示意图给你看看（对图中的东西我就不再解释了）。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/05/rsync-algorithm.jpg "rsync algorithm")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/rsync-algorithm.jpg "rsync algorithm")
 
 
 这样，最终，在同步源这端，我们的rsync算法可能会得到下面这个样子的一个数据数组，图中，红色块表示在目标端已匹配上，不用传输（注：我专门在其中显示了两块chunk #5，相信你会懂的），而白色的地方就是需要传输的内容（注意：这些白色的块是不定长的），这样，同步源这端把这个数组（白色的就是实际内容，红色的就放一个标号）压缩传到目的端，在目的端的rsync会根据这个表重新生成文件，这样，同步完成。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/05/rsync-algorithm-result.jpg "rsync algorithm result")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/rsync-algorithm-result.jpg "rsync algorithm result")
 
 
 最后想说一下，对于某些压缩文件使用rsync传输可能会传得更多，因为被压缩后的文件可能会非常的不同。对此，对于gzip和bzip2这样的命令，记得开启 “rsyncalbe” 模式。

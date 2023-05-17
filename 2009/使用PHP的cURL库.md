@@ -24,7 +24,7 @@
 如果你可以在网页上看到下面的输出，那么表示cURL库已被开启。
 
 
-[![phpinfo_curl](https://coolshell.cn/wp-content/uploads/2009/04/phpinfo_curl.png "phpinfo_curl")](https://coolshell.cn/wp-content/uploads/2009/04/phpinfo_curl.png)
+[![phpinfo_curl](/assets/images/coolshell.cn/wp-content/uploads/2009/04/phpinfo_curl.png "phpinfo_curl")](/assets/images/coolshell.cn/wp-content/uploads/2009/04/phpinfo_curl.png)
 
 
 如果你看到的话，那么你需要设置你的PHP并开启这个库。如果你是在Windows平台下，那么非常简单，你需要改一改你的php.ini文件的设置，找到php\_curl.dll，并取消前面的分号注释就行了。如下所示：

@@ -129,7 +129,7 @@ void remove_if(node ** head, remove_fn rm)
 如果你对上面的代码和描述理解上有困难的话，你可以看看下图的示意：
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/02/linus_pointer_to_pointer.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/linus_pointer_to_pointer.jpg)
 
 
 （全文完）

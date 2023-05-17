@@ -14,6 +14,6 @@ Mozilla的firefox还是很让人失望的，作为一个Linux下默认的浏览�
 当然，最后这个BUG被fix了，有图为证：
 
 
-![](https://coolshell.cn/wp-content/uploads/2010/09/Mozilla.jpg "Mozilla的Bug fixing")Mozilla的Bug fixing
+![](/assets/images/coolshell.cn/wp-content/uploads/2010/09/Mozilla.jpg "Mozilla的Bug fixing")Mozilla的Bug fixing
 
 

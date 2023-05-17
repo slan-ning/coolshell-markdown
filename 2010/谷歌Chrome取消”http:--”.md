@@ -5,7 +5,7 @@
 谷歌下一个版本的Chrome浏览器软件将缺少一个在近20年来一直是浏览器的一个特点的功能：在地址栏中的“http://”。目前开发人员版本的Chrome浏览器已经做了这种改变。这个变化虽然看起来很小，但是，已经在Chrome网站引起了程序员们很大的争议。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png "Google Chrome 取消 http://")](https://coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png "Google Chrome 取消 http://")](/assets/images/coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png)
 
 
 在Google Chrome的开发站点上，又有了一个很热的BUG——[Issue  41467](https://code.google.com/p/chromium/issues/detail?id=41467)（上一次的一热议的BUG是的《[Go语言更名Issue 9](https://coolshell.cn/articles/1781.html)》），这个BUG目前已被关闭。不过在其它地方还在热议中，如：[Reddit.com](http://www.reddit.com/r/programming/comments/bt0oh/issue_41467_url_bar_no_longer_shows_http/)。基本上来说，90%以上的程序员反对的，他们希望Google的Chrome可以给一个设置关闭或打开这一功能。

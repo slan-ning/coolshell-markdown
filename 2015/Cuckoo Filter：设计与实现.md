@@ -5,7 +5,7 @@
 **（感谢网友**[**@我的上铺叫路遥**](http://weibo.com/fullofbull)**投稿）**
 
 
-![](https://coolshell.cn/wp-content/uploads/2015/08/cuckoo-300x164.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2015/08/cuckoo-300x164.jpg)
 
 
 对于海量数据处理业务，我们通常需要一个索引数据结构，用来帮助查询，快速判断数据记录是否存在，这种数据结构通常又叫过滤器(filter)。考虑这样一个场景，上网的时候需要在浏览器上输入URL，这时浏览器需要去判断这是否一个恶意的网站，它将对本地缓存的成千上万的URL索引进行过滤，如果不存在，就放行，如果（可能）存在，则向远程服务端发起验证请求，并回馈客户端给出警告。
@@ -17,7 +17,7 @@
 时下一个非常流行的哈希索引结构就是**[bloom filter](https://en.wikipedia.org/wiki/Bloom_filter)**，它类似于bitmap这样的hashset，所以空间利用率很高。其独特的地方在于它使用多个哈希函数来避免哈希碰撞，如图所示（[来源wikipedia](https://en.wikipedia.org/wiki/Bloom_filter)），bit数组初始化为全0，插入x时，x被3个哈希函数分别映射到3个不同的bit位上并置1，查询x时，只有被这3个函数映射到的bit位全部是1才能说明x可能存在，但凡至少出现一个0表示x肯定不存在。
 
 
-![Bloom_filter](https://coolshell.cn/wp-content/uploads/2015/08/Bloom_filter.png)
+![Bloom_filter](/assets/images/coolshell.cn/wp-content/uploads/2015/08/Bloom_filter.png)
 
 
 
@@ -36,7 +36,7 @@
 接下来我会结合自己的示例代码讲解哈希算法的实现。我们先来看看cuckoo hashing有什么特点，它的哈希函数是成对的（具体的实现可以根据需求设计），每一个元素都是两个，分别映射到两个位置，一个是记录的位置，另一个是备用位置。这个备用位置是处理碰撞时用的，这就要说到cuckoo这个名词的典故了，中文名叫布谷鸟，这种鸟有一种即狡猾又贪婪的习性，它不肯自己筑巢，而是把蛋下到别的鸟巢里，而且它的幼鸟又会比别的鸟早出生，布谷幼鸟天生有一种残忍的动作，幼鸟会拼命把未出生的其它鸟蛋挤出窝巢，今后以便独享“养父母”的食物。借助生物学上这一典故，cuckoo hashing处理碰撞的方法，就是把原来占用位置的这个元素踢走，不过被踢出去的元素还要比鸟蛋幸运，因为它还有一个备用位置可以安置，如果备用位置上还有人，再把它踢走，如此往复。直到被踢的次数达到一个上限，才确认哈希表已满，并执行rehash操作。如下图所示（[图片来源](http://codecapsule.com/2013/07/20/cuckoo-hashing/)）：
 
 
-[![cuckoo_preview](https://coolshell.cn/wp-content/uploads/2015/08/cuckoo_preview.jpg)](http://codecapsule.com/2013/07/20/cuckoo-hashing/)
+[![cuckoo_preview](/assets/images/coolshell.cn/wp-content/uploads/2015/08/cuckoo_preview.jpg)](http://codecapsule.com/2013/07/20/cuckoo-hashing/)
 
 
  
@@ -48,7 +48,7 @@
 一个改进的哈希表如下图所示，每个桶（bucket）有4路槽位（slot）。当哈希函数映射到同一个bucket中，在其它三路slot未被填满之前，是不会有元素被踢的，这大大缓冲了碰撞的几率。笔者自己的简单实现上测过，采用二维哈希表（4路slot）大约80%的占用率（CMU论文数据据说达到90%以上，应该是扩大了slot关联数目所致）。
 
 
-![cuckoo hashing](https://coolshell.cn/wp-content/uploads/2015/08/cuckoo-hashing-1024x392.png)
+![cuckoo hashing](/assets/images/coolshell.cn/wp-content/uploads/2015/08/cuckoo-hashing-1024x392.png)
 
 
 #### Cuckoo Filter设计与实现

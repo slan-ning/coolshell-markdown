@@ -5,7 +5,7 @@
 今年是Linux的15生日，15年前，1994年3月， Linux kernel 版本1.0.0  released。这几天，全世界很多站点都在发布Blog庆祝Linux的15岁生日，而这篇文章是其中的一篇关于 Linux kernel 的，如果你是Linux的粉丝，希望你能喜欢。
 
 
-[![mask-linus_torvalds](https://coolshell.cn/wp-content/uploads/2009/03/mask-linus_torvalds-150x150.jpg "mask-linus_torvalds")](https://coolshell.cn/wp-content/uploads/2009/03/mask-linus_torvalds.jpg)1. Linux是由一个芬兰的仅有21岁的大学生因为兴趣而产生的。
+[![mask-linus_torvalds](/assets/images/coolshell.cn/wp-content/uploads/2009/03/mask-linus_torvalds-150x150.jpg "mask-linus_torvalds")](https://coolshell.cn/wp-content/uploads/2009/03/mask-linus_torvalds.jpg)1. Linux是由一个芬兰的仅有21岁的大学生因为兴趣而产生的。
 
 
 2. 为表扬他的突出贡献，有一颗小行星以他的名字命名。[http://en.wikipedia.org/wiki/9793\_Torvalds](https://en.wikipedia.org/wiki/9793_Torvalds)。

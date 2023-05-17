@@ -8,7 +8,7 @@
 第一个饼图如下，其指明了各种主流的开源项目组的分布情况。可见GNU只占了8%，当然，GNome也是GNU的，加起来也只有13%，只占整个分发包很少的比重。
 
 
-![](http://pedrocr.net/images/GNUTotalSplit.png)
+![](/assets/images/pedrocr.net/images/GNUTotalSplit.png)
 
 
 第二个图，作者把GNU的部分拿了出来，再进行了分析：
@@ -18,7 +18,7 @@
 在下面这个图中，我们可以看到主要是四大块——gcc, gdb, binutils 和 glibc，所以，作者说，这些东西都不是最终用户需要的，不是每一个用户都是需要搞开发的。所以，如果去除这些，再去除Gnome（这个桌面UI也不是很力），那么GNU的东西几乎没有了。
 
 
-![](http://pedrocr.net/images/GNUSplit.png)
+![](/assets/images/pedrocr.net/images/GNUSplit.png)
 
 
 所以，作者以此来挑战Richard Stallman提到的 GNU/Linux的这个说法。好像更为好的说法应该叫——

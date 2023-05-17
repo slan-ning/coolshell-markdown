@@ -58,7 +58,7 @@ iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《
 
 
 
-![dstat screenshot](https://coolshell.cn/wp-content/uploads/2012/07/dstat_screenshot.png)
+![dstat screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/dstat_screenshot.png)
 
 
 #### slurm
@@ -73,7 +73,7 @@ iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《
 
 
 
-![slurm screenshot](https://coolshell.cn/wp-content/uploads/2012/07/slurm_screenshot.png)
+![slurm screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/slurm_screenshot.png)
 
 
 
@@ -87,7 +87,7 @@ iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《
 
 
 
-![vim screenshot](https://coolshell.cn/wp-content/uploads/2012/07/vim_screenshot.png)
+![vim screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/vim_screenshot.png)
 
 
 
@@ -103,23 +103,23 @@ iostat, vmstat, ifstat 三合一的工具，用来查看系统性能（我在《
 [**Screen**](http://www.gnu.org/software/screen/)是一个可以在多个进程之间多路复用一个物理终端的窗口管理器。Screen中有会话的概念，用户可以在一个screen会话中创建多个screen窗口，在每一个screen窗口中就像操作一个真实的telnet/SSH连接窗口那样。请参看IBM DeveloperWorks的这篇文章《[使用 screen 管理你的远程会话](http://www.ibm.com/developerworks/cn/linux/l-cn-screen/)》
 
 
-![gnu screen screenshot](https://coolshell.cn/wp-content/uploads/2012/07/gnu_screen_screenshot.png)
+![gnu screen screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/gnu_screen_screenshot.png)
 
 
 [**dtach**](http://dtach.sourceforge.net/) 是用来模拟screen的detach的功能的小工具，其可以让你随意地attach到各种会话上 。下图为dtach+dvtm的样子。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/dtach+dvtm.png "dtach+dvtm")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/dtach+dvtm.png "dtach+dvtm")
 
 
 **[tmux](http://tmux.sourceforge.net/ "http://tmux.sourceforge.net/")**是一个优秀的终端复用软件，类似[GNU Screen](http://www.gnu.org/software/screen/ "http://www.gnu.org/software/screen/")，但来自于OpenBSD，采用BSD授权。使用它最直观的好处就是，通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机；当然其功能远不止于此。与screen相比的优点：可以横向和纵向分割窗口，且窗格可以自由移动和调整大小。可在多个缓冲区进行复制和粘贴，支持跨窗口搜索；非正常断线后不需重新detach；……  有人说——**与tmux相比，screen简直弱爆了**。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/tmux3.png "tmux")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/tmux3.png "tmux")
 
 
 
-[**byobu**](https://launchpad.net/byobu/)是Ubuntu开发的，在Screen的基础上进行包装，使其更加易用的一个工具。最新的Byobu，已经是基于Tmux作为后端了。可通过“byobu-tmux”这个命令行前端来接受各种与tmux一模一样的参数来控制它。Byobu的细节做的非常好，效果图如下：![](https://coolshell.cn/wp-content/uploads/2012/07/byobu-tmux.jpg "byobu-tmux")
+[**byobu**](https://launchpad.net/byobu/)是Ubuntu开发的，在Screen的基础上进行包装，使其更加易用的一个工具。最新的Byobu，已经是基于Tmux作为后端了。可通过“byobu-tmux”这个命令行前端来接受各种与tmux一模一样的参数来控制它。Byobu的细节做的非常好，效果图如下：![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/byobu-tmux.jpg "byobu-tmux")
 
 
 
@@ -136,7 +136,7 @@ MultiTail是个用来实现同时监控多个文档、类似tail命令的功能�
 
 
 
-![multitail screenshot](https://coolshell.cn/wp-content/uploads/2012/07/multitail_screenshot.png)
+![multitail screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/multitail_screenshot.png)
 
 
 
@@ -153,7 +153,7 @@ MultiTail是个用来实现同时监控多个文档、类似tail命令的功能�
 
 
 
-![tpp screenshot](https://coolshell.cn/wp-content/uploads/2012/07/tpp_screenshot.png)
+![tpp screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/tpp_screenshot.png)
 
 
 
@@ -170,7 +170,7 @@ xargs 是一个比较古老的命令，有简单的并行功能，这个不说�
 
 
 
-![xargs screenshot](https://coolshell.cn/wp-content/uploads/2012/07/xargs_screenshot.png)
+![xargs screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/xargs_screenshot.png)
 
 
 
@@ -190,7 +190,7 @@ Encrypting backup tools.
 
 
 
-![duplicity screenshot](https://coolshell.cn/wp-content/uploads/2012/07/duplicity_screenshot.png)
+![duplicity screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/duplicity_screenshot.png)
 
 
 
@@ -210,7 +210,7 @@ Encrypting backup tools.
 
 
 
-![nethack screenshot](https://coolshell.cn/wp-content/uploads/2012/07/nethack_screenshot.png)
+![nethack screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/nethack_screenshot.png)
 
 
 
@@ -224,7 +224,7 @@ Encrypting backup tools.
 
 
 
-![lftp screenshot](https://coolshell.cn/wp-content/uploads/2012/07/lftp_screenshot.png)
+![lftp screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/lftp_screenshot.png)
 
 
 
@@ -238,7 +238,7 @@ Encrypting backup tools.
 
 
 
-![ack screenshot](https://coolshell.cn/wp-content/uploads/2012/07/ack_screenshot.png)
+![ack screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/ack_screenshot.png)
 
 
 
@@ -252,7 +252,7 @@ Encrypting backup tools.
 
 
 
-![calcurse screenshot](https://coolshell.cn/wp-content/uploads/2012/07/calcurse_screenshot.png)
+![calcurse screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/calcurse_screenshot.png)
 
 
 
@@ -266,7 +266,7 @@ Encrypting backup tools.
 
 
 
-![newsbeuter screenshot](https://coolshell.cn/wp-content/uploads/2012/07/newsbeuter_screenshot.png)
+![newsbeuter screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/newsbeuter_screenshot.png)
 
 
 
@@ -280,7 +280,7 @@ Encrypting backup tools.
 
 
 
-![powertop screenshot](https://coolshell.cn/wp-content/uploads/2012/07/powertop_screenshot.png)
+![powertop screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/powertop_screenshot.png)
 
 
 
@@ -296,7 +296,7 @@ Encrypting backup tools.
 
 
 
-![htop screenshot](https://coolshell.cn/wp-content/uploads/2012/07/htop_screenshot.png)
+![htop screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/htop_screenshot.png)
 
 
 
@@ -313,7 +313,7 @@ Encrypting backup tools.
 
 
 
-![ipbt screenshot](https://coolshell.cn/wp-content/uploads/2012/07/ipbt_screenshot.png)
+![ipbt screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/ipbt_screenshot.png)
 
 
 
@@ -327,7 +327,7 @@ Encrypting backup tools.
 
 
 
-![rsync screenshot](https://coolshell.cn/wp-content/uploads/2012/07/rsync_screenshot.png)
+![rsync screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/rsync_screenshot.png)
 
 
 
@@ -341,7 +341,7 @@ Encrypting backup tools.
 
 
 
-![mtr screenshot](https://coolshell.cn/wp-content/uploads/2012/07/mtr_screenshot.png)
+![mtr screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/mtr_screenshot.png)
 
 
 
@@ -358,7 +358,7 @@ Encrypting backup tools.
 
 
 
-![socat screenshot](https://coolshell.cn/wp-content/uploads/2012/07/socat_screenshot.png)
+![socat screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/socat_screenshot.png)
 
 
 
@@ -372,10 +372,10 @@ Encrypting backup tools.
 
 
 
-![iftop screenshot](https://coolshell.cn/wp-content/uploads/2012/07/iftop_screenshot.png)
+![iftop screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/iftop_screenshot.png)
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/iptraf-tcpudp.gif "iptraf-tcpudp")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/iptraf-tcpudp.gif "iptraf-tcpudp")
 
 
 
@@ -395,7 +395,7 @@ Encrypting backup tools.
 
 
 
-![siege screenshot](https://coolshell.cn/wp-content/uploads/2012/07/siege_screenshot.png)
+![siege screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/siege_screenshot.png)
 
 
 
@@ -409,7 +409,7 @@ Encrypting backup tools.
 
 
 
-![ledger screenshot](https://coolshell.cn/wp-content/uploads/2012/07/ledger_screenshot.png)
+![ledger screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/ledger_screenshot.png)
 
 
 
@@ -423,13 +423,13 @@ Encrypting backup tools.
 
 
 
-![taskwarrior screenshot](https://coolshell.cn/wp-content/uploads/2012/07/taskwarrior_screenshot.png)
+![taskwarrior screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/taskwarrior_screenshot.png)
 
 
 下图是TaskWarrior 2.0的界面：
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/TaskWarrior2.0.png "TaskWarrior2.0")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/TaskWarrior2.0.png "TaskWarrior2.0")
 
 
 
@@ -443,7 +443,7 @@ Encrypting backup tools.
 
 
 
-![curl screenshot](https://coolshell.cn/wp-content/uploads/2012/07/curl_screenshot.png)
+![curl screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/curl_screenshot.png)
 
 
 
@@ -460,7 +460,7 @@ Encrypting backup tools.
 
 
 
- ![rtorrent screenshot](https://coolshell.cn/wp-content/uploads/2012/07/rtorrent_screenshot.png)
+ ![rtorrent screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/rtorrent_screenshot.png)
 
 
 
@@ -474,10 +474,10 @@ Encrypting backup tools.
 
 
 
-![ttytter screenshot](https://coolshell.cn/wp-content/uploads/2012/07/ttytter_screenshot.png)
+![ttytter screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/ttytter_screenshot.png)
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/earthquake.jpg "earthquake")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/earthquake.jpg "earthquake")
 
 
 
@@ -490,14 +490,14 @@ Encrypting backup tools.
 [Vifm](http://vifm.sourceforge.net/) 基于ncurses的文件管理器，DOS风格，用键盘操作。
 
 
-![vifm screenshot](https://coolshell.cn/wp-content/uploads/2012/07/vifm_screenshot.png)
+![vifm screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/vifm_screenshot.png)
 
 
 [Ranger](http://savannah.nongnu.org/projects/ranger)用 Python 完成，默认为使用 Vim 风格的按键绑定，比如 hjkl（上下左右），dd（剪切），yy（复制）等等。功能很全，扩展/可配置性也非常不错。类似MacOS X下Finder（文件管理器）的多列文件管理方式。支持多标签页。实时预览文本文件和目录。
 
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/ranger.png "ranger")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/ranger.png "ranger")
 
 
 
@@ -508,13 +508,13 @@ Encrypting backup tools.
 
 
 
-![cowsay screenshot](https://coolshell.cn/wp-content/uploads/2012/07/cowsay_screenshot.png)
+![cowsay screenshot](/assets/images/coolshell.cn/wp-content/uploads/2012/07/cowsay_screenshot.png)
 
 
  sl是什么？ls？，呵呵，你会经常把ls 打成sl吗？如果是的话，这个东西可以让你娱乐一下，你会看到一辆火车呼啸而过~~，相当拉风。你可以使用sudo apt-get install sl 安装。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/sl.jpg "sl")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/sl.jpg "sl")
 
 
 最后，再介绍一个命令中linuxlogo，你可以使用 sudo apt-get install linuxlogo来安装，然后，就可以使用linuxlogo -L  
@@ -522,7 +522,7 @@ Encrypting backup tools.
 来看一下各种Linux的logo了
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/07/linuxlogo.jpg "linuxlogo")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/07/linuxlogo.jpg "linuxlogo")
 
 
 （全文完）

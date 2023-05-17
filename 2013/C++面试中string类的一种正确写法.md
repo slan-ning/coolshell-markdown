@@ -2,7 +2,7 @@
 >date: 2013-10-09T15:40:38+08:00
 
 
-**（感谢网友 [![](http://tp2.sinaimg.cn/1701018393/50/1297990315/1)](http://weibo.com/u/1701018393?source=webim) [@bnu\_chenshuo](http://weibo.com/u/1701018393?source=webim "bnu_chenshuo") 投稿）**
+**（感谢网友 [![](/assets/images/tp2.sinaimg.cn/1701018393/50/1297990315/1)](http://weibo.com/u/1701018393?source=webim) [@bnu\_chenshuo](http://weibo.com/u/1701018393?source=webim "bnu_chenshuo") 投稿）**
 
 
 C++ 的一个常见面试题是让你实现一个 String 类，限于时间，不可能要求具备 std::string 的功能，但至少要求能正确管理资源。具体来说：

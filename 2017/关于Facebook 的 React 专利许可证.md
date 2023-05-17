@@ -2,7 +2,7 @@
 >date: 2017-09-19T14:08:00+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/09/react_patent-360x200.jpg)随着Apache、百度、Wordpress都在和Facebook的React.js以及其专利许可证划清界限，似乎大家又在讨论Facebook的这个BSD+PATENT的许可证问题了。这让我想起了之前在Medium读过的一篇文章——《[React, Facebook, and the Revocable Patent License, Why It’s a Paper](https://medium.com/@dwalsh.sdlr/react-facebook-and-the-revokable-patent-license-why-its-a-paper-25c40c50b562)》，我觉得那篇文章写的不错，而且还是一个会编程的律师写的，所以有必要把这篇文章传播到中文社区这边来。注意，我不会全部翻译，我只是用我的语言来负责搬运内容和观点，我只想通过这篇文章让大家了解一下这个世界以及专利相关的知识，这样可以避免你看到某乎的“怎么看待XXX”这类的问题时人云亦云，能有自己的独立思考和自我判断。;-)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/09/react_patent-360x200.jpg)随着Apache、百度、Wordpress都在和Facebook的React.js以及其专利许可证划清界限，似乎大家又在讨论Facebook的这个BSD+PATENT的许可证问题了。这让我想起了之前在Medium读过的一篇文章——《[React, Facebook, and the Revocable Patent License, Why It’s a Paper](https://medium.com/@dwalsh.sdlr/react-facebook-and-the-revokable-patent-license-why-its-a-paper-25c40c50b562)》，我觉得那篇文章写的不错，而且还是一个会编程的律师写的，所以有必要把这篇文章传播到中文社区这边来。注意，我不会全部翻译，我只是用我的语言来负责搬运内容和观点，我只想通过这篇文章让大家了解一下这个世界以及专利相关的知识，这样可以避免你看到某乎的“怎么看待XXX”这类的问题时人云亦云，能有自己的独立思考和自我判断。;-)
 
 
 这篇文章的作者叫Dennis Walsh，他自称是亚历桑那和加利福尼亚州的律师，主要针对版权法和专利诉论的法律领域。但是这个律师不一样，他更很喜欢商业和软件多一些。现在他用React/GraphQL/Elixir在写一个汽车代理销售相关的软件，而且已经发布到第2版了。

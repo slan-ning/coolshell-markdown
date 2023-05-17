@@ -11,7 +11,7 @@
 形状是：
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/a.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/a.png)
 
 
 代码是：
@@ -39,7 +39,7 @@ border-bottom: 100px solid red;
 首先呢，我们需要了解HTML标记的Box Model（盒模型），这个例子中呢我们将content，padding都看作content。忽略掉margin。那么一个盒模型就是下图
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/b.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/b.png)
 
 
 中间是内容，然后是4条边。每一条边都有宽度。  
@@ -47,25 +47,25 @@ border-bottom: 100px solid red;
 根据上面CSS的定义，没有border-top（顶边）的情形下 ,我们的图形如下：
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/c.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/c.png)
 
 
 width设置为0后 ，内容没有了就成为下图：
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/d.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/d.png)
 
 
 height也设置为0，只有底边了。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/e.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/e.png)
 
 
 然后两条边都是设置为透明，最后我们就得到了
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/f.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/f.png)
 
 
 这个属于奇技淫巧，但是也说明CSS的强大，没有做不到只有想不到。另外[http://css-tricks.com/examples/ShapesOfCSS/](https://css-tricks.com/examples/ShapesOfCSS/)还能找到很多其他的形状，感兴趣的同学可以自己去看。还有酷壳以前的这篇文章《[CSS实现的各种形状](https://coolshell.cn/articles/5164.html "CSS图形")》

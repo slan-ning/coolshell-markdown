@@ -9,7 +9,7 @@
 
 
 
-[![snake](https://coolshell.cn/wp-content/uploads/2009/04/snake.jpg "snake")](https://coolshell.cn/?attachment_id=738)
+[![snake](/assets/images/coolshell.cn/wp-content/uploads/2009/04/snake.jpg "snake")](https://coolshell.cn/?attachment_id=738)
 
 
 ：）

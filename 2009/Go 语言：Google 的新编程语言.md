@@ -18,7 +18,7 @@ Google 今天发布了自制的编程语言，叫做Go，官方网站如下：
 
 Logo图标 (一只 Gopher, 金花鼠，作者 [Renée French](https://reneefrench.blogspot.com/))  
 
-![logo-153x55](https://coolshell.cn/wp-content/uploads/2009/11/logo-153x55.png "logo-153x55")
+![logo-153x55](/assets/images/coolshell.cn/wp-content/uploads/2009/11/logo-153x55.png "logo-153x55")
 
 
 为什么Google要做自己的编程语言呢？

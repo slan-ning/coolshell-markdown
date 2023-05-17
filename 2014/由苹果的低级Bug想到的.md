@@ -2,7 +2,7 @@
 >date: 2014-02-24T08:12:11+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2014/02/apple_goto_fail.png) 2014年2月22日，在这个“这么二”的日子里，苹果公司推送了 iOS 7.0.6（版本号11B651）修复了 SSL 连接验证的一个 bug。官方网页在这里：<http://support.apple.com/kb/HT6147>，网页中如下描述：
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/02/apple_goto_fail.png) 2014年2月22日，在这个“这么二”的日子里，苹果公司推送了 iOS 7.0.6（版本号11B651）修复了 SSL 连接验证的一个 bug。官方网页在这里：<http://support.apple.com/kb/HT6147>，网页中如下描述：
 
 
 
@@ -89,7 +89,7 @@ fail:
 如果你喜欢XKCD，你一定会想到这个漫画：
 
 
-![](https://sslimgs.xkcd.com/comics/goto.png)
+![](/assets/images/sslimgs.xkcd.com/comics/goto.png)
 
 
 **注意**：这个bug不会影响TLS 1.2版本，因为1.2版本不会用这个函数，走的是另一套机制。但是别忘了client端是可以选择版本的。
@@ -131,7 +131,7 @@ fail:
 所以，我们可以猜测，两个goto fail语句，可能是因为对code在不同branch上做merge发生的。版本工具merge代码的时候，经常性的会出现这样的问题。如果代码的diff很多，这个问题会很容易就没有注意到。就算有code review，这个有问题的代码也很难被找出来的。**如果你来review下面的diff，你会注意到这个错误吗？**
 
 
-![](https://coolshell.cn/wp-content/uploads/2014/02/gotofail.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/02/gotofail.jpg)
 
 
 也就是说，在重构分支上的代码是对的，但是在分支merge的时候，被merge工具搞乱了。所以说，**我们在做code merge的时候，一定要小心小心再小心，不能完全相信merge工具**。

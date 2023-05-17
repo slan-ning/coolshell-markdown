@@ -39,7 +39,7 @@ TDD的核心理念是什么呢？第一是Specification by Example，即把测�
  
 
 
-![](http://images.cnblogs.com/cnblogs_com/weidagang2046/feedback_cycle.jpg)
+![](/assets/images/images.cnblogs.com/cnblogs_com/weidagang2046/feedback_cycle.jpg)
 
 
 上面这幅cost/length\_of\_feedback\_cycle图是我们常见的用于说明敏捷方法比传统方法具有更短的反馈周期，更小代价的应对变化。从图中我们可以清晰的看到在验收测试中发现的需求错误导致的代价是最高的。如果验收测试往后推迟一点，发现错误的代价将按非线性地增长。上面我们已经论述了，任何方法都不可能消除验收测试后对需求的调整，因为这是需求产生的正常过程。我们唯一可以做的是尽可能地缩短验收测试的反馈周期，但是很不幸TDD大量的内部测试只会导致推迟验收测试的时间，从而大大增加代价。  

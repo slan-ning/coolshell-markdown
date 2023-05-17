@@ -5,7 +5,7 @@
 先是在微博上看到了个[微博](http://weibo.com/1876004965/zueproucp)和云风的评论，然后我回了“楼主对C的内存管理不了解”。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)](https://coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)](/assets/images/coolshell.cn/wp-content/uploads/2013/04/weibo.jpg)
 
 
 后来引发了很多人的讨论，大量的人又借机来黑C++，比如：
@@ -234,7 +234,7 @@ $7 = 16
 注：如果不注释int j，那么sizeof(struct B)的值是24。
 
 
-这就是C语言中的内存对齐，内存对齐的原因就是为了更快的存取内存（详见《[深入理解C语言](https://coolshell.cn/articles/5761.html "深入理解C语言")》）
+这就是C语言中的内存对齐，内存对齐的原因就是为了更快的存取内存（详见《[深入理解C语言](/2011/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3C%E8%AF%AD%E8%A8%80.md "深入理解C语言")》）
 
 
 如果内存对齐了，而且struct A中的成员的顺序在struct B中是一样的而且在最前面话，那么就没有问题。
@@ -302,7 +302,7 @@ delete[] pBase;
 所以，微软C++编程译器define这个事让我非常不解，对微软的C++编译器再度失望，看似默默地把其编译对了很漂亮，实则误导了好多人把这种undefined的东西当成defined来用，还赞扬做得好，真是令人无语。**（**[就像微博上的这个贴一样](http://weibo.com/2087077260/zup0V7LLM)，说VC多么牛，还说这是OO的特性。我勒个去！**）**
 
 
-[![](https://coolshell.cn/wp-content/uploads/2013/04/hehe.png)](https://coolshell.cn/wp-content/uploads/2013/04/hehe.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2013/04/hehe.png)](/assets/images/coolshell.cn/wp-content/uploads/2013/04/hehe.png)
 
 
 现在，你终于知道Base\* pBase = new Derived[10];这个问题是C语言的转型的问题，你也应该知道用于数组的指针是怎么回事了吧？**这是一个很奇葩的代码！请你不要像那些人一样在微博上和这里的评论里高呼并和我理论到：“微软的C++编译器支持这个事！”。**

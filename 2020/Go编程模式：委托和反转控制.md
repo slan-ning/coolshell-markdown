@@ -2,7 +2,7 @@
 >date: 2020-12-26T16:57:48+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/go.pair_-300x298.png)图片来源：[GopherSource](https://gophersource.com/)
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/go.pair_-300x298.png)图片来源：[GopherSource](https://gophersource.com/)
 
 
 反转控制[IoC – Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control "IoC - Inversion of Control") 是一种软件设计的方法，其主要的思想是把控制逻辑与业务逻辑分享，不要在业务逻辑里写控制逻辑，这样会让控制逻辑依赖于业务逻辑，而是反过来，让业务逻辑依赖控制逻辑。在《[IoC/DIP其实是一种管理思想](https://coolshell.cn/articles/9949.html)》中的那个开关和电灯的示例一样，开关是控制逻辑，电器是业务逻辑，不要在电器中实现开关，而是把开关抽象成一种协议，让电器都依赖之。这样的编程方式可以有效的降低程序复杂度，并提升代码重用。

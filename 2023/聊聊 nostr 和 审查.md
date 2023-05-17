@@ -2,7 +2,7 @@
 >date: 2023-02-03T15:46:13+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2023/02/nostr-aplicacion-descentralizada-1140x570-1-300x150.png)这两天在网络上又有一个东西火了，Twitter 的创始人 [@jack](https://twitter.com/jack) 新的社交 iOS App  [Damus](https://apps.apple.com/ca/app/damus/id1628663131) 上苹果商店（第二天就因为违反中国法律在中国区下架了），这个软件是一个去中心化的 Twitter，使用到的是 nostr – Notes and Other Stuff Transmitted by Relays 的协议（[协议简介](https://github.com/nostr-protocol/nostr)，[协议细节](https://github.com/nostr-protocol/nips)），协议简介中有很大的篇幅是在批评Twitter和其相类似的中心化的产品，如：[Mastodon](https://mastodon.social/) 和 [Secure Scuttlebutt](https://scuttlebutt.nz/) 。我顺着去看了一下这个协议，发现这个协议真是非常的简单，简单到几句话就可以讲清楚了。
+![](/assets/images/coolshell.cn/wp-content/uploads/2023/02/nostr-aplicacion-descentralizada-1140x570-1-300x150.png)这两天在网络上又有一个东西火了，Twitter 的创始人 [@jack](https://twitter.com/jack) 新的社交 iOS App  [Damus](https://apps.apple.com/ca/app/damus/id1628663131) 上苹果商店（第二天就因为违反中国法律在中国区下架了），这个软件是一个去中心化的 Twitter，使用到的是 nostr – Notes and Other Stuff Transmitted by Relays 的协议（[协议简介](https://github.com/nostr-protocol/nostr)，[协议细节](https://github.com/nostr-protocol/nips)），协议简介中有很大的篇幅是在批评Twitter和其相类似的中心化的产品，如：[Mastodon](https://mastodon.social/) 和 [Secure Scuttlebutt](https://scuttlebutt.nz/) 。我顺着去看了一下这个协议，发现这个协议真是非常的简单，简单到几句话就可以讲清楚了。
 
 
 
@@ -118,7 +118,7 @@
  
 
 
-![欢迎关注我 npub1w6r99545cxea6z76e8nvzjxnymjt4nrsddld33almtm78z7fz95s3c94nu](https://coolshell.cn/wp-content/uploads/2023/02/IMG_2533-300x289.jpg)欢迎关注我 npub1w6r99545cxea6z76e8nvzjxnymjt4nrsddld33almtm78z7fz95s3c94nu
+![欢迎关注我 npub1w6r99545cxea6z76e8nvzjxnymjt4nrsddld33almtm78z7fz95s3c94nu](/assets/images/coolshell.cn/wp-content/uploads/2023/02/IMG_2533-300x289.jpg)欢迎关注我 npub1w6r99545cxea6z76e8nvzjxnymjt4nrsddld33almtm78z7fz95s3c94nu
 （全文完）
 
 

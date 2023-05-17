@@ -2,7 +2,7 @@
 >date: 2009-03-19T00:10:42+08:00
 
 
-[![OFRIN-IBM-SUN-MICROSYSTEMS-20090318](https://coolshell.cn/wp-content/uploads/2009/03/ibm-potentially-buying-sun-203x300.jpg "OFRIN-IBM-SUN-MICROSYSTEMS-20090318")](https://coolshell.cn/wp-content/uploads/2009/03/ibm-potentially-buying-sun.jpg)《华尔街日报》3月18日报导有消息说IBM要以65亿美金收购Sun（[原文](http://online.wsj.com/article/SB123735970806267921.html)），虽然消息未经证实，但已引起轩然大波。据[Business Joural](http://sanjose.bizjournals.com/sanjose/stories/2009/03/16/daily38.html)报道，周二，Sun的股票一下子涨了68%，从之前$4.97一下涨到了$8.36，但IBM的股价下跌4%到了$89.46。
+[![OFRIN-IBM-SUN-MICROSYSTEMS-20090318](/assets/images/coolshell.cn/wp-content/uploads/2009/03/ibm-potentially-buying-sun-203x300.jpg "OFRIN-IBM-SUN-MICROSYSTEMS-20090318")](https://coolshell.cn/wp-content/uploads/2009/03/ibm-potentially-buying-sun.jpg)《华尔街日报》3月18日报导有消息说IBM要以65亿美金收购Sun（[原文](http://online.wsj.com/article/SB123735970806267921.html)），虽然消息未经证实，但已引起轩然大波。据[Business Joural](http://sanjose.bizjournals.com/sanjose/stories/2009/03/16/daily38.html)报道，周二，Sun的股票一下子涨了68%，从之前$4.97一下涨到了$8.36，但IBM的股价下跌4%到了$89.46。
 
 
 而网上的博主们都在狂写评论文章了。有持支持态度的，这篇[博文](http://www.electronista.com/articles/09/03/18/ibm.may.buy.sun/)表明IBM和Sun都是喜欢开源（Linux 和OpenSolaris）以及跨平台的（Linux和Java）的，所以他们的合并可能更好的对抗微软和intel的x86平台，应该太有作为。还有这篇[博文](http://blog.internetnews.com/skerner/2009/03/ibm-sun-acquisition-good-for-u.html)则对比了HP收购Compaq(DEC)的案例，说明这样的合并可能更为容易和HP对抗。

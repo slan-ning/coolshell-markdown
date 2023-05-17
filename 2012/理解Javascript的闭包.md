@@ -84,7 +84,7 @@ ECMAScript到底是如何实现闭包的呢？想深入了解的亲们可以获�
 
 例如上面我们例子的闭包模型应该是这样，sayHello函数在最下层，上层是函数greeting，最外层是全局场景。如下图：  
 
-![](https://coolshell.cn/wp-content/uploads/2012/03/closure.png)  
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/03/closure.png)  
 
 因此当sayHello被调用的时候，sayHello会通过上下文场景找到局部变量text的值，因此在屏幕的对话框中显示出”Hello Closure”  
 

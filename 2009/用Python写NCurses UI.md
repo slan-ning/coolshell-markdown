@@ -19,7 +19,7 @@ Ncurses可以在任何遵循ANSI/POSIX标准的Unix/Linux系统上运行，除�
 mc工具集就是一个用ncurses写的很好的例子,而且在终端上系统核心配置的界面同样是用ncurses编写的. 下面就是它们的截图：
 
 
-[![ncurses_example](https://coolshell.cn/wp-content/uploads/2009/04/ncurses_example.jpg "ncurses_example")](https://coolshell.cn/wp-content/uploads/2009/04/ncurses_example.jpg)
+[![ncurses_example](/assets/images/coolshell.cn/wp-content/uploads/2009/04/ncurses_example.jpg "ncurses_example")](/assets/images/coolshell.cn/wp-content/uploads/2009/04/ncurses_example.jpg)
 
 
 当然，在我们这篇文章中，我们不会教你怎么写NCurses程序，我们只是想告诉你如何用Python来写Ncurses的程序，示例会非常简单，点到为止。
@@ -80,7 +80,7 @@ curses.endwin()
 注意这个示例中的第一行import curses，表明使用curses库，然后这个示像在屏幕中间输出“Python curses in action!”字样，其中坐标为12, 25，注意，在字符界面下，80 x 25是屏幕大小，其用的是字符，而不是像素。下面是运行后的抓屏：
 
 
-[![python_ncursespy](https://coolshell.cn/wp-content/uploads/2009/04/python_ncursespy.jpg "python_ncursespy")](https://coolshell.cn/wp-content/uploads/2009/04/python_ncursespy.jpg)
+[![python_ncursespy](/assets/images/coolshell.cn/wp-content/uploads/2009/04/python_ncursespy.jpg "python_ncursespy")](/assets/images/coolshell.cn/wp-content/uploads/2009/04/python_ncursespy.jpg)
 
 
  最后，我们再来看一个数字菜单的示例：
@@ -149,7 +149,7 @@ curses.endwin()
 下面是运行时的显示：
 
 
-[![python_ncurses](https://coolshell.cn/wp-content/uploads/2009/04/python_ncurses.jpg "python_ncurses")](https://coolshell.cn/wp-content/uploads/2009/04/python_ncurses.jpg)
+[![python_ncurses](/assets/images/coolshell.cn/wp-content/uploads/2009/04/python_ncurses.jpg "python_ncurses")](/assets/images/coolshell.cn/wp-content/uploads/2009/04/python_ncurses.jpg)
 
 
 如果你你了解NCurses编程，你可以看看相关的Linux HOW-TO的文章，链接在这里：[Linux Documentation Project’s NCURSES Programming How To](http://www.linux.org/docs/ldp/howto/NCURSES-Programming-HOWTO/index.html)

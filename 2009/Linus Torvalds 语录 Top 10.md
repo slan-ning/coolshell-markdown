@@ -2,7 +2,7 @@
 >date: 2009-08-16T14:56:25+08:00
 
 
-![linus torvalds](https://coolshell.cn/wp-content/uploads/2009/08/linus_torvalds_talking.jpg "linus torvalds")下面是Linux的创始人Linus Torvalds的一些言论，这是我个人认为最有意思的10句。如果你想看更多的Linus Torvalds说过的话，你可以看看他在维基百科上的词条：[Linux Torvalds](https://en.wikiquote.org/wiki/Linus_Torvalds)。我们在下面给出中英文对照，希望你能喜欢。
+![linus torvalds](/assets/images/coolshell.cn/wp-content/uploads/2009/08/linus_torvalds_talking.jpg "linus torvalds")下面是Linux的创始人Linus Torvalds的一些言论，这是我个人认为最有意思的10句。如果你想看更多的Linus Torvalds说过的话，你可以看看他在维基百科上的词条：[Linux Torvalds](https://en.wikiquote.org/wiki/Linus_Torvalds)。我们在下面给出中英文对照，希望你能喜欢。
 
 
 

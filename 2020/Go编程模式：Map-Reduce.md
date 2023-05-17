@@ -2,7 +2,7 @@
 >date: 2020-12-24T15:13:52+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/go.map_.reduce-300x192.png)在本篇文章中，我们学习一下函数式编程的中非常重要的Map、Reduce、Filter的三种操作，这三种操作可以让我们非常方便灵活地进行一些数据处理——我们的程序中大多数情况下都是在到倒腾数据，尤其对于一些需要统计的业务场景，Map/Reduce/Filter是非常通用的玩法。下面先来看几个例子：
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/go.map_.reduce-300x192.png)在本篇文章中，我们学习一下函数式编程的中非常重要的Map、Reduce、Filter的三种操作，这三种操作可以让我们非常方便灵活地进行一些数据处理——我们的程序中大多数情况下都是在到倒腾数据，尤其对于一些需要统计的业务场景，Map/Reduce/Filter是非常通用的玩法。下面先来看几个例子：
 
 
 ### 本文是全系列中第5 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
@@ -156,7 +156,7 @@ fmt.Printf("%v\n", out)
 下图是一个比喻，其非常形象地说明了Map-Reduce是的业务语义，其在数据处理中非常有用。
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/map-reduce.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/map-reduce.png)
 
 
 #### 业务示例

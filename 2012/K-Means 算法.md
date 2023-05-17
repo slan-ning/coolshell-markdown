@@ -27,7 +27,7 @@
 K-Means算法主要解决的问题如下图所示。我们可以看到，在图的左边有一些点，我们用肉眼可以看出来有四个点群，但是我们怎么通过计算机程序找出这几个点群来呢？于是就出现了我们的K-Means算法（[Wikipedia链接](https://en.wikipedia.org/wiki/K-means_clustering "K-means Clustering 算法")）
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/06/K-Means.gif "K-Means 要解决的问题")K-Means 要解决的问题
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/K-Means.gif "K-Means 要解决的问题")K-Means 要解决的问题
 #### 算法概要
 
 
@@ -35,7 +35,7 @@ K-Means算法主要解决的问题如下图所示。我们可以看到，在图�
 
 
 
-![K-Means 算法概要](https://coolshell.cn/wp-content/uploads/2012/06/K-Means.jpg "K-Means 算法概要")K-Means 算法概要
+![K-Means 算法概要](/assets/images/coolshell.cn/wp-content/uploads/2012/06/K-Means.jpg "K-Means 算法概要")K-Means 算法概要
 从上图中，我们可以看到，**A, B, C, D, E 是五个在图中点。而灰色的点是我们的种子点，也就是我们用来找点群的点**。有两个种子点，所以K=2。
 
 
@@ -60,25 +60,25 @@ K-Means算法主要解决的问题如下图所示。我们可以看到，在图�
 **1）Minkowski Distance 公式 ——** λ 可以随意取值，可以是负数，也可以是正数，或是无穷大。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/06/MinkowskiDistance_clip_image102.gif "Minkowski Distance 公式")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/MinkowskiDistance_clip_image102.gif "Minkowski Distance 公式")
 
 
 **2）Euclidean Distance 公式** —— 也就是第一个公式 λ=2 的情况
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/06/EuclideanDistance_clip_image002.gif "Euclidean Distance 公式")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/EuclideanDistance_clip_image002.gif "Euclidean Distance 公式")
 
 
 **3）CityBlock Distance 公式** —— 也就是第一个公式 λ=1 的情况
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/06/CityBlockDistance_clip_image002.gif "CityBlock Distance 公式")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/CityBlockDistance_clip_image002.gif "CityBlock Distance 公式")
 
 
 这三个公式的求中心点有一些不一样的地方，我们看下图（对于第一个 λ 在 0-1之间）。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/06/Minkowski-Mean.jpg "Minkowski Mean")   ![](https://coolshell.cn/wp-content/uploads/2012/06/Euclidean-distance.jpg "Euclidean distance")  ![](https://coolshell.cn/wp-content/uploads/2012/06/Manhattan-distance.jpg "Manhattan distance")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/Minkowski-Mean.jpg "Minkowski Mean")   ![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/Euclidean-distance.jpg "Euclidean distance")  ![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/Manhattan-distance.jpg "Manhattan distance")
 
 
 **（1）Minkowski Distance     （2）**Euclidean Distance    （3） **CityBlock Distance******

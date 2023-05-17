@@ -2,7 +2,7 @@
 >date: 2009-04-02T10:49:19+08:00
 
 
-在[![](http://www.linuxtopia.org/images/toplogo.jpg "Linuxtopia")](http://www.linuxtopia.org/)上有100多本关于Linux的免费书籍，书籍涉及到多Linux编程的领域
+在[![](/assets/images/www.linuxtopia.org/images/toplogo.jpg "Linuxtopia")](http://www.linuxtopia.org/)上有100多本关于Linux的免费书籍，书籍涉及到多Linux编程的领域
 
 
 包括

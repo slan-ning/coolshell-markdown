@@ -12,7 +12,7 @@ Tiny C Compiler 是一个微型的 C 语言编译器，支持 Windows 和 Linux 
 在TCC这个超小型的C语言编译器下，我们还可以干得更多，比如这个开源项目：C in Python，项目主页是：<http://www.cs.tut.fi/~ask/cinpy/>，这个项目主要是让你可以在Python中直接使用C的源码。呵呵。
 
 
-Cinpy 是一个Python的库，它可以让你在Python的模块中实现C的函数。在前些天，酷壳向大家介绍过《[Python调用C语言函数](https://coolshell.cn/articles/671.html)》——这主要是通过调用动态链接库的方式调用C的函数。而Cinpy则是直接在Python中写C语言。
+Cinpy 是一个Python的库，它可以让你在Python的模块中实现C的函数。在前些天，酷壳向大家介绍过《[Python调用C语言函数](/2009/Python%E8%B0%83%E7%94%A8C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0.md)》——这主要是通过调用动态链接库的方式调用C的函数。而Cinpy则是直接在Python中写C语言。
 
 
 我们来看一个示例：（部分代码）

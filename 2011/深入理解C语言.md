@@ -2,7 +2,7 @@
 >date: 2011-11-01T08:26:38+08:00
 
 
-Dennis Ritchie  过世了，他发明了C语言，一个影响深远并彻底改变世界的计算机语言。一门经历40多年的到今天还长盛不衰的语言，今天很多语言都受到C的影响，C++，Java，C#，Perl， PHP， Javascript， 等等。但是，你对C了解吗？相信你看过本站的《[C语言的谜题](https://coolshell.cn/articles/945.html "C语言的谜题")》还有《[谁说C语言很简单？](https://coolshell.cn/articles/873.html "谁说C语言很简单？")》，这里，我再写一篇关于深入理解C语言的文章，一方面是缅怀Dennis，另一方面是告诉大家应该如何学好一门语言。（顺便注明一下，下面的一些例子来源于[这个slides](http://www.slideshare.net/olvemaudal/deep-c)）
+Dennis Ritchie  过世了，他发明了C语言，一个影响深远并彻底改变世界的计算机语言。一门经历40多年的到今天还长盛不衰的语言，今天很多语言都受到C的影响，C++，Java，C#，Perl， PHP， Javascript， 等等。但是，你对C了解吗？相信你看过本站的《[C语言的谜题](https://coolshell.cn/articles/945.html "C语言的谜题")》还有《[谁说C语言很简单？](/2009/%E8%B0%81%E8%AF%B4C%E8%AF%AD%E8%A8%80%E5%BE%88%E7%AE%80%E5%8D%95%EF%BC%9F.md "谁说C语言很简单？")》，这里，我再写一篇关于深入理解C语言的文章，一方面是缅怀Dennis，另一方面是告诉大家应该如何学好一门语言。（顺便注明一下，下面的一些例子来源于[这个slides](http://www.slideshare.net/olvemaudal/deep-c)）
 
 
 首先，我们先来看下面这个经典的代码：

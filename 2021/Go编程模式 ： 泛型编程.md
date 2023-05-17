@@ -2,7 +2,7 @@
 >date: 2021-09-04T13:44:02+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2021/09/go-generics-1024x512.png)Go语言的1.17版本发布了，其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于有了真正的泛型编程了，再也不需要使用反射或是go generation这些难用的技术了。周末的时候，我把Go 1.17下载下来，然后，体验了一下泛型编程，还是很不错的。下面，就让我们来看一下Go的泛型编程。（注：不过，如果你对泛型编程的重要性还不是很了解的话，你可以先看一下之前的这篇文章《[Go编程模式：Go Generation](https://coolshell.cn/articles/21179.html "Go 编程模式：Go Generation")》，然后再读一下《[Go编程模式：MapReduce](https://coolshell.cn/articles/21164.html "Go编程模式：Map-Reduce")》）
+![](/assets/images/coolshell.cn/wp-content/uploads/2021/09/go-generics-1024x512.png)Go语言的1.17版本发布了，其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于有了真正的泛型编程了，再也不需要使用反射或是go generation这些难用的技术了。周末的时候，我把Go 1.17下载下来，然后，体验了一下泛型编程，还是很不错的。下面，就让我们来看一下Go的泛型编程。（注：不过，如果你对泛型编程的重要性还不是很了解的话，你可以先看一下之前的这篇文章《[Go编程模式：Go Generation](https://coolshell.cn/articles/21179.html "Go 编程模式：Go Generation")》，然后再读一下《[Go编程模式：MapReduce](https://coolshell.cn/articles/21164.html "Go编程模式：Map-Reduce")》）
 
 
 ### 本文是全系列中第10 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)

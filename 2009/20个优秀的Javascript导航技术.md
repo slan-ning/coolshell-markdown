@@ -2,7 +2,7 @@
 >date: 2009-05-26T11:33:01+08:00
 
 
-以前向大家介绍过 《[30种时尚的CSS网站导航条](https://coolshell.cn/articles/562.html)》。这里，我们将向大家介绍一下使用Javascript设计的WEB页面的导航条。
+以前向大家介绍过 《[30种时尚的CSS网站导航条](/2009/30%E7%A7%8D%E6%97%B6%E5%B0%9A%E7%9A%84CSS%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA%E6%9D%A1.md)》。这里，我们将向大家介绍一下使用Javascript设计的WEB页面的导航条。
 
 
 因为Javascript可以处理和用户的交互，所以使用Javascript会有更好的用户体验。在这篇文章里，你可以看到一些**令人恐怖和独一无二的Javascript制作的导航条**。

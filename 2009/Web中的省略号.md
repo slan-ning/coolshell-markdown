@@ -21,7 +21,7 @@ width: 100%;
 
 * **overflow** 属性是必需的，并且属性要是hidden。
 * **white-space: nowrap** 也是必需的。如果文本可以自动换行，就算是不可见，也不会有省略号的。因为文本换行了，所以没有超过容器的尺寸，所以也就不会有省略号了。
-* **width**属性仅在需要支持IE6时设置。 设置成100%仅是为了解决IE6的不兼容问题。（关于IE中的那些不兼容问题，你可以参看本站的《[9个最常见IE的Bug及其fix](https://coolshell.cn/articles/1817.html)》）
+* **width**属性仅在需要支持IE6时设置。 设置成100%仅是为了解决IE6的不兼容问题。（关于IE中的那些不兼容问题，你可以参看本站的《[9个最常见IE的Bug及其fix](/2009/9%E4%B8%AA%E6%9C%80%E5%B8%B8%E8%A7%81IE%E7%9A%84Bug%E5%8F%8A%E5%85%B6fix.md)》）
 * **text-overflow: ellipsis** 就是设置省略号了。目前还不是HTML的标准规范。其是由IE引入的，可以在IE6+，Safari 3.2+和Chrome上工作。
 * **-o-text-overflow: ellipsis** 是 Opera 支持的。可以在 Opera 9.0+使用。
 

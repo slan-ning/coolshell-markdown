@@ -5,7 +5,7 @@
 本篇文章主要教你如何使用 [Vim](http://www.vim.org/) 分屏功能。
 
 
-![vim-windows](https://coolshell.cn/wp-content/uploads/2009/11/vimwindows.png "vim-windows")
+![vim-windows](/assets/images/coolshell.cn/wp-content/uploads/2009/11/vimwindows.png "vim-windows")
 
 
  ![](https://coolshell.cn/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif "更多...")

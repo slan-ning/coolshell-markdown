@@ -2,7 +2,7 @@
 >date: 2014-03-20T09:50:34+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2014/03/snake-hat-new-year-schedule-800x960.jpg)Python的修饰器的英文名叫Decorator，当你看到这个英文名的时候，你可能会把其跟Design Pattern里的Decorator搞混了，其实这是完全不同的两个东西。虽然好像，他们要干的事都很相似——都是想要对一个已有的模块做一些“修饰工作”，所谓修饰工作就是想给现有的模块加上一些小装饰（一些小功能，这些小功能可能好多模块都会用到），但又不让这个小装饰（小功能）侵入到原有的模块中的代码里去。但是OO的Decorator简直就是一场恶梦，不信你就去看看wikipedia上的词条（[Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern)）里的UML图和那些代码，这就是我在《 [从面向对象的设计模式看软件设计](https://coolshell.cn/articles/8961.html "链接：从面向对象的设计模式看软件设计")》“餐后甜点”一节中说的，OO鼓励了——“厚重地胶合和复杂层次”，也是《 [如此理解面向对象编程](https://coolshell.cn/articles/8745.html "链接：如此理解面向对象编程")》中所说的“OO的狂热者们非常害怕处理数据”，Decorator Pattern搞出来的代码简直就是OO的反面教程。
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/03/snake-hat-new-year-schedule-800x960.jpg)Python的修饰器的英文名叫Decorator，当你看到这个英文名的时候，你可能会把其跟Design Pattern里的Decorator搞混了，其实这是完全不同的两个东西。虽然好像，他们要干的事都很相似——都是想要对一个已有的模块做一些“修饰工作”，所谓修饰工作就是想给现有的模块加上一些小装饰（一些小功能，这些小功能可能好多模块都会用到），但又不让这个小装饰（小功能）侵入到原有的模块中的代码里去。但是OO的Decorator简直就是一场恶梦，不信你就去看看wikipedia上的词条（[Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern)）里的UML图和那些代码，这就是我在《 [从面向对象的设计模式看软件设计](https://coolshell.cn/articles/8961.html "链接：从面向对象的设计模式看软件设计")》“餐后甜点”一节中说的，OO鼓励了——“厚重地胶合和复杂层次”，也是《 [如此理解面向对象编程](https://coolshell.cn/articles/8745.html "链接：如此理解面向对象编程")》中所说的“OO的狂热者们非常害怕处理数据”，Decorator Pattern搞出来的代码简直就是OO的反面教程。
 
 
 Python 的 Decorator在使用上和Java/C#的Annotation很相似，就是在方法名前面加一个@XXX注解来为这个方法装饰一些东西。但是，Java/C#的Annotation也很让人望而却步，太TMD的复杂了，你要玩它，你需要了解一堆Annotation的类库文档，让人感觉就是在学另外一门语言。

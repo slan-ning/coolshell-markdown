@@ -5,7 +5,7 @@
 *[文章来源 www.readwriteweb.com](http://www.readwriteweb.com/archives/titanium_10_launches_build_native_apps_for_desktop_mobile_ipad.php)*
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/03/PROD_tit_mobile.png)](https://coolshell.cn/wp-content/uploads/2010/03/PROD_tit_mobile.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/03/PROD_tit_mobile.png)](/assets/images/coolshell.cn/wp-content/uploads/2010/03/PROD_tit_mobile.png)
 
 
 2010年3月8日，Appcelerator 公司发布了 Titanium 的 1.0 版本。 Titanium 是一个桌面和移动应用程序开发平台，基于此平台，开发人员可以使用标准的 WEB 技术如 HTML，JavaScript，和 CSS 来开发桌面和移动应用程序。

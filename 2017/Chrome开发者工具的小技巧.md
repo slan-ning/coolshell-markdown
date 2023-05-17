@@ -37,7 +37,7 @@ Chrome的开发者工具是个很强大的东西，相信程序员们都不会�
 有很多css/js的代码都会被 minify 掉，你可以点击代码窗口左下角的那个 **`{ }`**  标签，chrome会帮你给格式化掉。
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/pretty-code.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/pretty-code.gif)
 
 
 
@@ -50,7 +50,7 @@ Chrome的开发者工具是个很强大的东西，相信程序员们都不会�
  
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/state.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/state.gif)
 
 
  
@@ -65,7 +65,7 @@ Chrome的开发者工具是个很强大的东西，相信程序员们都不会�
  
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/animation.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/animation.gif)
 
 
 #### 直接编辑网页
@@ -83,7 +83,7 @@ Chrome的开发者工具是个很强大的东西，相信程序员们都不会�
 P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你可以输入 clear() 或是 按 `Ctrl+L`（Windows下），`CMD + K` (Mac下)
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/editor.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/editor.gif)
 
 
  
@@ -95,7 +95,7 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 你可以设置你的网络的访问速度来模拟一个网络很慢的情况。
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/custom-network-throttling-profiles.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/custom-network-throttling-profiles.gif)
 
 
  
@@ -107,7 +107,7 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 这个是我很喜欢 的一个功能，你可以在 network选项卡里，点击 XHR 过滤相关的Ajax请求，然后在相关的请求上点鼠标右键，在菜单中选择： `Copy` => `Copy as cURL`，然后就可以到你的命令行下去 执行 `curl` 的命令了。这个可以很容易做一些自动化的测试。
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/curl.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/curl.gif)
 
 
  
@@ -125,13 +125,13 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 在device显示中，先选择一个手机，然后在右上角选 `Show Device Frame`，然后你就看到手机的样子了，然后再到那个菜中中选 Capture snapshot，就可以抓下一个有手机样子的截图了。
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/device.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/device.gif)
 
 
 我抓的图如下（当然，不是所有的手机都有frame的）
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/coolshell.cn-iPhone-6-Plus-1-148x300.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/coolshell.cn-iPhone-6-Plus-1-148x300.png)
 
 
  
@@ -158,7 +158,7 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 在 Sources 面页中，你可以看到右边的那堆break points中，除了上面我们说的给DOM设置断点，你还可以给XHR和Event Listener设置断点，载图如下：
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/breakpoints-834x1024.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/breakpoints-834x1024.png)
 
 
 #### 关于Console中的技巧
@@ -179,7 +179,7 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 * 你可以使用 `getEventListeners($("selector"))` 来查看某个DOM对象上的事件（如下图所示）。
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/events-geteventlisteners_expanded.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/events-geteventlisteners_expanded.png)
 
 
 * 你还可以使用 `monitorEvents($("selector"))` 来监控相关的事件。比如：
@@ -188,7 +188,7 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 `monitorEvents(document.body, "click");`
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/monitor-events-1024x378.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/monitor-events-1024x378.png)
 
 
 ##### Console中的一些函数
@@ -200,7 +200,7 @@ P.S. 下面这个抓屏中还演示了一个如何清空console的示例。你�
 使用 monitor函数来监控一函数，如下面的示例
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/monitor-300x112.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/monitor-300x112.png)
 
 
 **2）copy函数**
@@ -215,7 +215,7 @@ copy函数可以把一个变量的值copy到剪贴板上。
 inspect函数可以让你控制台跳到你需要查看的对象上。如：
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/inspect-1024x459.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/inspect-1024x459.png)
 
 
 更多的函数请参数官方文档 – [Using the Console / Command Line Reference](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference)
@@ -230,7 +230,7 @@ inspect函数可以让你控制台跳到你需要查看的对象上。如：
 `console.log("%c左耳朵", "font-size:90px;color:#888")`
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/console.log_-300x92.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/console.log_-300x92.png)
 
 
 于是，你可以定义一些相关的log函数，如：
@@ -246,7 +246,7 @@ console.important = function( msg){
 }
 ```
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/console.log2_-1024x411.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/console.log2_-1024x411.png)
 
 
 关于console.log中的格式化，你可以参看如下表格：
@@ -282,7 +282,7 @@ var pets = [
 console.table(pets)
 ```
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/console.table_-1024x438.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/console.table_-1024x438.png)
 
 
  
@@ -311,7 +311,7 @@ console.table(pets)
 点击在 DevTools的右上角的那三个坚排的小点，你会看到一个菜单，点选 `Shortcuts`，你就可以看到所有的快捷键了
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/01/shortcuts-1024x466.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/01/shortcuts-1024x466.png)
 
 
 如果你知道更多，也欢迎补充！

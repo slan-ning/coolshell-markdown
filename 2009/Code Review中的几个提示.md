@@ -2,7 +2,7 @@
 >date: 2009-08-20T23:49:49+08:00
 
 
-![Code Reivew](https://coolshell.cn/wp-content/uploads/2009/08/review.jpg "Code Reivew")Code Review应该是软件工程最最有价值的一个活动，之前，本站发表过《[简单实用的Code Review工具](https://coolshell.cn/articles/1218.html)》，那些工具主要是用来帮助更有效地进行这个活动，这里的这篇文章，我们主要想和大家分享一下Code Review代码审查的一些心得。
+![Code Reivew](/assets/images/coolshell.cn/wp-content/uploads/2009/08/review.jpg "Code Reivew")Code Review应该是软件工程最最有价值的一个活动，之前，本站发表过《[简单实用的Code Review工具](/2009/%E7%AE%80%E5%8D%95%E5%AE%9E%E7%94%A8%E7%9A%84Code%20Review%E5%B7%A5%E5%85%B7.md)》，那些工具主要是用来帮助更有效地进行这个活动，这里的这篇文章，我们主要想和大家分享一下Code Review代码审查的一些心得。
 
 
 首先，我们先来看看Code Reivew的用处：
@@ -66,7 +66,7 @@
 我个人的习惯，并且也是对团队成员的要求是——先Review设计实现思路，然后Review设计模式，接着Review成形的骨干代码，最后Review完成的代码，如果程序复杂的话，需要拆成几个单元或模块分别Review。当然，最佳的practice是，每次Review的代码应该在1000行以内，时间不能超过一部电影的时间——1.5小时（因为据说那个一个正常人的膀胱可以容纳尿液的最长限度）
 
 
-当然，在敏捷开发中，他们不需要Code Reivew，其实，敏捷开发中使用更为极端的“结对编程”（Pair-Programming）的方法 —— 一种时时刻刻都在进行Code Review的方法，个人感觉在实际过程中，这种方法有点过了。另外，大家可以看看本站的另一篇文章《[结对编程的利与弊](https://coolshell.cn/articles/16.html)》来了解一下这种方法的问题。
+当然，在敏捷开发中，他们不需要Code Reivew，其实，敏捷开发中使用更为极端的“结对编程”（Pair-Programming）的方法 —— 一种时时刻刻都在进行Code Review的方法，个人感觉在实际过程中，这种方法有点过了。另外，大家可以看看本站的另一篇文章《[结对编程的利与弊](/2009/%E7%BB%93%E5%AF%B9%E7%BC%96%E7%A8%8B%E7%9A%84%E5%88%A9%E4%B8%8E%E5%BC%8A.md)》来了解一下这种方法的问题。
 
 
 #### 2.- Code Review不要太正式，而且要短

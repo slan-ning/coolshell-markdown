@@ -2,7 +2,7 @@
 >date: 2013-06-30T12:27:04+08:00
 
 
-![Alan Cox](https://coolshell.cn/wp-content/uploads/2013/06/Alan-Cox-200x300.jpg "Alan Cox")Alan Cox
+![Alan Cox](/assets/images/coolshell.cn/wp-content/uploads/2013/06/Alan-Cox-200x300.jpg "Alan Cox")Alan Cox
 
 
  **（感谢网友** [**@我的上铺叫路遥**](http://weibo.com/fullofbull)**投稿）**

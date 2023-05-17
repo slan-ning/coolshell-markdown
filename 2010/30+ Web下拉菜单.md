@@ -2,7 +2,7 @@
 >date: 2010-10-20T14:06:43+08:00
 
 
-以前给大家介绍过[13个不错的Javascript和CSS的菜单](https://coolshell.cn/articles/1660.html)、[20个优秀的Javascript导航技术](https://coolshell.cn/articles/918.html)、[30种时尚的CSS网站导航条](https://coolshell.cn/articles/562.html)，今天在网上看到一篇文章其收集了30多个下拉菜单（分为两类，jQuery和CSS+Javascript的），转过来。
+以前给大家介绍过[13个不错的Javascript和CSS的菜单](/2009/13%E4%B8%AA%E4%B8%8D%E9%94%99%E7%9A%84Javascript%E5%92%8CCSS%E7%9A%84%E8%8F%9C%E5%8D%95.md)、[20个优秀的Javascript导航技术](/2009/20%E4%B8%AA%E4%BC%98%E7%A7%80%E7%9A%84Javascript%E5%AF%BC%E8%88%AA%E6%8A%80%E6%9C%AF.md)、[30种时尚的CSS网站导航条](/2009/30%E7%A7%8D%E6%97%B6%E5%B0%9A%E7%9A%84CSS%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA%E6%9D%A1.md)，今天在网上看到一篇文章其收集了30多个下拉菜单（分为两类，jQuery和CSS+Javascript的），转过来。
 
 
 原文：<http://smashinghub.com/3-useful-drop-down-menu-scripts-to-enhance-header-navigation.htm>

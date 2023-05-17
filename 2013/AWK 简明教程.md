@@ -2,7 +2,7 @@
 >date: 2013-02-17T08:38:29+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/02/awk.jpg)有一些网友看了前两天的《[Linux下应该知道的技巧](https://coolshell.cn/articles/8883.html "应该知道的Linux技巧")》希望我能教教他们用awk和sed，所以，出现了这篇文章。我估计这些80后的年轻朋友可能对awk/sed这类上古神器有点陌生了，所以需要我这个老家伙来炒炒冷饭。**况且，AWK是贝尔实验室1977年搞出来的文本出现神器，今年是蛇年，是AWK的本命年，而且年纪和我相仿，所以非常有必要为他写篇文章**。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/awk.jpg)有一些网友看了前两天的《[Linux下应该知道的技巧](https://coolshell.cn/articles/8883.html "应该知道的Linux技巧")》希望我能教教他们用awk和sed，所以，出现了这篇文章。我估计这些80后的年轻朋友可能对awk/sed这类上古神器有点陌生了，所以需要我这个老家伙来炒炒冷饭。**况且，AWK是贝尔实验室1977年搞出来的文本出现神器，今年是蛇年，是AWK的本命年，而且年纪和我相仿，所以非常有必要为他写篇文章**。
 
 
 之所以叫AWK是因为其取了三位创始人 [Alfred Aho](https://en.wikipedia.org/wiki/Alfred_Aho "Alfred Aho")，[Peter Weinberger](https://en.wikipedia.org/wiki/Peter_J._Weinberger "Peter J. Weinberger"), 和 [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan "Brian Kernighan") 的Family Name的首字符。要学AWK，就得提一提AWK的一本相当经典的书《[The AWK Programming Language](http://plan9.bell-labs.com/cm/cs/awkbook/)》，它在[豆瓣上的评分](http://book.douban.com/subject/1876898/)是9.4分！在[亚马逊上居然卖1022.30元](https://www.amazon.cn/mn/detailApp/?asin=020107981X)。

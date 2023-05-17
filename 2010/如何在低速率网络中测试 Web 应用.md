@@ -14,7 +14,7 @@
 Firefox Throttle 的截图
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/07/Firefox-Throttle-300x231.png "Firefox Throttle")](https://coolshell.cn/wp-content/uploads/2010/07/Firefox-Throttle.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/07/Firefox-Throttle-300x231.png "Firefox Throttle")](https://coolshell.cn/wp-content/uploads/2010/07/Firefox-Throttle.png)
 
 
 另一个工具是 [Sloppy](http://www.dallaway.com/sloppy/)，它是一个 Java Web Start application。

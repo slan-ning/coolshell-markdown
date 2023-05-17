@@ -2,7 +2,7 @@
 >date: 2014-04-12T16:28:01+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2014/04/code_review-225x300.jpg)（这篇文章缘由我的微博，我想多说一些，有些杂乱，想到哪写到哪）
+![](/assets/images/coolshell.cn/wp-content/uploads/2014/04/code_review-225x300.jpg)（这篇文章缘由我的微博，我想多说一些，有些杂乱，想到哪写到哪）
 
 
 这两天，在微博上表达了一下Code Review的重要性。因为翻看了阿里内部的Review Board上的记录，从上面发现Code Review做得好的是一些比较偏技术的团队，而偏业务的技术团队基本上没有看到Code Review的记录。当然，这并不能说没有记录他们就没有做Code Review，于是，我就问了一下以前在业务团队做过的同事有没有Code Review，他告诉我不但没有Code Review，而且他认为Code Review没用，因为：
@@ -85,7 +85,7 @@
 我从2002年开始就浸泡在严格的Code Review中，我的个人成长和Code Review有很大的关系，如果我的成长过程中没有经历过Code Review这个事，我完全不敢想像。
 
 
-**我个人认为代码有这几种级别：1）可编译，2）可运行，3）可测试，4）可读，5）可维护，6）可重用。通过自动化测试的代码只能达到第3）级，而通过Code Review的代码少会在第4）级甚至更高。**关于Code Review，你可以参看本站的《[Code Review中的几个提示](https://coolshell.cn/articles/1302.html "Code Review中的几个提示")》
+**我个人认为代码有这几种级别：1）可编译，2）可运行，3）可测试，4）可读，5）可维护，6）可重用。通过自动化测试的代码只能达到第3）级，而通过Code Review的代码少会在第4）级甚至更高。**关于Code Review，你可以参看本站的《[Code Review中的几个提示](/2009/Code%20Review%E4%B8%AD%E7%9A%84%E5%87%A0%E4%B8%AA%E6%8F%90%E7%A4%BA.md "Code Review中的几个提示")》
 
 
 可见，Code Review直接关系到了你的工程能力！

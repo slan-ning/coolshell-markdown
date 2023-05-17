@@ -6,7 +6,7 @@
 今天，专业的搜索引擎优化SEO（Search Engine Optimizers）会让你的网页或文章能更多得被搜索并访问到。而图片的搜索优化则是这项技术中非常特别的一部分，它可以让你的图片更容易地被人搜索到，比如：艺术图片，服务设计，或是家具等等。相信大家都知道图片远比文字更有吸引力，这是因为我们都知道——“一图胜千言”。
 
 
-[![Image SEO](https://coolshell.cn/wp-content/uploads/2009/10/seo-cartoon.jpg "Image SEO")](https://coolshell.cn/wp-content/uploads/2009/10/seo-cartoon.jpg)
+[![Image SEO](/assets/images/coolshell.cn/wp-content/uploads/2009/10/seo-cartoon.jpg "Image SEO")](/assets/images/coolshell.cn/wp-content/uploads/2009/10/seo-cartoon.jpg)
 
 
 在搜索引擎的世界里，有一组有限的因素决定着图片的位置。下面是一个Checklist可以让你把你的图片搜索优化做得更好。

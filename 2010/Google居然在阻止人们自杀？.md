@@ -11,6 +11,6 @@
 [poison control onebox](https://www.google.com/search?q=poison+control)
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/04/googleOnebox.png "googleOnebox")](https://coolshell.cn/wp-content/uploads/2010/04/googleOnebox.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/04/googleOnebox.png "googleOnebox")](/assets/images/coolshell.cn/wp-content/uploads/2010/04/googleOnebox.png)
 
 

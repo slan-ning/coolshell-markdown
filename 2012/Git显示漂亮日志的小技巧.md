@@ -8,14 +8,14 @@
 Git的传统log如下所示，你喜欢吗？
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/06/git.log_.01.png "默认的Git的log")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/git.log_.01.png "默认的Git的log")
 
 
 看看下面这个你喜不喜欢？（点击图片看大图）
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/06/git.log_.02.png "改进版的Git的日志")](https://coolshell.cn/wp-content/uploads/2012/06/git.log_.02.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/06/git.log_.02.png "改进版的Git的日志")](/assets/images/coolshell.cn/wp-content/uploads/2012/06/git.log_.02.png)
 
 
 要做到这样，命令行如下：

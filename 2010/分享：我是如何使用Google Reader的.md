@@ -14,7 +14,7 @@
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2010/02/reader2.png "reader2")](https://coolshell.cn/wp-content/uploads/2010/02/reader2.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2010/02/reader2.png "reader2")](/assets/images/coolshell.cn/wp-content/uploads/2010/02/reader2.png)
 
 
 

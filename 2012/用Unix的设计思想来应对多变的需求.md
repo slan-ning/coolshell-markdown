@@ -5,7 +5,7 @@
 之前，@[风枫峰](http://weibo.com/hfcc?source=webim "风枫峰") 在“[这是谁的错？](https://coolshell.cn/articles/7126.html "这到底是谁之错？")”中说过开发团队对需求来者不拒，而@[weidagang](http://weibo.com/weidagang "weidagang") 也在“[需求变更和IoC](https://coolshell.cn/articles/6950.html "需求变化与IoC")”中说过用IoC来最大程度地解决需求变更。今天我也想从Unix设计思想的角度来说说什么是好的软件设计，什么样的设计可以把需求变更对开发的影响降低。（**注意**：这并不能解决用户或是PM的无理需求，面对无理需求，需要仔细分析需求，而用技术的手段无法搞定这个事，但是可以减轻需求变更带来的痛苦） 我曾经在[《Unix传奇》的下篇](https://coolshell.cn/articles/2324.html)中写过一些Unix的设计哲学和思想（这里重点推荐大家看一下《*[The Art of Unix Programming](http://product.china-pub.com/197413)*》，我推荐过多次了），以前也发过一篇《[一些软件设计的原则](https://coolshell.cn/articles/4535.html "一些软件设计的原则")》，不过，这些东西都太多了，记不住。其实，这么多年来，我的经验告诉我，**无论是Unix设计，还是面向对象设计，还是别的什么如SOA，ECB，消息，事件，MVC，网络七层模型，数据库设计，等等，他们都在干三件事——解耦，解耦，还是解耦！**所谓解耦，就是让软件的模块和模块间尽量少地依赖起来。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/05/Bannière-Unix-linux.jpg "Unix")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/Bannière-Unix-linux.jpg "Unix")
 
 
 #### 现实当中的例子

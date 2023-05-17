@@ -5,7 +5,7 @@
 周末天气不好，只能宅在家里，于是就顺便看了一下Go语言，觉得比较有意思，所以写篇文章介绍一下。**我想写一篇你可以在乘坐地铁或公交车上下班时就可以初步了解一门语言的文章**。所以，下面的文章主要是以代码和注释为主。只需要你对C语言，Unix，Python有一点基础，我相信你会在30分钟左右读完并对Go语言有一些初步了解的。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/11/go2.jpg "go")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/11/go2.jpg "go")
 
 
 

@@ -51,23 +51,23 @@ GNU还给出了下面这些理由：
 **数据结构的操作 ——** 你写的一定不会有STL好
 
 
-**[![](https://coolshell.cn/wp-content/uploads/2012/08/VEC-vs-vector.jpg "VEC vs vector")](https://coolshell.cn/wp-content/uploads/2012/08/VEC-vs-vector.jpg)**
+**[![](/assets/images/coolshell.cn/wp-content/uploads/2012/08/VEC-vs-vector.jpg "VEC vs vector")](/assets/images/coolshell.cn/wp-content/uploads/2012/08/VEC-vs-vector.jpg)**
 
 
 **结构套结构还是继承？**
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/08/tree-structure.jpg "tree-structure")](https://coolshell.cn/wp-content/uploads/2012/08/tree-structure.jpg)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/08/tree-structure.jpg "tree-structure")](/assets/images/coolshell.cn/wp-content/uploads/2012/08/tree-structure.jpg)
 
 
 **函数指针还是多态？**
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/08/TARGET-vs-Target.jpg "TARGET vs Target")](https://coolshell.cn/wp-content/uploads/2012/08/TARGET-vs-Target.jpg)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/08/TARGET-vs-Target.jpg "TARGET vs Target")](/assets/images/coolshell.cn/wp-content/uploads/2012/08/TARGET-vs-Target.jpg)
 **垃圾回收 还是 智能指针？**
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/08/GC-vs-Smart-Pointer.jpg "GC vs Smart Pointer")](https://coolshell.cn/wp-content/uploads/2012/08/GC-vs-Smart-Pointer.jpg)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/08/GC-vs-Smart-Pointer.jpg "GC vs Smart Pointer")](/assets/images/coolshell.cn/wp-content/uploads/2012/08/GC-vs-Smart-Pointer.jpg)
 **Why not C++?**
 
 
@@ -76,7 +76,7 @@ GNU还给出了下面这些理由：
 * **FSF不喜欢C++！**因为FSF（自由软件基金会）这些人不写代码。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/08/Why-not-C++.jpg "Why not C++")](https://coolshell.cn/wp-content/uploads/2012/08/Why-not-C++.jpg)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/08/Why-not-C++.jpg "Why not C++")](/assets/images/coolshell.cn/wp-content/uploads/2012/08/Why-not-C++.jpg)
 
 
 

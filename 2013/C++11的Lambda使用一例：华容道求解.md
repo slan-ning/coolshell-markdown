@@ -2,10 +2,10 @@
 >date: 2013-10-09T15:50:21+08:00
 
 
-**（感谢网友 [![](http://tp2.sinaimg.cn/1701018393/50/1297990315/1)](http://weibo.com/u/1701018393?source=webim) [@bnu\_chenshuo](http://weibo.com/u/1701018393?source=webim "bnu_chenshuo") 投稿）**
+**（感谢网友 [![](/assets/images/tp2.sinaimg.cn/1701018393/50/1297990315/1)](http://weibo.com/u/1701018393?source=webim) [@bnu\_chenshuo](http://weibo.com/u/1701018393?source=webim "bnu_chenshuo") 投稿）**
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/10/huarong.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/10/huarong.png)
 
 
 华容道是一个有益的智力游戏，游戏规则不再赘述。用计算机求解华容道也是一道不错的编程练习题，为了寻求最少步数，求解程序一般用广度优先搜索算法。华容道的一种常见开局如图 1 所示。

@@ -2,19 +2,19 @@
 >date: 2013-07-05T08:44:03+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/07/inverted-bookshelf_thumb-300x200.jpg) 关于IoC的的概念提出来已经很多年了，其被用于一种面象对像的设计。我在这里再简单的回顾一下这个概念。我先谈技术，再说管理。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/07/inverted-bookshelf_thumb-300x200.jpg) 关于IoC的的概念提出来已经很多年了，其被用于一种面象对像的设计。我在这里再简单的回顾一下这个概念。我先谈技术，再说管理。
 
 
 话说，我们有一个开关要控制一个灯的开和关这两个动作，最常见也是最没有技术含量的实现会是这个样子：
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/07/IoC1.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/07/IoC1.jpg)
 
 
 然后，有一天，我们发现需要对灯泡扩展一下，于是我们做了个抽象类：
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/07/IoC2.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/07/IoC2.jpg)
 
 
 但是，如果有一天，我们发现这个开关可能还要控制别的不单单是灯泡的东西，我们就发现这个开关耦合了灯泡这种类别，非常不利于我们的扩展，于是反转控制出现了。
@@ -24,7 +24,7 @@
 
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/07/IoC3.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/07/IoC3.jpg)
 
 
 **所谓控制反转的意思是，开关从以前的设备的专用开关，转变到了控制电源的开关，而以前的设备要反过来依赖于开关厂声明的电源连接接口。只要符合开关厂定义的电源连接的接口，这个开关可以控制所有符合这个电源连接接口的设备**。**也就是说，开关从依赖设备这种情况，变成了，设备反过来依赖于开关所定义的接口**。

@@ -126,7 +126,7 @@ SELECT * FROM TableA
 ***更新:2014年3月30日***
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/01/SQL-Join.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/01/SQL-Join.jpg)
 
 
 (全文完)

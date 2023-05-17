@@ -2,7 +2,7 @@
 >date: 2017-06-01T16:48:15+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/06/go-hardhat.png)之前写过一篇《[Python修饰器的函数式编程](https://coolshell.cn/articles/11265.html)》，这种模式很容易的可以把一些函数装配到另外一些函数上，可以让你的代码更为的简单，也可以让一些“小功能型”的代码复用性更高，让代码中的函数可以像乐高玩具那样自由地拼装。所以，一直以来，我对修饰器decoration这种编程模式情有独钟，这里写一篇Go语言相关的文章。
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/06/go-hardhat.png)之前写过一篇《[Python修饰器的函数式编程](https://coolshell.cn/articles/11265.html)》，这种模式很容易的可以把一些函数装配到另外一些函数上，可以让你的代码更为的简单，也可以让一些“小功能型”的代码复用性更高，让代码中的函数可以像乐高玩具那样自由地拼装。所以，一直以来，我对修饰器decoration这种编程模式情有独钟，这里写一篇Go语言相关的文章。
 
 
 ### 本文是全系列中第7 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)

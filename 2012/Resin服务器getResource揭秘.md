@@ -67,11 +67,11 @@
 
 
 
-![图片1](https://coolshell.cn/wp-content/uploads/2012/01/图片1.png "图片1")图1
+![图片1](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片1.png "图片1")图1
 最后委托给ClassLoader的getResource方法。那么这个ClassLoader是哪个呢？一看下图便知：
 
 
-![图片2](https://coolshell.cn/wp-content/uploads/2012/01/图片2.png "图片2")图2
+![图片2](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片2.png "图片2")图2
 是DynamicClassLoader的getResource方法，原理上文已述。
 
 
@@ -87,26 +87,26 @@
 以图为证，当天确实回溯到该ClassLoader，而且开始准备遍历\_loaders集合。
 
 
-![图3](https://coolshell.cn/wp-content/uploads/2012/01/图片3.png "图3")图3
+![图3](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片3.png "图3")图3
 DynamicClassLoader的1306行，没问题，resin3.0.23源码截图为证：
 
 
-![图4](https://coolshell.cn/wp-content/uploads/2012/01/图片4.png "图4")图4
+![图4](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片4.png "图4")图4
 不做多余解释，那么“servlet-server”这个ClassLoader中的\_loaders集合中都放了一些什么呢？
 
 
-![图5](https://coolshell.cn/wp-content/uploads/2012/01/图片5.png "图5")图5
+![图5](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片5.png "图5")图5
 存放了两个TreeLoader(Loader的子类)，然未找到结果，返回null。继续回溯。
 
 
 这次轮到遍历EnvironmentClassLoader$7806641[host:http://localhost:8787]的\_loaders。下图为证：
 
 
-![图6](https://coolshell.cn/wp-content/uploads/2012/01/图片6.png "图6")图6
+![图6](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片6.png "图6")图6
 \_loaders中的内容如下图：
 
 
-![图7](https://coolshell.cn/wp-content/uploads/2012/01/图片7.png "图7")图7
+![图7](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片7.png "图7")图7
 比较长，我贴出来：
 
 
@@ -119,33 +119,33 @@ DynamicClassLoader的1306行，没问题，resin3.0.23源码截图为证：
 注意到了吧，主角来了。那仔细调试下把。爆料一下：CompilingLoader[src:/D:/work/resin-3.0.23/webapps/WEB-INF/classes]就是主角。
 
 
-![图8](https://coolshell.cn/wp-content/uploads/2012/01/图片8.png "图8")图8
+![图8](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片8.png "图8")图8
 看到了吧，遍历时，当前的Loader为CompilingLoader[src:/D:/work/resin-3.0.23/webapps/WEB-INF/classes]，而且url可是不为null了哦。再贴一张，看看url的值到底是什么！
 
 
-![图9](https://coolshell.cn/wp-content/uploads/2012/01/图片9.png "图9")图9
+![图9](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片9.png "图9")图9
 嗯，不用多做解释了吧。
 
 
 最后看看程序输出是否吻合，如下图：
 
 
-![图10](https://coolshell.cn/wp-content/uploads/2012/01/图片10.png "图10")图10
+![图10](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片10.png "图10")图10
 然后修改resin.conf中的<compiling-loader>将其注释掉，看看程序结果会不会是我们期望的：/D:/work/resin-3.0.23/webapps/EhCacheTestAnnotation/WEB-INF/classes/。拭目以待。
 
 
-![图11](https://coolshell.cn/wp-content/uploads/2012/01/图片11.png "图11")图11
+![图11](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片11.png "图11")图11
 为节省篇幅，一下只关注关键位置。
 
 
 首先调试到EnvironmentClassLoader$7806641[host:http://localhost:8787]，我们需要停下来一下。
 
 
-![图12](https://coolshell.cn/wp-content/uploads/2012/01/图片12.png "图12")图12
+![图12](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片12.png "图12")图12
 再看一下\_loaders的值。
 
 
-![图13](https://coolshell.cn/wp-content/uploads/2012/01/图片13.png "图13")图13
+![图13](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片13.png "图13")图13
 贴一个详细的：
 
 
@@ -161,15 +161,15 @@ DynamicClassLoader的1306行，没问题，resin3.0.23源码截图为证：
 继续，下面就轮到EnvironmentClassLoader$24156236[web-app:http://localhost:8787/EhCacheTestAnnotation]这个ClassLoader了，会是什么样子呢？
 
 
-![图14](https://coolshell.cn/wp-content/uploads/2012/01/图片14.png "图14")图14
+![图14](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片14.png "图14")图14
 进入该ClassLoader时，url值依旧为null，那\_loaders会有变化吗？如下图：
 
 
-![图15](https://coolshell.cn/wp-content/uploads/2012/01/图片15.png "图15")图15
+![图15](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片15.png "图15")图15
 继续遍历\_loaders。
 
 
-![图16](https://coolshell.cn/wp-content/uploads/2012/01/图片16.png "图16")图16
+![图16](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片16.png "图16")图16
 到这里就结束了，url在EnvironmentClassLoader$24156236[web-app:http://localhost:8787/EhCacheTestAnnotation]中被加载。
 
 
@@ -207,11 +207,11 @@ public InputStream getResourceAsStream(String name) {
 调试到[[email protected]](/cdn-cgi/l/email-protection)，即ClassLoader的子类，情形如下图：
 
 
-![图17](https://coolshell.cn/wp-content/uploads/2012/01/图片17.png "图17")图17
+![图17](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片17.png "图17")图17
 看见getResource(name)喽，按F5进去看个究竟。如下图，其parent为：[[email protected]](/cdn-cgi/l/email-protection)，其返回null。
 
 
-![图18](https://coolshell.cn/wp-content/uploads/2012/01/图片18.png "图18")图18
+![图18](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片18.png "图18")图18
 开始回溯到：EnvironmentClassLoader$1497769[servlet-server:]，与getResource方法一致，开始遍历\_loaders集合。
 
 
@@ -224,7 +224,7 @@ public InputStream getResourceAsStream(String name) {
 比如，下图所示：
 
 
-![图19](https://coolshell.cn/wp-content/uploads/2012/01/图片19.png "图19")图19
+![图19](/assets/images/coolshell.cn/wp-content/uploads/2012/01/图片19.png "图19")图19
 <compiling-loader>配置的路径为：<compiling-loader path=”webapps/WEB-INF/classes”/>
 
 

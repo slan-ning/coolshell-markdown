@@ -33,7 +33,7 @@ Douglas Bowman, 一位Google的设计师，3月20日离开了Google。他在自�
 > 
 
 
-这也同时让我们想到了《[怎样做一个Program Manager](https://coolshell.cn/articles/76.html)》 中所引述的，其实很多时候，需求和决定来自看似非常繁杂和近似混乱的沟通。
+这也同时让我们想到了《[怎样做一个Program Manager](/2009/%E6%80%8E%E6%A0%B7%E5%81%9A%E4%B8%80%E4%B8%AA%20Program%20Manager.md)》 中所引述的，其实很多时候，需求和决定来自看似非常繁杂和近似混乱的沟通。
 
 
 综合这些，以及我们对一般（非互联网）产品的设计的理解，我们仍然有理由相信，（互联网）的产品需要来自经验的直觉指导大胆而创新的改变；而此经验的获得和对数据快速反应的能力，来自一种叫做 strategic thinking 的能力。对于strategic thinking, 坦率的说是因为词汇匮乏，也更像是一种 quality without a name。

@@ -3,7 +3,7 @@
 
 
 
-[![yUML](https://coolshell.cn/wp-content/uploads/2009/05/yuml.jpg "yUML.me")](http://yuml.me/)
+[![yUML](/assets/images/coolshell.cn/wp-content/uploads/2009/05/yuml.jpg "yUML.me")](http://yuml.me/)
 
 
 <http://yuml.me/>
@@ -17,7 +17,7 @@
 
 
 ```
-<img src="http://yuml.me/diagram/class/[Customer]1-0..*[Address]"/>
+<img src="/assets/images/yuml.me/diagram/class/[Customer]1-0..*[Address]"/>
 
 ```
 
@@ -26,7 +26,7 @@
 那么，你就可以得到下面的图片：
 
 
-![](http://yuml.me/diagram/class/[Customer]1-0..*[Address])
+![](/assets/images/yuml.me/diagram/class/[Customer]1-0..*[Address])
 
 
 如果，我们输入：

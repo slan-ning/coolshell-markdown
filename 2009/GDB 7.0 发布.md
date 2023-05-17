@@ -2,7 +2,7 @@
 >date: 2009-10-09T16:39:16+08:00
 
 
-[![](http://www.gnu.org/software/gdb/images/archer.jpg "GDB: The GNU Project Debugger 吉祥物")](http://www.gnu.org/software/gdb/mascot/)2009年10月06日，GDB7.0正式发布，新的版本你可以在[这里下载](http://www.gnu.org/software/gdb/download/)。本次版本，不但有大家所关注的《GDB[回溯调试技术](https://coolshell.cn/articles/1502.html)》，同样还有其它大量的新特性，和对新平台的支持。
+[![](/assets/images/www.gnu.org/software/gdb/images/archer.jpg "GDB: The GNU Project Debugger 吉祥物")](http://www.gnu.org/software/gdb/mascot/)2009年10月06日，GDB7.0正式发布，新的版本你可以在[这里下载](http://www.gnu.org/software/gdb/download/)。本次版本，不但有大家所关注的《GDB[回溯调试技术](/2009/%E9%AB%98%E7%A7%91%E6%8A%80%EF%BC%9AGDB%E5%9B%9E%E6%BA%AF%E8%B0%83%E8%AF%95.md)》，同样还有其它大量的新特性，和对新平台的支持。
 
 
 新版的GDB7.0支持如下新的平台或配置：

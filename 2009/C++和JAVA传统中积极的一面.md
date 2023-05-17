@@ -2,7 +2,7 @@
 >date: 2009-03-22T21:29:39+08:00
 
 
-**[![bruceeckel](https://coolshell.cn/wp-content/uploads/2009/03/bruceeckel.jpg "bruceeckel")](https://coolshell.cn/wp-content/uploads/2009/03/bruceeckel.jpg)译者注**：
+**[![bruceeckel](/assets/images/coolshell.cn/wp-content/uploads/2009/03/bruceeckel.jpg "bruceeckel")](/assets/images/coolshell.cn/wp-content/uploads/2009/03/bruceeckel.jpg)译者注**：
 
 
 本文翻译自Bruce Eckel（《Thinking in C++》& 《Thinking in Java》作者）的博文，该博文于2009年03月14日发表于：

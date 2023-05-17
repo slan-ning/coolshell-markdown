@@ -2,7 +2,7 @@
 >date: 2009-11-04T19:23:04+08:00
 
 
-以前发布过两篇文章——“[30种时尚的CSS网站导航条](https://coolshell.cn/articles/562.html)”和“[20个优秀的Javascript导航技术](https://coolshell.cn/articles/918.html)”，今天向大家介绍一下，13个不错的Javascript和CSS的菜单。
+以前发布过两篇文章——“[30种时尚的CSS网站导航条](/2009/30%E7%A7%8D%E6%97%B6%E5%B0%9A%E7%9A%84CSS%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA%E6%9D%A1.md)”和“[20个优秀的Javascript导航技术](/2009/20%E4%B8%AA%E4%BC%98%E7%A7%80%E7%9A%84Javascript%E5%AF%BC%E8%88%AA%E6%8A%80%E6%9C%AF.md)”，今天向大家介绍一下，13个不错的Javascript和CSS的菜单。
 
 
 1) [性感的滑动型菜单](http://www.andrewsellick.com/35/sexy-sliding-javascript-side-bar-menu-using-mootools) 

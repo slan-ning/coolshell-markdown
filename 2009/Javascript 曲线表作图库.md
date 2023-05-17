@@ -5,7 +5,7 @@
 [dygraphs](http://www.danvk.org/dygraphs/) 是一个开源的Javascript库，它可以产生一个可交互式的，可缩放的的曲线表。其可以用来显示大密度的数据集（比如股票，气温，等等），并且可以让用户来浏览和解释这个曲线图。在它的主页（<http://www.danvk.org/dygraphs/>），你可以看到一些示例和用法。
 
 
-[![dygraphs Javascript 曲线图库](https://coolshell.cn/wp-content/uploads/2009/12/dygraphs.jpg "dygraphs Javascript 曲线图库")](https://coolshell.cn/wp-content/uploads/2009/12/dygraphs.jpg)
+[![dygraphs Javascript 曲线图库](/assets/images/coolshell.cn/wp-content/uploads/2009/12/dygraphs.jpg "dygraphs Javascript 曲线图库")](/assets/images/coolshell.cn/wp-content/uploads/2009/12/dygraphs.jpg)
 
 
 要使用这个库，很简单，只需要包括`[dygraph-combined.js](https://github.com/danvk/dygraphs/downloads/)`文件，其文件尺寸很经济，也就45K。

@@ -12,7 +12,7 @@ NoSQL 数据库经常被用作很多非功能性的地方，如，扩展性，�
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/overview2.png?w=594&h=699 "overview")](https://coolshell.cn/wp-content/uploads/2012/05/overview2.png)NoSQL Data Models
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/overview2.png "overview")](https://coolshell.cn/wp-content/uploads/2012/05/overview2.png)NoSQL Data Models
 
 
 
@@ -163,7 +163,7 @@ NoSQL 数据库经常被用作很多非功能性的地方，如，扩展性，�
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/soft-schema2.png?w=594&h=439 "soft-schema")](https://coolshell.cn/wp-content/uploads/2012/05/soft-schema2.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/soft-schema2.png "soft-schema")](https://coolshell.cn/wp-content/uploads/2012/05/soft-schema2.png)
 
 
 Entity Aggregation
@@ -191,7 +191,7 @@ Entity Aggregation
 * 聚合 Aggregates 并不适用于数据字段经常被改变的情况。对此，我们需要把那些经常被改变的字段分到另外的表中，而在查询时我们需要联结数据。例如，我们有个Message系统可以有一个User实体，其包括了一个内嵌的Message实体。但是，如果用户不断在附加 message，那么，最好把message拆分到另一个独立的实体，但在查询时联结这User和Message这两个实体。如下图：
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/aggregates-joins.png?w=594 "aggregates-joins")](https://coolshell.cn/wp-content/uploads/2012/05/aggregates-joins.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/aggregates-joins.png "aggregates-joins")](https://coolshell.cn/wp-content/uploads/2012/05/aggregates-joins.png)
 
 
 **适用性**: Key-Value Store 键值对数据库， Document Databases文档数据库， BigTable风格的数据库， Graph Databases 图数据库。
@@ -213,7 +213,7 @@ Entity Aggregation
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/atomic-aggregate1.png?w=594 "atomic-aggregate")](https://coolshell.cn/wp-content/uploads/2012/05/atomic-aggregate1.png)Atomic Aggregates
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/atomic-aggregate1.png "atomic-aggregate")](https://coolshell.cn/wp-content/uploads/2012/05/atomic-aggregate1.png)Atomic Aggregates
 
 
 
@@ -246,7 +246,7 @@ Dimensionality Reduction 降维是一种技术可以允许把一个多维的数�
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/geohash-traversal1.png?w=594 "geohash-traversal")](https://coolshell.cn/wp-content/uploads/2012/05/geohash-traversal1.png)Geohash Index
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/geohash-traversal1.png "geohash-traversal")](https://coolshell.cn/wp-content/uploads/2012/05/geohash-traversal1.png)Geohash Index
 
 
 
@@ -263,7 +263,7 @@ Index Table 索引表是一个非常直白的技术，其可以你在不支持�
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/index-table.png?w=594 "index-table")](https://coolshell.cn/wp-content/uploads/2012/05/index-table.png)Index Table Example
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/index-table.png "index-table")](https://coolshell.cn/wp-content/uploads/2012/05/index-table.png)Index Table Example
 
 
 
@@ -289,7 +289,7 @@ SELECT Values WHERE city="CA:San Francisco*"
 ```
 
 
-[![](http://highlyscalable.files.wordpress.com/2012/03/composite-key-index.png?w=594 "composite-key-index")](http://highlyscalable.files.wordpress.com/2012/03/composite-key-index.png)Composite Key Index
+[![](/assets/images/highlyscalable.files.wordpress.com/2012/03/composite-key-index.png "composite-key-index")](http://highlyscalable.files.wordpress.com/2012/03/composite-key-index.png)Composite Key Index
 
 
 
@@ -309,7 +309,7 @@ Composite keys  键组合技术并不仅仅可以用来做索引，同样可以
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/composite-key-collating1.png?w=594 "composite-key-collating")](https://coolshell.cn/wp-content/uploads/2012/05/composite-key-collating1.png)Counting Unique Users using Composite Keys
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/composite-key-collating1.png "composite-key-collating")](https://coolshell.cn/wp-content/uploads/2012/05/composite-key-collating1.png)Counting Unique Users using Composite Keys
 
 
 
@@ -336,7 +336,7 @@ Composite keys  键组合技术并不仅仅可以用来做索引，同样可以
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/invert-direct1.png?w=594&h=438 "invert-direct")](https://coolshell.cn/wp-content/uploads/2012/05/invert-direct1.png)Counting Unique Users using Inverse and Direct Indexes
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/invert-direct1.png "invert-direct")](https://coolshell.cn/wp-content/uploads/2012/05/invert-direct1.png)Counting Unique Users using Inverse and Direct Indexes
 
 
 
@@ -361,7 +361,7 @@ Composite keys  键组合技术并不仅仅可以用来做索引，同样可以
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/tree-aggregation.png?w=594 "tree-aggregation")](https://coolshell.cn/wp-content/uploads/2012/05/tree-aggregation.png)Tree Aggregation
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/tree-aggregation.png "tree-aggregation")](https://coolshell.cn/wp-content/uploads/2012/05/tree-aggregation.png)Tree Aggregation
 
 
 
@@ -385,7 +385,7 @@ Materialized Paths 可以帮助避免递归遍历（如：树形结构）。这�
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/materialized-paths2.png?w=594 "materialized-paths")](https://coolshell.cn/wp-content/uploads/2012/05/materialized-paths2.png)Materialized Paths for eShop Category Hierarchy
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/materialized-paths2.png "materialized-paths")](https://coolshell.cn/wp-content/uploads/2012/05/materialized-paths2.png)Materialized Paths for eShop Category Hierarchy
 
 
 
@@ -396,7 +396,7 @@ Materialized Paths 可以存储一个ID的集合，或是一堆ID拼出的字符
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/materialized-paths-2.png?w=594 "materialized-paths-2")](https://coolshell.cn/wp-content/uploads/2012/05/materialized-paths-2.png)Query Materialized Paths using RegExp
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/materialized-paths-2.png "materialized-paths-2")](https://coolshell.cn/wp-content/uploads/2012/05/materialized-paths-2.png)Query Materialized Paths using RegExp
 
 
 
@@ -410,7 +410,7 @@ Materialized Paths 可以存储一个ID的集合，或是一堆ID拼出的字符
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/nested-sets.png?w=594 "nested-sets")](https://coolshell.cn/wp-content/uploads/2012/05/nested-sets.png)Modeling of eCommerce Catalog using Nested Sets
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/nested-sets.png "nested-sets")](https://coolshell.cn/wp-content/uploads/2012/05/nested-sets.png)Modeling of eCommerce Catalog using Nested Sets
 
 
 
@@ -427,7 +427,7 @@ Materialized Paths 可以存储一个ID的集合，或是一堆ID拼出的字符
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-1.png?w=594 "nested-documents-1")](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-1.png)Nested Documents Problem
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/nested-documents-1.png "nested-documents-1")](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-1.png)Nested Documents Problem
 
 
 
@@ -438,7 +438,7 @@ Materialized Paths 可以存储一个ID的集合，或是一堆ID拼出的字符
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-3.png?w=594 "nested-documents-3")](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-3.png)Nested Document Modeling using Numbered Field Names
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/nested-documents-3.png "nested-documents-3")](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-3.png)Nested Document Modeling using Numbered Field Names
 
 
 
@@ -455,7 +455,7 @@ Materialized Paths 可以存储一个ID的集合，或是一堆ID拼出的字符
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-2.png?w=594 "nested-documents-2")](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-2.png)Nested Document Modeling using Proximity Queries
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/nested-documents-2.png "nested-documents-2")](https://coolshell.cn/wp-content/uploads/2012/05/nested-documents-2.png)Nested Document Modeling using Proximity Queries
 
 
 

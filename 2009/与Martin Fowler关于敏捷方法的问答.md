@@ -5,7 +5,7 @@
 2009年6月23日，Martin Fowler到公司访问，与我们开了一个小型座谈会并顺便拜访了他在ThoughtWorks的同事们。
 
 
-![MeetMartinFowlerSmall](https://coolshell.cn/wp-content/uploads/2009/07/MeetMartinFowlerSmall.JPG "MeetMartinFowlerSmall")
+![MeetMartinFowlerSmall](/assets/images/coolshell.cn/wp-content/uploads/2009/07/MeetMartinFowlerSmall.JPG "MeetMartinFowlerSmall")
 
 
 以下是座谈的内容：

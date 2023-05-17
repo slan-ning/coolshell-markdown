@@ -2,7 +2,7 @@
 >date: 2022-07-19T14:43:39+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2022/07/wall_clock-300x167.jpeg)今天来讲一讲TCP 的 `TIME_WAIT` 的问题。这个问题尽人皆知，不过，这次遇到的是不太一样的场景，前两天也解决了，正好写篇文章，顺便把 `TIME_WAIT` 的那些事都说一说。对了，这个场景，跟我开源的探活小工具 [EaseProbe](https://github.com/megaease/easeprobe) 有关，我先说说这个场景里的问题，然后，顺着这个场景跟大家好好说一下这个事。
+![](/assets/images/coolshell.cn/wp-content/uploads/2022/07/wall_clock-300x167.jpeg)今天来讲一讲TCP 的 `TIME_WAIT` 的问题。这个问题尽人皆知，不过，这次遇到的是不太一样的场景，前两天也解决了，正好写篇文章，顺便把 `TIME_WAIT` 的那些事都说一说。对了，这个场景，跟我开源的探活小工具 [EaseProbe](https://github.com/megaease/easeprobe) 有关，我先说说这个场景里的问题，然后，顺着这个场景跟大家好好说一下这个事。
 
 
 
@@ -51,7 +51,7 @@
 1） 为了 **防止来自一个连接的延迟段**被依赖于相同四元组（源地址、源端口、目标地址、目标端口）的稍后连接接受（被接受后，就会被马上断掉，TCP状态机紊乱）。虽然，可以通过指定 TCP 的 sequence number 一定范围内才能被接受。但这也只是让问题发生的概率低了一些，对于一个吞吐量大的的应用来说，依然能够出现问题，尤其是在具有大接收窗口的快速连接上。[RFC 1337](https://tools.ietf.org/html/rfc1337 "RFC 1337：TCP 中的 TIME-WAIT 暗杀危险")详细解释了当 `TIME-WAIT`状态不足时会发生什么。`TIME-WAIT`以下是如果不缩短状态可以避免的示例：
 
 
-![](https://coolshell.cn/wp-content/uploads/2022/07/duplicate-segment.png)由于缩短的 TIME-WAIT 状态，后续的 TCP 段已在不相关的连接中被接受（[来源](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)）
+![](/assets/images/coolshell.cn/wp-content/uploads/2022/07/duplicate-segment.png)由于缩短的 TIME-WAIT 状态，后续的 TCP 段已在不相关的连接中被接受（[来源](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)）
  
 
 
@@ -61,7 +61,7 @@
  
 
 
-![](https://coolshell.cn/wp-content/uploads/2022/07/last-ack.png)如果远端因为最后一个 ACK​​ 丢失而停留在 LAST-ACK 状态，则打开具有相同四元组的新连接将不起作用 （[来源](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)）
+![](/assets/images/coolshell.cn/wp-content/uploads/2022/07/last-ack.png)如果远端因为最后一个 ACK​​ 丢失而停留在 LAST-ACK 状态，则打开具有相同四元组的新连接将不起作用 （[来源](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)）
 `TIME_WAIT` 的这个超时时间的值如下所示：
 
 

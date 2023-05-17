@@ -2,7 +2,7 @@
 >date: 2018-12-08T11:57:35+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2018/12/docker-networking-1.png)昨天周五晚上，临下班的时候，用户给我们报了一个比较怪异的Kubernetes集群下的网络不能正常访问的问题，让我们帮助查看一下，我们从下午5点半左右一直跟进到晚上十点左右，在远程不能访问用户机器只能远程遥控用户的情况找到了的问题。这个问题比较有意思，我个人觉得其中的调查用到的的命令以及排障的一些方法可以分享一下，所以写下了这篇文章。
+![](/assets/images/coolshell.cn/wp-content/uploads/2018/12/docker-networking-1.png)昨天周五晚上，临下班的时候，用户给我们报了一个比较怪异的Kubernetes集群下的网络不能正常访问的问题，让我们帮助查看一下，我们从下午5点半左右一直跟进到晚上十点左右，在远程不能访问用户机器只能远程遥控用户的情况找到了的问题。这个问题比较有意思，我个人觉得其中的调查用到的的命令以及排障的一些方法可以分享一下，所以写下了这篇文章。
 
 
 
@@ -42,7 +42,7 @@
 当时，我们让用户抓个包看看，然后，用户抓到了有问题的TCP连接是收到了 `SYN` 后，立即返回了 `RST, ACK`
 
 
-![](https://coolshell.cn/wp-content/uploads/2018/12/tcpdump.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2018/12/tcpdump.png)
 
 
 我问一下用户这两个IP所在的位置，知道了，`10.233.14.129` 是 `docker0`，`10.233.14.145` 是容器内的IP。所以，这基本上可以排除了所有和kubernets或是flannel的问题，这就是本地的Docker上的网络的问题。

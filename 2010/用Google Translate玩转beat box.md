@@ -6,7 +6,7 @@
 
 
 
-![](https://coolshell.cn/wp-content/uploads/2010/12/google_beat_box.jpg "Google 翻译 玩转 Beat box")
+![](/assets/images/coolshell.cn/wp-content/uploads/2010/12/google_beat_box.jpg "Google 翻译 玩转 Beat box")
 
 
 下面是相关步骤：

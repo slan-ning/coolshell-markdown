@@ -5,7 +5,7 @@
 **（感谢同事[方腾飞](http://ifeve.com)投递本文）**
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/02/Disruptor-300x144.png)Martin Fowler在自己网站上写了一篇[LMAX架构](http://ifeve.com/lmax)的文章，在文章中他介绍了LMAX是一种新型零售金融交易平台，它能够以很低的延迟产生大量交易。这个系统是建立在JVM平台上，其核心是一个业务逻辑处理器，它能够在一个线程里每秒处理6百万订单。业务逻辑处理器完全是运行在内存中，使用事件源驱动方式。业务逻辑处理器的核心是Disruptor。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/02/Disruptor-300x144.png)Martin Fowler在自己网站上写了一篇[LMAX架构](http://ifeve.com/lmax)的文章，在文章中他介绍了LMAX是一种新型零售金融交易平台，它能够以很低的延迟产生大量交易。这个系统是建立在JVM平台上，其核心是一个业务逻辑处理器，它能够在一个线程里每秒处理6百万订单。业务逻辑处理器完全是运行在内存中，使用事件源驱动方式。业务逻辑处理器的核心是Disruptor。
 
 
 Disruptor它是一个开源的并发框架，并获得[2011 Duke’s](http://www.java.net/dukeschoice)程序框架创新奖，能够在无锁的情况下实现网络的Queue并发操作。本文是[Disruptor官网](https://code.google.com/p/disruptor/wiki/BlogsAndArticles)中发布的文章的译文（[现在被移到了GitHub](https://lmax-exchange.github.com/disruptor/)）。

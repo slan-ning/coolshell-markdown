@@ -2,7 +2,7 @@
 >date: 2017-03-03T14:20:03+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/03/Amazon-Web-Services-Down.png)继[Gitlab的误删除数据事件](https://coolshell.cn/articles/17680.html)没几天，“不沉航母” AWS S3 （Simple Storage Service）几天前也“沉”了4个小时，墙外的半个互联网也跟着挂了。如约，按 AWS 惯例，AWS今天给出了一个简单的故障报告《[Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region](https://aws.amazon.com/cn/message/41926/)》。这个故障和简单来说和Gitlab一样，也是人员误操作。先简单的说一下这份报中说了什么。
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/03/Amazon-Web-Services-Down.png)继[Gitlab的误删除数据事件](https://coolshell.cn/articles/17680.html)没几天，“不沉航母” AWS S3 （Simple Storage Service）几天前也“沉”了4个小时，墙外的半个互联网也跟着挂了。如约，按 AWS 惯例，AWS今天给出了一个简单的故障报告《[Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region](https://aws.amazon.com/cn/message/41926/)》。这个故障和简单来说和Gitlab一样，也是人员误操作。先简单的说一下这份报中说了什么。
 
 
 #### 故障原因

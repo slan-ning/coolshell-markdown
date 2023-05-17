@@ -2,7 +2,7 @@
 >date: 2015-04-16T10:19:23+08:00
 
 
-![jail_cell](https://coolshell.cn/wp-content/uploads/2015/04/jail_cell.jpg)在 **[Docker基础技术：Linux Namespace（上篇）](https://coolshell.cn/articles/17010.html "Docker基础技术：Linux Namespace（上）")**中我们了解了，UTD、IPC、PID、Mount 四个namespace，我们模仿Docker做了一个相当相当山寨的镜像。在这一篇中，主要想向大家介绍Linux的User和Network的Namespace。
+![jail_cell](/assets/images/coolshell.cn/wp-content/uploads/2015/04/jail_cell.jpg)在 **[Docker基础技术：Linux Namespace（上篇）](https://coolshell.cn/articles/17010.html "Docker基础技术：Linux Namespace（上）")**中我们了解了，UTD、IPC、PID、Mount 四个namespace，我们模仿Docker做了一个相当相当山寨的镜像。在这一篇中，主要想向大家介绍Linux的User和Network的Namespace。
 
 
 好，下面我们就介绍一下还剩下的这两个Namespace。
@@ -217,7 +217,7 @@ Network的Namespace比较啰嗦。在Linux下，我们一般用ip命令创建Net
 首先，我们先看个图，下面这个图基本上就是Docker在宿主机上的网络示意图（其中的物理网卡并不准确，因为docker可能会运行在一个VM中，所以，这里所谓的“物理网卡”其实也就是一个有可以路由的IP的网卡）
 
 
-![network.namespace](https://coolshell.cn/wp-content/uploads/2015/04/network.namespace.jpg)
+![network.namespace](/assets/images/coolshell.cn/wp-content/uploads/2015/04/network.namespace.jpg)
 
 
 上图中，Docker使用了一个私有网段，172.40.1.0，docker还可能会使用10.0.0.0和192.168.0.0这两个私有网段，关键看你的路由表中是否配置了，如果没有配置，就会使用，如果你的路由表配置了所有私有网段，那么docker启动时就会出错了。

@@ -2,7 +2,7 @@
 >date: 2014-11-21T00:48:27+08:00
 
 
-![tux-fork](https://coolshell.cn/wp-content/uploads/2014/11/tux-fork-298x300.gif)在知乎上，有个人问了这样的[一个问题](http://www.zhihu.com/question/26591968)——为什么vfork的子进程里用return，整个程序会挂掉，而且exit()不会？并给出了如下的代码，下面的代码一运行就挂掉了，但如果把子进程的return改成exit(0)就没事。
+![tux-fork](/assets/images/coolshell.cn/wp-content/uploads/2014/11/tux-fork-298x300.gif)在知乎上，有个人问了这样的[一个问题](http://www.zhihu.com/question/26591968)——为什么vfork的子进程里用return，整个程序会挂掉，而且exit()不会？并给出了如下的代码，下面的代码一运行就挂掉了，但如果把子进程的return改成exit(0)就没事。
 
 
 我受邀后本来不想回答这个问题的，因为这个问题明显就是RTFM的事，后来，发现这个问题放在那里好长时间，而挂在下面的几个答案又跑偏得比较严重，我觉得可能有些朋友看到那样的答案会被误导，所以就上去回答了一下这个问题。

@@ -2,7 +2,7 @@
 >date: 2012-04-26T08:22:22+08:00
 
 
-不知道大家是否还记得“[Vim简明攻略](https://coolshell.cn/articles/5426.html "简明 Vim 练级攻略")”呢？你是不是对Vim的那一大堆热键很头痛呢？现在好好，下面这个游戏是一个使用VIM热键玩的游戏。你可以在玩游戏的过程中熟悉Vim的热键。
+不知道大家是否还记得“[Vim简明攻略](/2011/%E7%AE%80%E6%98%8E%20Vim%20%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md "简明 Vim 练级攻略")”呢？你是不是对Vim的那一大堆热键很头痛呢？现在好好，下面这个游戏是一个使用VIM热键玩的游戏。你可以在玩游戏的过程中熟悉Vim的热键。
 
 
 **你可以点击图片，或是图片下的网址打开这个游戏**
@@ -11,7 +11,7 @@
 **<http://vim-adventures.com/>**
 
 
-[![VIM大冒险](https://coolshell.cn/wp-content/uploads/2012/04/vimadventuresgamefun.jpg "VIM Adventures")](http://vim-adventures.com/)
+[![VIM大冒险](/assets/images/coolshell.cn/wp-content/uploads/2012/04/vimadventuresgamefun.jpg "VIM Adventures")](http://vim-adventures.com/)
 
 
 我试玩了一下这个游戏，真的很不错，下面是一些我给的游戏攻略。
@@ -27,7 +27,7 @@
 * 第三关，我们可以看到地图上有很多的字母，我们还可以看到有两个键，一个是w，一个是e，我们可以把光标移到w上吃到w后，我们就可以使用w键了——以单词为单位移动光标，这样，我们就可以吃到e了和第一把钥匙，我们按w和e我们就可以看到这两个按键都是以单词为单位移动光标的，一个是单词头，一个是单词尾（参看我以前给大家的[vim按键速查卡](https://coolshell.cn/articles/5479.html "给程序员的VIM速查卡")）。然后，我们在最后一行通过单词跳跃到最右边吃到b—— 回到该单词的头，可以得到第二把钥匙。然后往上走，使用b 和 e键拿到第三把钥匙。然后就可以打开三个门通关了。
 
 
-[![Vim Adventures 第三关](https://coolshell.cn/wp-content/uploads/2012/04/vimadventuresgamefun02.jpg "Vim Adventures 第三关")](http://vim-adventures.com/)Vim Adventures 第三关
+[![Vim Adventures 第三关](/assets/images/coolshell.cn/wp-content/uploads/2012/04/vimadventuresgamefun02.jpg "Vim Adventures 第三关")](http://vim-adventures.com/)Vim Adventures 第三关
 然后，就需要你注册才能玩了。作者说，因为需要发的邮件太多了，所以现在系统发不出邮件了，请等待。所以，不知道作者是用来收集邮件的，还是没有开发完，不过，**这个游戏的创意实在是太赞了**。推荐给大家。
 
 

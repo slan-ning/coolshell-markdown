@@ -5,7 +5,7 @@
 [xkcd](http://xkcd.com/)对于经常浏览国外网站的朋友一定不会陌生。不过，还是先让我来介绍一下xkcd（[维基百科词条](https://en.wikipedia.org/wiki/Xkcd)）。这是一个漫画网站，它主要是发布一些很简单的随手画的漫画，它主要有四种体裁——浪漫、讽刺、数学 和 语言。也会经常出现一些和IT有关的漫画，比如下面这个漫画—— （懂Unix的人一眼就看懂了，不懂的怎么看也看不懂）
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/10/xkcd-sandwich.png "xkcd-sandwich")
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/10/xkcd-sandwich.png "xkcd-sandwich")
 
 
 本质上来说，xkcd是一种Geek文化，里面的东西都非常的Geek和晦涩，讽刺很辛辣，但很多只有特定人群可以看得懂。而且表达的形式自由到天马行空，飘忽不定。
@@ -81,7 +81,7 @@ xkcd是他于2005年创建的，他本来只是想把他大学里在记事本里
 有人说，创作这么这个大图很费时间。不过我觉得这对于Geek来说不是问题，因为这应该是可以通过矢量图的拼装来搞定。
 
 
-[![xkcd 1110全景缩略图（点击看大缩略图）](https://coolshell.cn/wp-content/uploads/2012/10/xkcd1110-1024x346.png "xkcd 1110全景缩略图（点击看大缩略图）")](https://coolshell.cn/wp-content/uploads/2012/10/xkcd1110.png)xkcd 1110全景缩略图（点击看大缩略图）
+[![xkcd 1110全景缩略图（点击看大缩略图）](/assets/images/coolshell.cn/wp-content/uploads/2012/10/xkcd1110-1024x346.png "xkcd 1110全景缩略图（点击看大缩略图）")](https://coolshell.cn/wp-content/uploads/2012/10/xkcd1110.png)xkcd 1110全景缩略图（点击看大缩略图）
 #### 看看技术宅们干了什么
 
 

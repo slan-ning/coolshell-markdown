@@ -2,7 +2,7 @@
 >date: 2009-07-30T20:43:12+08:00
 
 
-![](http://springpython.webfactional.com/reference/html/images/spring_python_white.png)没想到啊，Python也有Spring的框架了，看看SpringPython项目主页（<http://springpython.webfactional.com/>）。这个项目的Leader是这样说的：Spring Python是基于Java的Spring框架（Spring Framework）和Spring安全（Spring Security）的一个分支，它以Python语言为目标。Spring提供了许多有用的特征功能，同样地这些特征功能在Python下也应当有效。– Greg Turnquist
+![](/assets/images/springpython.webfactional.com/reference/html/images/spring_python_white.png)没想到啊，Python也有Spring的框架了，看看SpringPython项目主页（<http://springpython.webfactional.com/>）。这个项目的Leader是这样说的：Spring Python是基于Java的Spring框架（Spring Framework）和Spring安全（Spring Security）的一个分支，它以Python语言为目标。Spring提供了许多有用的特征功能，同样地这些特征功能在Python下也应当有效。– Greg Turnquist
 
 
 

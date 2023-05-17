@@ -11,7 +11,7 @@
 <http://www.libnui.net/>
 
 
-[![home](https://coolshell.cn/wp-content/uploads/2009/04/home-300x168.jpg "home")](https://coolshell.cn/wp-content/uploads/2009/04/home.jpg)
+[![home](/assets/images/coolshell.cn/wp-content/uploads/2009/04/home-300x168.jpg "home")](https://coolshell.cn/wp-content/uploads/2009/04/home.jpg)
 
 
  

@@ -27,10 +27,10 @@ Shell也叫做命令行界面，它是\*nix操作系统下用户和计算机的�
 
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/11/shell.01.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/11/shell.01.png)
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/11/shell.02.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/11/shell.02.png)
 
 
  
@@ -39,7 +39,7 @@ Shell也叫做命令行界面，它是\*nix操作系统下用户和计算机的�
 全球最大的源代码仓库Github里，shell相关的项目数占到了8%，跻身前5和Java相当，可见在实战工程里，shell可谓宝刀不老。图片来源，[参见这里](https://github.com/languages)
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/11/shell.03.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/11/shell.03.png)
 
 
 #### 一些强大的命令

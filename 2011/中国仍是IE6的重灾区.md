@@ -11,7 +11,7 @@
 另外，我发现亚洲是重灾区啊，包括中日韩台印都很猛啊，看来微软在亚洲的营销的确不错。
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/03/IE6-Countdown.png "IE6 Countdown")
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/03/IE6-Countdown.png "IE6 Countdown")
 
 
 我查看了一下Coolshell.cn的2011年到今天为止访问统计，排名第一是的Chrome(41.5%)，第二位的是Firefox(23.22%)，第三位的是IE8(10.7%)，第四位的是IE6(4.8%)。IE6的IP数有6400+。

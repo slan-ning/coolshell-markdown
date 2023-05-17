@@ -2,7 +2,7 @@
 >date: 2022-12-10T10:38:51+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2022/12/eBPF.jpeg)很早前就想写一篇关于eBPF的文章，但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎么玩的，这个技术非常非常之强，Linux 操作系统的观测性实在是太强大了，并在 BCC 加持下变得一览无余。这个技术不是一般的运维人员或是系统管理员可以驾驭的，这个还是要有底层系统知识并有一定开发能力的技术人员才能驾驭的了的。**我在这篇文章的最后给了个彩蛋。**
+![](/assets/images/coolshell.cn/wp-content/uploads/2022/12/eBPF.jpeg)很早前就想写一篇关于eBPF的文章，但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎么玩的，这个技术非常非常之强，Linux 操作系统的观测性实在是太强大了，并在 BCC 加持下变得一览无余。这个技术不是一般的运维人员或是系统管理员可以驾驭的，这个还是要有底层系统知识并有一定开发能力的技术人员才能驾驭的了的。**我在这篇文章的最后给了个彩蛋。**
 
 
 
@@ -333,7 +333,7 @@ BCC（[BPF Compiler Collection](https://github.com/iovisor/bcc)）是一套开�
 下面这张图你可能见过多次了，你可以看看他可以干多少事，内核里发生什么事一览无余。
 
 
-![](https://github.com/iovisor/bcc/raw/master/images/bcc_tracing_tools_2019.png)
+![](/assets/images/github.com/iovisor/bcc/raw/master/images/bcc_tracing_tools_2019.png)
 
 
 #### 延伸阅读

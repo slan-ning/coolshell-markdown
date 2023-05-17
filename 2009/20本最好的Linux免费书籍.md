@@ -2,7 +2,7 @@
 >date: 2009-04-06T20:22:35+08:00
 
 
-[![screenshot-linuxdevicedrivers](https://coolshell.cn/wp-content/uploads/2009/04/screenshot-linuxdevicedrivers-150x150.png "screenshot-linuxdevicedrivers")](https://coolshell.cn/wp-content/uploads/2009/04/screenshot-linuxdevicedrivers.png)前些天Neo推荐了一个网站有《[超过100本的linux免费书籍](https://coolshell.cn/articles/336.html)》，这里，我也向大家推荐20本最好的Linux免费书籍，当然，也是英文版的。
+[![screenshot-linuxdevicedrivers](/assets/images/coolshell.cn/wp-content/uploads/2009/04/screenshot-linuxdevicedrivers-150x150.png "screenshot-linuxdevicedrivers")](https://coolshell.cn/wp-content/uploads/2009/04/screenshot-linuxdevicedrivers.png)前些天Neo推荐了一个网站有《[超过100本的linux免费书籍](/2009/%E8%B6%85%E8%BF%87100%E6%9C%AC%E7%9A%84linux%E5%85%8D%E8%B4%B9%E4%B9%A6%E7%B1%8D.md)》，这里，我也向大家推荐20本最好的Linux免费书籍，当然，也是英文版的。
 
 
 **1. Ubuntu Pocket Guide and Reference**

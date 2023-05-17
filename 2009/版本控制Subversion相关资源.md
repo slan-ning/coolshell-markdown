@@ -18,7 +18,7 @@
 * [Tortoise SVN](http://tortoisesvn.tigris.org/) (Windows only)
 
 
-[![tortoisesvn](https://coolshell.cn/wp-content/uploads/2009/03/tortoisesvn.png "tortoisesvn")](https://coolshell.cn/wp-content/uploads/2009/03/tortoisesvn.png)
+[![tortoisesvn](/assets/images/coolshell.cn/wp-content/uploads/2009/03/tortoisesvn.png "tortoisesvn")](/assets/images/coolshell.cn/wp-content/uploads/2009/03/tortoisesvn.png)
 
 
 
@@ -27,19 +27,19 @@
 * [SmartSVN](http://www.syntevo.com/smartsvn/index.html)
 
 
-[![auto](https://coolshell.cn/wp-content/uploads/2009/03/auto-300x105.gif "auto")](https://coolshell.cn/wp-content/uploads/2009/03/auto.gif)
+[![auto](/assets/images/coolshell.cn/wp-content/uploads/2009/03/auto-300x105.gif "auto")](https://coolshell.cn/wp-content/uploads/2009/03/auto.gif)
 
 
 * [Versions](http://www.versionsapp.com/) (Mac only)
 
 
-[![versions](https://coolshell.cn/wp-content/uploads/2009/03/versions-300x193.jpg "versions")](https://coolshell.cn/wp-content/uploads/2009/03/versions.jpg)
+[![versions](/assets/images/coolshell.cn/wp-content/uploads/2009/03/versions-300x193.jpg "versions")](https://coolshell.cn/wp-content/uploads/2009/03/versions.jpg)
 
 
 * [Subclipse](http://subclipse.tigris.org/)
 
 
-[![ecl](https://coolshell.cn/wp-content/uploads/2009/03/ecl-297x300.gif "ecl")](https://coolshell.cn/wp-content/uploads/2009/03/ecl.gif)
+[![ecl](/assets/images/coolshell.cn/wp-content/uploads/2009/03/ecl-297x300.gif "ecl")](https://coolshell.cn/wp-content/uploads/2009/03/ecl.gif)
 
 
 * [Subcommander](http://subcommander.tigris.org/)
@@ -47,7 +47,7 @@
 * [Syncro SVN Client](http://www.syncrosvnclient.com/)
 
 
-[![jano](https://coolshell.cn/wp-content/uploads/2009/03/jano-300x277.gif "jano")](https://coolshell.cn/wp-content/uploads/2009/03/jano.gif)
+[![jano](/assets/images/coolshell.cn/wp-content/uploads/2009/03/jano-300x277.gif "jano")](https://coolshell.cn/wp-content/uploads/2009/03/jano.gif)
 
 
 * [scplugin](http://scplugin.tigris.org/) (Mac only)
@@ -60,14 +60,14 @@
 * [Subclipse](http://subclipse.tigris.org/)（[Eclipse IDE](http://www.eclipse.org/) for Java）
 
 
-[![subclipse](https://coolshell.cn/wp-content/uploads/2009/03/subclipse-300x168.png "subclipse")](https://coolshell.cn/wp-content/uploads/2009/03/subclipse.png)
+[![subclipse](/assets/images/coolshell.cn/wp-content/uploads/2009/03/subclipse-300x168.png "subclipse")](https://coolshell.cn/wp-content/uploads/2009/03/subclipse.png)
 
 
 
 * [AnkhSVN](http://ankhsvn.open.collab.net/)（Microsoft’s [Visual Studio](http://www.microsoft.com/visualstudio/en-us/default.mspx)）
 
 
-[![ankshsvn](https://coolshell.cn/wp-content/uploads/2009/03/ankshsvn-300x236.png "ankshsvn")](https://coolshell.cn/wp-content/uploads/2009/03/ankshsvn.png)
+[![ankshsvn](/assets/images/coolshell.cn/wp-content/uploads/2009/03/ankshsvn-300x236.png "ankshsvn")](https://coolshell.cn/wp-content/uploads/2009/03/ankshsvn.png)
 
 
 * [How to Ignore IDE Project Files in Subversion](https://www.opends.org/wiki/page/ConfiguringSubversionToIgnoreIDEProjectFiles)
@@ -83,7 +83,7 @@
 * [Polarion WebClient for SVN](http://www.polarion.org/index.php?page=overview&project=svnwebclient)
 
 
-[![warehouse2](https://coolshell.cn/wp-content/uploads/2009/03/warehouse2-300x240.jpg "warehouse2")](https://coolshell.cn/wp-content/uploads/2009/03/warehouse2.jpg)
+[![warehouse2](/assets/images/coolshell.cn/wp-content/uploads/2009/03/warehouse2-300x240.jpg "warehouse2")](https://coolshell.cn/wp-content/uploads/2009/03/warehouse2.jpg)
 
 
 ## SVN主机

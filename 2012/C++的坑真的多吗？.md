@@ -22,7 +22,7 @@
 #### 事由
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/08/cpp_small.jpg "C Plus Plus")周五的时候，我在我的微博上发了一个贴说了一下一个网友给我发来的C++程序的规范和内存管理写的不是很好（后来我删除了，因为当事人要求），我并非批判，只是想说明其实程序员是需要一些“疫苗”的，并以此想开一个“程序员疫苗的网站”，结果，@简悦云风同学[直接回复到](http://weibo.com/2388714105/yvqWKkcGV)：“**不要用 C++ 直接用 C , 就没那么多坑了。**”就把这个事带入了语言之争。
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/08/cpp_small.jpg "C Plus Plus")周五的时候，我在我的微博上发了一个贴说了一下一个网友给我发来的C++程序的规范和内存管理写的不是很好（后来我删除了，因为当事人要求），我并非批判，只是想说明其实程序员是需要一些“疫苗”的，并以此想开一个“程序员疫苗的网站”，结果，@简悦云风同学[直接回复到](http://weibo.com/2388714105/yvqWKkcGV)：“**不要用 C++ 直接用 C , 就没那么多坑了。**”就把这个事带入了语言之争。
 
 
 我又[发了一条微博](http://weibo.com/1401880315/yvrMMsCuT)：
@@ -52,7 +52,7 @@
 
 
 
-![Google Code 中程序语言出现 fuck 一词的比率](https://coolshell.cn/wp-content/uploads/2009/11/programming_language.jpg "Google Code 中程序语言出现 fuck 一词的比率")
+![Google Code 中程序语言出现 fuck 一词的比率](/assets/images/coolshell.cn/wp-content/uploads/2009/11/programming_language.jpg "Google Code 中程序语言出现 fuck 一词的比率")
 
 
 不要太纠结上图，只是轻松一下，我没那么无聊，让我们来看点真正的论据。
@@ -210,13 +210,13 @@ C++语言发展大概可以分为三个阶段（[摘自Wikipedia](https://zh.wik
 在《[Why C++? 王者归来](https://coolshell.cn/articles/6548.html "Why C++ ? 王者归来")》中说了 ，性能主要就是要省电，省电就是省钱，在数据中心还不明显，在手机上就更明显了，这就是为什么Android 支持C++的原因。所以，在NB的电池或是能源出现之前，**如果你需要注重程序的运行性能和开发效率，并更关注程序的运性能，那么，应该首选 C++**。这就是iOS开发也支持C++的原因。
 
 
-![](https://coolshell.cn/wp-content/uploads/2012/02/WhyCPP.04.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2012/02/WhyCPP.04.jpg)
 
 
 今天的C++11中不但有更多更不错的东西，而且，还填了更多原来C++的坑。（参看：[C++11 Wiki](https://zh.wikipedia.org/wiki/C%2B%2B11)，[C++ 11的主要特性](https://coolshell.cn/articles/5265.html "C++11 中值得关注的几大变化（详解）")）
 
 
- ![](https://coolshell.cn/wp-content/uploads/2012/02/WhyCPP.11.jpg)
+ ![](/assets/images/coolshell.cn/wp-content/uploads/2012/02/WhyCPP.11.jpg)
 
 
 #### **总结**

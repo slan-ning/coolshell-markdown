@@ -8,7 +8,7 @@
 这本书是1992年，现在绝版了，生物学家决定上Amazon找一下，结果看到了有两本新书，还有一些二手的，二手书价比较正常，但是那两个新书的价都上了百万。这个生物学家还写了邮件给原作者和原作者开了玩笑。呵呵。
 
 
-![](http://www.michaeleisen.org/blog/wp-content/uploads/2011/04/lawrence_1.png "lawrence_1")
+![](/assets/images/www.michaeleisen.org/blog/wp-content/uploads/2011/04/lawrence_1.png "lawrence_1")
 
 
 一般人可能就把这个事当成个笑话了，不过，教授就是教授，它还认真的研究了一下为什么会这样。
@@ -18,7 +18,7 @@
 首先，这个不是Amazon的订价的问题，这是Amazon的第三方商户平台两个商户报价，一个商户叫profnath，另一个商户叫bordeebook。我们的生物学教授观察这两个商户的书价了几天，看到了下面的结果：
 
 
-![](http://www.michaeleisen.org/blog/wp-content/uploads/2011/04/lawrence_prices1.png "lawrence_prices1")
+![](/assets/images/www.michaeleisen.org/blog/wp-content/uploads/2011/04/lawrence_prices1.png "lawrence_prices1")
 
 
 从上面的表中，我们可以看到，profnath商户的价格总是bordeebook的99.83%，而bordeebook的总是比profnath的高27.059%，很明显，这两个商户用的是程序在自动定价——“自动竞价”。

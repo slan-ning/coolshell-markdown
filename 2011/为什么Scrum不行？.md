@@ -2,7 +2,7 @@
 >date: 2011-07-21T08:37:03+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/07/hat-150x150.jpeg)这篇文章的原文在这里（[原文链接](http://maurits.wordpress.com/2011/07/13/why-scrum-will-never-work/ "Why Scrum will never work")）（**下文不是全译，也不是部分译，我只是把其总结，有我自己的发挥，但是原意大致不变**），这篇文章完全是在调侃Scrum的，作者第一段就是一个免费声明，其说他是[Scrum](https://en.wikipedia.org/wiki/Scrum_(development))和其它敏捷方法的big fan， 他也认为Scrum 100% 对 软件开发可行。作者使用Scrum 5年了，也公开作过几次敏捷的分享会。他觉得写这篇文章只是为了好玩，因为他们戴上[Edward de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) 的 [black hat](https://en.wikipedia.org/wiki/Six_Thinking_Hats#Black_hat_.E2.80.93_Being_Cautious) （黑礼帽 – 是6个思考之帽中的一种——负面思考，思考事物的负面因素，这样才知道：它会起作用吗？缺点是什么？它有什么问题？为什么不能做。）
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/07/hat-150x150.jpeg)这篇文章的原文在这里（[原文链接](http://maurits.wordpress.com/2011/07/13/why-scrum-will-never-work/ "Why Scrum will never work")）（**下文不是全译，也不是部分译，我只是把其总结，有我自己的发挥，但是原意大致不变**），这篇文章完全是在调侃Scrum的，作者第一段就是一个免费声明，其说他是[Scrum](https://en.wikipedia.org/wiki/Scrum_(development))和其它敏捷方法的big fan， 他也认为Scrum 100% 对 软件开发可行。作者使用Scrum 5年了，也公开作过几次敏捷的分享会。他觉得写这篇文章只是为了好玩，因为他们戴上[Edward de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) 的 [black hat](https://en.wikipedia.org/wiki/Six_Thinking_Hats#Black_hat_.E2.80.93_Being_Cautious) （黑礼帽 – 是6个思考之帽中的一种——负面思考，思考事物的负面因素，这样才知道：它会起作用吗？缺点是什么？它有什么问题？为什么不能做。）
 
 
 因为本人经常站在Agile的风口浪尖，所以我有必要也来一个“免责声明”。Shit！其实我想来的是“**不免责声明**” ——**下文中的九大原因是对中国的各种Agile实践者咨询师不注重实际只重方法论的批判**，**本人必然要和那种只以流程方法论为中心的软件开发斗争到底**。其实我没有那么嚣张，**我只是想说，下面的这些东西相当的现实。希望各种Scrum的实践者们认识到这些问题，从而可以让你们明白软件开发中的人的重要性**。
@@ -36,7 +36,7 @@
 **Reason 9**: “是的，如果我们只做需要的功能，那么我们就会最低的成本，对吗？”，为什么这世上总是会有这些幼稚的人？这种事怎么可能啊。很多很多的银行或保险公司的项目在你还没有启动项目前就谈好了一个价格（可能还会有回扣），为了打单子，销售什么都干得出来，让你去做项目是因为你是廉价劳动力，而且，他们会不断地加需求，因为软件合同谈好的价格时候，连需求都没有，你去做了才有，还是模糊和不确定或根本就是错的，然后需求是越来越多，越改越多。等你精疲力尽的时候，你才意识到，销售早就把你卖了。
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/07/dilberttrust.gif)
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/07/dilberttrust.gif)
 
 
 爽啊，戴着黑礼帽思考问题比我想像中的要有趣得多，现在我必需要把它摘下来了。

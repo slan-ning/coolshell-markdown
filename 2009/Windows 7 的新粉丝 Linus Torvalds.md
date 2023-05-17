@@ -5,7 +5,7 @@
 正当Windows 7 开始热卖的时候，正当广大北美用户抱怨Windows 7的销售价格，在东方要比西方便宜很多的时候。我们著名的Linus Torvalds来到了日本东京的一个软件商店里“庆祝Windows 7的Release”，难道他是去那里买一份便宜的Windows 7？
 
 
-[![Linus Torvalds 在一个日本的软件商店](https://coolshell.cn/wp-content/uploads/2009/10/Linus_windows_7.jpg)](http://www.flickr.com/photos/offthebroiler/4036243510/sizes/o/)
+[![Linus Torvalds 在一个日本的软件商店](/assets/images/coolshell.cn/wp-content/uploads/2009/10/Linus_windows_7.jpg)](http://www.flickr.com/photos/offthebroiler/4036243510/sizes/o/)
 
 
 *Linus Torvalds, 图片来自一个未经确认的 Yodobashi 商店， Tokyo, Japan. 来源: Jim Zemlin/The Linux Foundation (**点击看大图**)*

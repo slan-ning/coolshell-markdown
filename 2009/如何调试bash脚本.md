@@ -2,7 +2,7 @@
 >date: 2009-08-31T15:53:40+08:00
 
 
-[![如何调试Bash脚本](https://coolshell.cn/wp-content/uploads/2009/08/bash.jpg "如何调试Bash脚本")Bash](https://en.wikipedia.org/wiki/Bash) 是Linux操作系统的默认Shell脚本。Shell是用来处理操作系统和用户交互的一个程序。Shell的脚本可以帮助用户自动化地和操作系统进行交互。你也可以理解为一种脚本式的编程。即然有编程，那么，程序的编译器，解释器，调试器就必不可少了，Bash也一样，但在调试方面可能会有一些和编程语言不一样的东西和技术，所以，下面这篇文章主要是说明调试bash脚本的各种技术。
+[![如何调试Bash脚本](/assets/images/coolshell.cn/wp-content/uploads/2009/08/bash.jpg "如何调试Bash脚本")Bash](https://en.wikipedia.org/wiki/Bash) 是Linux操作系统的默认Shell脚本。Shell是用来处理操作系统和用户交互的一个程序。Shell的脚本可以帮助用户自动化地和操作系统进行交互。你也可以理解为一种脚本式的编程。即然有编程，那么，程序的编译器，解释器，调试器就必不可少了，Bash也一样，但在调试方面可能会有一些和编程语言不一样的东西和技术，所以，下面这篇文章主要是说明调试bash脚本的各种技术。
 
 
 #### 跟踪脚本的执行

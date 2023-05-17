@@ -69,11 +69,11 @@ EXPLAIN 的查询结果还会告诉你你的索引主键被如何利用的，你
 挑一个你的SELECT语句（推荐挑选那个最复杂的，有多表联接的），把关键字EXPLAIN加到前面。你可以使用phpmyadmin来做这个事。然后，你会看到一张表格。下面的这个示例中，我们忘记加上了group\_id索引，并且有表联接：
 
 
-![](http://nettuts.s3.amazonaws.com/500_mysql/unoptimized_explain.jpg)
+![](/assets/images/nettuts.s3.amazonaws.com/500_mysql/unoptimized_explain.jpg)
 当我们为 group\_id 字段加上索引后：
 
 
-![](http://nettuts.s3.amazonaws.com/500_mysql/optimized_explain.jpg)
+![](/assets/images/nettuts.s3.amazonaws.com/500_mysql/optimized_explain.jpg)
 我们可以看到，前一个结果显示搜索了 7883 行，而后一个只是搜索了两个表的 9 和 16 行。查看rows列可以让我们找到潜在的性能问题。
 
 
@@ -112,7 +112,7 @@ if (mysql_num_rows($r) > 0) {
 索引并不一定就是给主键或是唯一的字段。如果在你的表中，有某个字段你总要会经常用来做搜索，那么，请为其建立索引吧。
 
 
-![](http://nettuts.s3.amazonaws.com/500_mysql/search_index.jpg)
+![](/assets/images/nettuts.s3.amazonaws.com/500_mysql/search_index.jpg)
 从上图你可以看到那个搜索字串 “last\_name LIKE ‘a%'”，一个是建了索引，一个是没有索引，性能差了4倍左右。
 
 
@@ -227,7 +227,7 @@ MySQL也有一个“建议”（见第十条）告诉你怎么去重新组织你
 在phpmyadmin里，你可以在查看表时，点击 “Propose table structure” 来查看这些建议
 
 
-![](http://nettuts.s3.amazonaws.com/500_mysql/suggestions.jpg)
+![](/assets/images/nettuts.s3.amazonaws.com/500_mysql/suggestions.jpg)
 一定要注意，这些只是建议，只有当你的表里的数据越来越多时，这些建议才会变得准确。一定要记住，你才是最终做决定的人。
 
 
@@ -414,7 +414,7 @@ while (1) {
 #### 19. 选择正确的存储引擎
 
 
-在 MySQL 中有两个存储引擎 MyISAM 和 InnoDB，每个引擎都有利有弊。酷壳以前文章《[MySQL: InnoDB 还是 MyISAM?](https://coolshell.cn/articles/652.html)》讨论和这个事情。
+在 MySQL 中有两个存储引擎 MyISAM 和 InnoDB，每个引擎都有利有弊。酷壳以前文章《[MySQL: InnoDB 还是 MyISAM?](/2009/MySQL%3A%20InnoDB%20%E8%BF%98%E6%98%AF%20MyISAM%3F.md)》讨论和这个事情。
 
 
 MyISAM 适合于一些需要大量查询的应用，但其对于有大量写操作并不是很好。甚至你只是需要update一个字段，整个表都会被锁起来，而别的进程，就算是读进程都无法操作直到读操作完成。另外，MyISAM 对于 SELECT COUNT(\*) 这类的计算是超快无比的。

@@ -2,7 +2,7 @@
 >date: 2017-07-16T21:40:55+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/07/systemd.jpeg)要说清 Systemd，得先从Linux操作系统的启动说起。Linux 操作系统的启动首先从 BIOS 开始，然后由 Boot Loader 载入内核，并初始化内核。内核初始化的最后一步就是启动 init 进程。这个进程是系统的第一个进程，PID 为 1，又叫超级进程，也叫根进程。它负责产生其他所有用户进程。所有的进程都会被挂在这个进程下，如果这个进程退出了，那么所有的进程都被 kill 。如果一个子进程的父进程退了，那么这个子进程会被挂到 PID 1 下面。（注：PID 0 是内核的一部分，主要用于内进换页，参看：[Process identifier](https://en.wikipedia.org/wiki/Process_identifier)）
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/07/systemd.jpeg)要说清 Systemd，得先从Linux操作系统的启动说起。Linux 操作系统的启动首先从 BIOS 开始，然后由 Boot Loader 载入内核，并初始化内核。内核初始化的最后一步就是启动 init 进程。这个进程是系统的第一个进程，PID 为 1，又叫超级进程，也叫根进程。它负责产生其他所有用户进程。所有的进程都会被挂在这个进程下，如果这个进程退出了，那么所有的进程都被 kill 。如果一个子进程的父进程退了，那么这个子进程会被挂到 PID 1 下面。（注：PID 0 是内核的一部分，主要用于内进换页，参看：[Process identifier](https://en.wikipedia.org/wiki/Process_identifier)）
 
 
 
@@ -113,7 +113,7 @@ Lennart 认为，实现上来说，`upstart` 其实是在管理一个逻辑上�
 下图来自 Lennart 的演讲里的一页PPT，展示了不同 init 系统的启动。
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/07/boot.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/07/boot.png)
 
 
 除此之外，systemd 还在启动时管理好了一些下面的事。
@@ -184,7 +184,7 @@ Lennart 认为，实现上来说，`upstart` 其实是在管理一个逻辑上�
 这个争议大到什么样子呢？2014 年，Debian Linux 因为想准备使用 `systemd` 来作为标准的 init 守护进程来替换 `sysvinit` 。而围绕这个事的争论达到了空前的热度，争论中充满着仇恨，`systemd` 的支持者和反对者都在互相辱骂，导致当时 Debian 阵营开始分裂。还有人给 Lennart 发了死亡威胁的邮件，用比特币雇凶买杀手，扬言要取他的性命，在Youbute上传了侮辱他的歌曲，在IRC和各种社交渠道上给他发下流和侮辱性的消息。这已经不是争议了，而是一种不折不扣的仇恨！
 
 
-![](https://coolshell.cn/wp-content/uploads/2017/07/systemd_shewantsit.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2017/07/systemd_shewantsit.jpg)
 
 
 于是，Lennart 在 [Google Plus 上发了贴子](https://plus.google.com/+LennartPoetteringTheOneAndOnly/posts/J2TZrTvu7vd)，批评整个 Linux 开源社区和 Linus 本人。他大意说，

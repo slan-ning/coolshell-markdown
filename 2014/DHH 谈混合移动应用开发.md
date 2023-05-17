@@ -5,7 +5,7 @@
  
 
 
-![1053-DHH](https://coolshell.cn/wp-content/uploads/2014/12/1053-DHH-150x150.jpg)David，Ruby on Rails 作者，37signals 合伙人
+![1053-DHH](/assets/images/coolshell.cn/wp-content/uploads/2014/12/1053-DHH-150x150.jpg)David，Ruby on Rails 作者，37signals 合伙人
 
 
 畅销书作家、演说家、赛车手、业余摄影师、顾家好男人
@@ -46,7 +46,7 @@ Facebook 在2012年发布了他们新的 iOS app，为了获得更好的用户�
 #### 第一代产品：原生外壳(native shell)＋嵌套WebView
 
 
-![1159-basecamp-app-phones](https://coolshell.cn/wp-content/uploads/2014/12/1159-basecamp-app-phones-300x242.jpg)
+![1159-basecamp-app-phones](/assets/images/coolshell.cn/wp-content/uploads/2014/12/1159-basecamp-app-phones-300x242.jpg)
 
 
 这个版本就是一个简单的原生外壳负责界面导航，嵌套一个 WebView 来显示 Basecamp Rail application，显示的基本上都是我们移动网站页面，再加上一些特殊的样式。
@@ -67,7 +67,7 @@ Facebook 在2012年发布了他们新的 iOS app，为了获得更好的用户�
 #### 第二代产品：原生外壳＋原生导航界面
 
 
-![1543-unnamed](https://coolshell.cn/wp-content/uploads/2014/12/1543-unnamed-187x300.png)
+![1543-unnamed](/assets/images/coolshell.cn/wp-content/uploads/2014/12/1543-unnamed-187x300.png)
 
 
 几个月前发布的 Basecamp Android app 是我们的第二代产品，我们在其中做了大量的改进。

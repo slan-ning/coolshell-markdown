@@ -2,7 +2,7 @@
 >date: 2013-05-10T08:12:12+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/05/race_condition-300x190.jpg)在淘宝内网里看到同事发了贴说了一个CPU被100%的线上故障，并且这个事发生了很多次，原因是在Java语言在并发情况下使用HashMap造成Race Condition，从而导致死循环。这个事情我4、5年前也经历过，本来觉得没什么好写的，因为Java的HashMap是非线程安全的，所以在并发下必然出现问题。但是，我发现近几年，很多人都经历过这个事（在网上查“HashMap Infinite Loop”可以看到很多人都在说这个事）所以，觉得这个是个普遍问题，需要写篇疫苗文章说一下这个事，并且给大家看看一个完美的“Race Condition”是怎么形成的。
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/05/race_condition-300x190.jpg)在淘宝内网里看到同事发了贴说了一个CPU被100%的线上故障，并且这个事发生了很多次，原因是在Java语言在并发情况下使用HashMap造成Race Condition，从而导致死循环。这个事情我4、5年前也经历过，本来觉得没什么好写的，因为Java的HashMap是非线程安全的，所以在并发下必然出现问题。但是，我发现近几年，很多人都经历过这个事（在网上查“HashMap Infinite Loop”可以看到很多人都在说这个事）所以，觉得这个是个普遍问题，需要写篇疫苗文章说一下这个事，并且给大家看看一个完美的“Race Condition”是怎么形成的。
 
 
 
@@ -162,7 +162,7 @@ void transfer(Entry[] newTable)
 * 接下来的三个步骤是Hash表 resize成4，然后所有的<key,value> 重新rehash的过程
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/05/HashMap01.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/05/HashMap01.jpg)
 
 
 #### 并发下的Rehash
@@ -188,7 +188,7 @@ do {
 而我们的线程二执行完成了。于是我们有下面的这个样子。
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/05/HashMap02.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/05/HashMap02.jpg)
 
 
 注意，**因为Thread1的 e 指向了key(3)，而next指向了key(7)，其在线程二rehash后，指向了线程二重组后的链表**。我们可以看到链表的顺序被反转后。
@@ -202,7 +202,7 @@ do {
 * **而下一次循环的next = e.next导致了next指向了key(3)**
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/05/HashMap03.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/05/HashMap03.jpg)
 
 
 **3）一切安好。**
@@ -211,7 +211,7 @@ do {
 线程一接着工作。**把key(7)摘下来，放到newTable[i]的第一个，然后把e和next往下移**。
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/05/HashMap04.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/05/HashMap04.jpg)
 
 
 **4）环形链接出现。**
@@ -223,7 +223,7 @@ do {
 **注意：此时的key(7).next 已经指向了key(3)， 环形链表就这样出现了。**
 
 
-![](https://coolshell.cn/wp-content/uploads/2013/05/HashMap05.jpg)
+![](/assets/images/coolshell.cn/wp-content/uploads/2013/05/HashMap05.jpg)
 
 
 **于是，当我们的线程一调用到，HashTable.get(11)时，悲剧就出现了——Infinite Loop。**

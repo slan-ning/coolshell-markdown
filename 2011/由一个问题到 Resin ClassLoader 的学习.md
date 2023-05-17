@@ -98,12 +98,12 @@ public class PathServlet extends HttpServlet {
 
 还有一点值得注意，getPath方法中使用getResourceAsStream(“/a.txt”)却正常的读到了位于下图的a.txt。  
 
-![](https://coolshell.cn/wp-content/uploads/2011/12/resin01.png "resin01")
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin01.png "resin01")
 
 
 然后写到了如下图的b.txt中。代码中是这样实现的：File file = new File(Path.class.getResource(“/”).getPath()+”/b.txt”);本意是想在a.txt文件目录下入b.txt。结果却和料想的不一样。  
 
-![](https://coolshell.cn/wp-content/uploads/2011/12/resin02.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin02.png)
 
 
 请注意，区别还是丢掉了项目名称。
@@ -162,7 +162,7 @@ public InputStream getResourceAsStream(String name) {
 
 在Tomcat下运行结果如下图：  
 
-![](https://coolshell.cn/wp-content/uploads/2011/12/resin03.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin03.png)
 
 
 对，这就是我想要的。
@@ -185,7 +185,7 @@ public InputStream getResourceAsStream(String name) {
 其中的compiling-loader很可能与之有关，遂将其注释掉，一切正常。担心是错觉，于是将compiling-loader的path属性改成：webapps/WEB-INF/classes1，然后运行pathServlet，b.txt位置如下图：
 
 
-![](https://coolshell.cn/wp-content/uploads/2011/12/resin04.png)
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin04.png)
 
 
 确实与compiling-loader有关。
@@ -221,11 +221,11 @@ public InputStream getResourceAsStream(String name) {
 
 在我了解的ClassLoader是在com.caucho.loader包下，结构请看下图：  
 
-![图1](https://coolshell.cn/wp-content/uploads/2011/12/resin05.png)  
+![图1](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin05.png)  
 
 图1  
 
-[![图2 （点击看大图）](https://coolshell.cn/wp-content/uploads/2011/12/resin06.png)](https://coolshell.cn/wp-content/uploads/2011/12/resin06.png)  
+[![图2 （点击看大图）](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin06.png)](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin06.png)  
 
 图2
 
@@ -369,7 +369,7 @@ public URL getResource(String name)
 
 代码不难懂，我画了一张流程图，不规范，凑合看下。  
 
-![](https://coolshell.cn/wp-content/uploads/2011/12/resin07.png "resin07")
+![](/assets/images/coolshell.cn/wp-content/uploads/2011/12/resin07.png "resin07")
 
 
 #### 总结

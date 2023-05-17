@@ -35,7 +35,7 @@ Quora只能搜索问题，主题标签，用户名，和主题标题。没有全
 一开始，他们使用的是一个开源的搜索服务器，叫[Sphinx](http://sphinxsearch.com/)。其支持上述的那些功能。现在他们不用这个技术了，因为[受到了一些限制](https://www.quora.com/What-is-the-best-open-source-solution-for-implementing-fast-auto-complete)。他们做了一个比较新的解决方案，这个算法由Python实现。
 
 
-**参看**：[![](https://www.quora.com/favicon.ico)What libraries does Quora use for search?](https://www.quora.com/What-libraries-does-Quora-use-for-search)
+**参看**：[![](/assets/images/www.quora.com/favicon.ico)What libraries does Quora use for search?](https://www.quora.com/What-libraries-does-Quora-use-for-search)
 
 
 #### 实时查询
@@ -50,7 +50,7 @@ Quora的即时搜索好像比较暴力，如果你输入Microsoft（一共9个�
 Quora的搜索使用HTTP长连接，当你开始敲查询的时候，连接就建立了，这个连接会持续在那里，你下次搜索的时候会继续使用这个连接，除非你60秒没有动作了。
 
 
-**参看**：[![](https://www.quora.com/favicon.ico)Is Quora going to implement full-text search?](https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search)
+**参看**：[![](/assets/images/www.quora.com/favicon.ico)Is Quora going to implement full-text search?](https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search)
 
 
 
@@ -72,7 +72,7 @@ Quora的工程师看上去对他们搞的这些东西非常的满意，并且 [
 Charlie Cheever 指出 WebNode2 和 [有一个叫做 “free and easy website builder” 的 Webnode 的 webnode.com](https://www.quora.com/Quora-Infrastructure/What-is-webnode2) 没有任何的关系。
 
 
-**参考**：[![](https://www.quora.com/favicon.ico)](https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search) [Tech Talk – Webnode2 and LiveNode](https://www.quora.com/Shreyes-Seshasai/Tech-Talk-Webnode2-and-LiveNode)
+**参考**：[![](/assets/images/www.quora.com/favicon.ico)](https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search) [Tech Talk – Webnode2 and LiveNode](https://www.quora.com/Shreyes-Seshasai/Tech-Talk-Webnode2-and-LiveNode)
 
 
 #### Amazon Web Service
@@ -114,7 +114,7 @@ Quora全部host在AWS的EC2和S3上，这对于这些刚刚起步的快速发展
 [Thrift](http://incubator.apache.org/thrift/) 用于后端服务器间的通讯。Thrift  服务由 C++开发。[Facebook同样使用了这个技术](https://coolshell.cn/articles/4549.html)。
 
 
-**参考**：[![](https://www.quora.com/favicon.ico)Why would you write a Thrift service in C++?](https://www.quora.com/Why-would-you-write-a-Thrift-service-in-C)
+**参考**：[![](/assets/images/www.quora.com/favicon.ico)Why would you write a Thrift service in C++?](https://www.quora.com/Why-would-you-write-a-Thrift-service-in-C)
 
 
 #### Tornado
@@ -141,7 +141,7 @@ Long polling 也就是我们熟知的 [Comet](https://en.wikipedia.org/wiki/Com
 当然，好的消息是已经有一些技术专门为Long Polling设计，这些技术可以让你在那些等待的连接中只会消耗非常非常少的内存（因为那些等待连接并不需要所有的资源）。例如：Nginx 是一个单线程的事件驱动的小型服务器，每一个链接只花非常小的内存。每一个Nginx的进程只会在一个时候处理一个连接。这意味着其很容易扩展成一个可以处理成千上的并发量的服务架构。
 
 
-**参考**：[![](https://www.quora.com/favicon.ico)How do you push messages back to a web-browser client through AJAX? Is there any way to do this without having the client constantly polling the server for updates?](https://www.quora.com/How-do-you-push-messages-back-to-a-web-browser-client-through-AJAX-Is-there-any-way-to-do-this-without-having-the-client-constantly-polling-the-server-for-updates)
+**参考**：[![](/assets/images/www.quora.com/favicon.ico)How do you push messages back to a web-browser client through AJAX? Is there any way to do this without having the client constantly polling the server for updates?](https://www.quora.com/How-do-you-push-messages-back-to-a-web-browser-client-through-AJAX-Is-there-any-way-to-do-this-without-having-the-client-constantly-polling-the-server-for-updates)
 
 
 #### MySQL
@@ -153,7 +153,7 @@ Long polling 也就是我们熟知的 [Comet](https://en.wikipedia.org/wiki/Com
 并不只是Quora和FriendFeed使用MySQL，Google，Twitter，Facebook都在使用MySQL.
 
 
-参考：[![](https://www.quora.com/favicon.ico)How does one evaluate if a database is efficient enough to not crash as it’s put under increasing load?](https://www.quora.com/How-does-one-evaluate-if-a-database-is-efficient-enough-to-not-crash-as-its-put-under-increasing-load)
+参考：[![](/assets/images/www.quora.com/favicon.ico)How does one evaluate if a database is efficient enough to not crash as it’s put under increasing load?](https://www.quora.com/How-does-one-evaluate-if-a-database-is-efficient-enough-to-not-crash-as-its-put-under-increasing-load)
 
 
 #### Memcached
@@ -189,14 +189,14 @@ Steve Souders,  High Performance Web Sites 和 Even Faster Web Sites的作者�
 
 
 
-Steve Souders的14条规则是——[![](https://images-na.ssl-images-amazon.com/images/I/41COtT-V1UL._SL160_.jpg)](https://www.amazon.com/gp/product/0596529309?ie=UTF8&tag=getafil-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596529309) 
+Steve Souders的14条规则是——[![](/assets/images/images-na.ssl-images-amazon.com/images/I/41COtT-V1UL._SL160_.jpg)](https://www.amazon.com/gp/product/0596529309?ie=UTF8&tag=getafil-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596529309) 
 * Make Fewer HTTP Requests
 * Use a Content Delivery Network
 * Add an Expires Header
 * Gzip Components
 * Put Stylesheets at the Top
 * Put Scripts at the Bottom
-* [![](https://images-na.ssl-images-amazon.com/images/I/41vfOvQugoL._SL160_.jpg)](https://www.amazon.com/gp/product/0596522304?ie=UTF8&tag=getafil-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596522304)Avoid CSS Expressions
+* [![](/assets/images/images-na.ssl-images-amazon.com/images/I/41vfOvQugoL._SL160_.jpg)](https://www.amazon.com/gp/product/0596522304?ie=UTF8&tag=getafil-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596522304)Avoid CSS Expressions
 * Make JavaScript and CSS External
 * Reduce DNS Lookups
 * Minify JavaScript

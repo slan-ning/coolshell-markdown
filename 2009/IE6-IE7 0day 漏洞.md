@@ -4,7 +4,7 @@
 
 
 
-昨天（2009年11月21日），Symantec发布了[IE的一个0day安全漏洞的消息](http://www.symantec.com/connect/blogs/zero-day-internet-explorer-exploit-published)。关于这个消息，截止本文发布时，在中文社区里还没有报导。这是一个关于IE6/IE7处理CSS时的一个漏洞（[关于IE和CSS的BUG](https://coolshell.cn/articles/1817.html)）。如果你目前还在使用IE6/IE7，那你现在可能是你升级的时候了，当然，有很多人说IE8是没有问题的，但我个人还是建议在补丁出来之前先使用Firefox或Chrome。
+昨天（2009年11月21日），Symantec发布了[IE的一个0day安全漏洞的消息](http://www.symantec.com/connect/blogs/zero-day-internet-explorer-exploit-published)。关于这个消息，截止本文发布时，在中文社区里还没有报导。这是一个关于IE6/IE7处理CSS时的一个漏洞（[关于IE和CSS的BUG](/2009/IE%E7%9A%84CSS%E7%9B%B8%E5%85%B3%E7%9A%84BUG.md)）。如果你目前还在使用IE6/IE7，那你现在可能是你升级的时候了，当然，有很多人说IE8是没有问题的，但我个人还是建议在补丁出来之前先使用Firefox或Chrome。
 
 
 根据Symantec的的报告，他们在第一时间内测试了那个“Exploit Code”（攻击代码），根据测试结果表时，那个JavaScript的攻击代码并不是100%的可靠，而且很不可靠，但安全专家相信，100%完全可靠的“攻击代码”将会马上出现。这意味着，这段攻击代码会马上如潮水一样地放在各个有恶意的网站上，然后，所有的IE6/IE7的，打开JavaScript的用户都会被危及。

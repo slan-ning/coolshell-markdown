@@ -81,7 +81,7 @@ private static final int INNER_ITERATION=50000;
 
 经过20次迭代后，我们得到如下的数据：  
 
-![](https://coolshell.cn/wp-content/uploads/2010/03/String_Perf_Chart_217.png "结果")
+![](/assets/images/coolshell.cn/wp-content/uploads/2010/03/String_Perf_Chart_217.png "结果")
 
 
 结果非常完美如我们想象的那样。唯一比较有趣的事情是为什么String.concat也很不错，我们都知道，String是一个常类（初始化后就不会改变的类），那么为什么concat的性能会更好一些呢。(**译者注**：其实原文作者的测试代码有问题，对于concat()方法的测试代码应该写成concatTestStr=concatTestStr.concat(“\*”)才对。)为了回答这个问题，我们应该看看concat反编译出来的字节码。在本文的下载包里面包含了所有的字节码，但是现在我们先看一下concat的这个代码片段：

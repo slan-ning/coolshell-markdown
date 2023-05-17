@@ -2,7 +2,7 @@
 >date: 2009-03-16T22:51:47+08:00
 
 
-[![makelinux](https://coolshell.cn/wp-content/uploads/2009/03/makelinux.jpg "makelinux")](https://coolshell.cn/wp-content/uploads/2009/03/makelinux.jpg)关于Linux相关的资源大家可以到<http://www.makelinux.net/>访问相关的文章，很不错的一个和linux内核相关的资源网站，当然，你可能因为种种原因不能访问这个网上的一些资源，那么你可能需要使用代理服务器或是一个叫Tor的软件，关于后者，请参看这篇文章[《如何上网觅无踪](https://coolshell.cn/articles/25.html)》
+[![makelinux](/assets/images/coolshell.cn/wp-content/uploads/2009/03/makelinux.jpg "makelinux")](/assets/images/coolshell.cn/wp-content/uploads/2009/03/makelinux.jpg)关于Linux相关的资源大家可以到<http://www.makelinux.net/>访问相关的文章，很不错的一个和linux内核相关的资源网站，当然，你可能因为种种原因不能访问这个网上的一些资源，那么你可能需要使用代理服务器或是一个叫Tor的软件，关于后者，请参看这篇文章[《如何上网觅无踪](/2009/%E5%A6%82%E4%BD%95%E4%B8%8A%E7%BD%91%E8%A7%85%E6%97%A0%E8%B8%AA.md)》
 
 
 下面是makelinux上的资源列表，都非常不错。

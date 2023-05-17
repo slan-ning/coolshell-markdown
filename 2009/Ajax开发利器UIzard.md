@@ -8,7 +8,7 @@
 你可以理解为这是一个Web开发的IDE，不过其集成了Ajax方面的东西。这并不仅仅简单的是那种“所见即所得”的编辑器。而且，它也不信仅可以让那些非程序员非常简单地创建一个从前端到后端的Web应用，而且，他还可以让你连接数据库，创建非常复杂的布局和时间线，甚至于一些套件（白板，在线的类Word，Excel，PPT等功能），所有这些，你只需要简单的点几下按钮就可以了。真是相当的强大。（下面是个抓图）
 
 
-![UIzard](https://coolshell.cn/wp-content/uploads/2009/10/uizard2.jpg "UIzard")
+![UIzard](/assets/images/coolshell.cn/wp-content/uploads/2009/10/uizard2.jpg "UIzard")
 
 
 
@@ -30,7 +30,7 @@
 <http://www.uizard.org/UIzard/uizard.php>
 
 
-[![UIzard创建工程](https://coolshell.cn/wp-content/uploads/2009/10/uizard1.jpg "UIzard创建工程")](https://coolshell.cn/wp-content/uploads/2009/10/uizard1.jpg)
+[![UIzard创建工程](/assets/images/coolshell.cn/wp-content/uploads/2009/10/uizard1.jpg "UIzard创建工程")](/assets/images/coolshell.cn/wp-content/uploads/2009/10/uizard1.jpg)
 
 
 (全文完)

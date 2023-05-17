@@ -5,10 +5,10 @@
 **总结：**
 
 
-这是 [Reuven Lerner](https://coolshell.cn/member/reuven)在去年写的一篇博文，文章主要介绍了一些新兴的基于JVM的脚本语言。结合本文可以对Bruce的博文《[C++和JAVA传统中积极的一面](https://coolshell.cn/articles/209.html)》有一个很好的理解。译者认为：语言始终都是一门工具，软件设计最重要的东西是来自于设计者的创造性，但是随着Java语言的出现，他的半动态的特性，ClassLoader，反射，动态代理，都是提高开发者创造性的前提，正是因为这些特性，才会出现新的的编程模式和范式——反转控制和依赖注入，面向方面的编程(AOP)。试想如果Java不提供ClassLoader，反射，动态代理机制的API，如何能实现依赖查找和依赖注入和动态AOP? 你能用C++来反转控制，依赖查找吗，能对容器中的组件做进行生命周期管理吗？为了说明程序员创造性和语言的这个关系，我引用[Dion Hinchcliffe](http://hinchcliffe.org/)博文中的一张图来说明：
+这是 [Reuven Lerner](https://coolshell.cn/member/reuven)在去年写的一篇博文，文章主要介绍了一些新兴的基于JVM的脚本语言。结合本文可以对Bruce的博文《[C++和JAVA传统中积极的一面](/2009/C%2B%2B%E5%92%8CJAVA%E4%BC%A0%E7%BB%9F%E4%B8%AD%E7%A7%AF%E6%9E%81%E7%9A%84%E4%B8%80%E9%9D%A2.md)》有一个很好的理解。译者认为：语言始终都是一门工具，软件设计最重要的东西是来自于设计者的创造性，但是随着Java语言的出现，他的半动态的特性，ClassLoader，反射，动态代理，都是提高开发者创造性的前提，正是因为这些特性，才会出现新的的编程模式和范式——反转控制和依赖注入，面向方面的编程(AOP)。试想如果Java不提供ClassLoader，反射，动态代理机制的API，如何能实现依赖查找和依赖注入和动态AOP? 你能用C++来反转控制，依赖查找吗，能对容器中的组件做进行生命周期管理吗？为了说明程序员创造性和语言的这个关系，我引用[Dion Hinchcliffe](http://hinchcliffe.org/)博文中的一张图来说明：
 
 
- ![程序员创造性和性能的关系](https://coolshell.cn/wp-content/uploads/2009/03/weblanguagecomparison1.png "程序员创造性和性能的关系")
+ ![程序员创造性和性能的关系](/assets/images/coolshell.cn/wp-content/uploads/2009/03/weblanguagecomparison1.png "程序员创造性和性能的关系")
 
 
 原文：<http://ostatic.com/blog/jvm-based-languages-grow-in-popularity>  

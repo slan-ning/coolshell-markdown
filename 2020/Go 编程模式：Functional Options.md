@@ -2,7 +2,7 @@
 >date: 2020-12-22T23:23:52+08:00
 
 
-![](https://coolshell.cn/wp-content/uploads/2020/12/go.options-300x186.png)在本篇文章中，我们来讨论一下Functional Options这个编程模式。这是一个函数式编程的应用案例，编程技巧也很好，是目前在Go语言中最流行的一种编程模式。但是，在我们正式讨论这个模式之前，我们需要先来看看要解决什么样的问题。
+![](/assets/images/coolshell.cn/wp-content/uploads/2020/12/go.options-300x186.png)在本篇文章中，我们来讨论一下Functional Options这个编程模式。这是一个函数式编程的应用案例，编程技巧也很好，是目前在Go语言中最流行的一种编程模式。但是，在我们正式讨论这个模式之前，我们需要先来看看要解决什么样的问题。
 
 
 ### 本文是全系列中第3 / 10篇：[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)

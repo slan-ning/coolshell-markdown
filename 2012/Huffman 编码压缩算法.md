@@ -35,43 +35,43 @@
 
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/coada1.png "coada1")](https://coolshell.cn/wp-content/uploads/2012/05/coada1.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada1.png "coada1")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada1.png)
 
 
 接下来就是我们的算法——把这个Priority Queue 转成二叉树。我们始终从queue的头取两个元素来构造一个二叉树（第一个元素是左结点，第二个是右结点），并把这两个元素的priority相加，并放回Priority中（再次注意，这里的Priority就是字符出现的次数），然后，我们得到下面的数据图表：
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/coada2.png "coada2")](https://coolshell.cn/wp-content/uploads/2012/05/coada2.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada2.png "coada2")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada2.png)
 
 
 同样，我们再把前两个取出来，形成一个Priority为2+2=4的结点，然后再放回Priority Queue中 :
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/coada31.png "coada3")](https://coolshell.cn/wp-content/uploads/2012/05/coada31.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada31.png "coada3")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada31.png)
 
 
 继续我们的算法（我们可以看到，这是一种自底向上的建树的过程）：
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/coada4.png "coada4")](https://coolshell.cn/wp-content/uploads/2012/05/coada4.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada4.png "coada4")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada4.png)
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/coada5.png "coada5")](https://coolshell.cn/wp-content/uploads/2012/05/coada5.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada5.png "coada5")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada5.png)
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/coada61.png "coada6")](https://coolshell.cn/wp-content/uploads/2012/05/coada61.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada61.png "coada6")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/coada61.png)
 
 
 最终我们会得到下面这样一棵二叉树：
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/arbore_final.png "arbore_final")](https://coolshell.cn/wp-content/uploads/2012/05/arbore_final.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/arbore_final.png "arbore_final")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/arbore_final.png)
 
 
 此时，我们把这个树的左支编码为0，右支编码为1，这样我们就可以遍历这棵树得到字符的编码，比如：‘b’的编码是 00，’p’的编码是101， ‘r’的编码是1000。**我们可以看到出现频率越多的会越在上层，编码也越短，出现频率越少的就越在下层，编码也越长**。
 
 
-[![](https://coolshell.cn/wp-content/uploads/2012/05/arbore_final_numerotat.png "arbore_final_numerotat")](https://coolshell.cn/wp-content/uploads/2012/05/arbore_final_numerotat.png)
+[![](/assets/images/coolshell.cn/wp-content/uploads/2012/05/arbore_final_numerotat.png "arbore_final_numerotat")](/assets/images/coolshell.cn/wp-content/uploads/2012/05/arbore_final_numerotat.png)
 
 
 最终我们可以得到下面这张编码表：

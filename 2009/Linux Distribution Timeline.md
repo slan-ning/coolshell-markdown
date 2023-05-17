@@ -12,6 +12,6 @@
 [811 kb png](http://futurist.se/gldt/gldt92.png) / [72 kb tar.bz2](http://futurist.se/gldt/gldt92.tar.bz2)
 
 
-[![gldt92](https://coolshell.cn/wp-content/uploads/2009/03/gldt92-612x1024.png "gldt92")](https://coolshell.cn/wp-content/uploads/2009/03/gldt92.png)
+[![gldt92](/assets/images/coolshell.cn/wp-content/uploads/2009/03/gldt92-612x1024.png "gldt92")](https://coolshell.cn/wp-content/uploads/2009/03/gldt92.png)
 
 

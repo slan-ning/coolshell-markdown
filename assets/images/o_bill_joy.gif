@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="report" content='{"pid":"404","spm":"1038.2274"}'>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <script src="//aeu.alicdn.com/waf/antidomxss_v640.js"></script><script src="//aeu.alicdn.com/waf/interfaceacting220819.js"></script><script src="https://g.csdnimg.cn/??lib/jquery/1.9.1/jquery.js" type="text/javascript"></script>
+    <script src='https://g.csdnimg.cn/common/csdn-report/report.js' type='text/javascript'></script>
+    <link rel="stylesheet" href="https://csdnimg.cn/public/static/css/avatar.css">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <title>404</title>
+    <link  href="https://g.csdnimg.cn/static/logo/favicon32.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://g.csdnimg.cn/404error/1.0.0/css/error.css" />
+    <link rel="stylesheet" href="https://g.csdnimg.cn/404error/1.0.0/css/error_e_book.css" />
+    <link rel="stylesheet" href="https://g.csdnimg.cn/pub-recom/1.0.6/css/wap-recom.css" />
+    <link rel="stylesheet" href="https://g.csdnimg.cn/pub-recom/1.0.4/css/pub-recom.css" />
+    <script type="text/javascript" src="//g.csdnimg.cn/pub-recom/1.0.9/js/pub-recom-baidu.js"></script>
+    <script type="text/javascript" src="//g.csdnimg.cn/baidu-search/1.0.9/baidu-search.js"></script>
+    <link rel="stylesheet" href="https://g.csdnimg.cn/404error/1.0.0/css/error.css">
+    <link rel="stylesheet" href="https://g.csdnimg.cn/404error/1.0.0/css/error_e_book.css">
+    <script src="https://g.csdnimg.cn/fixed-sidebar/1.0.8/fixed-sidebar.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?e5ef47b9f471504959267fd614d579cd";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+        !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/Windows Phone/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");if("undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window)return this},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+        function loadSrcript(){
+            var head = document.getElementsByTagName("head")[0];
+            var createEle = function(type,src){
+                var curObj = document.createElement(type);
+                curObj.setAttribute((type === "link" ? "href" : "src"),src);
+                type === "link" && curObj.setAttribute("type","text/css");
+                type === "script" && curObj.setAttribute("type","text/javascript");
+                type === "link" && curObj.setAttribute("rel","stylesheet");
+                return curObj;
+            }
+            if(isMobile.any){
+                var mToolbarCss = createEle("link","https://csdnimg.cn/public/common/toolbar/content_toolbar_css/m_toolbar-2.1.2.css");
+                var mToolbarFontJs = createEle("script","https://csdnimg.cn/public/common/toolbar/js/m_iconfont.js");
+                var mToolbarJs = createEle("script","https://csdnimg.cn/public/common/toolbar/js/m_toolbar-2.1.2.js");
+                mToolbarJs.setAttribute("id","m-toolbar-tpl-scriptId");
+                mToolbarJs.setAttribute('prod','blog');
+                head.appendChild(mToolbarCss);
+                head.appendChild(mToolbarFontJs);
+                document.body.appendChild(mToolbarJs);
+            }else{
+                var pcToolbarJs = createEle("script","https://g.csdnimg.cn/common/csdn-toolbar/csdn-toolbar.js");
+                pcToolbarJs.setAttribute("id","toolbar-tpl-scriptId");
+                document.body.appendChild(pcToolbarJs);
+            }
+        }
+    </script>
+    <style>
+        html{
+            font-size: 50px;
+        }
+        .zdxd_pop{
+            position: fixed!important;
+            bottom: 0 !important;
+        }
+        .point{
+            width:300px!important;
+        }
+        .point.fixed{
+            position: fixed;
+        }
+        .desc_404{
+            margin-bottom: 4px;
+            color: #8a8a8a;
+            font-size: 14px;
+            line-height: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        #main{
+            width:1067px;
+        }
+        #main .feed{
+            width: 760px;
+        }
+        #main .feed .hot_suggest {
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            font-size:14px;
+            font-weight:400;
+            color:rgba(202,12,22,1);
+        }
+        #main .feed .item .title{
+            margin-bottom: 4px !important;
+        }
+        #main .feed .item .title span:hover{
+            color:  #ca0c16 !important;
+        }
+        #main .new_404 .head {
+            padding-top: 25px;
+        }
+        #main .feed .e_book .head img.wap_debook,#main .new_404 .head img.wap_img{display: none;}
+        #main .feed .e_book .head img.pc_debook,#main .new_404 .head img.pc_img{display: block; width: 180px; margin: 0 auto;}
+
+
+        @media (max-width: 1150px){
+            #csdn-footer{
+                display: none !important;
+            }
+            #main .feed, #main .point {position:static!important;}
+            #main .point{width: 100%!important;margin-top: 25px;}
+            #main .new_404 .head img{ display: block;  width: 180px; margin: 0 auto;}
+
+            #main,#main .feed .e_book .e_body,#main .feed .e_book .head,#main .feed .e_book .e_body .e_container,.e_book .e_body .e_container .item#main, #main .feed { width: 100%; }
+            #main .feed .e_book .e_body,#main .feed .e_book .e_body .e_container{height: auto;}
+            #main .feed .e_book .e_body .e_container a{display: block;padding: 0 24px!important;}
+            #main .feed .e_book .head,#main .new_404{height: auto;}
+            #main .feed .item{width: auto;float: none!important;-webkit-border-radius: 0; -moz-border-radius: 0;  -ms-border-radius: 0;  -o-border-radius: 0; border: none;   border-bottom: 1px solid #e4e4e4;box-shadow: none;}
+            .e_container .item .e_message .e_title{width: auto;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+            #main .feed .e_book .head img.wap_debook{width: 100%;height: auto;display: block;}
+            #main .feed .e_book .head img.pc_debook,#main .new_404 .head img.pc_img{display: none;}
+            #main .new_404 .head img.wap_img{display: block;}
+            .e_container .item .e_message{width: calc(100% - 164px)}
+            #main .new_404{margin-bottom: 0;width: 100%}
+            #main .new_404 .head{padding-top: 35px}
+            #main .feed .e_book .head .act_btn{position: inherit;}
+            /*
+            #main .feed .hot_suggest{
+                display: none;
+            }*/
+        }
+        #main .new_404 .goto_feed {
+            display: flex;
+            justify-content:space-between;
+            padding: 0px 32px
+        }
+        #main .new_404 .goto_feed a {
+            display: block;
+            width: 110px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            border-radius: 16px;
+            border: 1px solid #CCCCD8;
+            font-size: 14px;
+            color: #555666;
+        }
+        #main .new_404 .goto_feed a:active{
+            border: 1px solid #CCCCD8;
+        }
+        #main .new_404 .goto_feed a:hover{
+            border: 1px solid #555666;
+        }
+        #main .new_404 .e_text {
+            height: 20px;
+            font-size: 14px;
+            color: #222226;
+            line-height: 20px;
+            margin-bottom: 10px;
+            padding-left: 32px;
+            text-align: left;
+        }
+        #main .new_404 .e_text_tip {
+            font-size: 14px;
+            color: #555666;
+            line-height: 24px;
+            margin-bottom: 24px;
+            padding-left: 32px;
+            text-align: left;
+        }
+        #main .new_404 .e_text_tip a{
+            color: #277ccc;
+        }
+        #main .new_404{
+            height: auto;
+            padding-bottom: 24px;
+            box-sizing: content-box;
+        }
+        body {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+<div id="main" class="clearfix" style="padding-top:20px!important">
+    <script>
+        loadSrcript();
+    </script>
+    <div class="point floatL" >
+        <!-- <div class="expression">
+            o(╥﹏╥)o
+        </div>
+        <div class="error_text">
+            404
+        </div>
+        <div class="text">
+            页面找不到了
+        </div>
+        <div class="return">
+            <a href="https://www.csdn.net">返回首页</a>
+        </div> -->
+        <div class="new_404">
+            <div class="head">
+                <img src="https://img-blog.csdnimg.cn/e9f21a8179be4e6db55535ccfa55d0e6.png" class="pc_img" alt="">
+                <img src="https://img-blog.csdnimg.cn/e9f21a8179be4e6db55535ccfa55d0e6.png" class="wap_img" alt="">
+            </div>
+            <div class="e_text">啊哦~你想找的内容离你而去了哦</div>
+            <div class="e_text_tip">
+                内容不存在，可能为如下原因导致：</br>
+                ① 内容还在审核中</br>
+                ② 内容以前存在，但是由于不符合新</br>
+                &nbsp&nbsp&nbsp&nbsp的规定而被删除</br>
+                ③ 内容地址错误</br>
+                ④ 作者删除了内容。</br>
+                可以到<a href="https://bbs.csdn.net/forums/placard" data-report-click='{"spm":"1001.2101.3001.6893"}'>&nbsp建议专区&nbsp</a>反馈更多问题。</div>
+            <div class="goto_feed">
+                <a href="https://www.csdn.net" data-report-click='{"spm":"1001.2101.3001.6550"}'>返回首页</a>
+                <a href="https://ask.csdn.net/new" data-report-click='{"spm":"1001.2101.3001.6551"}'>向专家提问</a>
+            </div>
+        </div>
+        <div class="npsBox404" style="text-align: left;"></div>
+        <!--跟随footer-->
+        <div class="a_d_pop" style="display:block;position:static;top:0;width:300px">
+            <!-- <script type="text/javascript" src="//cee1.iteye.com/pkccslzgs.js"></script> -->
+            <div class="a_d_box"></div>
+            <!-- <div class="persion_article"></div> -->
+        </div>
+    </div>
+    <div class="feed floatR">
+        <!-- <div class="e_book">
+            <a href="https://mall.csdn.net/vip"  data-report-query="utm_source=404vip">
+                <div class="head">
+                    <img src="https://g.csdnimg.cn/static/404img/act_back.png" class="pc_debook" alt="">
+                    <img src="https://g.csdnimg.cn/static/404img/wap_act_back.png" class="wap_debook" alt="">
+                    <div class="act_btn">新机会，了解一下我呗～</div>
+                </div>
+            </a>
+            <div class="e_body">
+                <div class="e_container">
+                    <a href="https://mall.csdn.net/vip" data-report-query="utm_source=404vip">
+                        <div class="item float_left margin_bottom_24">
+                            <img class="e_book_img float_left" src="https://g.csdnimg.cn/static/404img/book1.png" alt="" style="background: blue;">
+                            <div class="e_message float_right">
+                                <div class="e_title">深度学习实战</div>
+                                <div class="e_author">作者：Douwe Osinga</div>
+                                <div class="e_number">7337人已学习</div>
+                                <div class="e_price">
+                                    <span class="real_price">仅需0.8元/天</span>
+                                    <span class="old_price deadline">¥ 45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mall.csdn.net/vip" data-report-query="utm_source=404vip">
+                        <div class="item float_right margin_bottom_24">
+                            <img class="e_book_img float_left" src="https://g.csdnimg.cn/static/404img/book2.png" alt="" style="background: blue;">
+                            <div class="e_message float_right">
+                                <div class="e_title">零基础轻松学Java</div>
+                                <div class="e_author">作者：张洪波</div>
+                                <div class="e_number">6823人已学习</div>
+                                <div class="e_price">
+                                    <span class="real_price">仅需0.8元/天</span>
+                                    <span class="old_price deadline">¥ 30.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mall.csdn.net/vip" data-report-query="utm_source=404vip">
+                        <div class="item float_left">
+                            <img class="e_book_img float_left" src="https://g.csdnimg.cn/static/404img/book3.png" alt="" style="background: blue;">
+                            <div class="e_message float_right">
+                                <div class="e_title">Python网络爬虫从入门到实践 第2版</div>
+                                <div class="e_author">作者：唐松</div>
+                                <div class="e_number">5981人已学习</div>
+                                <div class="e_price">
+                                    <span class="real_price">仅需0.8元/天</span>
+                                    <span class="old_price deadline">¥ 30.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://mall.csdn.net/vip" data-report-query="utm_source=404vip">
+                        <div class="item float_right">
+                            <img class="e_book_img float_left" src="https://g.csdnimg.cn/static/404img/book4.png" alt="" style="background: blue;">
+                            <div class="e_message float_right">
+                                <div class="e_title">图解算法</div>
+                                <div class="e_author">作者：俞征武</div>
+                                <div class="e_number">5592人已学习</div>
+                                <div class="e_price">
+                                    <span class="real_price">仅需0.8元/天</span>
+                                    <span class="old_price deadline">¥ 25.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="hot_suggest">
+            热门推荐
+        </div> -->
+        <!--<div class="text">-->
+        <!--推荐阅读：-->
+        <!--</div>-->
+        <div class="recommend_list">
+        </div>
+        <div id="csdn-footer" style="margin-top: 10px;" class="blog-footer-bottom" style="display: none;"></div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(function() {
+        window.csdn.csdnFooter.options = {
+            el: '.blog-footer-bottom',
+            type: 2
+        }
+        var isFirstView = true;
+        function getYtAd(id) {
+            var new_element = document.createElement("script");
+            new_element.setAttribute("async", "async");
+            new_element.setAttribute("charset", "utf-8");
+            new_element.setAttribute("data-notify", "inforFlowMulti_notify");
+            new_element.setAttribute("src", "https://shared.ydstatic.com/js/yatdk/3.0.0/stream.js");
+            new_element.setAttribute("data-id", "6cb24153a03289ff3597c7aab4b69fe9");
+
+            new_element.setAttribute("data-insert-nodes", "yd_a_d_feed_" + id);
+            new_element.setAttribute("data-hide-ad-label", "0");
+
+            new_element.setAttribute("data-pos", "inline");
+            new_element.setAttribute("data-img-Style", "float:right;width:120px;");
+            new_element.setAttribute("data-des-Style", "width:700px;font-size:14px;font-family: 'PingFang SC', 'Microsoft YaHei', SimHei, Arial, SimSun;");
+            new_element.setAttribute("data-tit-Style", "font-size:20px;font-weight:bold;margin-bottom:10px;font-family: 'PingFang SC', 'Microsoft YaHei', SimHei, Arial, SimSun;");
+            new_element.setAttribute("data-div-Style", "width:100%;padding:10px;");
+            document.body.appendChild(new_element);
+        }
+
+        var feed_a_d_num = 1,
+            add_a_d_num = 0,
+            is_load = false;
+
+        function feed_add_yd() {
+
+            var $recommend_children = $('.recommend_list').children('div');
+            if ($recommend_children.length > feed_a_d_num) {
+                for (; feed_a_d_num < $recommend_children.length; feed_a_d_num += 6) {
+                    $recommend_children = $('.recommend_list').children('div');
+                    $($recommend_children[feed_a_d_num]).after('<div id="yd_a_d_feed_' + feed_a_d_num + '" class="yd_a_d_feed_cla item"></div>')
+                    getYtAd(feed_a_d_num);
+                    add_a_d_num++;
+                }
+                $recommend_children = null;
+            }
+            return false;
+        }
+
+        function getHtml(data){
+            var text = '';
+            // var articleUrl='https://blog.csdn.net/'+data.user_name+'/article/details/'+data.id
+            var dataReportView = '';
+            var dataReportClick = '';
+            var dataReportQuery = '';
+            if(data.report_data.eventView){
+                dataReportView = 'data-report-view='+JSON.stringify(data.report_data.data)+''
+            }
+            if(data.report_data.eventClick){
+                dataReportClick = 'data-report-click='+JSON.stringify(data.report_data.data)+''
+            }
+            if(JSON.stringify(data.report_data.urlParams) !== '{}'){
+                $.each(data.report_data.urlParams, function(k) {
+                    dataReportQuery += (k + '=' + data.report_data.urlParams[k] + '&');
+                })
+                dataReportQuery = 'data-report-query='+dataReportQuery.substring(0,dataReportQuery.length-1);
+            }
+            if(data.nickname) {
+                var  nickName = data.nickname
+            } else {
+                nickName = data.user_name
+            }
+            return text = '<div class="item" '+dataReportView+'>'+
+                '<a href="'+data.url+'" target="_self" '+dataReportClick+' '+dataReportQuery+'>'+
+                '<div class="title"><span>'+data.title+'</span></div>'+
+                '<div class="desc_404">'+data.desc+'</div>'+
+                '<div class="user">'+
+                '<div class="avatar">'+
+                '<img src="'+data.avatarurl+'" alt="'+nickName+'">'+
+                '</div>'+
+                '<span class="user_name">'+nickName+'</span>'+
+                '<span class="read_num">阅读数：'+data.views+'</span>'+
+                '</div>'+
+                '</a>'+
+                '</div>';
+        }
+
+        //鲲鹏广告调用
+        function getLeftAdLocation(id) {
+            $.ajax({
+                url: 'https://kunpeng.csdn.net/ad/list?positions='+id,
+                crossDomain:true, //设置跨域为true
+                xhrFields: {
+                    withCredentials: true //默认情况下，标准的跨域请求是不会发送cookie的
+                },
+                success: function(data) {
+                    if(data[0].status && data[0].id == '517'){
+                        // 左侧栏请求广告517
+                        $(".a_d_box").html(data[0].con);
+                    }else {
+                        $(".a_d_box").remove();
+                    }
+                },
+                error: function () {
+                }
+            })
+        }
+        getLeftAdLocation(517)
+
+        var winH = $(window).height(); //页面可视区域高度
+        var scrollHandler = function() {
+            var pageH = $(document.body).height();
+            var scrollT = $(window).scrollTop(); //滚动条top
+            var aa = (pageH - winH - scrollT) / winH;
+            if (aa < 0.02 && !is_load) {
+                is_load = true;
+                getRelateListData();
+            }
+        }
+        //函数节流
+        var throttleV2 = function(fn, delay, mustRunDelay) {
+            var timer = null;
+            var t_start;
+            return function() {
+                var context = this,
+                    args = arguments,
+                    t_curr = +new Date();
+                clearTimeout(timer);
+                if (!t_start) {
+                    t_start = t_curr;
+                }
+                if (t_curr - t_start >= mustRunDelay) {
+                    fn.apply(context, args);
+                    t_start = t_curr;
+                } else {
+                    timer = setTimeout(function() {
+                        fn.apply(context, args);
+                    }, delay);
+                }
+            };
+        };
+        //定义鼠标滚动事件
+        //$(window).scroll(throttleV2(scrollHandler, 200, 400));
+        // 悬浮广告
+
+        // 判断是Wap还是pc
+        var loadMode = window.innerWidth < 1150 ? 'wap' : 'pc';
+        loadMode === 'wap' ? getRelateListData() : getPcRelateListData();
+
+        function getRelateListData() {
+            loadMode = 'wap';
+            var loadanAnimation = "<div class='Recommend_loadanAnimation'><img src='https://csdnimg.cn/release/phoenix/images/feedLoading.gif'></div>"
+            var shown_offset = 0;
+            var noMoreRecommend = '<div class="clearfix nomore_box" style="text-align:center">没有更多内容了，<a href="https://www.csdn.net/">去首页看看吧</a></div>';
+            if (!$('.Recommend_loadanAnimation')[0]) {
+                $('.recommend_list').append(loadanAnimation);
+            }
+            $.ajax({
+                // 本地测试
+                // url: 'http://localhost.so.csdn.net:8000/test.json?url=' + location.href,
+                // 正式环境
+                url: 'https://silkroad.csdn.net/api/v2/assemble/list/channel/wap_feed_404?url=' + location.href,
+                // 测试环境
+                // url: 'http://192.168.50.98:8565/infostream/api_unknown?url=' + location.href,
+                crossDomain:true, //设置跨域为true
+                xhrFields: {
+                    withCredentials: true //默认情况下，标准的跨域请求是不会发送cookie的
+                },
+                beforeSend: function() {
+                    isFirstView = false;
+                },
+                success: function(data) {
+                    if(data.code === 200) {
+                        $(".recommend_list").html(data.data)
+                        // $(".recommend_list").hide().html(data.data)
+                        // $(".recommend_list link").on('load', function(){
+                        //     $(".recommend_list").show()
+                        // })
+                    }
+                    // console.log('data-----',data)
+                    // var text = '';
+                    // let list=data.data;
+                    // $('.Recommend_loadanAnimation').remove();
+                    // if (list.length > 0) {
+                    //     for (var i = 0; i < list.length; i++) {
+                    //         text += getHtml(list[i]);
+                    //     }
+                    //     // shown_offset = data.shown_offset
+                    //     $('.recommend_list').append(text);
+                    //     is_load = false;
+                    //     // feed_add_yd()
+                    // } else {
+                    //     $('.recommend_list').append(noMoreRecommend);
+                    //     return
+                    // }
+                    // csdn.report.viewCheck(jQuery("[data-report-view]"));
+                },
+                error: function () {
+                }
+            })
+        }
+        function getPcRelateListData(){
+            loadMode = 'pc';
+            $.ajax({
+                url: 'https://silkroad.csdn.net/api/v2/assemble/list/channel/pc_feed_404?url=' + location.href,
+                crossDomain:true, //设置跨域为true
+                xhrFields: {
+                    withCredentials: true //默认情况下，标准的跨域请求是不会发送cookie的
+                },
+                success: function(data) {
+                    if(data.code === 200) {
+                        $(".recommend_list").html(data.data)
+                        // $(".recommend_list").hide().html(data.data)
+                        // $(".recommend_list link").on('load', function(){
+                        //     $(".recommend_list").show()
+                        // })
+                    } else {
+
+                    }
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            })
+        }
+        function fixedContainer(element, left) {
+            element = $(element);
+            var top = element.height() - $(window).height() + $("#csdn-toolbar").height() + 20;
+            if ($(window).scrollTop() > top && top > 0) {
+                element.css({
+                    'top': 'auto',
+                    'bottom': 0,
+                    'left': $("#main").offset().left + left - $('html').scrollLeft()
+                });
+                !element.hasClass('fixed') ? element.addClass("fixed") : ""
+            } else if (top < 0 && $(window).scrollTop() > $("#csdn-toolbar").height()) {
+                element.css({
+                    'top':  8,
+                    "bottom": 'auto',
+                    'left': $("#main").offset().left + left - $('html').scrollLeft()
+                })
+                !element.hasClass('fixed') ? element.addClass("fixed") : ""
+            } else {
+                element.removeClass("fixed");
+            }
+            if ($(window).scrollTop() < 10) {
+                element.removeClass("fixed")
+            }
+        }
+
+        setTimeout(() => {
+            $("#csdn-footer").show()
+        }, 300);
+
+        $(window).on('scroll', function(){
+            fixedContainer(".point", 0);
+        })
+        $(window).on('resize', function(){
+            fixedContainer(".point", 0);
+            if(loadMode === 'pc' && window.innerWidth < 1150 ) {
+                $(".recommend_list").html('')
+                getRelateListData();
+            }
+            if(loadMode === 'wap' && window.innerWidth > 1150 ) {
+                $(".recommend_list").html('')
+                getPcRelateListData();
+            }
+        })
+    });
+
+
+    /*
+        $(function(){
+            function is_show_ad_pop(){
+                var Wwidth = $(window).width(),
+                    feedleft = $('.feed').offset().left,
+                    WTop = $(window).scrollTop(),
+                    is_show_num = 500,
+                    $a_d_pop = $('.a_d_pop');
+            console.log('卷曲的高度',WTop)
+                if(WTop > is_show_num){
+                    //$a_d_pop.addClass('a_d_pop_show')
+                    $a_d_pop.addClass('zdxd_pop')
+                }else{
+                    //$a_d_pop.removeClass('a_d_pop_show')
+                    $a_d_pop.removeClass('zdxd_pop')
+                }
+            }
+            // $a_d_pop = $('.a_d_pop');
+            // $a_d_pop.addClass('a_d_pop_show')
+            is_show_ad_pop()
+            $(window).scroll(is_show_ad_pop)
+        });
+        $(function(){
+        window.csdn.fixedSidebar({
+            targetBox: $('.persion_article'), //判断到达底部的div,公共footer可选 $('.persion_article'),$('.public_pc_right_footer2018')
+            mainBox: $(".feed"), //侧边栏旁边的主体div,默认 $("main")
+            sidebar: $(".point"), //侧边栏,默认 $("aside")
+            direction: 'left', //侧边栏浮动方向,可选'right','left',
+            position: 'fixed',//定位方式
+            bottom: 0,
+            zIndex: 99,
+            sidebarRightMargin: 8,//direction为left,侧边栏距离mainbox的右边距
+            sidebarLeftMargin: 15,//direction为right,侧边栏距离mainbox的左边距
+        })
+        })
+    */
+
+</script>
+<script src="https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v20180326115028"></script>
+<script>
+    if(isMobile.any){
+        GoTop({
+            right: 16,
+            bottom: 80,
+            zindex: 99,
+            isMobile: true
+        })
+    }else{
+        GoTop({
+            right: 16,
+            bottom: 80,
+            zindex: 99
+        })
+    }
+</script>
+<script src="https://g.csdnimg.cn/common/csdn-footer/csdn-footer.js"></script>
+<!-- <script src='https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js?v201804111810' data-isfootertrack="false"></script> -->
+<script src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+<script src="https://g.csdnimg.cn/csdn-nps/1.1.1/csdn-nps.js"></script>
+<script>
+    window.csdn.csdnNps = window.csdn.csdnNps ? window.csdn.csdnNps : {};
+    window.csdn.csdnNps.options = {
+        el: '.npsBox404',
+        isDark: false,
+        spm: '1001.2101.3001.6475',
+        title: '您愿意向您朋友推荐CSDN吗？',
+        cookieName : '404_page_nps',
+        day:30
+    }
+</script>
+</html>

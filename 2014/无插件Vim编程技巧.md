@@ -541,7 +541,7 @@ CentOS下：yum erase emacs
 Ubuntu下：apt-get remove emacs
 
 
-对了，以前本站也有一篇小短文《[如何在vim中得到你最喜爱的IDE特性](/2009/%E5%B0%86vim%E5%8F%98%E5%BE%97%E7%AE%80%E5%8D%95%3A%E5%A6%82%E4%BD%95%E5%9C%A8vim%E4%B8%AD%E5%BE%97%E5%88%B0%E4%BD%A0%E6%9C%80%E5%96%9C%E7%88%B1%E7%9A%84IDE%E7%89%B9%E6%80%A7.md)》你也可以看看。
+对了，以前本站也有一篇小短文《[如何在vim中得到你最喜爱的IDE特性](/2009/%E5%B0%86vim%E5%8F%98%E5%BE%97%E7%AE%80%E5%8D%95-%E5%A6%82%E4%BD%95%E5%9C%A8vim%E4%B8%AD%E5%BE%97%E5%88%B0%E4%BD%A0%E6%9C%80%E5%96%9C%E7%88%B1%E7%9A%84IDE%E7%89%B9%E6%80%A7.md)》你也可以看看。
 
 
 （:wq）

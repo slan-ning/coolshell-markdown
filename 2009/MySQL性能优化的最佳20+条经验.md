@@ -414,7 +414,7 @@ while (1) {
 #### 19. 选择正确的存储引擎
 
 
-在 MySQL 中有两个存储引擎 MyISAM 和 InnoDB，每个引擎都有利有弊。酷壳以前文章《[MySQL: InnoDB 还是 MyISAM?](/2009/MySQL%3A%20InnoDB%20%E8%BF%98%E6%98%AF%20MyISAM%3F.md)》讨论和这个事情。
+在 MySQL 中有两个存储引擎 MyISAM 和 InnoDB，每个引擎都有利有弊。酷壳以前文章《[MySQL: InnoDB 还是 MyISAM?](/2009/MySQL-%20InnoDB%20%E8%BF%98%E6%98%AF%20MyISAM%3F.md)》讨论和这个事情。
 
 
 MyISAM 适合于一些需要大量查询的应用，但其对于有大量写操作并不是很好。甚至你只是需要update一个字段，整个表都会被锁起来，而别的进程，就算是读进程都无法操作直到读操作完成。另外，MyISAM 对于 SELECT COUNT(\*) 这类的计算是超快无比的。

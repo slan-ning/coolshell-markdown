@@ -17,7 +17,7 @@
 
 
 ```
-<img src="/assets/images/yuml.me/diagram/class/[Customer]1-0..*[Address]"/>
+<img src="http://yuml.me/diagram/class/[Customer]1-0..*[Address]"/>
 
 ```
 
@@ -26,7 +26,7 @@
 那么，你就可以得到下面的图片：
 
 
-![](/assets/images/yuml.me/diagram/class/[Customer]1-0..*[Address])
+![](http://yuml.me/diagram/class/[Customer]1-0..*[Address])
 
 
 如果，我们输入：
